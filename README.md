@@ -1,9 +1,50 @@
 # NEXUS Office Suite
 
+## Created with AI-assisted coding
+
+**Developed by Rich Dunbar · Actively developed · Proof of concept**
+
+I am developing NEXUS Office using **AI-assisted coding** as part of my main project, **Nexus OS**. I direct the application's goals and design, using AI to assist with implementation, debugging and refinement.
+
+### Built to make Nexus OS more useful
+
+Nexus OS is built around a **custom bare-metal kernel**. To become a practical workstation, it needs a suite of applications that make everyday work possible.
+
+NEXUS Office is part of that effort: a custom productivity suite for documents, spreadsheets, presentations, visual work and data. Its purpose is to add usability to the wider Nexus OS project and support the development of a self-contained offline workstation.
+
+### Current stage: a working proof of concept
+
+This version demonstrates the concept and provides a foundation for further development. **It is not yet a reliable daily-use office suite.**
+
+I estimate that it is **at least 200 further development iterations away** from the level of reliability I want for everyday office work. That is my development estimate, not a guaranteed completion threshold or release date. Readiness will depend on demonstrated reliability, testing and feedback.
+
+> [!IMPORTANT]
+> **NEXUS Office is actively being developed.**
+> Use this release for experimentation and evaluation. Keep original documents and independent backups, and verify exported files before relying on them.
+
+### Cross-platform compatibility is the goal
+
+My intent is to support office workflows across **macOS, Windows and Linux**, so documents created on those systems can also be opened and used within Nexus OS.
+
+The long-term destination is a **secure, offline Nexus OS workstation** with useful, interoperable applications. Document compatibility, content preservation, dependable saving and consistent rendering are central to that goal.
+
+| Area | Current position |
+| --- | --- |
+| **Development** | Active, AI-assisted development |
+| **Maturity** | Proof of concept; substantial work remains |
+| **Daily-use readiness** | Not yet established |
+| **Cross-platform goal** | Work with documents across macOS, Windows, Linux and Nexus OS |
+| **Format fidelity** | Limited, feature-specific support; not full Office-suite parity |
+| **Security** | Offline-workstation design goal; no security certification claimed |
+
+Browser compatibility and document-format compatibility are separate requirements. The current release does not establish support for every browser, device, file format or advanced document feature.
+
+---
+
 **A browser-native, local-first productivity workspace**  
 **Release:** v6.7 · **Build:** GitHub documentation and import-reliability repair · **Maintainer:** NEXUS Emerging Technology
 
-> **Project status — experimental.** NEXUS Office is an independent productivity application, not Microsoft Office, LibreOffice, or a validated drop-in replacement. This repository contains its browser application and technical documentation. No LLM weights or NEXUS Foundry backend are bundled.
+> **Project status — actively developed proof of concept.** NEXUS Office is an independent productivity application, not Microsoft Office, LibreOffice, or a validated drop-in replacement. This repository contains its browser application and technical documentation. No LLM weights or NEXUS Foundry backend are bundled.
 
 ![NEXUS Office home screen](assets/nexus-office-home.png)
 
@@ -24,6 +65,10 @@ NEXUS Office combines **Writer, Grid, Present, Paint/Design, Data and Whiteboard
 
 ## Contents
 
+- [Created with AI-assisted coding](#created-with-ai-assisted-coding)
+- [Built to make Nexus OS more useful](#built-to-make-nexus-os-more-useful)
+- [Current stage: a working proof of concept](#current-stage-a-working-proof-of-concept)
+- [Cross-platform compatibility is the goal](#cross-platform-compatibility-is-the-goal)
 - [Quick start](#quick-start)
 - [Applications](#applications)
 - [Supported file formats](#supported-file-formats)
