@@ -5,17 +5,23 @@
 This Nexus release is not offered under Apache License 2.0. Nexus-owned software may be used only for personal, non-commercial purposes. Any other use, including commercial use, modification or redistribution, requires express written consent from the rights holder. Third-party code, models, datasets and separately licensed components retain their own licenses and notices. Previously granted rights and rights that cannot lawfully be restricted remain unchanged.
 
 
-> Draft documentation staging: application packages and browser HTML are pending a later verified commit. Any proposed version or trial path below is not a shipped release or live trial. Do not merge until package and link checks pass.
+> Draft next-release staging: the reviewed installer and complete data-part set are included below. This branch is not a published release or live deployment; the pull request remains draft.
 
-**Next-release documentation staging · not a published application update**
+**6.45.0 · next-release package staging · not a published application update**
 
 Experimental local productivity suite for documents, spreadsheets, presentations, visual work and data.
 
 ## Current baseline and release status
 
-Verified baseline: **Visible v6.44; conflicting title v6.40 and runtime 6.43 metadata**. Next identifier: **6.45.0 planned; normalize active product labels**. Do not tag or label a binary with a new version until its application, installer and package metadata agree.
+The staged package advances to **6.45.0**, with active application and package version labels normalized. Historical documentation is retained separately.
 
 The latest audited source retains 183 original script blocks/assets and includes reviewed, bounded command workflows. It does not turn the failed small learned checkpoint into a qualified language model. Document writes require the application review/approval controls. Native Microsoft Office rendering, printing and Windows hardware are not validated by CPU round-trip tests.
+
+## Install the staged package
+
+Download all files in [releases/6.45.0](releases/6.45.0), retaining the directory structure. Keep Nexus_office_Data_001.nxd, Nexus_office_Data_002.nxd and Nexus_office_Data_003.nxd together with package_manifest.json and [installer.py](releases/6.45.0/installer.py). Each data part is at most 10,000,000 bytes. With Python already installed, run python installer.py and review its local-only installation plan before confirming. Use --no-launch to extract without opening the app. The installer extracts the application HTML and local libraries into a new version-isolated directory; keep those files together. See [INSTALL.txt](releases/6.45.0/INSTALL.txt). No live browser deployment is created.
+
+Independent package review verified the complete inventory, hashes, licensing notices and isolated no-launch installation/extraction. This does not qualify native Windows execution, physical hardware or Microsoft Office rendering.
 
 ## Start and inspect the original project
 
