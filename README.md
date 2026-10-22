@@ -1,5 +1,11 @@
 # Nexus Office
 
+## Start locally: Python and application requirements
+
+The application runs in a browser and does **not** require Python or PyTorch. This release is not a hosted, self-contained Pages trial: download the complete [6.45.0 package](releases/6.45.0/) and keep `candidate.html` with its required local `source_scripts` assets.
+
+Use **CPython 3.12** for the supplied optional Python installer. The installer has no explicit Python-version guard; 3.12 is a recommendation, not a claim that every other version was tested. Rebuilding from source with `build.py` needs **Python 3.10 or newer** because it uses the `Path.write_text(newline=...)` API. That build-tool requirement does not apply to running the HTML app. No native PyTorch backend is supplied or claimed here.
+
 ## Current release licensing
 
 This Nexus release is not offered under Apache License 2.0. Nexus-owned software may be used only for personal, non-commercial purposes. Any other use, including commercial use, modification or redistribution, requires express written consent from the rights holder. Third-party code, models, datasets and separately licensed components retain their own licenses and notices. Previously granted rights and rights that cannot lawfully be restricted remain unchanged.
