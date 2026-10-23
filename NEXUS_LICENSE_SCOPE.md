@@ -1,6 +1,8 @@
 # Additional permission for this release
 
-Personal use and internal commercial testing and evaluation are permitted for Nexus-owned material in Nexus Office 6.45.0, Nexus Office 6.45.1 and Nexus Office 6.45.2. See [COMMERCIAL_EVALUATION_PERMISSION.md](COMMERCIAL_EVALUATION_PERMISSION.md) for the additional permission and its limits. For the permitted testing and evaluation, that permission takes precedence over a conflicting personal-use-only statement below. All other terms and separately licensed rights remain unchanged.
+Personal use and internal commercial testing and evaluation are permitted for Nexus-owned material in Nexus Office 6.45.0, Nexus Office 6.45.1, Nexus Office 6.45.2 and Nexus Office 6.45.4. See [COMMERCIAL_EVALUATION_PERMISSION.md](COMMERCIAL_EVALUATION_PERMISSION.md) for the additional permission and its limits. For the permitted testing and evaluation, that permission takes precedence over a conflicting personal-use-only statement below. All other terms and separately licensed rights remain unchanged.
+
+This repository supplement expressly covers Nexus Office 6.45.4, including its unmodified delivered package and browser edition, even where bundled license files list only earlier versions. The delivered files are not rewritten by this permission update. All other terms and prior grants remain unchanged.
 
 ## Original scope and historical notices
 

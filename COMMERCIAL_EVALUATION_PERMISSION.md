@@ -1,6 +1,8 @@
 # Commercial testing and evaluation permission
 
-Rich Dunbar / Nexus Emerging Technology grants the additional permission below for Nexus-owned material in Nexus Office 6.45.0 and its single-file browser trial (packaging revision 1), and Nexus Office 6.45.1 and 6.45.2 in their native and single-file browser editions. This permission supplements the bundled Nexus Personal-Use License; it does not replace licenses for separately licensed material.
+Rich Dunbar / Nexus Emerging Technology grants the additional permission below for Nexus-owned material in Nexus Office 6.45.0 and its single-file browser trial (packaging revision 1), and Nexus Office 6.45.1, 6.45.2 and 6.45.4 in their native and single-file browser editions. This permission supplements the bundled Nexus Personal-Use License; it does not replace licenses for separately licensed material.
+
+This repository supplement expressly covers Nexus Office 6.45.4, including its unmodified delivered package and browser edition, even where bundled license files list only earlier versions. The delivered files are not rewritten by this permission update. All other terms and prior grants remain unchanged.
 
 Individuals and organizations may download, install, run and make copies reasonably necessary for their own internal commercial testing and evaluation of these releases, including their browser trials. This includes evaluating functionality, performance and suitability for a possible future use.
 

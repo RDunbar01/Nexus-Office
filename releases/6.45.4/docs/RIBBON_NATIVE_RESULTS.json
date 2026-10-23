@@ -1,0 +1,154 @@
+{
+  "version": "6.45.4",
+  "entry": "candidate.html",
+  "engine": "153.0.8010.0",
+  "passed": 13,
+  "failed": 0,
+  "checks": [
+    "All baseline Writer controls and binding types retained",
+    "Desktop ribbon fits and gives document more space",
+    "All style choices remain reachable and More styles fits viewport",
+    "Real Bold action preserves selection and Undo restores it",
+    "Font size and colour use the retained native handlers",
+    "Visible Heading 1 tile applies the semantic paragraph style",
+    "All responsive widths have no intersecting or clipped ribbon controls",
+    "Each collapsed group opens its original commands and returns focus with Escape",
+    "A formatting command from a collapsed panel still modifies selected text",
+    "Style preview and overflow work inside a collapsed Styles panel",
+    "Assistant layout matches this release configuration",
+    "NWD save and DOCX roundtrip retain formatted Unicode text",
+    "All Writer tabs and other workspaces remain reachable"
+  ],
+  "geometry": [
+    {
+      "viewport": 1600,
+      "mode": "full",
+      "width": 1600,
+      "height": 172,
+      "outside": [],
+      "overlap": [],
+      "scroll": 0,
+      "baselineHeight": 172
+    },
+    {
+      "viewport": 1920,
+      "mode": "full",
+      "width": 1920,
+      "height": 172,
+      "outside": [],
+      "overlap": [],
+      "scroll": 0
+    },
+    {
+      "viewport": 1600,
+      "mode": "full",
+      "width": 1600,
+      "height": 172,
+      "outside": [],
+      "overlap": [],
+      "scroll": 0
+    },
+    {
+      "viewport": 1500,
+      "mode": "full",
+      "width": 1500,
+      "height": 172,
+      "outside": [],
+      "overlap": [],
+      "scroll": 0
+    },
+    {
+      "viewport": 1440,
+      "mode": "compact",
+      "width": 1440,
+      "height": 172,
+      "outside": [],
+      "overlap": [],
+      "scroll": 0
+    },
+    {
+      "viewport": 1366,
+      "mode": "compact",
+      "width": 1366,
+      "height": 172,
+      "outside": [],
+      "overlap": [],
+      "scroll": 0
+    },
+    {
+      "viewport": 1200,
+      "mode": "compact",
+      "width": 1200,
+      "height": 172,
+      "outside": [],
+      "overlap": [],
+      "scroll": 0
+    },
+    {
+      "viewport": 1140,
+      "mode": "compact",
+      "width": 1140,
+      "height": 172,
+      "outside": [],
+      "overlap": [],
+      "scroll": 0
+    },
+    {
+      "viewport": 1139,
+      "mode": "collapsed",
+      "width": 1139,
+      "height": 73.1875,
+      "outside": [],
+      "overlap": [],
+      "scroll": 0
+    },
+    {
+      "viewport": 1024,
+      "mode": "collapsed",
+      "width": 1024,
+      "height": 73.1875,
+      "outside": [],
+      "overlap": [],
+      "scroll": 0
+    },
+    {
+      "viewport": 768,
+      "mode": "collapsed",
+      "width": 768,
+      "height": 73.1875,
+      "outside": [],
+      "overlap": [],
+      "scroll": 0
+    },
+    {
+      "viewport": 480,
+      "mode": "collapsed",
+      "width": 480,
+      "height": 73.1875,
+      "outside": [],
+      "overlap": [],
+      "scroll": 0
+    },
+    {
+      "viewport": 390,
+      "mode": "collapsed",
+      "width": 390,
+      "height": 134.375,
+      "outside": [],
+      "overlap": [],
+      "scroll": 0
+    },
+    {
+      "viewport": 320,
+      "mode": "collapsed",
+      "width": 320,
+      "height": 134.375,
+      "outside": [],
+      "overlap": [],
+      "scroll": 0
+    }
+  ],
+  "errors": [],
+  "candidate_sha256": "d522bb0d35aae586b1940aed9894ad63bea0f5527971a26cec39e135e41918a5",
+  "scope": "Real headless Chromium on Linux with synthetic documents; physical Windows clipboard, printing and Windows GPU not tested"
+}

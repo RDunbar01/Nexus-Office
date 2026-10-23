@@ -1,0 +1,13 @@
+Nexus Office 6.45.4
+
+QUICKEST START
+Extract this ZIP. Open Nexus_Office_v6_45_4_Browser.html in a current desktop Chromium browser. It includes its application code and assets; no Python or server is needed. Acknowledge the application notice.
+
+FULL SOURCE INSTALL
+Keep installer.py, package_manifest.json and all numbered .nxd files together. Run python installer.py (standard CPython 3.12 recommended). Review the plan and confirm. Use --no-launch to extract only. The installer creates a version-isolated folder, verifies checksums, and makes no global dependency changes or downloads. After extraction, open candidate.html and retain its source_scripts directory.
+
+DOCUMENTS
+Existing documents and browser state remain in their original location and are not automatically migrated. Export documents from the old edition and import them into the new one if needed. Retain your original files.
+
+DETAILS
+The standalone HTML and individual package parts are each below 20,000,000 bytes. The full ZIP and expanded app are larger. Physical Windows/Radeon performance, OS clipboard and printing were not tested. See RELEASE_VALIDATION.json.

@@ -1,0 +1,4973 @@
+{
+  "version": "6.45.4",
+  "entry": "Nexus_Office_v6_45_4_Browser.html",
+  "engine": "153.0.8010.0",
+  "passed": 9,
+  "failed": 0,
+  "checks": [
+    "Six original workspace launch controls available",
+    "Assistant removed from layout and cannot auto-open",
+    "Recent names removed from layout, legacy save target preserved",
+    "4K, desktop, tablet and mobile layouts have six unobstructed cards",
+    "All five app cards route through their existing launch actions",
+    "Compatibility card opens the original supported-format dialog",
+    "Home Open button invokes native file selection without changing document",
+    "Keyboard access and Settings navigation remain available",
+    "No runtime or ResizeObserver errors"
+  ],
+  "errors": [],
+  "geometry": [
+    {
+      "width": 3840,
+      "height": 2160,
+      "home": {
+        "x": 420,
+        "y": 112,
+        "width": 3420,
+        "height": 2048,
+        "top": 112,
+        "right": 3840,
+        "bottom": 2160,
+        "left": 420
+      },
+      "scroll": 0,
+      "vertical": 0,
+      "cards": [
+        {
+          "key": "writer",
+          "rect": {
+            "x": 510,
+            "y": 619.484375,
+            "width": 1050.65625,
+            "height": 663.5,
+            "top": 619.484375,
+            "right": 1560.65625,
+            "bottom": 1282.984375,
+            "left": 510
+          },
+          "overflow": 0,
+          "text": [
+            {
+              "text": "Writer",
+              "overflow": 0,
+              "rect": {
+                "x": 687,
+                "y": 669.09375,
+                "width": 281.953125,
+                "height": 55.1875,
+                "top": 669.09375,
+                "right": 968.953125,
+                "bottom": 724.28125,
+                "left": 687
+              }
+            },
+            {
+              "text": "Documents with clarity.",
+              "overflow": 0,
+              "rect": {
+                "x": 687,
+                "y": 730.28125,
+                "width": 281.953125,
+                "height": 33.59375,
+                "top": 730.28125,
+                "right": 968.953125,
+                "bottom": 763.875,
+                "left": 687
+              }
+            },
+            {
+              "text": "Write, format and refine documents and reports.",
+              "overflow": 0,
+              "rect": {
+                "x": 559,
+                "y": 1096.953125,
+                "width": 580.234375,
+                "height": 72,
+                "top": 1096.953125,
+                "right": 1139.234375,
+                "bottom": 1168.953125,
+                "left": 559
+              }
+            },
+            {
+              "text": "Open Writer \u2197",
+              "overflow": 0,
+              "rect": {
+                "x": 559,
+                "y": 1186.953125,
+                "width": 952.65625,
+                "height": 47.03125,
+                "top": 1186.953125,
+                "right": 1511.65625,
+                "bottom": 1233.984375,
+                "left": 559
+              }
+            }
+          ]
+        },
+        {
+          "key": "grid",
+          "rect": {
+            "x": 1604.65625,
+            "y": 619.484375,
+            "width": 1050.671875,
+            "height": 663.5,
+            "top": 619.484375,
+            "right": 2655.328125,
+            "bottom": 1282.984375,
+            "left": 1604.65625
+          },
+          "overflow": 0,
+          "text": [
+            {
+              "text": "Grid",
+              "overflow": 0,
+              "rect": {
+                "x": 1781.65625,
+                "y": 669.09375,
+                "width": 311.953125,
+                "height": 55.1875,
+                "top": 669.09375,
+                "right": 2093.609375,
+                "bottom": 724.28125,
+                "left": 1781.65625
+              }
+            },
+            {
+              "text": "Make your numbers work.",
+              "overflow": 0,
+              "rect": {
+                "x": 1781.65625,
+                "y": 730.28125,
+                "width": 311.953125,
+                "height": 33.59375,
+                "top": 730.28125,
+                "right": 2093.609375,
+                "bottom": 763.875,
+                "left": 1781.65625
+              }
+            },
+            {
+              "text": "Organize data, build formulas and visualize results.",
+              "overflow": 0,
+              "rect": {
+                "x": 1653.65625,
+                "y": 1096.953125,
+                "width": 580.234375,
+                "height": 72,
+                "top": 1096.953125,
+                "right": 2233.890625,
+                "bottom": 1168.953125,
+                "left": 1653.65625
+              }
+            },
+            {
+              "text": "Open Grid \u2197",
+              "overflow": 0,
+              "rect": {
+                "x": 1653.65625,
+                "y": 1186.953125,
+                "width": 952.671875,
+                "height": 47.03125,
+                "top": 1186.953125,
+                "right": 2606.328125,
+                "bottom": 1233.984375,
+                "left": 1653.65625
+              }
+            }
+          ]
+        },
+        {
+          "key": "dashboard",
+          "rect": {
+            "x": 2699.328125,
+            "y": 619.484375,
+            "width": 1050.65625,
+            "height": 663.5,
+            "top": 619.484375,
+            "right": 3749.984375,
+            "bottom": 1282.984375,
+            "left": 2699.328125
+          },
+          "overflow": 0,
+          "text": [
+            {
+              "text": "Dashboard Studio",
+              "overflow": 0,
+              "rect": {
+                "x": 2876.328125,
+                "y": 669.09375,
+                "width": 446.328125,
+                "height": 55.1875,
+                "top": 669.09375,
+                "right": 3322.65625,
+                "bottom": 724.28125,
+                "left": 2876.328125
+              }
+            },
+            {
+              "text": "Turn data into perspective.",
+              "overflow": 0,
+              "rect": {
+                "x": 2876.328125,
+                "y": 730.28125,
+                "width": 446.328125,
+                "height": 33.59375,
+                "top": 730.28125,
+                "right": 3322.65625,
+                "bottom": 763.875,
+                "left": 2876.328125
+              }
+            },
+            {
+              "text": "Build dashboards with charts, measures and local data.",
+              "overflow": 0,
+              "rect": {
+                "x": 2748.328125,
+                "y": 1096.953125,
+                "width": 580.234375,
+                "height": 72,
+                "top": 1096.953125,
+                "right": 3328.5625,
+                "bottom": 1168.953125,
+                "left": 2748.328125
+              }
+            },
+            {
+              "text": "Open Dashboard Studio \u2197",
+              "overflow": 0,
+              "rect": {
+                "x": 2748.328125,
+                "y": 1186.953125,
+                "width": 952.65625,
+                "height": 47.03125,
+                "top": 1186.953125,
+                "right": 3700.984375,
+                "bottom": 1233.984375,
+                "left": 2748.328125
+              }
+            }
+          ]
+        },
+        {
+          "key": "present",
+          "rect": {
+            "x": 510,
+            "y": 1326.984375,
+            "width": 1050.65625,
+            "height": 663.515625,
+            "top": 1326.984375,
+            "right": 1560.65625,
+            "bottom": 1990.5,
+            "left": 510
+          },
+          "overflow": 0,
+          "text": [
+            {
+              "text": "NexusPoint",
+              "overflow": 0,
+              "rect": {
+                "x": 687,
+                "y": 1376.59375,
+                "width": 323.84375,
+                "height": 55.1875,
+                "top": 1376.59375,
+                "right": 1010.84375,
+                "bottom": 1431.78125,
+                "left": 687
+              }
+            },
+            {
+              "text": "Present your next big idea.",
+              "overflow": 0,
+              "rect": {
+                "x": 687,
+                "y": 1437.78125,
+                "width": 323.84375,
+                "height": 33.59375,
+                "top": 1437.78125,
+                "right": 1010.84375,
+                "bottom": 1471.375,
+                "left": 687
+              }
+            },
+            {
+              "text": "Create slides, shape your story and present with confidence.",
+              "overflow": 0,
+              "rect": {
+                "x": 559,
+                "y": 1804.46875,
+                "width": 580.234375,
+                "height": 72,
+                "top": 1804.46875,
+                "right": 1139.234375,
+                "bottom": 1876.46875,
+                "left": 559
+              }
+            },
+            {
+              "text": "Open NexusPoint \u2197",
+              "overflow": 0,
+              "rect": {
+                "x": 559,
+                "y": 1894.46875,
+                "width": 952.65625,
+                "height": 47.03125,
+                "top": 1894.46875,
+                "right": 1511.65625,
+                "bottom": 1941.5,
+                "left": 559
+              }
+            }
+          ]
+        },
+        {
+          "key": "draw",
+          "rect": {
+            "x": 1604.65625,
+            "y": 1326.984375,
+            "width": 1050.671875,
+            "height": 663.515625,
+            "top": 1326.984375,
+            "right": 2655.328125,
+            "bottom": 1990.5,
+            "left": 1604.65625
+          },
+          "overflow": 0,
+          "text": [
+            {
+              "text": "Paint",
+              "overflow": 0,
+              "rect": {
+                "x": 1781.65625,
+                "y": 1376.59375,
+                "width": 280.078125,
+                "height": 55.1875,
+                "top": 1376.59375,
+                "right": 2061.734375,
+                "bottom": 1431.78125,
+                "left": 1781.65625
+              }
+            },
+            {
+              "text": "Bring your ideas to life.",
+              "overflow": 0,
+              "rect": {
+                "x": 1781.65625,
+                "y": 1437.78125,
+                "width": 280.078125,
+                "height": 33.59375,
+                "top": 1437.78125,
+                "right": 2061.734375,
+                "bottom": 1471.375,
+                "left": 1781.65625
+              }
+            },
+            {
+              "text": "Edit images, compose designs and create visual work.",
+              "overflow": 0,
+              "rect": {
+                "x": 1653.65625,
+                "y": 1804.46875,
+                "width": 580.234375,
+                "height": 72,
+                "top": 1804.46875,
+                "right": 2233.890625,
+                "bottom": 1876.46875,
+                "left": 1653.65625
+              }
+            },
+            {
+              "text": "Open Paint \u2197",
+              "overflow": 0,
+              "rect": {
+                "x": 1653.65625,
+                "y": 1894.46875,
+                "width": 952.671875,
+                "height": 47.03125,
+                "top": 1894.46875,
+                "right": 2606.328125,
+                "bottom": 1941.5,
+                "left": 1653.65625
+              }
+            }
+          ]
+        },
+        {
+          "key": "compat",
+          "rect": {
+            "x": 2699.328125,
+            "y": 1326.984375,
+            "width": 1050.65625,
+            "height": 663.515625,
+            "top": 1326.984375,
+            "right": 3749.984375,
+            "bottom": 1990.5,
+            "left": 2699.328125
+          },
+          "overflow": 0,
+          "text": [
+            {
+              "text": "Compatibility",
+              "overflow": 0,
+              "rect": {
+                "x": 2876.328125,
+                "y": 1376.59375,
+                "width": 351.921875,
+                "height": 55.1875,
+                "top": 1376.59375,
+                "right": 3228.25,
+                "bottom": 1431.78125,
+                "left": 2876.328125
+              }
+            },
+            {
+              "text": "Work across familiar formats.",
+              "overflow": 0,
+              "rect": {
+                "x": 2876.328125,
+                "y": 1437.78125,
+                "width": 351.921875,
+                "height": 33.59375,
+                "top": 1437.78125,
+                "right": 3228.25,
+                "bottom": 1471.375,
+                "left": 2876.328125
+              }
+            },
+            {
+              "text": "Explore import, export and file-format support.",
+              "overflow": 0,
+              "rect": {
+                "x": 2748.328125,
+                "y": 1840.46875,
+                "width": 580.234375,
+                "height": 36,
+                "top": 1840.46875,
+                "right": 3328.5625,
+                "bottom": 1876.46875,
+                "left": 2748.328125
+              }
+            },
+            {
+              "text": "View compatibility \u2197",
+              "overflow": 0,
+              "rect": {
+                "x": 2748.328125,
+                "y": 1894.46875,
+                "width": 952.65625,
+                "height": 47.03125,
+                "top": 1894.46875,
+                "right": 3700.984375,
+                "bottom": 1941.5,
+                "left": 2748.328125
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "width": 2560,
+      "height": 1440,
+      "home": {
+        "x": 307.1875,
+        "y": 102.390625,
+        "width": 2252.8125,
+        "height": 1337.609375,
+        "top": 102.390625,
+        "right": 2560,
+        "bottom": 1440,
+        "left": 307.1875
+      },
+      "scroll": 0,
+      "vertical": 0,
+      "cards": [
+        {
+          "key": "writer",
+          "rect": {
+            "x": 371.1875,
+            "y": 498.234375,
+            "width": 686.9375,
+            "height": 391.4375,
+            "top": 498.234375,
+            "right": 1058.125,
+            "bottom": 889.671875,
+            "left": 371.1875
+          },
+          "overflow": 0,
+          "text": [
+            {
+              "text": "Writer",
+              "overflow": 0,
+              "rect": {
+                "x": 498.890625,
+                "y": 531.234375,
+                "width": 210.359375,
+                "height": 41.46875,
+                "top": 531.234375,
+                "right": 709.25,
+                "bottom": 572.703125,
+                "left": 498.890625
+              }
+            },
+            {
+              "text": "Documents with clarity.",
+              "overflow": 0,
+              "rect": {
+                "x": 498.890625,
+                "y": 578.703125,
+                "width": 210.359375,
+                "height": 25.078125,
+                "top": 578.703125,
+                "right": 709.25,
+                "bottom": 603.78125,
+                "left": 498.890625
+              }
+            },
+            {
+              "text": "Write, format and refine documents and reports.",
+              "overflow": 0,
+              "rect": {
+                "x": 404.1875,
+                "y": 744.84375,
+                "width": 482.390625,
+                "height": 59.90625,
+                "top": 744.84375,
+                "right": 886.578125,
+                "bottom": 804.75,
+                "left": 404.1875
+              }
+            },
+            {
+              "text": "Open Writer \u2197",
+              "overflow": 0,
+              "rect": {
+                "x": 404.1875,
+                "y": 817.546875,
+                "width": 620.9375,
+                "height": 39.125,
+                "top": 817.546875,
+                "right": 1025.125,
+                "bottom": 856.671875,
+                "left": 404.1875
+              }
+            }
+          ]
+        },
+        {
+          "key": "grid",
+          "rect": {
+            "x": 1090.125,
+            "y": 498.234375,
+            "width": 686.9375,
+            "height": 391.4375,
+            "top": 498.234375,
+            "right": 1777.0625,
+            "bottom": 889.671875,
+            "left": 1090.125
+          },
+          "overflow": 0,
+          "text": [
+            {
+              "text": "Grid",
+              "overflow": 0,
+              "rect": {
+                "x": 1217.828125,
+                "y": 531.234375,
+                "width": 232.75,
+                "height": 41.46875,
+                "top": 531.234375,
+                "right": 1450.578125,
+                "bottom": 572.703125,
+                "left": 1217.828125
+              }
+            },
+            {
+              "text": "Make your numbers work.",
+              "overflow": 0,
+              "rect": {
+                "x": 1217.828125,
+                "y": 578.703125,
+                "width": 232.75,
+                "height": 25.078125,
+                "top": 578.703125,
+                "right": 1450.578125,
+                "bottom": 603.78125,
+                "left": 1217.828125
+              }
+            },
+            {
+              "text": "Organize data, build formulas and visualize results.",
+              "overflow": 0,
+              "rect": {
+                "x": 1123.125,
+                "y": 744.84375,
+                "width": 482.390625,
+                "height": 59.90625,
+                "top": 744.84375,
+                "right": 1605.515625,
+                "bottom": 804.75,
+                "left": 1123.125
+              }
+            },
+            {
+              "text": "Open Grid \u2197",
+              "overflow": 0,
+              "rect": {
+                "x": 1123.125,
+                "y": 817.546875,
+                "width": 620.9375,
+                "height": 39.125,
+                "top": 817.546875,
+                "right": 1744.0625,
+                "bottom": 856.671875,
+                "left": 1123.125
+              }
+            }
+          ]
+        },
+        {
+          "key": "dashboard",
+          "rect": {
+            "x": 1809.0625,
+            "y": 498.234375,
+            "width": 686.9375,
+            "height": 391.4375,
+            "top": 498.234375,
+            "right": 2496,
+            "bottom": 889.671875,
+            "left": 1809.0625
+          },
+          "overflow": 0,
+          "text": [
+            {
+              "text": "Dashboard Studio",
+              "overflow": 0,
+              "rect": {
+                "x": 1936.765625,
+                "y": 531.234375,
+                "width": 335.1875,
+                "height": 41.46875,
+                "top": 531.234375,
+                "right": 2271.953125,
+                "bottom": 572.703125,
+                "left": 1936.765625
+              }
+            },
+            {
+              "text": "Turn data into perspective.",
+              "overflow": 0,
+              "rect": {
+                "x": 1936.765625,
+                "y": 578.703125,
+                "width": 335.1875,
+                "height": 25.078125,
+                "top": 578.703125,
+                "right": 2271.953125,
+                "bottom": 603.78125,
+                "left": 1936.765625
+              }
+            },
+            {
+              "text": "Build dashboards with charts, measures and local data.",
+              "overflow": 0,
+              "rect": {
+                "x": 1842.0625,
+                "y": 744.84375,
+                "width": 482.390625,
+                "height": 59.90625,
+                "top": 744.84375,
+                "right": 2324.453125,
+                "bottom": 804.75,
+                "left": 1842.0625
+              }
+            },
+            {
+              "text": "Open Dashboard Studio \u2197",
+              "overflow": 0,
+              "rect": {
+                "x": 1842.0625,
+                "y": 817.546875,
+                "width": 620.9375,
+                "height": 39.125,
+                "top": 817.546875,
+                "right": 2463,
+                "bottom": 856.671875,
+                "left": 1842.0625
+              }
+            }
+          ]
+        },
+        {
+          "key": "present",
+          "rect": {
+            "x": 371.1875,
+            "y": 921.671875,
+            "width": 686.9375,
+            "height": 391.453125,
+            "top": 921.671875,
+            "right": 1058.125,
+            "bottom": 1313.125,
+            "left": 371.1875
+          },
+          "overflow": 0,
+          "text": [
+            {
+              "text": "NexusPoint",
+              "overflow": 0,
+              "rect": {
+                "x": 498.890625,
+                "y": 954.671875,
+                "width": 241.625,
+                "height": 41.46875,
+                "top": 954.671875,
+                "right": 740.515625,
+                "bottom": 996.140625,
+                "left": 498.890625
+              }
+            },
+            {
+              "text": "Present your next big idea.",
+              "overflow": 0,
+              "rect": {
+                "x": 498.890625,
+                "y": 1002.140625,
+                "width": 241.625,
+                "height": 25.078125,
+                "top": 1002.140625,
+                "right": 740.515625,
+                "bottom": 1027.21875,
+                "left": 498.890625
+              }
+            },
+            {
+              "text": "Create slides, shape your story and present with confidence.",
+              "overflow": 0,
+              "rect": {
+                "x": 404.1875,
+                "y": 1168.296875,
+                "width": 482.390625,
+                "height": 59.90625,
+                "top": 1168.296875,
+                "right": 886.578125,
+                "bottom": 1228.203125,
+                "left": 404.1875
+              }
+            },
+            {
+              "text": "Open NexusPoint \u2197",
+              "overflow": 0,
+              "rect": {
+                "x": 404.1875,
+                "y": 1241,
+                "width": 620.9375,
+                "height": 39.125,
+                "top": 1241,
+                "right": 1025.125,
+                "bottom": 1280.125,
+                "left": 404.1875
+              }
+            }
+          ]
+        },
+        {
+          "key": "draw",
+          "rect": {
+            "x": 1090.125,
+            "y": 921.671875,
+            "width": 686.9375,
+            "height": 391.453125,
+            "top": 921.671875,
+            "right": 1777.0625,
+            "bottom": 1313.125,
+            "left": 1090.125
+          },
+          "overflow": 0,
+          "text": [
+            {
+              "text": "Paint",
+              "overflow": 0,
+              "rect": {
+                "x": 1217.828125,
+                "y": 954.671875,
+                "width": 208.96875,
+                "height": 41.46875,
+                "top": 954.671875,
+                "right": 1426.796875,
+                "bottom": 996.140625,
+                "left": 1217.828125
+              }
+            },
+            {
+              "text": "Bring your ideas to life.",
+              "overflow": 0,
+              "rect": {
+                "x": 1217.828125,
+                "y": 1002.140625,
+                "width": 208.96875,
+                "height": 25.078125,
+                "top": 1002.140625,
+                "right": 1426.796875,
+                "bottom": 1027.21875,
+                "left": 1217.828125
+              }
+            },
+            {
+              "text": "Edit images, compose designs and create visual work.",
+              "overflow": 0,
+              "rect": {
+                "x": 1123.125,
+                "y": 1168.296875,
+                "width": 482.390625,
+                "height": 59.90625,
+                "top": 1168.296875,
+                "right": 1605.515625,
+                "bottom": 1228.203125,
+                "left": 1123.125
+              }
+            },
+            {
+              "text": "Open Paint \u2197",
+              "overflow": 0,
+              "rect": {
+                "x": 1123.125,
+                "y": 1241,
+                "width": 620.9375,
+                "height": 39.125,
+                "top": 1241,
+                "right": 1744.0625,
+                "bottom": 1280.125,
+                "left": 1123.125
+              }
+            }
+          ]
+        },
+        {
+          "key": "compat",
+          "rect": {
+            "x": 1809.0625,
+            "y": 921.671875,
+            "width": 686.9375,
+            "height": 391.453125,
+            "top": 921.671875,
+            "right": 2496,
+            "bottom": 1313.125,
+            "left": 1809.0625
+          },
+          "overflow": 0,
+          "text": [
+            {
+              "text": "Compatibility",
+              "overflow": 0,
+              "rect": {
+                "x": 1936.765625,
+                "y": 954.671875,
+                "width": 262.5625,
+                "height": 41.46875,
+                "top": 954.671875,
+                "right": 2199.328125,
+                "bottom": 996.140625,
+                "left": 1936.765625
+              }
+            },
+            {
+              "text": "Work across familiar formats.",
+              "overflow": 0,
+              "rect": {
+                "x": 1936.765625,
+                "y": 1002.140625,
+                "width": 262.5625,
+                "height": 25.078125,
+                "top": 1002.140625,
+                "right": 2199.328125,
+                "bottom": 1027.21875,
+                "left": 1936.765625
+              }
+            },
+            {
+              "text": "Explore import, export and file-format support.",
+              "overflow": 0,
+              "rect": {
+                "x": 1842.0625,
+                "y": 1198.25,
+                "width": 482.390625,
+                "height": 29.953125,
+                "top": 1198.25,
+                "right": 2324.453125,
+                "bottom": 1228.203125,
+                "left": 1842.0625
+              }
+            },
+            {
+              "text": "View compatibility \u2197",
+              "overflow": 0,
+              "rect": {
+                "x": 1842.0625,
+                "y": 1241,
+                "width": 620.9375,
+                "height": 39.125,
+                "top": 1241,
+                "right": 2463,
+                "bottom": 1280.125,
+                "left": 1842.0625
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "home": {
+        "x": 230.390625,
+        "y": 76.796875,
+        "width": 1689.609375,
+        "height": 1003.203125,
+        "top": 76.796875,
+        "right": 1920,
+        "bottom": 1080,
+        "left": 230.390625
+      },
+      "scroll": 0,
+      "vertical": 0,
+      "cards": [
+        {
+          "key": "writer",
+          "rect": {
+            "x": 278.390625,
+            "y": 373.65625,
+            "width": 515.203125,
+            "height": 293.09375,
+            "top": 373.65625,
+            "right": 793.59375,
+            "bottom": 666.75,
+            "left": 278.390625
+          },
+          "overflow": 0,
+          "text": [
+            {
+              "text": "Writer",
+              "overflow": 0,
+              "rect": {
+                "x": 374.40625,
+                "y": 398.65625,
+                "width": 157.859375,
+                "height": 31.09375,
+                "top": 398.65625,
+                "right": 532.265625,
+                "bottom": 429.75,
+                "left": 374.40625
+              }
+            },
+            {
+              "text": "Documents with clarity.",
+              "overflow": 0,
+              "rect": {
+                "x": 374.40625,
+                "y": 435.75,
+                "width": 157.859375,
+                "height": 18.8125,
+                "top": 435.75,
+                "right": 532.265625,
+                "bottom": 454.5625,
+                "left": 374.40625
+              }
+            },
+            {
+              "text": "Write, format and refine documents and reports.",
+              "overflow": 0,
+              "rect": {
+                "x": 303.390625,
+                "y": 557.90625,
+                "width": 361.890625,
+                "height": 44.90625,
+                "top": 557.90625,
+                "right": 665.28125,
+                "bottom": 602.8125,
+                "left": 303.390625
+              }
+            },
+            {
+              "text": "Open Writer \u2197",
+              "overflow": 0,
+              "rect": {
+                "x": 303.390625,
+                "y": 612.40625,
+                "width": 465.203125,
+                "height": 29.34375,
+                "top": 612.40625,
+                "right": 768.59375,
+                "bottom": 641.75,
+                "left": 303.390625
+              }
+            }
+          ]
+        },
+        {
+          "key": "grid",
+          "rect": {
+            "x": 817.59375,
+            "y": 373.65625,
+            "width": 515.203125,
+            "height": 293.09375,
+            "top": 373.65625,
+            "right": 1332.796875,
+            "bottom": 666.75,
+            "left": 817.59375
+          },
+          "overflow": 0,
+          "text": [
+            {
+              "text": "Grid",
+              "overflow": 0,
+              "rect": {
+                "x": 913.609375,
+                "y": 398.65625,
+                "width": 174.671875,
+                "height": 31.09375,
+                "top": 398.65625,
+                "right": 1088.28125,
+                "bottom": 429.75,
+                "left": 913.609375
+              }
+            },
+            {
+              "text": "Make your numbers work.",
+              "overflow": 0,
+              "rect": {
+                "x": 913.609375,
+                "y": 435.75,
+                "width": 174.671875,
+                "height": 18.8125,
+                "top": 435.75,
+                "right": 1088.28125,
+                "bottom": 454.5625,
+                "left": 913.609375
+              }
+            },
+            {
+              "text": "Organize data, build formulas and visualize results.",
+              "overflow": 0,
+              "rect": {
+                "x": 842.59375,
+                "y": 557.90625,
+                "width": 361.890625,
+                "height": 44.90625,
+                "top": 557.90625,
+                "right": 1204.484375,
+                "bottom": 602.8125,
+                "left": 842.59375
+              }
+            },
+            {
+              "text": "Open Grid \u2197",
+              "overflow": 0,
+              "rect": {
+                "x": 842.59375,
+                "y": 612.40625,
+                "width": 465.203125,
+                "height": 29.34375,
+                "top": 612.40625,
+                "right": 1307.796875,
+                "bottom": 641.75,
+                "left": 842.59375
+              }
+            }
+          ]
+        },
+        {
+          "key": "dashboard",
+          "rect": {
+            "x": 1356.796875,
+            "y": 373.65625,
+            "width": 515.203125,
+            "height": 293.09375,
+            "top": 373.65625,
+            "right": 1872,
+            "bottom": 666.75,
+            "left": 1356.796875
+          },
+          "overflow": 0,
+          "text": [
+            {
+              "text": "Dashboard Studio",
+              "overflow": 0,
+              "rect": {
+                "x": 1452.8125,
+                "y": 398.65625,
+                "width": 251.359375,
+                "height": 31.09375,
+                "top": 398.65625,
+                "right": 1704.171875,
+                "bottom": 429.75,
+                "left": 1452.8125
+              }
+            },
+            {
+              "text": "Turn data into perspective.",
+              "overflow": 0,
+              "rect": {
+                "x": 1452.8125,
+                "y": 435.75,
+                "width": 251.359375,
+                "height": 18.8125,
+                "top": 435.75,
+                "right": 1704.171875,
+                "bottom": 454.5625,
+                "left": 1452.8125
+              }
+            },
+            {
+              "text": "Build dashboards with charts, measures and local data.",
+              "overflow": 0,
+              "rect": {
+                "x": 1381.796875,
+                "y": 557.90625,
+                "width": 361.890625,
+                "height": 44.90625,
+                "top": 557.90625,
+                "right": 1743.6875,
+                "bottom": 602.8125,
+                "left": 1381.796875
+              }
+            },
+            {
+              "text": "Open Dashboard Studio \u2197",
+              "overflow": 0,
+              "rect": {
+                "x": 1381.796875,
+                "y": 612.40625,
+                "width": 465.203125,
+                "height": 29.34375,
+                "top": 612.40625,
+                "right": 1847,
+                "bottom": 641.75,
+                "left": 1381.796875
+              }
+            }
+          ]
+        },
+        {
+          "key": "present",
+          "rect": {
+            "x": 278.390625,
+            "y": 690.75,
+            "width": 515.203125,
+            "height": 293.09375,
+            "top": 690.75,
+            "right": 793.59375,
+            "bottom": 983.84375,
+            "left": 278.390625
+          },
+          "overflow": 0,
+          "text": [
+            {
+              "text": "NexusPoint",
+              "overflow": 0,
+              "rect": {
+                "x": 374.40625,
+                "y": 715.75,
+                "width": 181.328125,
+                "height": 31.09375,
+                "top": 715.75,
+                "right": 555.734375,
+                "bottom": 746.84375,
+                "left": 374.40625
+              }
+            },
+            {
+              "text": "Present your next big idea.",
+              "overflow": 0,
+              "rect": {
+                "x": 374.40625,
+                "y": 752.84375,
+                "width": 181.328125,
+                "height": 18.8125,
+                "top": 752.84375,
+                "right": 555.734375,
+                "bottom": 771.65625,
+                "left": 374.40625
+              }
+            },
+            {
+              "text": "Create slides, shape your story and present with confidence.",
+              "overflow": 0,
+              "rect": {
+                "x": 303.390625,
+                "y": 875,
+                "width": 361.890625,
+                "height": 44.90625,
+                "top": 875,
+                "right": 665.28125,
+                "bottom": 919.90625,
+                "left": 303.390625
+              }
+            },
+            {
+              "text": "Open NexusPoint \u2197",
+              "overflow": 0,
+              "rect": {
+                "x": 303.390625,
+                "y": 929.5,
+                "width": 465.203125,
+                "height": 29.34375,
+                "top": 929.5,
+                "right": 768.59375,
+                "bottom": 958.84375,
+                "left": 303.390625
+              }
+            }
+          ]
+        },
+        {
+          "key": "draw",
+          "rect": {
+            "x": 817.59375,
+            "y": 690.75,
+            "width": 515.203125,
+            "height": 293.09375,
+            "top": 690.75,
+            "right": 1332.796875,
+            "bottom": 983.84375,
+            "left": 817.59375
+          },
+          "overflow": 0,
+          "text": [
+            {
+              "text": "Paint",
+              "overflow": 0,
+              "rect": {
+                "x": 913.609375,
+                "y": 715.75,
+                "width": 156.828125,
+                "height": 31.09375,
+                "top": 715.75,
+                "right": 1070.4375,
+                "bottom": 746.84375,
+                "left": 913.609375
+              }
+            },
+            {
+              "text": "Bring your ideas to life.",
+              "overflow": 0,
+              "rect": {
+                "x": 913.609375,
+                "y": 752.84375,
+                "width": 156.828125,
+                "height": 18.8125,
+                "top": 752.84375,
+                "right": 1070.4375,
+                "bottom": 771.65625,
+                "left": 913.609375
+              }
+            },
+            {
+              "text": "Edit images, compose designs and create visual work.",
+              "overflow": 0,
+              "rect": {
+                "x": 842.59375,
+                "y": 875,
+                "width": 361.890625,
+                "height": 44.90625,
+                "top": 875,
+                "right": 1204.484375,
+                "bottom": 919.90625,
+                "left": 842.59375
+              }
+            },
+            {
+              "text": "Open Paint \u2197",
+              "overflow": 0,
+              "rect": {
+                "x": 842.59375,
+                "y": 929.5,
+                "width": 465.203125,
+                "height": 29.34375,
+                "top": 929.5,
+                "right": 1307.796875,
+                "bottom": 958.84375,
+                "left": 842.59375
+              }
+            }
+          ]
+        },
+        {
+          "key": "compat",
+          "rect": {
+            "x": 1356.796875,
+            "y": 690.75,
+            "width": 515.203125,
+            "height": 293.09375,
+            "top": 690.75,
+            "right": 1872,
+            "bottom": 983.84375,
+            "left": 1356.796875
+          },
+          "overflow": 0,
+          "text": [
+            {
+              "text": "Compatibility",
+              "overflow": 0,
+              "rect": {
+                "x": 1452.8125,
+                "y": 715.75,
+                "width": 197.046875,
+                "height": 31.09375,
+                "top": 715.75,
+                "right": 1649.859375,
+                "bottom": 746.84375,
+                "left": 1452.8125
+              }
+            },
+            {
+              "text": "Work across familiar formats.",
+              "overflow": 0,
+              "rect": {
+                "x": 1452.8125,
+                "y": 752.84375,
+                "width": 197.046875,
+                "height": 18.8125,
+                "top": 752.84375,
+                "right": 1649.859375,
+                "bottom": 771.65625,
+                "left": 1452.8125
+              }
+            },
+            {
+              "text": "Explore import, export and file-format support.",
+              "overflow": 0,
+              "rect": {
+                "x": 1381.796875,
+                "y": 897.453125,
+                "width": 361.890625,
+                "height": 22.453125,
+                "top": 897.453125,
+                "right": 1743.6875,
+                "bottom": 919.90625,
+                "left": 1381.796875
+              }
+            },
+            {
+              "text": "View compatibility \u2197",
+              "overflow": 0,
+              "rect": {
+                "x": 1381.796875,
+                "y": 929.5,
+                "width": 465.203125,
+                "height": 29.34375,
+                "top": 929.5,
+                "right": 1847,
+                "bottom": 958.84375,
+                "left": 1381.796875
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "width": 1600,
+      "height": 900,
+      "home": {
+        "x": 192,
+        "y": 64,
+        "width": 1408,
+        "height": 836,
+        "top": 64,
+        "right": 1600,
+        "bottom": 900,
+        "left": 192
+      },
+      "scroll": 0,
+      "vertical": 0,
+      "cards": [
+        {
+          "key": "writer",
+          "rect": {
+            "x": 232,
+            "y": 311.421875,
+            "width": 429.328125,
+            "height": 250,
+            "top": 311.421875,
+            "right": 661.328125,
+            "bottom": 561.421875,
+            "left": 232
+          },
+          "overflow": 0,
+          "text": [
+            {
+              "text": "Writer",
+              "overflow": 0,
+              "rect": {
+                "x": 312.1875,
+                "y": 332.421875,
+                "width": 131.4375,
+                "height": 25.90625,
+                "top": 332.421875,
+                "right": 443.625,
+                "bottom": 358.328125,
+                "left": 312.1875
+              }
+            },
+            {
+              "text": "Documents with clarity.",
+              "overflow": 0,
+              "rect": {
+                "x": 312.1875,
+                "y": 364.328125,
+                "width": 131.4375,
+                "height": 15.671875,
+                "top": 364.328125,
+                "right": 443.625,
+                "bottom": 380,
+                "left": 312.1875
+              }
+            },
+            {
+              "text": "Write, format and refine documents and reports.",
+              "overflow": 0,
+              "rect": {
+                "x": 253,
+                "y": 467.9375,
+                "width": 314.296875,
+                "height": 39,
+                "top": 467.9375,
+                "right": 567.296875,
+                "bottom": 506.9375,
+                "left": 253
+              }
+            },
+            {
+              "text": "Open Writer \u2197",
+              "overflow": 0,
+              "rect": {
+                "x": 253,
+                "y": 514.9375,
+                "width": 387.328125,
+                "height": 25.484375,
+                "top": 514.9375,
+                "right": 640.328125,
+                "bottom": 540.421875,
+                "left": 253
+              }
+            }
+          ]
+        },
+        {
+          "key": "grid",
+          "rect": {
+            "x": 681.328125,
+            "y": 311.421875,
+            "width": 429.328125,
+            "height": 250,
+            "top": 311.421875,
+            "right": 1110.65625,
+            "bottom": 561.421875,
+            "left": 681.328125
+          },
+          "overflow": 0,
+          "text": [
+            {
+              "text": "Grid",
+              "overflow": 0,
+              "rect": {
+                "x": 761.515625,
+                "y": 332.421875,
+                "width": 145.421875,
+                "height": 25.90625,
+                "top": 332.421875,
+                "right": 906.9375,
+                "bottom": 358.328125,
+                "left": 761.515625
+              }
+            },
+            {
+              "text": "Make your numbers work.",
+              "overflow": 0,
+              "rect": {
+                "x": 761.515625,
+                "y": 364.328125,
+                "width": 145.421875,
+                "height": 15.671875,
+                "top": 364.328125,
+                "right": 906.9375,
+                "bottom": 380,
+                "left": 761.515625
+              }
+            },
+            {
+              "text": "Organize data, build formulas and visualize results.",
+              "overflow": 0,
+              "rect": {
+                "x": 702.328125,
+                "y": 467.9375,
+                "width": 314.296875,
+                "height": 39,
+                "top": 467.9375,
+                "right": 1016.625,
+                "bottom": 506.9375,
+                "left": 702.328125
+              }
+            },
+            {
+              "text": "Open Grid \u2197",
+              "overflow": 0,
+              "rect": {
+                "x": 702.328125,
+                "y": 514.9375,
+                "width": 387.328125,
+                "height": 25.484375,
+                "top": 514.9375,
+                "right": 1089.65625,
+                "bottom": 540.421875,
+                "left": 702.328125
+              }
+            }
+          ]
+        },
+        {
+          "key": "dashboard",
+          "rect": {
+            "x": 1130.65625,
+            "y": 311.421875,
+            "width": 429.34375,
+            "height": 250,
+            "top": 311.421875,
+            "right": 1560,
+            "bottom": 561.421875,
+            "left": 1130.65625
+          },
+          "overflow": 0,
+          "text": [
+            {
+              "text": "Dashboard Studio",
+              "overflow": 0,
+              "rect": {
+                "x": 1210.84375,
+                "y": 332.421875,
+                "width": 209.515625,
+                "height": 25.90625,
+                "top": 332.421875,
+                "right": 1420.359375,
+                "bottom": 358.328125,
+                "left": 1210.84375
+              }
+            },
+            {
+              "text": "Turn data into perspective.",
+              "overflow": 0,
+              "rect": {
+                "x": 1210.84375,
+                "y": 364.328125,
+                "width": 209.515625,
+                "height": 15.671875,
+                "top": 364.328125,
+                "right": 1420.359375,
+                "bottom": 380,
+                "left": 1210.84375
+              }
+            },
+            {
+              "text": "Build dashboards with charts, measures and local data.",
+              "overflow": 0,
+              "rect": {
+                "x": 1151.65625,
+                "y": 467.9375,
+                "width": 314.296875,
+                "height": 39,
+                "top": 467.9375,
+                "right": 1465.953125,
+                "bottom": 506.9375,
+                "left": 1151.65625
+              }
+            },
+            {
+              "text": "Open Dashboard Studio \u2197",
+              "overflow": 0,
+              "rect": {
+                "x": 1151.65625,
+                "y": 514.9375,
+                "width": 387.34375,
+                "height": 25.484375,
+                "top": 514.9375,
+                "right": 1539,
+                "bottom": 540.421875,
+                "left": 1151.65625
+              }
+            }
+          ]
+        },
+        {
+          "key": "present",
+          "rect": {
+            "x": 232,
+            "y": 581.421875,
+            "width": 429.328125,
+            "height": 250,
+            "top": 581.421875,
+            "right": 661.328125,
+            "bottom": 831.421875,
+            "left": 232
+          },
+          "overflow": 0,
+          "text": [
+            {
+              "text": "NexusPoint",
+              "overflow": 0,
+              "rect": {
+                "x": 312.1875,
+                "y": 602.421875,
+                "width": 150.96875,
+                "height": 25.90625,
+                "top": 602.421875,
+                "right": 463.15625,
+                "bottom": 628.328125,
+                "left": 312.1875
+              }
+            },
+            {
+              "text": "Present your next big idea.",
+              "overflow": 0,
+              "rect": {
+                "x": 312.1875,
+                "y": 634.328125,
+                "width": 150.96875,
+                "height": 15.671875,
+                "top": 634.328125,
+                "right": 463.15625,
+                "bottom": 650,
+                "left": 312.1875
+              }
+            },
+            {
+              "text": "Create slides, shape your story and present with confidence.",
+              "overflow": 0,
+              "rect": {
+                "x": 253,
+                "y": 737.9375,
+                "width": 314.296875,
+                "height": 39,
+                "top": 737.9375,
+                "right": 567.296875,
+                "bottom": 776.9375,
+                "left": 253
+              }
+            },
+            {
+              "text": "Open NexusPoint \u2197",
+              "overflow": 0,
+              "rect": {
+                "x": 253,
+                "y": 784.9375,
+                "width": 387.328125,
+                "height": 25.484375,
+                "top": 784.9375,
+                "right": 640.328125,
+                "bottom": 810.421875,
+                "left": 253
+              }
+            }
+          ]
+        },
+        {
+          "key": "draw",
+          "rect": {
+            "x": 681.328125,
+            "y": 581.421875,
+            "width": 429.328125,
+            "height": 250,
+            "top": 581.421875,
+            "right": 1110.65625,
+            "bottom": 831.421875,
+            "left": 681.328125
+          },
+          "overflow": 0,
+          "text": [
+            {
+              "text": "Paint",
+              "overflow": 0,
+              "rect": {
+                "x": 761.515625,
+                "y": 602.421875,
+                "width": 130.5625,
+                "height": 25.90625,
+                "top": 602.421875,
+                "right": 892.078125,
+                "bottom": 628.328125,
+                "left": 761.515625
+              }
+            },
+            {
+              "text": "Bring your ideas to life.",
+              "overflow": 0,
+              "rect": {
+                "x": 761.515625,
+                "y": 634.328125,
+                "width": 130.5625,
+                "height": 15.671875,
+                "top": 634.328125,
+                "right": 892.078125,
+                "bottom": 650,
+                "left": 761.515625
+              }
+            },
+            {
+              "text": "Edit images, compose designs and create visual work.",
+              "overflow": 0,
+              "rect": {
+                "x": 702.328125,
+                "y": 737.9375,
+                "width": 314.296875,
+                "height": 39,
+                "top": 737.9375,
+                "right": 1016.625,
+                "bottom": 776.9375,
+                "left": 702.328125
+              }
+            },
+            {
+              "text": "Open Paint \u2197",
+              "overflow": 0,
+              "rect": {
+                "x": 702.328125,
+                "y": 784.9375,
+                "width": 387.328125,
+                "height": 25.484375,
+                "top": 784.9375,
+                "right": 1089.65625,
+                "bottom": 810.421875,
+                "left": 702.328125
+              }
+            }
+          ]
+        },
+        {
+          "key": "compat",
+          "rect": {
+            "x": 1130.65625,
+            "y": 581.421875,
+            "width": 429.34375,
+            "height": 250,
+            "top": 581.421875,
+            "right": 1560,
+            "bottom": 831.421875,
+            "left": 1130.65625
+          },
+          "overflow": 0,
+          "text": [
+            {
+              "text": "Compatibility",
+              "overflow": 0,
+              "rect": {
+                "x": 1210.84375,
+                "y": 602.421875,
+                "width": 164.046875,
+                "height": 25.90625,
+                "top": 602.421875,
+                "right": 1374.890625,
+                "bottom": 628.328125,
+                "left": 1210.84375
+              }
+            },
+            {
+              "text": "Work across familiar formats.",
+              "overflow": 0,
+              "rect": {
+                "x": 1210.84375,
+                "y": 634.328125,
+                "width": 164.046875,
+                "height": 15.671875,
+                "top": 634.328125,
+                "right": 1374.890625,
+                "bottom": 650,
+                "left": 1210.84375
+              }
+            },
+            {
+              "text": "Explore import, export and file-format support.",
+              "overflow": 0,
+              "rect": {
+                "x": 1151.65625,
+                "y": 757.4375,
+                "width": 314.296875,
+                "height": 19.5,
+                "top": 757.4375,
+                "right": 1465.953125,
+                "bottom": 776.9375,
+                "left": 1151.65625
+              }
+            },
+            {
+              "text": "View compatibility \u2197",
+              "overflow": 0,
+              "rect": {
+                "x": 1151.65625,
+                "y": 784.9375,
+                "width": 387.34375,
+                "height": 25.484375,
+                "top": 784.9375,
+                "right": 1539,
+                "bottom": 810.421875,
+                "left": 1151.65625
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "home": {
+        "x": 184,
+        "y": 64,
+        "width": 1182,
+        "height": 704,
+        "top": 64,
+        "right": 1366,
+        "bottom": 768,
+        "left": 184
+      },
+      "scroll": 0,
+      "vertical": 96,
+      "cards": [
+        {
+          "key": "writer",
+          "rect": {
+            "x": 218.140625,
+            "y": 277.203125,
+            "width": 359.859375,
+            "height": 250,
+            "top": 277.203125,
+            "right": 578,
+            "bottom": 527.203125,
+            "left": 218.140625
+          },
+          "overflow": 0,
+          "text": [
+            {
+              "text": "Writer",
+              "overflow": 0,
+              "rect": {
+                "x": 291.140625,
+                "y": 296.203125,
+                "width": 129.234375,
+                "height": 24,
+                "top": 296.203125,
+                "right": 420.375,
+                "bottom": 320.203125,
+                "left": 291.140625
+              }
+            },
+            {
+              "text": "Documents with clarity.",
+              "overflow": 0,
+              "rect": {
+                "x": 291.140625,
+                "y": 326.203125,
+                "width": 129.234375,
+                "height": 15.390625,
+                "top": 326.203125,
+                "right": 420.375,
+                "bottom": 341.59375,
+                "left": 291.140625
+              }
+            },
+            {
+              "text": "Write, format and refine documents and reports.",
+              "overflow": 0,
+              "rect": {
+                "x": 237.140625,
+                "y": 435.71875,
+                "width": 314.296875,
+                "height": 39,
+                "top": 435.71875,
+                "right": 551.4375,
+                "bottom": 474.71875,
+                "left": 237.140625
+              }
+            },
+            {
+              "text": "Open Writer \u2197",
+              "overflow": 0,
+              "rect": {
+                "x": 237.140625,
+                "y": 482.71875,
+                "width": 321.859375,
+                "height": 25.484375,
+                "top": 482.71875,
+                "right": 559,
+                "bottom": 508.203125,
+                "left": 237.140625
+              }
+            }
+          ]
+        },
+        {
+          "key": "grid",
+          "rect": {
+            "x": 595.0625,
+            "y": 277.203125,
+            "width": 359.859375,
+            "height": 250,
+            "top": 277.203125,
+            "right": 954.921875,
+            "bottom": 527.203125,
+            "left": 595.0625
+          },
+          "overflow": 0,
+          "text": [
+            {
+              "text": "Grid",
+              "overflow": 0,
+              "rect": {
+                "x": 668.0625,
+                "y": 296.203125,
+                "width": 142.984375,
+                "height": 24,
+                "top": 296.203125,
+                "right": 811.046875,
+                "bottom": 320.203125,
+                "left": 668.0625
+              }
+            },
+            {
+              "text": "Make your numbers work.",
+              "overflow": 0,
+              "rect": {
+                "x": 668.0625,
+                "y": 326.203125,
+                "width": 142.984375,
+                "height": 15.390625,
+                "top": 326.203125,
+                "right": 811.046875,
+                "bottom": 341.59375,
+                "left": 668.0625
+              }
+            },
+            {
+              "text": "Organize data, build formulas and visualize results.",
+              "overflow": 0,
+              "rect": {
+                "x": 614.0625,
+                "y": 435.71875,
+                "width": 314.296875,
+                "height": 39,
+                "top": 435.71875,
+                "right": 928.359375,
+                "bottom": 474.71875,
+                "left": 614.0625
+              }
+            },
+            {
+              "text": "Open Grid \u2197",
+              "overflow": 0,
+              "rect": {
+                "x": 614.0625,
+                "y": 482.71875,
+                "width": 321.859375,
+                "height": 25.484375,
+                "top": 482.71875,
+                "right": 935.921875,
+                "bottom": 508.203125,
+                "left": 614.0625
+              }
+            }
+          ]
+        },
+        {
+          "key": "dashboard",
+          "rect": {
+            "x": 971.984375,
+            "y": 277.203125,
+            "width": 359.875,
+            "height": 250,
+            "top": 277.203125,
+            "right": 1331.859375,
+            "bottom": 527.203125,
+            "left": 971.984375
+          },
+          "overflow": 0,
+          "text": [
+            {
+              "text": "Dashboard Studio",
+              "overflow": 0,
+              "rect": {
+                "x": 1044.984375,
+                "y": 296.203125,
+                "width": 194.0625,
+                "height": 24,
+                "top": 296.203125,
+                "right": 1239.046875,
+                "bottom": 320.203125,
+                "left": 1044.984375
+              }
+            },
+            {
+              "text": "Turn data into perspective.",
+              "overflow": 0,
+              "rect": {
+                "x": 1044.984375,
+                "y": 326.203125,
+                "width": 194.0625,
+                "height": 15.390625,
+                "top": 326.203125,
+                "right": 1239.046875,
+                "bottom": 341.59375,
+                "left": 1044.984375
+              }
+            },
+            {
+              "text": "Build dashboards with charts, measures and local data.",
+              "overflow": 0,
+              "rect": {
+                "x": 990.984375,
+                "y": 435.71875,
+                "width": 314.296875,
+                "height": 39,
+                "top": 435.71875,
+                "right": 1305.28125,
+                "bottom": 474.71875,
+                "left": 990.984375
+              }
+            },
+            {
+              "text": "Open Dashboard Studio \u2197",
+              "overflow": 0,
+              "rect": {
+                "x": 990.984375,
+                "y": 482.71875,
+                "width": 321.875,
+                "height": 25.484375,
+                "top": 482.71875,
+                "right": 1312.859375,
+                "bottom": 508.203125,
+                "left": 990.984375
+              }
+            }
+          ]
+        },
+        {
+          "key": "present",
+          "rect": {
+            "x": 218.140625,
+            "y": 544.265625,
+            "width": 359.859375,
+            "height": 250,
+            "top": 544.265625,
+            "right": 578,
+            "bottom": 794.265625,
+            "left": 218.140625
+          },
+          "overflow": 0,
+          "text": [
+            {
+              "text": "NexusPoint",
+              "overflow": 0,
+              "rect": {
+                "x": 291.140625,
+                "y": 563.265625,
+                "width": 148.4375,
+                "height": 24,
+                "top": 563.265625,
+                "right": 439.578125,
+                "bottom": 587.265625,
+                "left": 291.140625
+              }
+            },
+            {
+              "text": "Present your next big idea.",
+              "overflow": 0,
+              "rect": {
+                "x": 291.140625,
+                "y": 593.265625,
+                "width": 148.4375,
+                "height": 15.390625,
+                "top": 593.265625,
+                "right": 439.578125,
+                "bottom": 608.65625,
+                "left": 291.140625
+              }
+            },
+            {
+              "text": "Create slides, shape your story and present with confidence.",
+              "overflow": 0,
+              "rect": {
+                "x": 237.140625,
+                "y": 702.78125,
+                "width": 314.296875,
+                "height": 39,
+                "top": 702.78125,
+                "right": 551.4375,
+                "bottom": 741.78125,
+                "left": 237.140625
+              }
+            },
+            {
+              "text": "Open NexusPoint \u2197",
+              "overflow": 0,
+              "rect": {
+                "x": 237.140625,
+                "y": 749.78125,
+                "width": 321.859375,
+                "height": 25.484375,
+                "top": 749.78125,
+                "right": 559,
+                "bottom": 775.265625,
+                "left": 237.140625
+              }
+            }
+          ]
+        },
+        {
+          "key": "draw",
+          "rect": {
+            "x": 595.0625,
+            "y": 544.265625,
+            "width": 359.859375,
+            "height": 250,
+            "top": 544.265625,
+            "right": 954.921875,
+            "bottom": 794.265625,
+            "left": 595.0625
+          },
+          "overflow": 0,
+          "text": [
+            {
+              "text": "Paint",
+              "overflow": 0,
+              "rect": {
+                "x": 668.0625,
+                "y": 563.265625,
+                "width": 128.375,
+                "height": 24,
+                "top": 563.265625,
+                "right": 796.4375,
+                "bottom": 587.265625,
+                "left": 668.0625
+              }
+            },
+            {
+              "text": "Bring your ideas to life.",
+              "overflow": 0,
+              "rect": {
+                "x": 668.0625,
+                "y": 593.265625,
+                "width": 128.375,
+                "height": 15.390625,
+                "top": 593.265625,
+                "right": 796.4375,
+                "bottom": 608.65625,
+                "left": 668.0625
+              }
+            },
+            {
+              "text": "Edit images, compose designs and create visual work.",
+              "overflow": 0,
+              "rect": {
+                "x": 614.0625,
+                "y": 702.78125,
+                "width": 314.296875,
+                "height": 39,
+                "top": 702.78125,
+                "right": 928.359375,
+                "bottom": 741.78125,
+                "left": 614.0625
+              }
+            },
+            {
+              "text": "Open Paint \u2197",
+              "overflow": 0,
+              "rect": {
+                "x": 614.0625,
+                "y": 749.78125,
+                "width": 321.859375,
+                "height": 25.484375,
+                "top": 749.78125,
+                "right": 935.921875,
+                "bottom": 775.265625,
+                "left": 614.0625
+              }
+            }
+          ]
+        },
+        {
+          "key": "compat",
+          "rect": {
+            "x": 971.984375,
+            "y": 544.265625,
+            "width": 359.875,
+            "height": 250,
+            "top": 544.265625,
+            "right": 1331.859375,
+            "bottom": 794.265625,
+            "left": 971.984375
+          },
+          "overflow": 0,
+          "text": [
+            {
+              "text": "Compatibility",
+              "overflow": 0,
+              "rect": {
+                "x": 1044.984375,
+                "y": 563.265625,
+                "width": 161.296875,
+                "height": 24,
+                "top": 563.265625,
+                "right": 1206.28125,
+                "bottom": 587.265625,
+                "left": 1044.984375
+              }
+            },
+            {
+              "text": "Work across familiar formats.",
+              "overflow": 0,
+              "rect": {
+                "x": 1044.984375,
+                "y": 593.265625,
+                "width": 161.296875,
+                "height": 15.390625,
+                "top": 593.265625,
+                "right": 1206.28125,
+                "bottom": 608.65625,
+                "left": 1044.984375
+              }
+            },
+            {
+              "text": "Explore import, export and file-format support.",
+              "overflow": 0,
+              "rect": {
+                "x": 990.984375,
+                "y": 722.28125,
+                "width": 314.296875,
+                "height": 19.5,
+                "top": 722.28125,
+                "right": 1305.28125,
+                "bottom": 741.78125,
+                "left": 990.984375
+              }
+            },
+            {
+              "text": "View compatibility \u2197",
+              "overflow": 0,
+              "rect": {
+                "x": 990.984375,
+                "y": 749.78125,
+                "width": 321.875,
+                "height": 25.484375,
+                "top": 749.78125,
+                "right": 1312.859375,
+                "bottom": 775.265625,
+                "left": 990.984375
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "home": {
+        "x": 184,
+        "y": 64,
+        "width": 840,
+        "height": 704,
+        "top": 64,
+        "right": 1024,
+        "bottom": 768,
+        "left": 184
+      },
+      "scroll": 0,
+      "vertical": 500,
+      "cards": [
+        {
+          "key": "writer",
+          "rect": {
+            "x": 209.59375,
+            "y": 250.34375,
+            "width": 386.40625,
+            "height": 308.265625,
+            "top": 250.34375,
+            "right": 596,
+            "bottom": 558.609375,
+            "left": 209.59375
+          },
+          "overflow": 0,
+          "text": [
+            {
+              "text": "Writer",
+              "overflow": 0,
+              "rect": {
+                "x": 282.59375,
+                "y": 269.34375,
+                "width": 129.234375,
+                "height": 26.390625,
+                "top": 269.34375,
+                "right": 411.828125,
+                "bottom": 295.734375,
+                "left": 282.59375
+              }
+            },
+            {
+              "text": "Documents with clarity.",
+              "overflow": 0,
+              "rect": {
+                "x": 282.59375,
+                "y": 301.734375,
+                "width": 129.234375,
+                "height": 15.390625,
+                "top": 301.734375,
+                "right": 411.828125,
+                "bottom": 317.125,
+                "left": 282.59375
+              }
+            },
+            {
+              "text": "Write, format and refine documents and reports.",
+              "overflow": 0,
+              "rect": {
+                "x": 228.59375,
+                "y": 467.125,
+                "width": 314.296875,
+                "height": 39,
+                "top": 467.125,
+                "right": 542.890625,
+                "bottom": 506.125,
+                "left": 228.59375
+              }
+            },
+            {
+              "text": "Open Writer \u2197",
+              "overflow": 0,
+              "rect": {
+                "x": 228.59375,
+                "y": 514.125,
+                "width": 348.40625,
+                "height": 25.484375,
+                "top": 514.125,
+                "right": 577,
+                "bottom": 539.609375,
+                "left": 228.59375
+              }
+            }
+          ]
+        },
+        {
+          "key": "grid",
+          "rect": {
+            "x": 612,
+            "y": 250.34375,
+            "width": 386.40625,
+            "height": 308.265625,
+            "top": 250.34375,
+            "right": 998.40625,
+            "bottom": 558.609375,
+            "left": 612
+          },
+          "overflow": 0,
+          "text": [
+            {
+              "text": "Grid",
+              "overflow": 0,
+              "rect": {
+                "x": 685,
+                "y": 269.34375,
+                "width": 142.984375,
+                "height": 26.390625,
+                "top": 269.34375,
+                "right": 827.984375,
+                "bottom": 295.734375,
+                "left": 685
+              }
+            },
+            {
+              "text": "Make your numbers work.",
+              "overflow": 0,
+              "rect": {
+                "x": 685,
+                "y": 301.734375,
+                "width": 142.984375,
+                "height": 15.390625,
+                "top": 301.734375,
+                "right": 827.984375,
+                "bottom": 317.125,
+                "left": 685
+              }
+            },
+            {
+              "text": "Organize data, build formulas and visualize results.",
+              "overflow": 0,
+              "rect": {
+                "x": 631,
+                "y": 467.125,
+                "width": 314.296875,
+                "height": 39,
+                "top": 467.125,
+                "right": 945.296875,
+                "bottom": 506.125,
+                "left": 631
+              }
+            },
+            {
+              "text": "Open Grid \u2197",
+              "overflow": 0,
+              "rect": {
+                "x": 631,
+                "y": 514.125,
+                "width": 348.40625,
+                "height": 25.484375,
+                "top": 514.125,
+                "right": 979.40625,
+                "bottom": 539.609375,
+                "left": 631
+              }
+            }
+          ]
+        },
+        {
+          "key": "dashboard",
+          "rect": {
+            "x": 209.59375,
+            "y": 574.609375,
+            "width": 386.40625,
+            "height": 308.265625,
+            "top": 574.609375,
+            "right": 596,
+            "bottom": 882.875,
+            "left": 209.59375
+          },
+          "overflow": 0,
+          "text": [
+            {
+              "text": "Dashboard Studio",
+              "overflow": 0,
+              "rect": {
+                "x": 282.59375,
+                "y": 593.609375,
+                "width": 213.46875,
+                "height": 26.390625,
+                "top": 593.609375,
+                "right": 496.0625,
+                "bottom": 620,
+                "left": 282.59375
+              }
+            },
+            {
+              "text": "Turn data into perspective.",
+              "overflow": 0,
+              "rect": {
+                "x": 282.59375,
+                "y": 626,
+                "width": 213.46875,
+                "height": 15.390625,
+                "top": 626,
+                "right": 496.0625,
+                "bottom": 641.390625,
+                "left": 282.59375
+              }
+            },
+            {
+              "text": "Build dashboards with charts, measures and local data.",
+              "overflow": 0,
+              "rect": {
+                "x": 228.59375,
+                "y": 791.390625,
+                "width": 314.296875,
+                "height": 39,
+                "top": 791.390625,
+                "right": 542.890625,
+                "bottom": 830.390625,
+                "left": 228.59375
+              }
+            },
+            {
+              "text": "Open Dashboard Studio \u2197",
+              "overflow": 0,
+              "rect": {
+                "x": 228.59375,
+                "y": 838.390625,
+                "width": 348.40625,
+                "height": 25.484375,
+                "top": 838.390625,
+                "right": 577,
+                "bottom": 863.875,
+                "left": 228.59375
+              }
+            }
+          ]
+        },
+        {
+          "key": "present",
+          "rect": {
+            "x": 612,
+            "y": 574.609375,
+            "width": 386.40625,
+            "height": 308.265625,
+            "top": 574.609375,
+            "right": 998.40625,
+            "bottom": 882.875,
+            "left": 612
+          },
+          "overflow": 0,
+          "text": [
+            {
+              "text": "NexusPoint",
+              "overflow": 0,
+              "rect": {
+                "x": 685,
+                "y": 593.609375,
+                "width": 148.4375,
+                "height": 26.390625,
+                "top": 593.609375,
+                "right": 833.4375,
+                "bottom": 620,
+                "left": 685
+              }
+            },
+            {
+              "text": "Present your next big idea.",
+              "overflow": 0,
+              "rect": {
+                "x": 685,
+                "y": 626,
+                "width": 148.4375,
+                "height": 15.390625,
+                "top": 626,
+                "right": 833.4375,
+                "bottom": 641.390625,
+                "left": 685
+              }
+            },
+            {
+              "text": "Create slides, shape your story and present with confidence.",
+              "overflow": 0,
+              "rect": {
+                "x": 631,
+                "y": 791.390625,
+                "width": 314.296875,
+                "height": 39,
+                "top": 791.390625,
+                "right": 945.296875,
+                "bottom": 830.390625,
+                "left": 631
+              }
+            },
+            {
+              "text": "Open NexusPoint \u2197",
+              "overflow": 0,
+              "rect": {
+                "x": 631,
+                "y": 838.390625,
+                "width": 348.40625,
+                "height": 25.484375,
+                "top": 838.390625,
+                "right": 979.40625,
+                "bottom": 863.875,
+                "left": 631
+              }
+            }
+          ]
+        },
+        {
+          "key": "draw",
+          "rect": {
+            "x": 209.59375,
+            "y": 898.875,
+            "width": 386.40625,
+            "height": 308.265625,
+            "top": 898.875,
+            "right": 596,
+            "bottom": 1207.140625,
+            "left": 209.59375
+          },
+          "overflow": 0,
+          "text": [
+            {
+              "text": "Paint",
+              "overflow": 0,
+              "rect": {
+                "x": 282.59375,
+                "y": 917.875,
+                "width": 128.375,
+                "height": 26.390625,
+                "top": 917.875,
+                "right": 410.96875,
+                "bottom": 944.265625,
+                "left": 282.59375
+              }
+            },
+            {
+              "text": "Bring your ideas to life.",
+              "overflow": 0,
+              "rect": {
+                "x": 282.59375,
+                "y": 950.265625,
+                "width": 128.375,
+                "height": 15.390625,
+                "top": 950.265625,
+                "right": 410.96875,
+                "bottom": 965.65625,
+                "left": 282.59375
+              }
+            },
+            {
+              "text": "Edit images, compose designs and create visual work.",
+              "overflow": 0,
+              "rect": {
+                "x": 228.59375,
+                "y": 1115.65625,
+                "width": 314.296875,
+                "height": 39,
+                "top": 1115.65625,
+                "right": 542.890625,
+                "bottom": 1154.65625,
+                "left": 228.59375
+              }
+            },
+            {
+              "text": "Open Paint \u2197",
+              "overflow": 0,
+              "rect": {
+                "x": 228.59375,
+                "y": 1162.65625,
+                "width": 348.40625,
+                "height": 25.484375,
+                "top": 1162.65625,
+                "right": 577,
+                "bottom": 1188.140625,
+                "left": 228.59375
+              }
+            }
+          ]
+        },
+        {
+          "key": "compat",
+          "rect": {
+            "x": 612,
+            "y": 898.875,
+            "width": 386.40625,
+            "height": 308.265625,
+            "top": 898.875,
+            "right": 998.40625,
+            "bottom": 1207.140625,
+            "left": 612
+          },
+          "overflow": 0,
+          "text": [
+            {
+              "text": "Compatibility",
+              "overflow": 0,
+              "rect": {
+                "x": 685,
+                "y": 917.875,
+                "width": 161.296875,
+                "height": 26.390625,
+                "top": 917.875,
+                "right": 846.296875,
+                "bottom": 944.265625,
+                "left": 685
+              }
+            },
+            {
+              "text": "Work across familiar formats.",
+              "overflow": 0,
+              "rect": {
+                "x": 685,
+                "y": 950.265625,
+                "width": 161.296875,
+                "height": 15.390625,
+                "top": 950.265625,
+                "right": 846.296875,
+                "bottom": 965.65625,
+                "left": 685
+              }
+            },
+            {
+              "text": "Explore import, export and file-format support.",
+              "overflow": 0,
+              "rect": {
+                "x": 631,
+                "y": 1115.65625,
+                "width": 314.296875,
+                "height": 19.5,
+                "top": 1115.65625,
+                "right": 945.296875,
+                "bottom": 1135.15625,
+                "left": 631
+              }
+            },
+            {
+              "text": "View compatibility \u2197",
+              "overflow": 0,
+              "rect": {
+                "x": 631,
+                "y": 1143.15625,
+                "width": 348.40625,
+                "height": 25.484375,
+                "top": 1143.15625,
+                "right": 979.40625,
+                "bottom": 1168.640625,
+                "left": 631
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "home": {
+        "x": 184,
+        "y": 64,
+        "width": 584,
+        "height": 960,
+        "top": 64,
+        "right": 768,
+        "bottom": 1024,
+        "left": 184
+      },
+      "scroll": 0,
+      "vertical": 317,
+      "cards": [
+        {
+          "key": "writer",
+          "rect": {
+            "x": 208,
+            "y": 245.953125,
+            "width": 260,
+            "height": 334.65625,
+            "top": 245.953125,
+            "right": 468,
+            "bottom": 580.609375,
+            "left": 208
+          },
+          "overflow": 0,
+          "text": [
+            {
+              "text": "Writer",
+              "overflow": 0,
+              "rect": {
+                "x": 281,
+                "y": 264.953125,
+                "width": 129.234375,
+                "height": 26.390625,
+                "top": 264.953125,
+                "right": 410.234375,
+                "bottom": 291.34375,
+                "left": 281
+              }
+            },
+            {
+              "text": "Documents with clarity.",
+              "overflow": 0,
+              "rect": {
+                "x": 281,
+                "y": 297.34375,
+                "width": 129.234375,
+                "height": 15.390625,
+                "top": 297.34375,
+                "right": 410.234375,
+                "bottom": 312.734375,
+                "left": 281
+              }
+            },
+            {
+              "text": "Write, format and refine documents and reports.",
+              "overflow": 0,
+              "rect": {
+                "x": 227,
+                "y": 462.734375,
+                "width": 222,
+                "height": 39,
+                "top": 462.734375,
+                "right": 449,
+                "bottom": 501.734375,
+                "left": 227
+              }
+            },
+            {
+              "text": "Open Writer \u2197",
+              "overflow": 0,
+              "rect": {
+                "x": 227,
+                "y": 509.734375,
+                "width": 222,
+                "height": 25.484375,
+                "top": 509.734375,
+                "right": 449,
+                "bottom": 535.21875,
+                "left": 227
+              }
+            }
+          ]
+        },
+        {
+          "key": "grid",
+          "rect": {
+            "x": 484,
+            "y": 245.953125,
+            "width": 260,
+            "height": 334.65625,
+            "top": 245.953125,
+            "right": 744,
+            "bottom": 580.609375,
+            "left": 484
+          },
+          "overflow": 0,
+          "text": [
+            {
+              "text": "Grid",
+              "overflow": 0,
+              "rect": {
+                "x": 557,
+                "y": 264.953125,
+                "width": 142.984375,
+                "height": 26.390625,
+                "top": 264.953125,
+                "right": 699.984375,
+                "bottom": 291.34375,
+                "left": 557
+              }
+            },
+            {
+              "text": "Make your numbers work.",
+              "overflow": 0,
+              "rect": {
+                "x": 557,
+                "y": 297.34375,
+                "width": 142.984375,
+                "height": 15.390625,
+                "top": 297.34375,
+                "right": 699.984375,
+                "bottom": 312.734375,
+                "left": 557
+              }
+            },
+            {
+              "text": "Organize data, build formulas and visualize results.",
+              "overflow": 0,
+              "rect": {
+                "x": 503,
+                "y": 462.734375,
+                "width": 222,
+                "height": 39,
+                "top": 462.734375,
+                "right": 725,
+                "bottom": 501.734375,
+                "left": 503
+              }
+            },
+            {
+              "text": "Open Grid \u2197",
+              "overflow": 0,
+              "rect": {
+                "x": 503,
+                "y": 509.734375,
+                "width": 222,
+                "height": 25.484375,
+                "top": 509.734375,
+                "right": 725,
+                "bottom": 535.21875,
+                "left": 503
+              }
+            }
+          ]
+        },
+        {
+          "key": "dashboard",
+          "rect": {
+            "x": 208,
+            "y": 596.609375,
+            "width": 260,
+            "height": 334.65625,
+            "top": 596.609375,
+            "right": 468,
+            "bottom": 931.265625,
+            "left": 208
+          },
+          "overflow": 0,
+          "text": [
+            {
+              "text": "Dashboard Studio",
+              "overflow": 0,
+              "rect": {
+                "x": 281,
+                "y": 615.609375,
+                "width": 168,
+                "height": 52.78125,
+                "top": 615.609375,
+                "right": 449,
+                "bottom": 668.390625,
+                "left": 281
+              }
+            },
+            {
+              "text": "Turn data into perspective.",
+              "overflow": 0,
+              "rect": {
+                "x": 281,
+                "y": 674.390625,
+                "width": 168,
+                "height": 15.390625,
+                "top": 674.390625,
+                "right": 449,
+                "bottom": 689.78125,
+                "left": 281
+              }
+            },
+            {
+              "text": "Build dashboards with charts, measures and local data.",
+              "overflow": 0,
+              "rect": {
+                "x": 227,
+                "y": 839.78125,
+                "width": 222,
+                "height": 39,
+                "top": 839.78125,
+                "right": 449,
+                "bottom": 878.78125,
+                "left": 227
+              }
+            },
+            {
+              "text": "Open Dashboard Studio \u2197",
+              "overflow": 0,
+              "rect": {
+                "x": 227,
+                "y": 886.78125,
+                "width": 222,
+                "height": 25.484375,
+                "top": 886.78125,
+                "right": 449,
+                "bottom": 912.265625,
+                "left": 227
+              }
+            }
+          ]
+        },
+        {
+          "key": "present",
+          "rect": {
+            "x": 484,
+            "y": 596.609375,
+            "width": 260,
+            "height": 334.65625,
+            "top": 596.609375,
+            "right": 744,
+            "bottom": 931.265625,
+            "left": 484
+          },
+          "overflow": 0,
+          "text": [
+            {
+              "text": "NexusPoint",
+              "overflow": 0,
+              "rect": {
+                "x": 557,
+                "y": 615.609375,
+                "width": 148.4375,
+                "height": 26.390625,
+                "top": 615.609375,
+                "right": 705.4375,
+                "bottom": 642,
+                "left": 557
+              }
+            },
+            {
+              "text": "Present your next big idea.",
+              "overflow": 0,
+              "rect": {
+                "x": 557,
+                "y": 648,
+                "width": 148.4375,
+                "height": 15.390625,
+                "top": 648,
+                "right": 705.4375,
+                "bottom": 663.390625,
+                "left": 557
+              }
+            },
+            {
+              "text": "Create slides, shape your story and present with confidence.",
+              "overflow": 0,
+              "rect": {
+                "x": 503,
+                "y": 813.390625,
+                "width": 222,
+                "height": 39,
+                "top": 813.390625,
+                "right": 725,
+                "bottom": 852.390625,
+                "left": 503
+              }
+            },
+            {
+              "text": "Open NexusPoint \u2197",
+              "overflow": 0,
+              "rect": {
+                "x": 503,
+                "y": 860.390625,
+                "width": 222,
+                "height": 25.484375,
+                "top": 860.390625,
+                "right": 725,
+                "bottom": 885.875,
+                "left": 503
+              }
+            }
+          ]
+        },
+        {
+          "key": "draw",
+          "rect": {
+            "x": 208,
+            "y": 947.265625,
+            "width": 260,
+            "height": 334.65625,
+            "top": 947.265625,
+            "right": 468,
+            "bottom": 1281.921875,
+            "left": 208
+          },
+          "overflow": 0,
+          "text": [
+            {
+              "text": "Paint",
+              "overflow": 0,
+              "rect": {
+                "x": 281,
+                "y": 966.265625,
+                "width": 128.375,
+                "height": 26.390625,
+                "top": 966.265625,
+                "right": 409.375,
+                "bottom": 992.65625,
+                "left": 281
+              }
+            },
+            {
+              "text": "Bring your ideas to life.",
+              "overflow": 0,
+              "rect": {
+                "x": 281,
+                "y": 998.65625,
+                "width": 128.375,
+                "height": 15.390625,
+                "top": 998.65625,
+                "right": 409.375,
+                "bottom": 1014.046875,
+                "left": 281
+              }
+            },
+            {
+              "text": "Edit images, compose designs and create visual work.",
+              "overflow": 0,
+              "rect": {
+                "x": 227,
+                "y": 1164.046875,
+                "width": 222,
+                "height": 39,
+                "top": 1164.046875,
+                "right": 449,
+                "bottom": 1203.046875,
+                "left": 227
+              }
+            },
+            {
+              "text": "Open Paint \u2197",
+              "overflow": 0,
+              "rect": {
+                "x": 227,
+                "y": 1211.046875,
+                "width": 222,
+                "height": 25.484375,
+                "top": 1211.046875,
+                "right": 449,
+                "bottom": 1236.53125,
+                "left": 227
+              }
+            }
+          ]
+        },
+        {
+          "key": "compat",
+          "rect": {
+            "x": 484,
+            "y": 947.265625,
+            "width": 260,
+            "height": 334.65625,
+            "top": 947.265625,
+            "right": 744,
+            "bottom": 1281.921875,
+            "left": 484
+          },
+          "overflow": 0,
+          "text": [
+            {
+              "text": "Compatibility",
+              "overflow": 0,
+              "rect": {
+                "x": 557,
+                "y": 966.265625,
+                "width": 161.296875,
+                "height": 26.390625,
+                "top": 966.265625,
+                "right": 718.296875,
+                "bottom": 992.65625,
+                "left": 557
+              }
+            },
+            {
+              "text": "Work across familiar formats.",
+              "overflow": 0,
+              "rect": {
+                "x": 557,
+                "y": 998.65625,
+                "width": 161.296875,
+                "height": 15.390625,
+                "top": 998.65625,
+                "right": 718.296875,
+                "bottom": 1014.046875,
+                "left": 557
+              }
+            },
+            {
+              "text": "Explore import, export and file-format support.",
+              "overflow": 0,
+              "rect": {
+                "x": 503,
+                "y": 1164.046875,
+                "width": 222,
+                "height": 39,
+                "top": 1164.046875,
+                "right": 725,
+                "bottom": 1203.046875,
+                "left": 503
+              }
+            },
+            {
+              "text": "View compatibility \u2197",
+              "overflow": 0,
+              "rect": {
+                "x": 503,
+                "y": 1211.046875,
+                "width": 222,
+                "height": 25.484375,
+                "top": 1211.046875,
+                "right": 725,
+                "bottom": 1236.53125,
+                "left": 503
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "width": 760,
+      "height": 900,
+      "home": {
+        "x": 0,
+        "y": 152,
+        "width": 760,
+        "height": 748,
+        "top": 152,
+        "right": 760,
+        "bottom": 900,
+        "left": 0
+      },
+      "scroll": 0,
+      "vertical": 499,
+      "cards": [
+        {
+          "key": "writer",
+          "rect": {
+            "x": 16,
+            "y": 379.265625,
+            "width": 356,
+            "height": 308.265625,
+            "top": 379.265625,
+            "right": 372,
+            "bottom": 687.53125,
+            "left": 16
+          },
+          "overflow": 0,
+          "text": [
+            {
+              "text": "Writer",
+              "overflow": 0,
+              "rect": {
+                "x": 89,
+                "y": 398.265625,
+                "width": 129.234375,
+                "height": 26.390625,
+                "top": 398.265625,
+                "right": 218.234375,
+                "bottom": 424.65625,
+                "left": 89
+              }
+            },
+            {
+              "text": "Documents with clarity.",
+              "overflow": 0,
+              "rect": {
+                "x": 89,
+                "y": 430.65625,
+                "width": 129.234375,
+                "height": 15.390625,
+                "top": 430.65625,
+                "right": 218.234375,
+                "bottom": 446.046875,
+                "left": 89
+              }
+            },
+            {
+              "text": "Write, format and refine documents and reports.",
+              "overflow": 0,
+              "rect": {
+                "x": 35,
+                "y": 596.046875,
+                "width": 314.296875,
+                "height": 39,
+                "top": 596.046875,
+                "right": 349.296875,
+                "bottom": 635.046875,
+                "left": 35
+              }
+            },
+            {
+              "text": "Open Writer \u2197",
+              "overflow": 0,
+              "rect": {
+                "x": 35,
+                "y": 643.046875,
+                "width": 318,
+                "height": 25.484375,
+                "top": 643.046875,
+                "right": 353,
+                "bottom": 668.53125,
+                "left": 35
+              }
+            }
+          ]
+        },
+        {
+          "key": "grid",
+          "rect": {
+            "x": 388,
+            "y": 379.265625,
+            "width": 356,
+            "height": 308.265625,
+            "top": 379.265625,
+            "right": 744,
+            "bottom": 687.53125,
+            "left": 388
+          },
+          "overflow": 0,
+          "text": [
+            {
+              "text": "Grid",
+              "overflow": 0,
+              "rect": {
+                "x": 461,
+                "y": 398.265625,
+                "width": 142.984375,
+                "height": 26.390625,
+                "top": 398.265625,
+                "right": 603.984375,
+                "bottom": 424.65625,
+                "left": 461
+              }
+            },
+            {
+              "text": "Make your numbers work.",
+              "overflow": 0,
+              "rect": {
+                "x": 461,
+                "y": 430.65625,
+                "width": 142.984375,
+                "height": 15.390625,
+                "top": 430.65625,
+                "right": 603.984375,
+                "bottom": 446.046875,
+                "left": 461
+              }
+            },
+            {
+              "text": "Organize data, build formulas and visualize results.",
+              "overflow": 0,
+              "rect": {
+                "x": 407,
+                "y": 596.046875,
+                "width": 314.296875,
+                "height": 39,
+                "top": 596.046875,
+                "right": 721.296875,
+                "bottom": 635.046875,
+                "left": 407
+              }
+            },
+            {
+              "text": "Open Grid \u2197",
+              "overflow": 0,
+              "rect": {
+                "x": 407,
+                "y": 643.046875,
+                "width": 318,
+                "height": 25.484375,
+                "top": 643.046875,
+                "right": 725,
+                "bottom": 668.53125,
+                "left": 407
+              }
+            }
+          ]
+        },
+        {
+          "key": "dashboard",
+          "rect": {
+            "x": 16,
+            "y": 703.53125,
+            "width": 356,
+            "height": 308.265625,
+            "top": 703.53125,
+            "right": 372,
+            "bottom": 1011.796875,
+            "left": 16
+          },
+          "overflow": 0,
+          "text": [
+            {
+              "text": "Dashboard Studio",
+              "overflow": 0,
+              "rect": {
+                "x": 89,
+                "y": 722.53125,
+                "width": 213.46875,
+                "height": 26.390625,
+                "top": 722.53125,
+                "right": 302.46875,
+                "bottom": 748.921875,
+                "left": 89
+              }
+            },
+            {
+              "text": "Turn data into perspective.",
+              "overflow": 0,
+              "rect": {
+                "x": 89,
+                "y": 754.921875,
+                "width": 213.46875,
+                "height": 15.390625,
+                "top": 754.921875,
+                "right": 302.46875,
+                "bottom": 770.3125,
+                "left": 89
+              }
+            },
+            {
+              "text": "Build dashboards with charts, measures and local data.",
+              "overflow": 0,
+              "rect": {
+                "x": 35,
+                "y": 920.3125,
+                "width": 314.296875,
+                "height": 39,
+                "top": 920.3125,
+                "right": 349.296875,
+                "bottom": 959.3125,
+                "left": 35
+              }
+            },
+            {
+              "text": "Open Dashboard Studio \u2197",
+              "overflow": 0,
+              "rect": {
+                "x": 35,
+                "y": 967.3125,
+                "width": 318,
+                "height": 25.484375,
+                "top": 967.3125,
+                "right": 353,
+                "bottom": 992.796875,
+                "left": 35
+              }
+            }
+          ]
+        },
+        {
+          "key": "present",
+          "rect": {
+            "x": 388,
+            "y": 703.53125,
+            "width": 356,
+            "height": 308.265625,
+            "top": 703.53125,
+            "right": 744,
+            "bottom": 1011.796875,
+            "left": 388
+          },
+          "overflow": 0,
+          "text": [
+            {
+              "text": "NexusPoint",
+              "overflow": 0,
+              "rect": {
+                "x": 461,
+                "y": 722.53125,
+                "width": 148.4375,
+                "height": 26.390625,
+                "top": 722.53125,
+                "right": 609.4375,
+                "bottom": 748.921875,
+                "left": 461
+              }
+            },
+            {
+              "text": "Present your next big idea.",
+              "overflow": 0,
+              "rect": {
+                "x": 461,
+                "y": 754.921875,
+                "width": 148.4375,
+                "height": 15.390625,
+                "top": 754.921875,
+                "right": 609.4375,
+                "bottom": 770.3125,
+                "left": 461
+              }
+            },
+            {
+              "text": "Create slides, shape your story and present with confidence.",
+              "overflow": 0,
+              "rect": {
+                "x": 407,
+                "y": 920.3125,
+                "width": 314.296875,
+                "height": 39,
+                "top": 920.3125,
+                "right": 721.296875,
+                "bottom": 959.3125,
+                "left": 407
+              }
+            },
+            {
+              "text": "Open NexusPoint \u2197",
+              "overflow": 0,
+              "rect": {
+                "x": 407,
+                "y": 967.3125,
+                "width": 318,
+                "height": 25.484375,
+                "top": 967.3125,
+                "right": 725,
+                "bottom": 992.796875,
+                "left": 407
+              }
+            }
+          ]
+        },
+        {
+          "key": "draw",
+          "rect": {
+            "x": 16,
+            "y": 1027.796875,
+            "width": 356,
+            "height": 308.265625,
+            "top": 1027.796875,
+            "right": 372,
+            "bottom": 1336.0625,
+            "left": 16
+          },
+          "overflow": 0,
+          "text": [
+            {
+              "text": "Paint",
+              "overflow": 0,
+              "rect": {
+                "x": 89,
+                "y": 1046.796875,
+                "width": 128.375,
+                "height": 26.390625,
+                "top": 1046.796875,
+                "right": 217.375,
+                "bottom": 1073.1875,
+                "left": 89
+              }
+            },
+            {
+              "text": "Bring your ideas to life.",
+              "overflow": 0,
+              "rect": {
+                "x": 89,
+                "y": 1079.1875,
+                "width": 128.375,
+                "height": 15.390625,
+                "top": 1079.1875,
+                "right": 217.375,
+                "bottom": 1094.578125,
+                "left": 89
+              }
+            },
+            {
+              "text": "Edit images, compose designs and create visual work.",
+              "overflow": 0,
+              "rect": {
+                "x": 35,
+                "y": 1244.578125,
+                "width": 314.296875,
+                "height": 39,
+                "top": 1244.578125,
+                "right": 349.296875,
+                "bottom": 1283.578125,
+                "left": 35
+              }
+            },
+            {
+              "text": "Open Paint \u2197",
+              "overflow": 0,
+              "rect": {
+                "x": 35,
+                "y": 1291.578125,
+                "width": 318,
+                "height": 25.484375,
+                "top": 1291.578125,
+                "right": 353,
+                "bottom": 1317.0625,
+                "left": 35
+              }
+            }
+          ]
+        },
+        {
+          "key": "compat",
+          "rect": {
+            "x": 388,
+            "y": 1027.796875,
+            "width": 356,
+            "height": 308.265625,
+            "top": 1027.796875,
+            "right": 744,
+            "bottom": 1336.0625,
+            "left": 388
+          },
+          "overflow": 0,
+          "text": [
+            {
+              "text": "Compatibility",
+              "overflow": 0,
+              "rect": {
+                "x": 461,
+                "y": 1046.796875,
+                "width": 161.296875,
+                "height": 26.390625,
+                "top": 1046.796875,
+                "right": 622.296875,
+                "bottom": 1073.1875,
+                "left": 461
+              }
+            },
+            {
+              "text": "Work across familiar formats.",
+              "overflow": 0,
+              "rect": {
+                "x": 461,
+                "y": 1079.1875,
+                "width": 161.296875,
+                "height": 15.390625,
+                "top": 1079.1875,
+                "right": 622.296875,
+                "bottom": 1094.578125,
+                "left": 461
+              }
+            },
+            {
+              "text": "Explore import, export and file-format support.",
+              "overflow": 0,
+              "rect": {
+                "x": 407,
+                "y": 1244.578125,
+                "width": 314.296875,
+                "height": 19.5,
+                "top": 1244.578125,
+                "right": 721.296875,
+                "bottom": 1264.078125,
+                "left": 407
+              }
+            },
+            {
+              "text": "View compatibility \u2197",
+              "overflow": 0,
+              "rect": {
+                "x": 407,
+                "y": 1272.078125,
+                "width": 318,
+                "height": 25.484375,
+                "top": 1272.078125,
+                "right": 725,
+                "bottom": 1297.5625,
+                "left": 407
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "width": 520,
+      "height": 850,
+      "home": {
+        "x": 0,
+        "y": 152,
+        "width": 520,
+        "height": 698,
+        "top": 152,
+        "right": 520,
+        "bottom": 850,
+        "left": 0
+      },
+      "scroll": 0,
+      "vertical": 1651,
+      "cards": [
+        {
+          "key": "writer",
+          "rect": {
+            "x": 16,
+            "y": 376.859375,
+            "width": 488,
+            "height": 330.265625,
+            "top": 376.859375,
+            "right": 504,
+            "bottom": 707.125,
+            "left": 16
+          },
+          "overflow": 0,
+          "text": [
+            {
+              "text": "Writer",
+              "overflow": 0,
+              "rect": {
+                "x": 95,
+                "y": 401.859375,
+                "width": 129.234375,
+                "height": 26.390625,
+                "top": 401.859375,
+                "right": 224.234375,
+                "bottom": 428.25,
+                "left": 95
+              }
+            },
+            {
+              "text": "Documents with clarity.",
+              "overflow": 0,
+              "rect": {
+                "x": 95,
+                "y": 434.25,
+                "width": 129.234375,
+                "height": 15.390625,
+                "top": 434.25,
+                "right": 224.234375,
+                "bottom": 449.640625,
+                "left": 95
+              }
+            },
+            {
+              "text": "Write, format and refine documents and reports.",
+              "overflow": 0,
+              "rect": {
+                "x": 41,
+                "y": 609.640625,
+                "width": 314.296875,
+                "height": 39,
+                "top": 609.640625,
+                "right": 355.296875,
+                "bottom": 648.640625,
+                "left": 41
+              }
+            },
+            {
+              "text": "Open Writer \u2197",
+              "overflow": 0,
+              "rect": {
+                "x": 41,
+                "y": 656.640625,
+                "width": 438,
+                "height": 25.484375,
+                "top": 656.640625,
+                "right": 479,
+                "bottom": 682.125,
+                "left": 41
+              }
+            }
+          ]
+        },
+        {
+          "key": "grid",
+          "rect": {
+            "x": 16,
+            "y": 723.125,
+            "width": 488,
+            "height": 330.265625,
+            "top": 723.125,
+            "right": 504,
+            "bottom": 1053.390625,
+            "left": 16
+          },
+          "overflow": 0,
+          "text": [
+            {
+              "text": "Grid",
+              "overflow": 0,
+              "rect": {
+                "x": 95,
+                "y": 748.125,
+                "width": 142.984375,
+                "height": 26.390625,
+                "top": 748.125,
+                "right": 237.984375,
+                "bottom": 774.515625,
+                "left": 95
+              }
+            },
+            {
+              "text": "Make your numbers work.",
+              "overflow": 0,
+              "rect": {
+                "x": 95,
+                "y": 780.515625,
+                "width": 142.984375,
+                "height": 15.390625,
+                "top": 780.515625,
+                "right": 237.984375,
+                "bottom": 795.90625,
+                "left": 95
+              }
+            },
+            {
+              "text": "Organize data, build formulas and visualize results.",
+              "overflow": 0,
+              "rect": {
+                "x": 41,
+                "y": 955.90625,
+                "width": 314.296875,
+                "height": 39,
+                "top": 955.90625,
+                "right": 355.296875,
+                "bottom": 994.90625,
+                "left": 41
+              }
+            },
+            {
+              "text": "Open Grid \u2197",
+              "overflow": 0,
+              "rect": {
+                "x": 41,
+                "y": 1002.90625,
+                "width": 438,
+                "height": 25.484375,
+                "top": 1002.90625,
+                "right": 479,
+                "bottom": 1028.390625,
+                "left": 41
+              }
+            }
+          ]
+        },
+        {
+          "key": "dashboard",
+          "rect": {
+            "x": 16,
+            "y": 1069.390625,
+            "width": 488,
+            "height": 330.265625,
+            "top": 1069.390625,
+            "right": 504,
+            "bottom": 1399.65625,
+            "left": 16
+          },
+          "overflow": 0,
+          "text": [
+            {
+              "text": "Dashboard Studio",
+              "overflow": 0,
+              "rect": {
+                "x": 95,
+                "y": 1094.390625,
+                "width": 213.46875,
+                "height": 26.390625,
+                "top": 1094.390625,
+                "right": 308.46875,
+                "bottom": 1120.78125,
+                "left": 95
+              }
+            },
+            {
+              "text": "Turn data into perspective.",
+              "overflow": 0,
+              "rect": {
+                "x": 95,
+                "y": 1126.78125,
+                "width": 213.46875,
+                "height": 15.390625,
+                "top": 1126.78125,
+                "right": 308.46875,
+                "bottom": 1142.171875,
+                "left": 95
+              }
+            },
+            {
+              "text": "Build dashboards with charts, measures and local data.",
+              "overflow": 0,
+              "rect": {
+                "x": 41,
+                "y": 1302.171875,
+                "width": 314.296875,
+                "height": 39,
+                "top": 1302.171875,
+                "right": 355.296875,
+                "bottom": 1341.171875,
+                "left": 41
+              }
+            },
+            {
+              "text": "Open Dashboard Studio \u2197",
+              "overflow": 0,
+              "rect": {
+                "x": 41,
+                "y": 1349.171875,
+                "width": 438,
+                "height": 25.484375,
+                "top": 1349.171875,
+                "right": 479,
+                "bottom": 1374.65625,
+                "left": 41
+              }
+            }
+          ]
+        },
+        {
+          "key": "present",
+          "rect": {
+            "x": 16,
+            "y": 1415.65625,
+            "width": 488,
+            "height": 330.265625,
+            "top": 1415.65625,
+            "right": 504,
+            "bottom": 1745.921875,
+            "left": 16
+          },
+          "overflow": 0,
+          "text": [
+            {
+              "text": "NexusPoint",
+              "overflow": 0,
+              "rect": {
+                "x": 95,
+                "y": 1440.65625,
+                "width": 148.4375,
+                "height": 26.390625,
+                "top": 1440.65625,
+                "right": 243.4375,
+                "bottom": 1467.046875,
+                "left": 95
+              }
+            },
+            {
+              "text": "Present your next big idea.",
+              "overflow": 0,
+              "rect": {
+                "x": 95,
+                "y": 1473.046875,
+                "width": 148.4375,
+                "height": 15.390625,
+                "top": 1473.046875,
+                "right": 243.4375,
+                "bottom": 1488.4375,
+                "left": 95
+              }
+            },
+            {
+              "text": "Create slides, shape your story and present with confidence.",
+              "overflow": 0,
+              "rect": {
+                "x": 41,
+                "y": 1648.4375,
+                "width": 314.296875,
+                "height": 39,
+                "top": 1648.4375,
+                "right": 355.296875,
+                "bottom": 1687.4375,
+                "left": 41
+              }
+            },
+            {
+              "text": "Open NexusPoint \u2197",
+              "overflow": 0,
+              "rect": {
+                "x": 41,
+                "y": 1695.4375,
+                "width": 438,
+                "height": 25.484375,
+                "top": 1695.4375,
+                "right": 479,
+                "bottom": 1720.921875,
+                "left": 41
+              }
+            }
+          ]
+        },
+        {
+          "key": "draw",
+          "rect": {
+            "x": 16,
+            "y": 1761.921875,
+            "width": 488,
+            "height": 330.265625,
+            "top": 1761.921875,
+            "right": 504,
+            "bottom": 2092.1875,
+            "left": 16
+          },
+          "overflow": 0,
+          "text": [
+            {
+              "text": "Paint",
+              "overflow": 0,
+              "rect": {
+                "x": 95,
+                "y": 1786.921875,
+                "width": 128.375,
+                "height": 26.390625,
+                "top": 1786.921875,
+                "right": 223.375,
+                "bottom": 1813.3125,
+                "left": 95
+              }
+            },
+            {
+              "text": "Bring your ideas to life.",
+              "overflow": 0,
+              "rect": {
+                "x": 95,
+                "y": 1819.3125,
+                "width": 128.375,
+                "height": 15.390625,
+                "top": 1819.3125,
+                "right": 223.375,
+                "bottom": 1834.703125,
+                "left": 95
+              }
+            },
+            {
+              "text": "Edit images, compose designs and create visual work.",
+              "overflow": 0,
+              "rect": {
+                "x": 41,
+                "y": 1994.703125,
+                "width": 314.296875,
+                "height": 39,
+                "top": 1994.703125,
+                "right": 355.296875,
+                "bottom": 2033.703125,
+                "left": 41
+              }
+            },
+            {
+              "text": "Open Paint \u2197",
+              "overflow": 0,
+              "rect": {
+                "x": 41,
+                "y": 2041.703125,
+                "width": 438,
+                "height": 25.484375,
+                "top": 2041.703125,
+                "right": 479,
+                "bottom": 2067.1875,
+                "left": 41
+              }
+            }
+          ]
+        },
+        {
+          "key": "compat",
+          "rect": {
+            "x": 16,
+            "y": 2108.1875,
+            "width": 488,
+            "height": 330.265625,
+            "top": 2108.1875,
+            "right": 504,
+            "bottom": 2438.453125,
+            "left": 16
+          },
+          "overflow": 0,
+          "text": [
+            {
+              "text": "Compatibility",
+              "overflow": 0,
+              "rect": {
+                "x": 95,
+                "y": 2133.1875,
+                "width": 161.296875,
+                "height": 26.390625,
+                "top": 2133.1875,
+                "right": 256.296875,
+                "bottom": 2159.578125,
+                "left": 95
+              }
+            },
+            {
+              "text": "Work across familiar formats.",
+              "overflow": 0,
+              "rect": {
+                "x": 95,
+                "y": 2165.578125,
+                "width": 161.296875,
+                "height": 15.390625,
+                "top": 2165.578125,
+                "right": 256.296875,
+                "bottom": 2180.96875,
+                "left": 95
+              }
+            },
+            {
+              "text": "Explore import, export and file-format support.",
+              "overflow": 0,
+              "rect": {
+                "x": 41,
+                "y": 2340.96875,
+                "width": 314.296875,
+                "height": 19.5,
+                "top": 2340.96875,
+                "right": 355.296875,
+                "bottom": 2360.46875,
+                "left": 41
+              }
+            },
+            {
+              "text": "View compatibility \u2197",
+              "overflow": 0,
+              "rect": {
+                "x": 41,
+                "y": 2368.46875,
+                "width": 438,
+                "height": 25.484375,
+                "top": 2368.46875,
+                "right": 479,
+                "bottom": 2393.953125,
+                "left": 41
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "home": {
+        "x": 0,
+        "y": 152,
+        "width": 390,
+        "height": 692,
+        "top": 152,
+        "right": 390,
+        "bottom": 844,
+        "left": 0
+      },
+      "scroll": 0,
+      "vertical": 1656,
+      "cards": [
+        {
+          "key": "writer",
+          "rect": {
+            "x": 16,
+            "y": 375.671875,
+            "width": 358,
+            "height": 330.265625,
+            "top": 375.671875,
+            "right": 374,
+            "bottom": 705.9375,
+            "left": 16
+          },
+          "overflow": 0,
+          "text": [
+            {
+              "text": "Writer",
+              "overflow": 0,
+              "rect": {
+                "x": 95,
+                "y": 400.671875,
+                "width": 129.234375,
+                "height": 26.390625,
+                "top": 400.671875,
+                "right": 224.234375,
+                "bottom": 427.0625,
+                "left": 95
+              }
+            },
+            {
+              "text": "Documents with clarity.",
+              "overflow": 0,
+              "rect": {
+                "x": 95,
+                "y": 433.0625,
+                "width": 129.234375,
+                "height": 15.390625,
+                "top": 433.0625,
+                "right": 224.234375,
+                "bottom": 448.453125,
+                "left": 95
+              }
+            },
+            {
+              "text": "Write, format and refine documents and reports.",
+              "overflow": 0,
+              "rect": {
+                "x": 41,
+                "y": 608.453125,
+                "width": 308,
+                "height": 39,
+                "top": 608.453125,
+                "right": 349,
+                "bottom": 647.453125,
+                "left": 41
+              }
+            },
+            {
+              "text": "Open Writer \u2197",
+              "overflow": 0,
+              "rect": {
+                "x": 41,
+                "y": 655.453125,
+                "width": 308,
+                "height": 25.484375,
+                "top": 655.453125,
+                "right": 349,
+                "bottom": 680.9375,
+                "left": 41
+              }
+            }
+          ]
+        },
+        {
+          "key": "grid",
+          "rect": {
+            "x": 16,
+            "y": 721.9375,
+            "width": 358,
+            "height": 330.265625,
+            "top": 721.9375,
+            "right": 374,
+            "bottom": 1052.203125,
+            "left": 16
+          },
+          "overflow": 0,
+          "text": [
+            {
+              "text": "Grid",
+              "overflow": 0,
+              "rect": {
+                "x": 95,
+                "y": 746.9375,
+                "width": 142.984375,
+                "height": 26.390625,
+                "top": 746.9375,
+                "right": 237.984375,
+                "bottom": 773.328125,
+                "left": 95
+              }
+            },
+            {
+              "text": "Make your numbers work.",
+              "overflow": 0,
+              "rect": {
+                "x": 95,
+                "y": 779.328125,
+                "width": 142.984375,
+                "height": 15.390625,
+                "top": 779.328125,
+                "right": 237.984375,
+                "bottom": 794.71875,
+                "left": 95
+              }
+            },
+            {
+              "text": "Organize data, build formulas and visualize results.",
+              "overflow": 0,
+              "rect": {
+                "x": 41,
+                "y": 954.71875,
+                "width": 308,
+                "height": 39,
+                "top": 954.71875,
+                "right": 349,
+                "bottom": 993.71875,
+                "left": 41
+              }
+            },
+            {
+              "text": "Open Grid \u2197",
+              "overflow": 0,
+              "rect": {
+                "x": 41,
+                "y": 1001.71875,
+                "width": 308,
+                "height": 25.484375,
+                "top": 1001.71875,
+                "right": 349,
+                "bottom": 1027.203125,
+                "left": 41
+              }
+            }
+          ]
+        },
+        {
+          "key": "dashboard",
+          "rect": {
+            "x": 16,
+            "y": 1068.203125,
+            "width": 358,
+            "height": 330.265625,
+            "top": 1068.203125,
+            "right": 374,
+            "bottom": 1398.46875,
+            "left": 16
+          },
+          "overflow": 0,
+          "text": [
+            {
+              "text": "Dashboard Studio",
+              "overflow": 0,
+              "rect": {
+                "x": 95,
+                "y": 1093.203125,
+                "width": 213.46875,
+                "height": 26.390625,
+                "top": 1093.203125,
+                "right": 308.46875,
+                "bottom": 1119.59375,
+                "left": 95
+              }
+            },
+            {
+              "text": "Turn data into perspective.",
+              "overflow": 0,
+              "rect": {
+                "x": 95,
+                "y": 1125.59375,
+                "width": 213.46875,
+                "height": 15.390625,
+                "top": 1125.59375,
+                "right": 308.46875,
+                "bottom": 1140.984375,
+                "left": 95
+              }
+            },
+            {
+              "text": "Build dashboards with charts, measures and local data.",
+              "overflow": 0,
+              "rect": {
+                "x": 41,
+                "y": 1300.984375,
+                "width": 308,
+                "height": 39,
+                "top": 1300.984375,
+                "right": 349,
+                "bottom": 1339.984375,
+                "left": 41
+              }
+            },
+            {
+              "text": "Open Dashboard Studio \u2197",
+              "overflow": 0,
+              "rect": {
+                "x": 41,
+                "y": 1347.984375,
+                "width": 308,
+                "height": 25.484375,
+                "top": 1347.984375,
+                "right": 349,
+                "bottom": 1373.46875,
+                "left": 41
+              }
+            }
+          ]
+        },
+        {
+          "key": "present",
+          "rect": {
+            "x": 16,
+            "y": 1414.46875,
+            "width": 358,
+            "height": 330.265625,
+            "top": 1414.46875,
+            "right": 374,
+            "bottom": 1744.734375,
+            "left": 16
+          },
+          "overflow": 0,
+          "text": [
+            {
+              "text": "NexusPoint",
+              "overflow": 0,
+              "rect": {
+                "x": 95,
+                "y": 1439.46875,
+                "width": 148.4375,
+                "height": 26.390625,
+                "top": 1439.46875,
+                "right": 243.4375,
+                "bottom": 1465.859375,
+                "left": 95
+              }
+            },
+            {
+              "text": "Present your next big idea.",
+              "overflow": 0,
+              "rect": {
+                "x": 95,
+                "y": 1471.859375,
+                "width": 148.4375,
+                "height": 15.390625,
+                "top": 1471.859375,
+                "right": 243.4375,
+                "bottom": 1487.25,
+                "left": 95
+              }
+            },
+            {
+              "text": "Create slides, shape your story and present with confidence.",
+              "overflow": 0,
+              "rect": {
+                "x": 41,
+                "y": 1647.25,
+                "width": 308,
+                "height": 39,
+                "top": 1647.25,
+                "right": 349,
+                "bottom": 1686.25,
+                "left": 41
+              }
+            },
+            {
+              "text": "Open NexusPoint \u2197",
+              "overflow": 0,
+              "rect": {
+                "x": 41,
+                "y": 1694.25,
+                "width": 308,
+                "height": 25.484375,
+                "top": 1694.25,
+                "right": 349,
+                "bottom": 1719.734375,
+                "left": 41
+              }
+            }
+          ]
+        },
+        {
+          "key": "draw",
+          "rect": {
+            "x": 16,
+            "y": 1760.734375,
+            "width": 358,
+            "height": 330.265625,
+            "top": 1760.734375,
+            "right": 374,
+            "bottom": 2091,
+            "left": 16
+          },
+          "overflow": 0,
+          "text": [
+            {
+              "text": "Paint",
+              "overflow": 0,
+              "rect": {
+                "x": 95,
+                "y": 1785.734375,
+                "width": 128.375,
+                "height": 26.390625,
+                "top": 1785.734375,
+                "right": 223.375,
+                "bottom": 1812.125,
+                "left": 95
+              }
+            },
+            {
+              "text": "Bring your ideas to life.",
+              "overflow": 0,
+              "rect": {
+                "x": 95,
+                "y": 1818.125,
+                "width": 128.375,
+                "height": 15.390625,
+                "top": 1818.125,
+                "right": 223.375,
+                "bottom": 1833.515625,
+                "left": 95
+              }
+            },
+            {
+              "text": "Edit images, compose designs and create visual work.",
+              "overflow": 0,
+              "rect": {
+                "x": 41,
+                "y": 1993.515625,
+                "width": 308,
+                "height": 39,
+                "top": 1993.515625,
+                "right": 349,
+                "bottom": 2032.515625,
+                "left": 41
+              }
+            },
+            {
+              "text": "Open Paint \u2197",
+              "overflow": 0,
+              "rect": {
+                "x": 41,
+                "y": 2040.515625,
+                "width": 308,
+                "height": 25.484375,
+                "top": 2040.515625,
+                "right": 349,
+                "bottom": 2066,
+                "left": 41
+              }
+            }
+          ]
+        },
+        {
+          "key": "compat",
+          "rect": {
+            "x": 16,
+            "y": 2107,
+            "width": 358,
+            "height": 330.265625,
+            "top": 2107,
+            "right": 374,
+            "bottom": 2437.265625,
+            "left": 16
+          },
+          "overflow": 0,
+          "text": [
+            {
+              "text": "Compatibility",
+              "overflow": 0,
+              "rect": {
+                "x": 95,
+                "y": 2132,
+                "width": 161.296875,
+                "height": 26.390625,
+                "top": 2132,
+                "right": 256.296875,
+                "bottom": 2158.390625,
+                "left": 95
+              }
+            },
+            {
+              "text": "Work across familiar formats.",
+              "overflow": 0,
+              "rect": {
+                "x": 95,
+                "y": 2164.390625,
+                "width": 161.296875,
+                "height": 15.390625,
+                "top": 2164.390625,
+                "right": 256.296875,
+                "bottom": 2179.78125,
+                "left": 95
+              }
+            },
+            {
+              "text": "Explore import, export and file-format support.",
+              "overflow": 0,
+              "rect": {
+                "x": 41,
+                "y": 2339.78125,
+                "width": 308,
+                "height": 19.5,
+                "top": 2339.78125,
+                "right": 349,
+                "bottom": 2359.28125,
+                "left": 41
+              }
+            },
+            {
+              "text": "View compatibility \u2197",
+              "overflow": 0,
+              "rect": {
+                "x": 41,
+                "y": 2367.28125,
+                "width": 308,
+                "height": 25.484375,
+                "top": 2367.28125,
+                "right": 349,
+                "bottom": 2392.765625,
+                "left": 41
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "height": 700,
+      "home": {
+        "x": 0,
+        "y": 152,
+        "width": 320,
+        "height": 548,
+        "top": 152,
+        "right": 320,
+        "bottom": 700,
+        "left": 0
+      },
+      "scroll": 0,
+      "vertical": 1981,
+      "cards": [
+        {
+          "key": "writer",
+          "rect": {
+            "x": 16,
+            "y": 398.171875,
+            "width": 288,
+            "height": 356.65625,
+            "top": 398.171875,
+            "right": 304,
+            "bottom": 754.828125,
+            "left": 16
+          },
+          "overflow": 0,
+          "text": [
+            {
+              "text": "Writer",
+              "overflow": 0,
+              "rect": {
+                "x": 95,
+                "y": 423.171875,
+                "width": 129.234375,
+                "height": 26.390625,
+                "top": 423.171875,
+                "right": 224.234375,
+                "bottom": 449.5625,
+                "left": 95
+              }
+            },
+            {
+              "text": "Documents with clarity.",
+              "overflow": 0,
+              "rect": {
+                "x": 95,
+                "y": 455.5625,
+                "width": 129.234375,
+                "height": 15.390625,
+                "top": 455.5625,
+                "right": 224.234375,
+                "bottom": 470.953125,
+                "left": 95
+              }
+            },
+            {
+              "text": "Write, format and refine documents and reports.",
+              "overflow": 0,
+              "rect": {
+                "x": 41,
+                "y": 630.953125,
+                "width": 238,
+                "height": 39,
+                "top": 630.953125,
+                "right": 279,
+                "bottom": 669.953125,
+                "left": 41
+              }
+            },
+            {
+              "text": "Open Writer \u2197",
+              "overflow": 0,
+              "rect": {
+                "x": 41,
+                "y": 677.953125,
+                "width": 238,
+                "height": 25.484375,
+                "top": 677.953125,
+                "right": 279,
+                "bottom": 703.4375,
+                "left": 41
+              }
+            }
+          ]
+        },
+        {
+          "key": "grid",
+          "rect": {
+            "x": 16,
+            "y": 770.828125,
+            "width": 288,
+            "height": 356.65625,
+            "top": 770.828125,
+            "right": 304,
+            "bottom": 1127.484375,
+            "left": 16
+          },
+          "overflow": 0,
+          "text": [
+            {
+              "text": "Grid",
+              "overflow": 0,
+              "rect": {
+                "x": 95,
+                "y": 795.828125,
+                "width": 142.984375,
+                "height": 26.390625,
+                "top": 795.828125,
+                "right": 237.984375,
+                "bottom": 822.21875,
+                "left": 95
+              }
+            },
+            {
+              "text": "Make your numbers work.",
+              "overflow": 0,
+              "rect": {
+                "x": 95,
+                "y": 828.21875,
+                "width": 142.984375,
+                "height": 15.390625,
+                "top": 828.21875,
+                "right": 237.984375,
+                "bottom": 843.609375,
+                "left": 95
+              }
+            },
+            {
+              "text": "Organize data, build formulas and visualize results.",
+              "overflow": 0,
+              "rect": {
+                "x": 41,
+                "y": 1003.609375,
+                "width": 238,
+                "height": 39,
+                "top": 1003.609375,
+                "right": 279,
+                "bottom": 1042.609375,
+                "left": 41
+              }
+            },
+            {
+              "text": "Open Grid \u2197",
+              "overflow": 0,
+              "rect": {
+                "x": 41,
+                "y": 1050.609375,
+                "width": 238,
+                "height": 25.484375,
+                "top": 1050.609375,
+                "right": 279,
+                "bottom": 1076.09375,
+                "left": 41
+              }
+            }
+          ]
+        },
+        {
+          "key": "dashboard",
+          "rect": {
+            "x": 16,
+            "y": 1143.484375,
+            "width": 288,
+            "height": 356.65625,
+            "top": 1143.484375,
+            "right": 304,
+            "bottom": 1500.140625,
+            "left": 16
+          },
+          "overflow": 0,
+          "text": [
+            {
+              "text": "Dashboard Studio",
+              "overflow": 0,
+              "rect": {
+                "x": 95,
+                "y": 1168.484375,
+                "width": 184,
+                "height": 52.78125,
+                "top": 1168.484375,
+                "right": 279,
+                "bottom": 1221.265625,
+                "left": 95
+              }
+            },
+            {
+              "text": "Turn data into perspective.",
+              "overflow": 0,
+              "rect": {
+                "x": 95,
+                "y": 1227.265625,
+                "width": 184,
+                "height": 15.390625,
+                "top": 1227.265625,
+                "right": 279,
+                "bottom": 1242.65625,
+                "left": 95
+              }
+            },
+            {
+              "text": "Build dashboards with charts, measures and local data.",
+              "overflow": 0,
+              "rect": {
+                "x": 41,
+                "y": 1402.65625,
+                "width": 238,
+                "height": 39,
+                "top": 1402.65625,
+                "right": 279,
+                "bottom": 1441.65625,
+                "left": 41
+              }
+            },
+            {
+              "text": "Open Dashboard Studio \u2197",
+              "overflow": 0,
+              "rect": {
+                "x": 41,
+                "y": 1449.65625,
+                "width": 238,
+                "height": 25.484375,
+                "top": 1449.65625,
+                "right": 279,
+                "bottom": 1475.140625,
+                "left": 41
+              }
+            }
+          ]
+        },
+        {
+          "key": "present",
+          "rect": {
+            "x": 16,
+            "y": 1516.140625,
+            "width": 288,
+            "height": 356.65625,
+            "top": 1516.140625,
+            "right": 304,
+            "bottom": 1872.796875,
+            "left": 16
+          },
+          "overflow": 0,
+          "text": [
+            {
+              "text": "NexusPoint",
+              "overflow": 0,
+              "rect": {
+                "x": 95,
+                "y": 1541.140625,
+                "width": 148.4375,
+                "height": 26.390625,
+                "top": 1541.140625,
+                "right": 243.4375,
+                "bottom": 1567.53125,
+                "left": 95
+              }
+            },
+            {
+              "text": "Present your next big idea.",
+              "overflow": 0,
+              "rect": {
+                "x": 95,
+                "y": 1573.53125,
+                "width": 148.4375,
+                "height": 15.390625,
+                "top": 1573.53125,
+                "right": 243.4375,
+                "bottom": 1588.921875,
+                "left": 95
+              }
+            },
+            {
+              "text": "Create slides, shape your story and present with confidence.",
+              "overflow": 0,
+              "rect": {
+                "x": 41,
+                "y": 1748.921875,
+                "width": 238,
+                "height": 39,
+                "top": 1748.921875,
+                "right": 279,
+                "bottom": 1787.921875,
+                "left": 41
+              }
+            },
+            {
+              "text": "Open NexusPoint \u2197",
+              "overflow": 0,
+              "rect": {
+                "x": 41,
+                "y": 1795.921875,
+                "width": 238,
+                "height": 25.484375,
+                "top": 1795.921875,
+                "right": 279,
+                "bottom": 1821.40625,
+                "left": 41
+              }
+            }
+          ]
+        },
+        {
+          "key": "draw",
+          "rect": {
+            "x": 16,
+            "y": 1888.796875,
+            "width": 288,
+            "height": 356.65625,
+            "top": 1888.796875,
+            "right": 304,
+            "bottom": 2245.453125,
+            "left": 16
+          },
+          "overflow": 0,
+          "text": [
+            {
+              "text": "Paint",
+              "overflow": 0,
+              "rect": {
+                "x": 95,
+                "y": 1913.796875,
+                "width": 128.375,
+                "height": 26.390625,
+                "top": 1913.796875,
+                "right": 223.375,
+                "bottom": 1940.1875,
+                "left": 95
+              }
+            },
+            {
+              "text": "Bring your ideas to life.",
+              "overflow": 0,
+              "rect": {
+                "x": 95,
+                "y": 1946.1875,
+                "width": 128.375,
+                "height": 15.390625,
+                "top": 1946.1875,
+                "right": 223.375,
+                "bottom": 1961.578125,
+                "left": 95
+              }
+            },
+            {
+              "text": "Edit images, compose designs and create visual work.",
+              "overflow": 0,
+              "rect": {
+                "x": 41,
+                "y": 2121.578125,
+                "width": 238,
+                "height": 39,
+                "top": 2121.578125,
+                "right": 279,
+                "bottom": 2160.578125,
+                "left": 41
+              }
+            },
+            {
+              "text": "Open Paint \u2197",
+              "overflow": 0,
+              "rect": {
+                "x": 41,
+                "y": 2168.578125,
+                "width": 238,
+                "height": 25.484375,
+                "top": 2168.578125,
+                "right": 279,
+                "bottom": 2194.0625,
+                "left": 41
+              }
+            }
+          ]
+        },
+        {
+          "key": "compat",
+          "rect": {
+            "x": 16,
+            "y": 2261.453125,
+            "width": 288,
+            "height": 356.65625,
+            "top": 2261.453125,
+            "right": 304,
+            "bottom": 2618.109375,
+            "left": 16
+          },
+          "overflow": 0,
+          "text": [
+            {
+              "text": "Compatibility",
+              "overflow": 0,
+              "rect": {
+                "x": 95,
+                "y": 2286.453125,
+                "width": 161.296875,
+                "height": 26.390625,
+                "top": 2286.453125,
+                "right": 256.296875,
+                "bottom": 2312.84375,
+                "left": 95
+              }
+            },
+            {
+              "text": "Work across familiar formats.",
+              "overflow": 0,
+              "rect": {
+                "x": 95,
+                "y": 2318.84375,
+                "width": 161.296875,
+                "height": 15.390625,
+                "top": 2318.84375,
+                "right": 256.296875,
+                "bottom": 2334.234375,
+                "left": 95
+              }
+            },
+            {
+              "text": "Explore import, export and file-format support.",
+              "overflow": 0,
+              "rect": {
+                "x": 41,
+                "y": 2494.234375,
+                "width": 238,
+                "height": 39,
+                "top": 2494.234375,
+                "right": 279,
+                "bottom": 2533.234375,
+                "left": 41
+              }
+            },
+            {
+              "text": "View compatibility \u2197",
+              "overflow": 0,
+              "rect": {
+                "x": 41,
+                "y": 2541.234375,
+                "width": 238,
+                "height": 25.484375,
+                "top": 2541.234375,
+                "right": 279,
+                "bottom": 2566.71875,
+                "left": 41
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sha256": "845f12856d21bd0249852f38bfc5a5ca6783af026d4d37f28f39fe4921494c0a",
+  "scope": "Synthetic content; Chromium on Linux; layouts through native 3840x2160 pixels. Physical Windows display and GPU not tested."
+}

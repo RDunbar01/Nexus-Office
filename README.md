@@ -1,49 +1,51 @@
-# Nexus Office
+# Nexus Office 6.45.4
 
-Documents, spreadsheets, presentations, visual design and dashboards in a local browser application. The **6.45.2 browser trial** carries the same application and assets as the installed 6.45.2 package in one HTML file.
+A local-first productivity application for documents, spreadsheets, presentations, visual work and dashboards.
 
-[Open the browser trial](https://rdunbar01.github.io/Nexus-Office/Nexus_Office_v6_45_2_Browser.html) · [Download the single HTML](Nexus_Office_v6_45_2_Browser.html) · [Full package](releases/6.45.2/) · [Wiki](https://github.com/RDunbar01/Nexus-Office/wiki)
+[Open Nexus Office in your browser](https://rdunbar01.github.io/Nexus-Office/Nexus_Office_v6_45_4_Browser.html) · [Download the single HTML](Nexus_Office_v6_45_4_Browser.html) · [Full local package](releases/6.45.4/)
 
-## Corrective interface update 6.45.2
+## Current release
 
-Version 6.45.2 corrects the effective Writer ribbon overflow rules so the bounded tool area scrolls as intended. Numeric ruler fields use a compact horizontal strip with scrolling when needed, preserving document viewport space. All tools remain accessible; they are not necessarily visible simultaneously. Assistant improvements from 6.45.1 are unchanged. The published 6.45.1 layout is superseded by this visual correction.
+Version 6.45.4 introduces a redesigned Home workspace with six cards: Writer, Grid, Dashboard Studio, NexusPoint, Paint and Compatibility. Native text, CSS and SVG graphics adapt the layout from narrow windows to 4K desktops. Home retains command search and the existing Open action.
 
-Both the installed application and browser edition include the updated assistant dock, header and composer. Writer distributes ribbon groups across the available width and adapts its controls and ruler to narrower windows, including when the assistant is pinned. This is a presentation update; commands, document formats, models and editing capabilities are unchanged.
+The Assistant dock, Home card and launch button are no longer shown, and automatic Assistant opening is disabled. Recent document names are also removed from Home. Documents, stored history, existing launch actions and the 6.45.3 Writer ribbon remain intact; hiding these panels does not delete their underlying data or modules.
 
-## What it does
+## Try it now
 
-- **Writer:** edit documents, use installed templates and prepare a resume from facts you supply, with preview and Undo.
-- **Grid:** edit workbooks, use templates, and create charts and tables from bounded cell ranges.
-- **Present:** add editable slides from installed layouts using a reviewed creation workflow.
-- **Paint and Dashboard:** work with visual layouts, colouring assets and dashboard templates. Imported spreadsheet data is a snapshot, not a live connection.
-- **Office commands:** discover supported actions, capture context and fill supported fields with literal values. Review and approval precede edits.
+The Pages link opens the actual single-file application, not a mock-up. Acknowledge its application notice to continue. No Python, PyTorch backend, server or CDN is needed to start the browser edition.
 
-## Try it in your browser
+Use a current desktop Chromium browser with `DecompressionStream('gzip')`, TextEncoder/TextDecoder and Web Crypto. The loader checks its embedded data before execution and reports unsupported APIs or corrupt data. Startup time depends on the device and connection; a fixed ten-second launch is not guaranteed.
 
-Open the trial link above. The file expands its bundled code and assets locally, then shows the application notice. It needs no server, Python installation, PyTorch backend or CDN to start. You can also save the HTML and open it locally in a supported browser.
+The monolithic HTML makes online trials straightforward: one link opens the application, and one saved file contains its code and assets. Lossless dictionary/gzip/Base85 packaging keeps the delivered HTML at **16,572,073 bytes**, below 20 MB. The expanded application is about 29 MB, and runtime memory use is higher. The loader does not upload user documents.
 
-Use a current desktop browser with `DecompressionStream('gzip')`, TextEncoder/TextDecoder and Web Crypto. Startup checks these APIs and the embedded data, and reports an error rather than pretending the application loaded. The trial does not guarantee a fixed startup time on every device.
+## Workspaces
 
-The monolithic HTML is intended to make online evaluation easy: one Pages link opens the application, and one downloaded file contains its code and assets. A reversible dictionary/gzip package keeps the distributed HTML below 20,000,000 bytes without dropping the writing library, clipart or model assets. The expanded application is about 28.9 MB; memory use is higher than the file size. No user document is sent through the application loader.
+- **Writer:** document editing, templates, formatting and existing import/export workflows. All 223 Writer ribbon controls are retained in this release.
+- **Grid:** workbooks, formulas, charts and tables.
+- **NexusPoint:** presentation editing and existing slide layouts.
+- **Paint and Dashboard Studio:** visual work, colouring assets and dashboard templates. Imported spreadsheet data is a snapshot, not a live connection.
+- **Compatibility:** access the existing compatibility information and workflows.
 
-## Engineering contribution
-
-Developed by **Rich Dunbar / Nexus Emerging Technology with AI-assisted coding**. Office brings five productivity workspaces together and connects their existing editing APIs to bounded commands. The command registry reports available host actions; previews become invalid when inputs change, and Writer edits use the application's transaction and Undo path.
-
-The single-file edition adds a reproducible, integrity-checked delivery format around the existing application rather than a mock interface. Imported documents are handled by the application's existing format code. These are programmed workflows: the included small learned checkpoint remains unqualified and is not enabled as a general-purpose Office agent. The command interface does not run arbitrary macros or shell scripts, generate whole presentations, or invent missing resume facts.
+Developed by **Rich Dunbar / Nexus Emerging Technology with AI-assisted coding**. The engineering contribution is a locally usable productivity suite with a self-contained, integrity-checked browser distribution. The included learned checkpoint remains unqualified; this release does not claim a general-purpose autonomous Office agent or new inference performance.
 
 ## Full local package
 
-The rebuilt [6.45.2 package](releases/6.45.2/) includes the same interface changes as the browser edition. The [6.45.1 package](releases/6.45.1/) and [6.45.0 package](releases/6.45.0/) remain unchanged for rollback and historical comparison; 6.45.1 is not the final accepted layout. Keep all installer data files together and follow [INSTALL.txt](releases/6.45.2/INSTALL.txt). **CPython 3.12** is recommended for its optional installer; Python and PyTorch are not required after extraction. The installed package's `candidate.html` still needs its two companion libraries. That requirement does not apply to the new single-file browser trial.
+The [6.45.4 package directory](releases/6.45.4/) contains the exact delivered installer, manifest and three numbered data files. Download all of them together and follow [INSTALL.txt](releases/6.45.4/INSTALL.txt). Each data file is at most 10,000,000 bytes, and every individual distributed component is below 20,000,000 bytes.
 
-The complete ZIP is named `Nexus_office_6.45.2_Full.zip`. Extract it with all supplied installer data parts; do not mix versions. The Git repository also supplies those components separately.
+The complete Library download is named `Nexus_office_6.45.4_Full.zip`. Its SHA-256 is `19aa2a783e4b8a6096ad9d67f2d15fb19b7be00a3ec85fde82d5eb4b1df1e238`. The complete ZIP is larger than 20 MB; Git supplies its components separately. Do not mix releases.
 
-## Validation and limits
+**Standard CPython 3.12** is recommended for the optional installer. It creates a version-isolated folder and verifies checksums without global dependency changes or downloads. Python and PyTorch are not required after extraction. Keep the installed `candidate.html` with its `source_scripts` directory; the standalone browser HTML already embeds its companion libraries.
 
-See [browser build and test details](docs/BROWSER_TRIAL.md) for exact hashes, reconstruction checks and test scope. Existing regressions cover document/workbook operations, format round trips, cancelled imports, command previews and Undo with synthetic data. Browser-native clipboard, drawing, printing and rendering fidelity need testing on the intended device. Microsoft Office fidelity and Windows/Radeon performance are not guaranteed.
+Existing browser state is not automatically migrated. Export documents from the old edition and import them into the new one when needed, keeping the originals. Published [6.45.2](releases/6.45.2/), [6.45.1](releases/6.45.1/) and [6.45.0](releases/6.45.0/) files remain unchanged for rollback and historical comparison.
 
-[English Wiki](https://github.com/RDunbar01/Nexus-Office/wiki) · [Français](https://github.com/RDunbar01/Nexus-Office/wiki/Home.fr) · [日本語](https://github.com/RDunbar01/Nexus-Office/wiki/Home.ja) · [한국어](https://github.com/RDunbar01/Nexus-Office/wiki/Home.ko)
+## Evidence and limits
 
-## Credits and license
+See [release changes](releases/6.45.4/docs/CHANGELOG_6.45.4.md), [delivered validation records](releases/6.45.4/RELEASE_VALIDATION.json) and [browser artifact details](docs/BROWSER_TRIAL.md). The delivered records report Home and Writer integration checks on both editions in headless Chromium on Linux, including an actual 3840 × 2160 capture. These are scoped checks, not a guarantee of every document or device.
 
-Retain the [third-party notices](NEXUS_Office_v6.7_THIRD_PARTY_NOTICES.md) and library notices embedded in the application. Personal use and internal commercial testing and evaluation are permitted for Nexus-owned material. Distribution, modification, production deployment and other commercial use require express written consent. Third-party licenses and previously granted rights remain unchanged. See [LICENSE](LICENSE) and the [evaluation permission](COMMERCIAL_EVALUATION_PERMISSION.md).
+Physical Windows/Radeon behavior, OS clipboard, printing and other browser engines were not tested by those records. Microsoft Office fidelity and hardware performance are not guaranteed. The prior Writer implementation guide remains included for the ribbon; its Assistant-layout guidance is superseded by 6.45.4.
+
+## License and credits
+
+Personal use and internal commercial testing and evaluation are permitted for Nexus-owned material. Distribution, modification, production deployment and other commercial use require express written consent. Third-party licenses and previously granted rights remain unchanged. See [LICENSE](LICENSE), the [current repository evaluation permission covering 6.45.4](COMMERCIAL_EVALUATION_PERMISSION.md), and [scope](NEXUS_LICENSE_SCOPE.md) and [third-party notices](NEXUS_Office_v6.7_THIRD_PARTY_NOTICES.md). Retain the notices embedded in the application.
+
+The delivered package is preserved byte-for-byte. Its enclosed supplemental version list predates 6.45.4; the current repository permission explicitly covers this release. This publication does not rewrite the package license files.

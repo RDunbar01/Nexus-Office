@@ -1,0 +1,38 @@
+{
+  "source_main": "29b8c3afda737dc30db2faa5c5ace20e4a6b2dfc",
+  "engine_version": "6.45.4",
+  "packaging_revision": 1,
+  "filename": "Nexus_Office_v6_45_4_Browser.html",
+  "html_bytes": 16572073,
+  "html_sha256": "845f12856d21bd0249852f38bfc5a5ca6783af026d4d37f28f39fe4921494c0a",
+  "git_blob_sha1": "7d7af1c1e3a026662cd043e96c9a1321864859bf",
+  "source_candidate_sha256": "d522bb0d35aae586b1940aed9894ad63bea0f5527971a26cec39e135e41918a5",
+  "canonical_full_html_sha256": "0107114e7f6686f232f84fca4346d3f573a41310dfd3785d57397756382dab43",
+  "canonical_full_html_bytes": 28973783,
+  "expanded_trial_sha256": "55bb589bb77701f14c6471baf5efdb3a88d072b72dcdd3fc9ca95866f11dc96c",
+  "expanded_trial_bytes": 28974011,
+  "config": {
+    "schema": 1,
+    "compressedBytes": 13251601,
+    "packedBytes": 24478638,
+    "htmlBytes": 28974011,
+    "compressedSha256": "2c4e9ef33f1c7ceb618e74a70e66a780fda2561e789a7f9befab608e6fb8238e",
+    "htmlSha256": "55bb589bb77701f14c6471baf5efdb3a88d072b72dcdd3fc9ca95866f11dc96c"
+  },
+  "vendors": {
+    "092_nexus-writing-writing_vendor.js": "b020ab03cde13f3989d4c6d3bf6d661fef2d3a6201ace620578466270529e2f0",
+    "097_nx-clipart-data.js": "d4475f684d11d69b173fcba7ae9e91c5474c3a08ebb73c0993df8dbc0dd2a3e9"
+  },
+  "deduplicated_references": 19,
+  "decoded_json_wrappers": 4,
+  "dictionary_entries": 511,
+  "presentation_deltas": [
+    "One end-of-body browser-package readiness marker; native and browser evaluation notice match"
+  ],
+  "limits": [
+    "Distributed HTML below 20,000,000 bytes; expanded app is larger and runtime memory use is higher",
+    "Modern browser with DecompressionStream, TextEncoder/TextDecoder and Web Crypto required",
+    "No Windows/Radeon performance qualification",
+    "Existing application legal notice is retained; no automatic acceptance"
+  ]
+}
