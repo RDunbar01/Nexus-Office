@@ -1,0 +1,8 @@
+{
+  "version": "6.45.4",
+  "check": "Version-isolated installer extraction and every installed file matched the release manifest",
+  "passed": true,
+  "files_verified": 279,
+  "payload_sha256": "91203bfa2030a0333e3d7cdaacb1123d0296970ce3da779d0600a61071aa9375",
+  "candidate_sha256": "d522bb0d35aae586b1940aed9894ad63bea0f5527971a26cec39e135e41918a5"
+}

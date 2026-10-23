@@ -1,3 +1,13 @@
+# 현재 릴리스 6.45.4
+
+[브라우저에서 실행](https://rdunbar01.github.io/Nexus-Office/Nexus_Office_v6_45_4_Browser.html) · [전체 패키지](https://github.com/RDunbar01/Nexus-Office/tree/main/releases/6.45.4)
+
+홈 화면에는 Writer, Grid, Dashboard Studio, NexusPoint, Paint, Compatibility의 여섯 카드가 있습니다. 어시스턴트와 최근 항목 패널은 숨겨지고 자동 열기는 비활성화되며 문서와 기록은 유지됩니다. 6.45.3 리본도 유지됩니다. 이 업데이트는 현재 인터페이스를 설명하며 새로운 모델이나 편집 기능을 주장하지 않습니다.
+
+Nexus 소유 자료의 개인 사용과 내부 상업적 테스트 및 평가는 허용됩니다. 배포, 수정, 프로덕션 배포 및 기타 상업적 사용에는 명시적인 서면 동의가 필요합니다. 타사 라이선스와 기존에 부여된 권리는 그대로 유지됩니다. [평가 허가](https://github.com/RDunbar01/Nexus-Office/blob/main/COMMERCIAL_EVALUATION_PERMISSION.md).
+
+## 이전 릴리스 설명 (변경 없이 보존)
+
 # 현재 수정 릴리스 6.45.2
 
 [브라우저 체험](https://rdunbar01.github.io/Nexus-Office/Nexus_Office_v6_45_2_Browser.html) · [전체 패키지](https://github.com/RDunbar01/Nexus-Office/tree/main/releases/6.45.2)

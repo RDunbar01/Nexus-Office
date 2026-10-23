@@ -1,0 +1,80 @@
+{
+  "product": "Nexus Office",
+  "version": "6.45.4",
+  "status": "PASS in tested local scope",
+  "candidate_sha256": "d522bb0d35aae586b1940aed9894ad63bea0f5527971a26cec39e135e41918a5",
+  "browser_sha256": "845f12856d21bd0249852f38bfc5a5ca6783af026d4d37f28f39fe4921494c0a",
+  "checks": {
+    "native_home_browser_integration": 9,
+    "standalone_home_browser_integration": 9,
+    "native_writer_browser_integration": 13,
+    "standalone_writer_browser_integration": 13,
+    "source_build_integrity": 6,
+    "loader_reconstruction_error_retry_busy_guard": "PASS",
+    "base85_edge_cases": "PASS"
+  },
+  "home_viewports": [
+    [
+      3840,
+      2160
+    ],
+    [
+      2560,
+      1440
+    ],
+    [
+      1920,
+      1080
+    ],
+    [
+      1600,
+      900
+    ],
+    [
+      1366,
+      768
+    ],
+    [
+      1024,
+      768
+    ],
+    [
+      768,
+      1024
+    ],
+    [
+      760,
+      900
+    ],
+    [
+      520,
+      850
+    ],
+    [
+      390,
+      844
+    ],
+    [
+      320,
+      700
+    ]
+  ],
+  "retained_writer_controls": 223,
+  "assistant_gui": "Hidden with automatic opening disabled; opener guarded; no reserved dock",
+  "recent_documents": "Removed from visible layout; history and documents retained",
+  "preview": {
+    "file": "docs/Nexus_Office_6.45.4_Home_4K.png",
+    "width": 3840,
+    "height": 2160,
+    "type": "Actual standalone application capture"
+  },
+  "browser": "Headless Chromium 153.0.8010.0 on Linux",
+  "runtime_errors": [],
+  "inherited_receipts": "Historical evidence for their original builds only",
+  "limitations": [
+    "Synthetic content; physical Windows/Radeon not tested",
+    "OS clipboard and printing not tested",
+    "Other browser engines not tested",
+    "Public repository publication remains separate"
+  ]
+}

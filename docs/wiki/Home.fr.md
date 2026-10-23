@@ -1,3 +1,13 @@
+# Version actuelle 6.45.4
+
+[Ouvrir l’essai navigateur](https://rdunbar01.github.io/Nexus-Office/Nexus_Office_v6_45_4_Browser.html) · [Paquet complet](https://github.com/RDunbar01/Nexus-Office/tree/main/releases/6.45.4)
+
+L’accueil présente six cartes : Writer, Grid, Dashboard Studio, NexusPoint, Paint et Compatibility. Les panneaux de l’assistant et des éléments récents sont masqués et leur ouverture automatique est désactivée ; les documents et l’historique sont conservés. Le ruban de la version 6.45.3 est conservé. Cette mise à jour décrit l’interface actuelle, sans annoncer de nouvelles capacités de modèle ou d’édition.
+
+L’utilisation personnelle et les tests et évaluations commerciaux internes du contenu Nexus sont autorisés. La distribution, la modification, le déploiement en production et les autres usages commerciaux exigent un consentement écrit exprès. Les licences tierces et les droits déjà accordés restent inchangés. [Autorisation d’évaluation](https://github.com/RDunbar01/Nexus-Office/blob/main/COMMERCIAL_EVALUATION_PERMISSION.md).
+
+## Documentation des versions précédentes (conservée sans modification)
+
 # Version corrective actuelle 6.45.2
 
 [Essai navigateur](https://rdunbar01.github.io/Nexus-Office/Nexus_Office_v6_45_2_Browser.html) · [Paquet complet](https://github.com/RDunbar01/Nexus-Office/tree/main/releases/6.45.2)

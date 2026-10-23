@@ -1,3 +1,13 @@
+# Current release 6.45.4
+
+[Open browser trial](https://rdunbar01.github.io/Nexus-Office/Nexus_Office_v6_45_4_Browser.html) · [Full package](https://github.com/RDunbar01/Nexus-Office/tree/main/releases/6.45.4)
+
+The Home screen has six cards: Writer, Grid, Dashboard Studio, NexusPoint, Paint and Compatibility. Assistant and recent panels are hidden, and automatic opening is disabled; documents and history are retained. The 6.45.3 ribbon is retained. This update describes the current interface, not new model or editing capabilities.
+
+Personal use and internal commercial testing and evaluation are permitted for Nexus-owned material. Distribution, modification, production deployment and other commercial use require express written consent. Third-party licenses and earlier grants remain unchanged. [Evaluation permission](https://github.com/RDunbar01/Nexus-Office/blob/main/COMMERCIAL_EVALUATION_PERMISSION.md).
+
+## Earlier release documentation (preserved unchanged)
+
 # Current corrective release 6.45.2
 
 [Browser trial](https://rdunbar01.github.io/Nexus-Office/Nexus_Office_v6_45_2_Browser.html) · [Full package](https://github.com/RDunbar01/Nexus-Office/tree/main/releases/6.45.2)

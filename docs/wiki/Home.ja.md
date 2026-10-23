@@ -1,3 +1,13 @@
+# 現行リリース 6.45.4
+
+[ブラウザーで試す](https://rdunbar01.github.io/Nexus-Office/Nexus_Office_v6_45_4_Browser.html) · [完全版パッケージ](https://github.com/RDunbar01/Nexus-Office/tree/main/releases/6.45.4)
+
+ホーム画面には Writer、Grid、Dashboard Studio、NexusPoint、Paint、Compatibility の6つのカードがあります。アシスタントと最近の項目のパネルは非表示になり、自動表示は無効になっています。文書と履歴は保持されます。6.45.3 のリボンは維持されています。この更新は現行の画面構成を説明するもので、モデルや編集機能の追加を示すものではありません。
+
+Nexus 所有の素材は個人利用および社内の商用テスト・評価に利用できます。配布、改変、本番導入、その他の商用利用には明示的な書面による同意が必要です。第三者のライセンスと既に付与された権利は変更されません。 [評価許可](https://github.com/RDunbar01/Nexus-Office/blob/main/COMMERCIAL_EVALUATION_PERMISSION.md).
+
+## 旧版の説明（変更せず保存）
+
 # 現行の修正版 6.45.2
 
 [ブラウザーで試す](https://rdunbar01.github.io/Nexus-Office/Nexus_Office_v6_45_2_Browser.html) · [完全版パッケージ](https://github.com/RDunbar01/Nexus-Office/tree/main/releases/6.45.2)

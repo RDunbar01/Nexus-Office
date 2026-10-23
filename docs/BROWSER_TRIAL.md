@@ -1,3 +1,38 @@
+# Nexus Office browser trial 6.45.4
+
+[Open the current trial](https://rdunbar01.github.io/Nexus-Office/Nexus_Office_v6_45_4_Browser.html) · [Exact delivered build manifest](OFFICE_BROWSER_BUILD.json) · [Full package](../releases/6.45.4/) · [Release changes](CHANGELOG_6.45.4.md)
+
+## Current artifact
+
+This publication promotes the delivered 6.45.4 HTML unchanged. It is not a rebuild or a relabeled 6.45.2 application. The versioned `Nexus_Office_v6_45_4_Browser.html`, stable `NEXUS_Office.html`, and copy in `releases/6.45.4/` use identical bytes.
+
+- HTML size: 16,572,073 bytes.
+- HTML SHA-256: `845f12856d21bd0249852f38bfc5a5ca6783af026d4d37f28f39fe4921494c0a`.
+- Expanded application: 28,974,011 bytes, as recorded in the delivered manifest.
+- Full ZIP SHA-256: `19aa2a783e4b8a6096ad9d67f2d15fb19b7be00a3ec85fde82d5eb4b1df1e238`.
+
+The new Home has six workspace cards. Assistant controls and recent-document names are removed from the visible interface; existing documents, stored history and modules are retained. The 6.45.3 Writer ribbon is preserved. See the release changelog for the exact implementation scope.
+
+## Delivery and verification
+
+The standalone HTML supplied separately matches the copy inside the delivered full ZIP exactly. Publication checks verify outer and payload ZIP CRCs, all 279 payload-file sizes and hashes, the source inventory, all three data-part hashes and the under-20-MB individual-file limit. These byte checks are separate from the application integration tests recorded in the delivered package.
+
+The supplied validation records report nine Home checks and thirteen Writer checks per edition, six source/build checks, and loader/Base85 tests in Chromium on Linux. They also retain explicit limits: no physical Windows/Radeon, OS clipboard, printing or other browser-engine qualification. Publication does not turn historical test records into new test runs.
+
+The supplied manifest is retained exactly, including its producer-recorded `source_main` field. That field describes the delivered build provenance, not the repository commit that promotes these files. No application build is run for this promotion. Existing repository builder files are historical tooling and must not be used to reproduce 6.45.4 without the matching producer build inputs.
+
+## Browser requirements and usage
+
+Use a current desktop Chromium browser supporting DecompressionStream('gzip'), TextEncoder/TextDecoder and Web Crypto. The local loader restores the bundled application and companion libraries, verifies lengths and hashes, and reports failure rather than executing corrupt output. Acknowledge the existing application notice. No Python, PyTorch or CDN is needed for browser startup. Expanded data and peak memory exceed the distributed file size, and startup time varies by device.
+
+The optional full-package installer recommends standard CPython 3.12. Keep all three numbered data files with the installer and manifest. Existing documents and browser state are not automatically migrated; retain originals when exporting and importing between versions.
+
+Personal use and internal commercial evaluation remain permitted for Nexus-owned material. Redistribution, modification, production deployment and other commercial use require express written consent; third-party and prior rights remain unchanged.
+
+## Historical 6.45.2 and earlier records
+
+The text below is preserved from earlier publication. Its version-specific behavior and test claims describe those older artifacts, not 6.45.4. Relative current-manifest links in that text are not frozen evidence for historical bytes. All older versioned files remain unchanged.
+
 # Nexus Office browser trial 6.45.2
 
 [Open the current trial](https://rdunbar01.github.io/Nexus-Office/Nexus_Office_v6_45_2_Browser.html) · [Current build manifest](OFFICE_BROWSER_BUILD.json) · [UI correction](CHANGELOG_6.45.2.md)
@@ -106,3 +141,4 @@ Compression output can differ across Python/zlib versions, so always record the 
 ## Permission
 
 Personal use and internal commercial testing and evaluation of Nexus-owned material are permitted. Distribution, modification, production deployment and other commercial use require express written consent. Third-party licenses and earlier grants remain unchanged. See the root [evaluation permission](../COMMERCIAL_EVALUATION_PERMISSION.md) and retained third-party notices.
+
