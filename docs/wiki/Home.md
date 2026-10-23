@@ -1,3 +1,15 @@
+# Current corrective release 6.45.2
+
+[Browser trial](https://rdunbar01.github.io/Nexus-Office/Nexus_Office_v6_45_2_Browser.html) · [Full package](https://github.com/RDunbar01/Nexus-Office/tree/main/releases/6.45.2)
+
+Version 6.45.2 corrects the effective Writer ribbon overflow rules so the bounded tool area scrolls as intended. Numeric ruler fields use a compact horizontal strip with scrolling when needed, preserving document viewport space. All tools remain accessible; they are not necessarily visible simultaneously. Assistant improvements from 6.45.1 are unchanged. The published 6.45.1 layout is superseded by this visual correction.
+
+Personal use and internal commercial testing and evaluation are permitted for Nexus-owned material. Distribution, modification, production deployment and other commercial use require express written consent. Third-party licenses and previous grants remain unchanged. [Evaluation permission](https://github.com/RDunbar01/Nexus-Office/blob/main/COMMERCIAL_EVALUATION_PERMISSION.md).
+
+[6.45.2](https://github.com/RDunbar01/Nexus-Office/blob/main/docs/CHANGELOG_6.45.2.md) · [LICENSE](https://github.com/RDunbar01/Nexus-Office/blob/main/LICENSE) · [COMMERCIAL_EVALUATION_PERMISSION](https://github.com/RDunbar01/Nexus-Office/blob/main/COMMERCIAL_EVALUATION_PERMISSION.md)
+
+## Previous release documentation (superseded layout; preserved unchanged)
+
 # Current release 6.45.1
 
 [Open browser trial](https://rdunbar01.github.io/Nexus-Office/Nexus_Office_v6_45_1_Browser.html) · [Full installer components](https://github.com/RDunbar01/Nexus-Office/tree/main/releases/6.45.1) · [Release notes](https://github.com/RDunbar01/Nexus-Office/blob/main/docs/CHANGELOG_6.45.1.md)

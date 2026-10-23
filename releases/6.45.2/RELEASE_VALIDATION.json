@@ -1,0 +1,28 @@
+{
+  "product": "Nexus Office",
+  "version": "6.45.2",
+  "status": "PASS in targeted local scope; live rendered acceptance pending",
+  "candidate_sha256": "ab4df0eee4e48698495b7725f1f8547d1ade935d9998da5044abb31b3af54ef1",
+  "browser_sha256": "c17f17eb672790c37f931a389f5ef7f09432948ef739d0eca0b837951d179540",
+  "corrective_scope": "CSS cascade and ruler toolbar layout correction; product version labels only in JavaScript; no model/command/format changes",
+  "checks": {
+    "complete_host": 5,
+    "standalone_build": 6,
+    "installer_safety": 9,
+    "loader_integrity_error_retry_busy_guard": "PASS",
+    "base85_edge_cases": "PASS"
+  },
+  "inherited_tests": {
+    "version": "6.45.1",
+    "suites": 18,
+    "status": "PASS for that exact prior artifact only; not rerun as6.45.2",
+    "receipt": "qualification/final_cycle.json",
+    "reason": "Commands/models unchanged; targeted local checks and real browser tests cover the CSS correction"
+  },
+  "limitations": [
+    "No physical Windows or Radeon testing",
+    "Local DOM harness does not establish rendered geometry",
+    "Actual deployed layout, dock modes and Writer edit/export require separate live acceptance",
+    "Learned AI remains experimental and unqualified"
+  ]
+}

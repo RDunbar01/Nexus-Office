@@ -1,3 +1,15 @@
+# Version corrective actuelle 6.45.2
+
+[Essai navigateur](https://rdunbar01.github.io/Nexus-Office/Nexus_Office_v6_45_2_Browser.html) · [Paquet complet](https://github.com/RDunbar01/Nexus-Office/tree/main/releases/6.45.2)
+
+La version 6.45.2 corrige les règles de débordement du ruban Writer pour rendre effective la zone d’outils défilante et limitée en hauteur. Les champs numériques de la règle forment une bande horizontale compacte, défilante si nécessaire, afin de préserver l’espace du document. Tous les outils restent accessibles, mais ne sont pas nécessairement visibles en même temps. Les améliorations de l’assistant de la version 6.45.1 sont inchangées. La disposition publiée en 6.45.1 est remplacée par cette correction visuelle.
+
+L’utilisation personnelle et les tests et évaluations commerciaux internes du contenu Nexus sont autorisés. La distribution, la modification, le déploiement en production et les autres usages commerciaux exigent un consentement écrit exprès. Les licences tierces et les droits déjà accordés restent inchangés. [Autorisation d’évaluation](https://github.com/RDunbar01/Nexus-Office/blob/main/COMMERCIAL_EVALUATION_PERMISSION.md).
+
+[6.45.2](https://github.com/RDunbar01/Nexus-Office/blob/main/docs/CHANGELOG_6.45.2.md) · [LICENSE](https://github.com/RDunbar01/Nexus-Office/blob/main/LICENSE) · [COMMERCIAL_EVALUATION_PERMISSION](https://github.com/RDunbar01/Nexus-Office/blob/main/COMMERCIAL_EVALUATION_PERMISSION.md)
+
+## Documentation précédente (disposition remplacée ; conservée sans modification)
+
 # Version actuelle 6.45.1
 
 [Essayer dans le navigateur](https://rdunbar01.github.io/Nexus-Office/Nexus_Office_v6_45_1_Browser.html) · [Composants de l’installateur complet](https://github.com/RDunbar01/Nexus-Office/tree/main/releases/6.45.1) · [Notes de version](https://github.com/RDunbar01/Nexus-Office/blob/main/docs/CHANGELOG_6.45.1.md)
