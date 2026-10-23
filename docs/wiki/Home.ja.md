@@ -1,3 +1,15 @@
+# 現行の修正版 6.45.2
+
+[ブラウザーで試す](https://rdunbar01.github.io/Nexus-Office/Nexus_Office_v6_45_2_Browser.html) · [完全版パッケージ](https://github.com/RDunbar01/Nexus-Office/tree/main/releases/6.45.2)
+
+6.45.2 では Writer リボンのオーバーフロー規則を修正し、高さを制限したツール領域を実際にスクロールできるようにしました。ルーラーの数値入力欄をコンパクトな横一列にまとめ、必要に応じてスクロールすることで文書の表示領域を確保します。すべての操作項目にアクセスできますが、常に同時に表示されるわけではありません。6.45.1 のアシスタント改善は変更していません。公開済みの 6.45.1 のレイアウトは、この表示修正によって置き換えられます。
+
+Nexus 所有の素材は個人利用および社内の商用テスト・評価に利用できます。配布、改変、本番導入、その他の商用利用には明示的な書面による同意が必要です。第三者のライセンスと既に付与された権利は変更されません。 [評価許可](https://github.com/RDunbar01/Nexus-Office/blob/main/COMMERCIAL_EVALUATION_PERMISSION.md).
+
+[6.45.2](https://github.com/RDunbar01/Nexus-Office/blob/main/docs/CHANGELOG_6.45.2.md) · [LICENSE](https://github.com/RDunbar01/Nexus-Office/blob/main/LICENSE) · [COMMERCIAL_EVALUATION_PERMISSION](https://github.com/RDunbar01/Nexus-Office/blob/main/COMMERCIAL_EVALUATION_PERMISSION.md)
+
+## 旧版の説明（レイアウトは更新済み・本文は変更せず保存）
+
 # 現行リリース 6.45.1
 
 [ブラウザーで試す](https://rdunbar01.github.io/Nexus-Office/Nexus_Office_v6_45_1_Browser.html) · [完全版インストーラーの構成ファイル](https://github.com/RDunbar01/Nexus-Office/tree/main/releases/6.45.1) · [リリースノート](https://github.com/RDunbar01/Nexus-Office/blob/main/docs/CHANGELOG_6.45.1.md)

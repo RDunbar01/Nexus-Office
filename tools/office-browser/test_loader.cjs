@@ -1,5 +1,5 @@
 'use strict';const fs=require('fs'),vm=require('vm'),assert=require('assert/strict'),{webcrypto}=require('crypto');
-const html=fs.readFileSync(__dirname+'/dist/Nexus_Office_v6_45_1_Browser.html','utf8');
+const html=fs.readFileSync(__dirname+'/dist/Nexus_Office_v6_45_2_Browser.html','utf8');
 const config=JSON.parse(html.match(/<script id="nxOfficePackConfig"[^>]*>([\s\S]*?)<\/script>/)[1]);
 const payload=html.match(/<script id="nxOfficePackedApp"[^>]*>([\s\S]*?)<\/script>/)[1];
 const code=fs.readFileSync(__dirname+'/loader.js','utf8');

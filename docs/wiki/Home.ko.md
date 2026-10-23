@@ -1,3 +1,15 @@
+# 현재 수정 릴리스 6.45.2
+
+[브라우저 체험](https://rdunbar01.github.io/Nexus-Office/Nexus_Office_v6_45_2_Browser.html) · [전체 패키지](https://github.com/RDunbar01/Nexus-Office/tree/main/releases/6.45.2)
+
+6.45.2는 Writer 리본의 오버플로 규칙을 수정하여 높이가 제한된 도구 영역이 실제로 스크롤되도록 합니다. 눈금자의 숫자 입력란은 필요할 때 스크롤되는 간결한 가로줄로 배치하여 문서 표시 공간을 확보합니다. 모든 도구에 접근할 수 있지만 항상 동시에 표시되는 것은 아닙니다. 6.45.1의 어시스턴트 개선 사항은 그대로입니다. 게시된 6.45.1 레이아웃은 이번 화면 수정으로 대체됩니다.
+
+Nexus 소유 자료의 개인 사용과 내부 상업적 테스트 및 평가는 허용됩니다. 배포, 수정, 프로덕션 배포 및 기타 상업적 사용에는 명시적인 서면 동의가 필요합니다. 타사 라이선스와 기존에 부여된 권리는 그대로 유지됩니다. [평가 허가](https://github.com/RDunbar01/Nexus-Office/blob/main/COMMERCIAL_EVALUATION_PERMISSION.md).
+
+[6.45.2](https://github.com/RDunbar01/Nexus-Office/blob/main/docs/CHANGELOG_6.45.2.md) · [LICENSE](https://github.com/RDunbar01/Nexus-Office/blob/main/LICENSE) · [COMMERCIAL_EVALUATION_PERMISSION](https://github.com/RDunbar01/Nexus-Office/blob/main/COMMERCIAL_EVALUATION_PERMISSION.md)
+
+## 이전 설명 (대체된 레이아웃; 원문 보존)
+
 # 현재 릴리스 6.45.1
 
 [브라우저에서 실행](https://rdunbar01.github.io/Nexus-Office/Nexus_Office_v6_45_1_Browser.html) · [전체 설치 구성 파일](https://github.com/RDunbar01/Nexus-Office/tree/main/releases/6.45.1) · [릴리스 노트](https://github.com/RDunbar01/Nexus-Office/blob/main/docs/CHANGELOG_6.45.1.md)

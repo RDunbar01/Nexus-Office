@@ -1,0 +1,11 @@
+test_all_sources_present_and_bounded (__main__.BuildTests.test_all_sources_present_and_bounded) ... ok
+test_complete_template_one_token_per_source (__main__.BuildTests.test_complete_template_one_token_per_source) ... ok
+test_executable_script_syntax (__main__.BuildTests.test_executable_script_syntax) ... ok
+test_external_layout_reconstitutes_original_script_order_and_bytes (__main__.BuildTests.test_external_layout_reconstitutes_original_script_order_and_bytes) ... ok
+test_external_local_libraries_preserve_exact_source_bytes (__main__.BuildTests.test_external_local_libraries_preserve_exact_source_bytes) ... ok
+test_offline_build_in_isolated_directory (__main__.BuildTests.test_offline_build_in_isolated_directory) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 54.863s
+
+OK

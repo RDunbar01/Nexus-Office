@@ -1,0 +1,1 @@
+{"passed":5,"failed":0,"checks":["Complete host boots without errors","All223 ribbon controls unchanged","Final specific active-panel selector matches","All8 numeric ruler fields remain","Synthetic Unicode Writer edit retained by native serialization"],"scope":"DOM and source checks only; real geometry and scrolling verified in deployed browser"}

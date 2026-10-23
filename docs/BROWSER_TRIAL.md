@@ -1,3 +1,29 @@
+# Nexus Office browser trial 6.45.2
+
+[Open the current trial](https://rdunbar01.github.io/Nexus-Office/Nexus_Office_v6_45_2_Browser.html) · [Current build manifest](OFFICE_BROWSER_BUILD.json) · [UI correction](CHANGELOG_6.45.2.md)
+
+## Current correction
+
+Version 6.45.2 corrects the effective Writer ribbon overflow rules so the bounded tool area scrolls as intended. Numeric ruler fields use a compact horizontal strip with scrolling when needed, preserving document viewport space. All tools remain accessible; they are not necessarily visible simultaneously. Assistant improvements from 6.45.1 are unchanged. The published 6.45.1 layout is superseded by this visual correction.
+
+The file is `Nexus_Office_v6_45_2_Browser.html`. The stable `NEXUS_Office.html` entry uses the same current browser blob, not a redirect. The versioned 6.45.1 and 6.45.0 files remain unchanged. The 6.45.1 layout was published but did not pass final live geometry acceptance.
+
+## Delivery, checks and limits
+
+The lossless dictionary/gzip/Base85 delivery method, original libraries, models and attribution notices are retained. The browser loader restores the companion libraries inline in their original order and verifies the expanded application hash before execution. Current native and browser editions include the evaluation-permission notice. No new model, command or inference capability is introduced.
+
+The current manifest supplies the exact source, vendor and output hashes, expanded size and byte limits for 6.45.2. The distributed HTML must remain below 20,000,000 bytes; expansion and peak memory are larger. Use a current desktop browser with DecompressionStream('gzip'), TextEncoder/TextDecoder and Web Crypto. Startup performs local checks; no CDN, Python or PyTorch is required to open the browser edition. The application notice remains in place. Startup time depends on the device.
+
+The current release validation records must identify the exact 6.45.2 bytes and geometry tested. This document does not claim a new pass, test count or physical Windows/Radeon qualification. Historical records below are not acceptance evidence for the corrected build. Browser-native clipboard, printing and document fidelity need device-specific testing.
+
+To rebuild, extract the full 6.45.2 source with candidate.html and its two companion libraries, set NEXUS_OFFICE_SOURCE to that directory, and use the matching tools/office-browser builder with CPython 3.12. Run its loader and Base85 checks with a compatible Node.js runtime. Do not publish expanded verification copies above the distribution limit. Compression bytes may vary with Python/zlib versions; record the actual manifest.
+
+Personal use and internal commercial testing and evaluation of Nexus-owned material are permitted. Distribution, modification, production deployment and other commercial use require express written consent. Third-party and previously granted rights remain unchanged. See [evaluation permission](../COMMERCIAL_EVALUATION_PERMISSION.md).
+
+## Superseded 6.45.1 record and earlier history
+
+The following previously published text is preserved unchanged. Its 6.45.1 references, hashes and statements describe that version, which was superseded by the live-layout correction. Relative current-manifest links in historical sections are not frozen evidence for those older bytes.
+
 # Nexus Office browser trial 6.45.1
 
 [Open the current trial](https://rdunbar01.github.io/Nexus-Office/Nexus_Office_v6_45_1_Browser.html) · [Build manifest](OFFICE_BROWSER_BUILD.json) · [UI changes](CHANGELOG_6.45.1.md)

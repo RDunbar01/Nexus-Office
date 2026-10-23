@@ -1,4 +1,4 @@
-/* Nexus Office 6.45.1: chrome-only responsive layout. Document and model styles are untouched. */
+/* Nexus Office 6.45.2: chrome-only responsive layout. Document and model styles are untouched. */
 @media screen {
 body[data-nx-shared-ui="next"]{--nxui-ai-width:clamp(20rem,26vw,26rem)}
 body[data-nx-shared-ui="next"][data-nxui-ai-wide="true"]{--nxui-ai-width:clamp(24rem,38vw,38rem)}
@@ -24,7 +24,7 @@ body[data-nx-shared-ui="next"] #nxOfficeAIPanel :is(#nxAITopics,#nxAISettingsMen
 body[data-nx-shared-ui="next"] #nxOfficeAIPanel :is(#nxAITopics,#nxAISettingsMenu) select{width:100%;min-height:36px}
 body[data-nx-shared-ui="next"] #nxOfficeAIPanel .nxai-actions{gap:8px;margin-top:10px}
 /* All ribbon groups share the full remaining document width, not fixed left-hand tracks. */
-body[data-nx-exact-chrome="reference"][data-nxglass="v1"][data-nx-shared-ui="next"] #writerRibbon .ribbon[data-nxg-chrome="ribbon"] .ribbonPanel.active{display:flex!important;flex-wrap:wrap!important;align-items:stretch!important;gap:10px!important;min-width:0!important;width:100%!important;max-width:100%!important;height:auto!important;min-height:0!important;max-height:clamp(180px,34vh,360px)!important;box-sizing:border-box;padding:12px!important;overflow:auto!important;overscroll-behavior:contain;scrollbar-gutter:stable;grid-template-columns:none!important}
+body[data-nx-exact-chrome="reference"][data-nxglass="v1"][data-nx-shared-ui="next"] #writerRibbon .ribbon[data-nxg-chrome="ribbon"] .ribbonPanel[data-panel].active{display:flex!important;flex-wrap:wrap!important;align-items:stretch!important;gap:10px!important;min-width:0!important;width:100%!important;max-width:100%!important;height:auto!important;min-height:0!important;max-height:clamp(160px,28vh,300px)!important;box-sizing:border-box;padding:12px!important;overflow:auto!important;overscroll-behavior:contain;scrollbar-gutter:stable;grid-template-columns:none!important}
 body[data-nx-exact-chrome="reference"][data-nxglass="v1"][data-nx-shared-ui="next"] #writerRibbon :is(.ribbonGroup,.nxCleanGroup){display:flex!important;flex:1 1 190px!important;flex-direction:column!important;align-items:stretch!important;justify-content:flex-start!important;width:auto!important;min-width:0!important;max-width:100%!important;height:auto!important;min-height:0!important;margin:0!important;padding:8px 12px 28px!important;gap:7px!important;box-sizing:border-box;position:relative;border-right:1px solid #d6dfe6;overflow:visible!important}
 body[data-nx-exact-chrome="reference"][data-nxglass="v1"][data-nx-shared-ui="next"] #writerRibbon .nxCleanGroup:is([data-clean-label="Font"],[data-clean-label="Paragraph"]){flex:2 1 280px!important}
 body[data-nx-exact-chrome="reference"][data-nxglass="v1"][data-nx-shared-ui="next"] #writerRibbon :is(.ribbonGroup,.nxCleanGroup)>div{display:flex!important;flex-wrap:wrap!important;align-items:center!important;gap:6px!important;min-width:0!important;max-width:100%!important;width:auto!important}
@@ -36,12 +36,14 @@ body[data-nx-exact-chrome="reference"][data-nxglass="v1"][data-nx-shared-ui="nex
 body[data-nx-shared-ui="next"] #writerRibbon .ribbonTabs{display:flex;flex-wrap:wrap;gap:3px;overflow:visible;height:auto!important;min-height:40px}
 body[data-nx-shared-ui="next"] #writerRibbon .ribbonTab{font-size:13px!important;min-height:36px;height:auto!important;white-space:normal}
 body[data-nx-exact-chrome="reference"] #writerRibbon .nxCleanStyles>.nx62Styles{position:static!important;width:100%!important;max-width:100%!important;grid-template-columns:repeat(auto-fit,minmax(min(100%,110px),1fr))!important;box-sizing:border-box}
-body[data-nx-shared-ui="next"] #nx62RulerBar[data-nx-ruler-drag="1"]{padding:8px 12px!important;gap:8px!important;box-sizing:border-box;min-width:0}
-body[data-nx-shared-ui="next"] #nxLayoutIndentControls{display:grid!important;grid-template-columns:repeat(auto-fit,minmax(min(100%,160px),1fr))!important;gap:8px 12px!important;align-items:end!important;width:100%;min-width:0;box-sizing:border-box;padding:0!important}
-body[data-nx-shared-ui="next"] #nxLayoutIndentControls label{display:flex!important;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:6px;min-width:0;font-size:12px!important;line-height:1.5;white-space:normal!important}
-body[data-nx-shared-ui="next"] #nxLayoutIndentControls input{width:72px!important;max-width:100%;min-width:0;min-height:32px;box-sizing:border-box;font-size:13px!important}
-body[data-nx-shared-ui="next"] :is(#nxLayoutSelectionHint,#nxRulerStatus){font-size:12px!important;line-height:1.5;white-space:normal;overflow-wrap:anywhere}
-body[data-nx-shared-ui="next"] #nxLayoutSelectionHint{grid-column:1/-1}
+/* Numeric fields remain available in one compact keyboard-scrollable strip. */
+body[data-nx-shared-ui="next"] #nx62RulerBar[data-nx-ruler-drag="1"]{padding:6px 10px!important;gap:4px!important;box-sizing:border-box;min-width:0;min-height:0!important;max-height:150px!important;overflow:auto!important;flex-shrink:0}
+body[data-nx-shared-ui="next"] #nxLayoutIndentControls{display:flex!important;flex-wrap:nowrap!important;justify-content:flex-start!important;align-items:stretch!important;gap:10px!important;width:100%;max-width:100%;min-width:0;min-height:0!important;box-sizing:border-box;padding:2px 0 5px!important;overflow-x:auto!important;overflow-y:hidden!important;flex:none;scrollbar-width:thin;overscroll-behavior-x:contain}
+body[data-nx-shared-ui="next"] #nxLayoutIndentControls label{display:flex!important;flex:0 0 116px!important;flex-direction:column!important;flex-wrap:nowrap!important;align-items:stretch!important;justify-content:flex-start!important;gap:3px!important;min-width:0;font-size:12px!important;line-height:1.5;white-space:nowrap!important}
+body[data-nx-shared-ui="next"] #nxLayoutIndentControls label>.nx-si-icon{display:none!important}
+body[data-nx-shared-ui="next"] #nxLayoutIndentControls input{width:100%!important;max-width:100%;min-width:0;height:30px!important;min-height:30px!important;box-sizing:border-box;font-size:13px!important}
+body[data-nx-shared-ui="next"] :is(#nxLayoutSelectionHint,#nxRulerStatus){font-size:11px!important;line-height:1.4;white-space:normal;overflow-wrap:anywhere;margin:0!important}
+body[data-nx-shared-ui="next"] #nxLayoutSelectionHint{flex:0 0 180px;align-self:center}
 @media(min-width:960px){
 body[data-nx-suite-chrome="reference"][data-nx-shared-ui="next"][data-nx-suite-app="writer"]>.app>.workspace{grid-template-columns:minmax(0,1fr)!important}
 body[data-nx-suite-chrome="reference"][data-nx-shared-ui="next"][data-nx-suite-app="writer"][data-nxui-ai-visible="true"][data-nxui-ai-pinned="true"]>.app>.workspace{grid-template-columns:minmax(0,1fr) var(--nxui-ai-width)!important}
