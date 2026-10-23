@@ -1,8 +1,12 @@
 # Nexus Office
 
-Documents, spreadsheets, presentations, visual design and dashboards in a local browser application. The **6.45.0 browser trial, packaging revision 1**, carries the same application and assets as the installed 6.45.0 package in one HTML file.
+Documents, spreadsheets, presentations, visual design and dashboards in a local browser application. The **6.45.1 browser trial** carries the same application and assets as the installed 6.45.1 package in one HTML file.
 
-[Open the browser trial](https://rdunbar01.github.io/Nexus-Office/Nexus_Office_v6_45_0_Browser.html) · [Download the single HTML](Nexus_Office_v6_45_0_Browser.html) · [Full package](releases/6.45.0/) · [Wiki](https://github.com/RDunbar01/Nexus-Office/wiki)
+[Open the browser trial](https://rdunbar01.github.io/Nexus-Office/Nexus_Office_v6_45_1_Browser.html) · [Download the single HTML](Nexus_Office_v6_45_1_Browser.html) · [Full package](releases/6.45.1/) · [Wiki](https://github.com/RDunbar01/Nexus-Office/wiki)
+
+## Interface update 6.45.1
+
+Both the installed application and browser edition include the updated assistant dock, header and composer. Writer distributes ribbon groups across the available width and adapts its controls and ruler to narrower windows, including when the assistant is pinned. This is a presentation update; commands, document formats, models and editing capabilities are unchanged.
 
 ## What it does
 
@@ -28,7 +32,9 @@ The single-file edition adds a reproducible, integrity-checked delivery format a
 
 ## Full local package
 
-The [6.45.0 package](releases/6.45.0/) remains available unchanged. Keep all installer data files together and follow [INSTALL.txt](releases/6.45.0/INSTALL.txt). **CPython 3.12** is recommended for its optional installer; Python and PyTorch are not required after extraction. The original package's `candidate.html` still needs its two companion libraries. That requirement does not apply to the new single-file browser trial.
+The rebuilt [6.45.1 package](releases/6.45.1/) includes the same interface changes as the browser edition. The [6.45.0 package](releases/6.45.0/) remains available for rollback. Keep all installer data files together and follow [INSTALL.txt](releases/6.45.1/INSTALL.txt). **CPython 3.12** is recommended for its optional installer; Python and PyTorch are not required after extraction. The installed package's `candidate.html` still needs its two companion libraries. That requirement does not apply to the new single-file browser trial.
+
+The complete ZIP is named `Nexus_office_6.45.1_Full.zip`. Extract it with all supplied installer data parts; do not mix versions. The Git repository also supplies those components separately.
 
 ## Validation and limits
 

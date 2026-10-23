@@ -1,3 +1,15 @@
+# 現行リリース 6.45.1
+
+[ブラウザーで試す](https://rdunbar01.github.io/Nexus-Office/Nexus_Office_v6_45_1_Browser.html) · [完全版インストーラーの構成ファイル](https://github.com/RDunbar01/Nexus-Office/tree/main/releases/6.45.1) · [リリースノート](https://github.com/RDunbar01/Nexus-Office/blob/main/docs/CHANGELOG_6.45.1.md)
+
+インストール版とブラウザー版のアシスタントパネル、ヘッダー、入力欄を改善しました。Writer はリボンの各グループを利用可能な幅に配置し、アシスタントを固定した場合を含め、狭いウィンドウでも操作項目とルーラーが収まるようにしました。コマンド、文書形式、モデル、編集機能は変更していません。
+
+現行のブラウザー版とインストール版には同じ UI 変更が含まれます。完全版 ZIP にはインストーラーと全データファイルが含まれるため、一緒に保管してください。各データファイルは 10,000,000 バイト以下、各配布コンポーネントは 20,000,000 バイト未満です。この UI 更新は対応モデルを追加せず、実機の Windows/Radeon 検証を示すものではありません。
+
+Nexus 所有の素材は個人利用および社内の商用テスト・評価に利用できます。配布、改変、本番導入、その他の商用利用には明示的な書面による同意が必要です。第三者のライセンスと既に付与された権利は変更されません。 [評価許可](https://github.com/RDunbar01/Nexus-Office/blob/main/COMMERCIAL_EVALUATION_PERMISSION.md).
+
+## 旧版の説明（変更せず保存）
+
 # Nexus Office
 
 [ブラウザーで試す](https://rdunbar01.github.io/Nexus-Office/Nexus_Office_v6_45_0_Browser.html) · [リポジトリ](https://github.com/RDunbar01/Nexus-Office)

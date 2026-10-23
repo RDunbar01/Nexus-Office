@@ -1,3 +1,15 @@
+# Current release 6.45.1
+
+[Open browser trial](https://rdunbar01.github.io/Nexus-Office/Nexus_Office_v6_45_1_Browser.html) · [Full installer components](https://github.com/RDunbar01/Nexus-Office/tree/main/releases/6.45.1) · [Release notes](https://github.com/RDunbar01/Nexus-Office/blob/main/docs/CHANGELOG_6.45.1.md)
+
+Both the installed app and browser edition include the updated assistant dock, header and composer. Writer distributes ribbon groups across the available width and adapts its controls and ruler to narrower windows, including when the assistant is pinned. Commands, document formats, models and editing capabilities are unchanged.
+
+The current browser and native editions have the same UI changes. The complete ZIP contains the installer and all data parts; keep them together. Data parts are at most 10,000,000 bytes, and individual distributed components are below 20,000,000 bytes. This UI patch does not add model support or establish physical Windows/Radeon qualification.
+
+Personal use and internal commercial testing and evaluation are permitted for Nexus-owned material. Distribution, modification, production deployment and other commercial use require express written consent. Third-party licenses and previous grants remain unchanged. [Evaluation permission](https://github.com/RDunbar01/Nexus-Office/blob/main/COMMERCIAL_EVALUATION_PERMISSION.md).
+
+## Previous release notes (retained unchanged)
+
 # Nexus Office
 
 [Open the browser trial](https://rdunbar01.github.io/Nexus-Office/Nexus_Office_v6_45_0_Browser.html) · [Repository](https://github.com/RDunbar01/Nexus-Office)

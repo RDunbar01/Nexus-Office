@@ -1,23 +1,23 @@
 {
-  "source_main": "50c4332214395bc883a98fd5e589a84d927529ee",
-  "engine_version": "6.45.0",
+  "source_main": "dde79e04b2e7d1c092c1b6137e8baa03069be513",
+  "engine_version": "6.45.1",
   "packaging_revision": 1,
-  "filename": "Nexus_Office_v6_45_0_Browser.html",
-  "html_bytes": 16555013,
-  "html_sha256": "c21e46b99e32c9032f4eacf276441f173e5794347171a659ff2dc4c4cafe999f",
-  "git_blob_sha1": "a229c3b81a95ad20c891b33bbcec27ea9a338dd8",
-  "source_candidate_sha256": "963417585f38be4223f9caf47b66f1f2d184718a414c2f8d736821a715d295e5",
-  "canonical_full_html_sha256": "d0d96baa606f83fef094756482d10de5229d7c178bc4526a1d09b60f9cd290e6",
-  "canonical_full_html_bytes": 28912935,
-  "expanded_trial_sha256": "ab0ddb8912018b2660408b8b256812791b01dbe01ec7efd8adbf6e8206c40049",
-  "expanded_trial_bytes": 28913457,
+  "filename": "Nexus_Office_v6_45_1_Browser.html",
+  "html_bytes": 16557610,
+  "html_sha256": "8302bc40442c6df65240c58cbb916b3b18697e354121ee2401b502a22f6eb234",
+  "git_blob_sha1": "b14b7de9511b65b4ccda8267e96839113188db71",
+  "source_candidate_sha256": "ab4acadb55ef7eddca7ac18614651bec29a664ae034eec49d0cec397456e67d9",
+  "canonical_full_html_sha256": "a7f962c2d8bc74934581d2ce41916abf0436c289c222b5af8fcef2a4826e8137",
+  "canonical_full_html_bytes": 28922968,
+  "expanded_trial_sha256": "e44eda9a15eeff9f4dcbbac4ab3f89824dc442298bc663bb4dc7b410ffd6553d",
+  "expanded_trial_bytes": 28923196,
   "config": {
     "schema": 1,
-    "compressedBytes": 13237953,
-    "packedBytes": 24416727,
-    "htmlBytes": 28913457,
-    "compressedSha256": "5635f2ca24f3647da52ed0d27c05f86adf09b0d33bb81f08bd2ee7448767620d",
-    "htmlSha256": "ab0ddb8912018b2660408b8b256812791b01dbe01ec7efd8adbf6e8206c40049"
+    "compressedBytes": 13240031,
+    "packedBytes": 24426689,
+    "htmlBytes": 28923196,
+    "compressedSha256": "66e4ba9f9e8c9a6d4b12dbae2e5d23b832ac8bda8cedd81a9dd39a9d73973eda",
+    "htmlSha256": "e44eda9a15eeff9f4dcbbac4ab3f89824dc442298bc663bb4dc7b410ffd6553d"
   },
   "vendors": {
     "092_nexus-writing-writing_vendor.js": "b020ab03cde13f3989d4c6d3bf6d661fef2d3a6201ace620578466270529e2f0",
@@ -27,8 +27,7 @@
   "decoded_json_wrappers": 4,
   "dictionary_entries": 511,
   "presentation_deltas": [
-    "One current evaluation-permission sentence and link",
-    "One end-of-body browser-package readiness marker"
+    "One end-of-body browser-package readiness marker; native and browser evaluation notice match"
   ],
   "limits": [
     "Distributed HTML below 20,000,000 bytes; expanded app is larger and runtime memory use is higher",
