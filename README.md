@@ -1,42 +1,41 @@
 # Nexus Office
 
-Local browser-based tools for documents, spreadsheets, presentations, visual design and dashboards. Version **6.45.0** combines the five workspaces with installed templates and a command layer that previews changes before asking for approval.
+Documents, spreadsheets, presentations, visual design and dashboards in a local browser application. The **6.45.0 browser trial, packaging revision 1**, carries the same application and assets as the installed 6.45.0 package in one HTML file.
 
-[Download 6.45.0](releases/6.45.0/) · [Installation instructions](releases/6.45.0/INSTALL.txt) · [Package manifest](releases/6.45.0/package_manifest.json)
+[Open the browser trial](https://rdunbar01.github.io/Nexus-Office/Nexus_Office_v6_45_0_Browser.html) · [Download the single HTML](Nexus_Office_v6_45_0_Browser.html) · [Full package](releases/6.45.0/) · [Wiki](https://github.com/RDunbar01/Nexus-Office/wiki)
 
 ## What it does
 
-- **Writer:** edit documents, choose installed templates and prepare a resume from explicitly supplied facts, with a full preview and Undo.
-- **Grid:** work with spreadsheets and templates; create charts and tables from bounded existing cell ranges.
-- **Present:** add an editable slide from an installed layout through a reviewed creation workflow.
-- **Paint and Dashboard:** use social-design layouts, a colouring gallery and dashboard templates; imported spreadsheet data is a snapshot, not a live connection.
-- **Office commands:** discover available actions, select captured context and fill supported existing fields with literal values. Edits require separate review and approval.
+- **Writer:** edit documents, use installed templates and prepare a resume from facts you supply, with preview and Undo.
+- **Grid:** edit workbooks, use templates, and create charts and tables from bounded cell ranges.
+- **Present:** add editable slides from installed layouts using a reviewed creation workflow.
+- **Paint and Dashboard:** work with visual layouts, colouring assets and dashboard templates. Imported spreadsheet data is a snapshot, not a live connection.
+- **Office commands:** discover supported actions, capture context and fill supported fields with literal values. Review and approval precede edits.
+
+## Try it in your browser
+
+Open the trial link above. The file expands its bundled code and assets locally, then shows the application notice. It needs no server, Python installation, PyTorch backend or CDN to start. You can also save the HTML and open it locally in a supported browser.
+
+Use a current desktop browser with `DecompressionStream('gzip')`, TextEncoder/TextDecoder and Web Crypto. Startup checks these APIs and the embedded data, and reports an error rather than pretending the application loaded. The trial does not guarantee a fixed startup time on every device.
+
+The monolithic HTML is intended to make online evaluation easy: one Pages link opens the application, and one downloaded file contains its code and assets. A reversible dictionary/gzip package keeps the distributed HTML below 20,000,000 bytes without dropping the writing library, clipart or model assets. The expanded application is about 28.9 MB; memory use is higher than the file size. No user document is sent through the application loader.
 
 ## Engineering contribution
 
-Developed by **Rich Dunbar / Nexus Emerging Technology with AI-assisted coding**. The project brings local productivity workspaces together and connects their existing editing APIs to bounded commands. The command registry reports what the installed host can actually do; previews are invalidated when inputs change, and Writer edits use its existing transaction and Undo path.
+Developed by **Rich Dunbar / Nexus Emerging Technology with AI-assisted coding**. Office brings five productivity workspaces together and connects their existing editing APIs to bounded commands. The command registry reports available host actions; previews become invalid when inputs change, and Writer edits use the application's transaction and Undo path.
 
-These are programmed workflows. The included small learned checkpoint has not passed qualification and is not enabled as a general-purpose Office agent. The command interface does not run arbitrary macros, shell commands or scripts, generate whole presentations, or invent missing resume facts.
+The single-file edition adds a reproducible, integrity-checked delivery format around the existing application rather than a mock interface. Imported documents are handled by the application's existing format code. These are programmed workflows: the included small learned checkpoint remains unqualified and is not enabled as a general-purpose Office agent. The command interface does not run arbitrary macros or shell scripts, generate whole presentations, or invent missing resume facts.
 
-## Start locally
+## Full local package
 
-1. Download every file in [releases/6.45.0](releases/6.45.0/), preserving the directory structure. Keep `Nexus_office_Data_001.nxd`, `Nexus_office_Data_002.nxd`, `Nexus_office_Data_003.nxd`, `package_manifest.json` and `installer.py` together.
-2. With **CPython 3.12** installed, run `python installer.py`. Review the local installation plan before confirming. Add `--no-launch` to extract without opening the application.
-3. Open the extracted `candidate.html` in a modern desktop browser. Keep its `source_scripts` folder beside it, including `092_nexus-writing-writing_vendor.js` and `097_nx-clipart-data.js`.
-4. Open the Office Assistant and ask **Office commands** to inspect the available actions, or **I need a professional resume template** to try the reviewed Writer workflow with sample facts.
-
-The application needs **neither Python nor PyTorch** after extraction. Python 3.12 is recommended for the optional installer, not a tested guarantee for every Python version. Rebuilding with `build.py` needs Python 3.10 or newer.
-
-This release is a local HTML package, not a self-contained hosted trial. The companion libraries are required; the historical root `NEXUS_Office.html` is not the 6.45.0 package entry point. Each distributed file is below 20,000,000 bytes and each installer data part is at most 10,000,000 bytes.
+The [6.45.0 package](releases/6.45.0/) remains available unchanged. Keep all installer data files together and follow [INSTALL.txt](releases/6.45.0/INSTALL.txt). **CPython 3.12** is recommended for its optional installer; Python and PyTorch are not required after extraction. The original package's `candidate.html` still needs its two companion libraries. That requirement does not apply to the new single-file browser trial.
 
 ## Validation and limits
 
-The package includes source-hash records and regression checks using synthetic data, pinned jsdom 26.1.0 and the installed Writer transaction/Undo APIs. Package review also checked inventory, hashes and isolated no-launch extraction. These checks do not establish Microsoft Office rendering fidelity, printing, exhaustive browser visual acceptance or native Windows/GPU compatibility. See the extracted `RELEASE_VALIDATION.json` and `qualification/` records for scope.
+See [browser build and test details](docs/BROWSER_TRIAL.md) for exact hashes, reconstruction checks and test scope. Existing regressions cover document/workbook operations, format round trips, cancelled imports, command previews and Undo with synthetic data. Browser-native clipboard, drawing, printing and rendering fidelity need testing on the intended device. Microsoft Office fidelity and Windows/Radeon performance are not guaranteed.
 
-The [historical README](docs/README_PREVIOUS.md) preserves earlier design notes and references. Its version-specific claims do not describe every current workflow.
+[English Wiki](https://github.com/RDunbar01/Nexus-Office/wiki) · [Français](https://github.com/RDunbar01/Nexus-Office/wiki/Home.fr) · [日本語](https://github.com/RDunbar01/Nexus-Office/wiki/Home.ja) · [한국어](https://github.com/RDunbar01/Nexus-Office/wiki/Home.ko)
 
 ## Credits and license
 
-Retain the [third-party notices](NEXUS_Office_v6.7_THIRD_PARTY_NOTICES.md) and the notices included with the extracted libraries.
-
-Personal use and internal commercial testing and evaluation are permitted for Nexus-owned material. Distribution, modification, production deployment and other commercial use require express written consent. Third-party licenses and previously granted rights remain unchanged. See the [license](LICENSE) and [evaluation permission](COMMERCIAL_EVALUATION_PERMISSION.md).
+Retain the [third-party notices](NEXUS_Office_v6.7_THIRD_PARTY_NOTICES.md) and library notices embedded in the application. Personal use and internal commercial testing and evaluation are permitted for Nexus-owned material. Distribution, modification, production deployment and other commercial use require express written consent. Third-party licenses and previously granted rights remain unchanged. See [LICENSE](LICENSE) and the [evaluation permission](COMMERCIAL_EVALUATION_PERMISSION.md).

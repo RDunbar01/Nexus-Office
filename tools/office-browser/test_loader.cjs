@@ -1,0 +1,12 @@
+'use strict';const fs=require('fs'),vm=require('vm'),assert=require('assert/strict'),{webcrypto}=require('crypto');
+const html=fs.readFileSync(__dirname+'/dist/Nexus_Office_v6_45_0_Browser.html','utf8');
+const config=JSON.parse(html.match(/<script id="nxOfficePackConfig"[^>]*>([\s\S]*?)<\/script>/)[1]);
+const payload=html.match(/<script id="nxOfficePackedApp"[^>]*>([\s\S]*?)<\/script>/)[1];
+const code=fs.readFileSync(__dirname+'/loader.js','utf8');
+async function run(mode){let written=null,writes=0;const nodes={};for(const id of ['nxOfficeBoot','nxBootStatus','nxBootProgress','nxBootError','nxBootRetry'])nodes[id]={hidden:false,textContent:'',addEventListener(k,f){this[k]=f}};
+ nodes.nxOfficePackConfig={textContent:JSON.stringify(mode==='limit'?{...config,packedBytes:1}:config)};nodes.nxOfficePackedApp={textContent:mode==='corrupt'?(payload[0]==='0'?'1':'0')+payload.slice(1):payload};
+ const ctx={document:{getElementById:id=>nodes[id],open(){},write(s){written=s;writes++},close(){}},TextEncoder,TextDecoder,DecompressionStream:mode==='unsupported'?undefined:DecompressionStream,ReadableStream,crypto:webcrypto,Uint8Array,Int16Array,atob,btoa,setTimeout,console};ctx.globalThis=ctx;
+ vm.runInNewContext(code,ctx);nodes.nxBootRetry.click();nodes.nxBootRetry.click();const end=Date.now()+60000;
+ while(Date.now()<end){if(written!==null||(!nodes.nxBootError.hidden&&nodes.nxBootError.textContent))return{written,nodes,ctx,get writes(){return writes}};await new Promise(r=>setTimeout(r,20));}throw Error('Loader timeout '+mode);
+}
+(async()=>{for(const mode of ['success','unsupported','corrupt','limit']){const result=await run(mode);if(mode==='success'){assert.equal(result.written,fs.readFileSync(__dirname+'/expanded_trial.html','utf8'));assert.equal(Buffer.byteLength(result.written),config.htmlBytes);assert.equal(result.writes,1);}else{assert.equal(result.written,null);assert(!result.nodes.nxBootError.hidden);assert(!result.nodes.nxBootRetry.hidden);assert(result.nodes.nxBootError.textContent);}console.log('PASS',mode);}const retry=await run('unsupported');retry.ctx.DecompressionStream=DecompressionStream;retry.nodes.nxBootRetry.click();retry.nodes.nxBootRetry.click();const end=Date.now()+60000;while(retry.writes===0&&Date.now()<end)await new Promise(r=>setTimeout(r,20));assert.equal(retry.writes,1);console.log('PASS retry after API restored and concurrent-click busy guard');console.log('Loader byte-exact reconstruction and fail-closed paths passed');})().catch(e=>{console.error(e);process.exitCode=1});
