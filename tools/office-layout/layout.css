@@ -1,0 +1,53 @@
+/* Nexus Office 6.45.1: chrome-only responsive layout. Document and model styles are untouched. */
+@media screen {
+body[data-nx-shared-ui="next"]{--nxui-ai-width:clamp(20rem,26vw,26rem)}
+body[data-nx-shared-ui="next"][data-nxui-ai-wide="true"]{--nxui-ai-width:clamp(24rem,38vw,38rem)}
+body[data-nx-shared-ui="next"] #nxOfficeAIPanel{box-sizing:border-box;min-width:0;gap:12px!important;padding:16px!important;background:linear-gradient(155deg,#f7fbfc,#eef5f6);color:#203742;overflow:auto!important;scrollbar-gutter:stable}
+body[data-nx-shared-ui="next"] #nxOfficeAIPanel>header{display:flex;flex-wrap:wrap;align-items:center;gap:8px!important;padding-bottom:12px;border-bottom:1px solid #cadcde;flex:none}
+body[data-nx-shared-ui="next"] #nxOfficeAIPanel>header>strong{flex:1 0 100%;font-size:17px;line-height:1.4;letter-spacing:.01em}
+body[data-nx-shared-ui="next"] #nxOfficeAIPanel>header button{flex:1 1 auto;min-height:36px;padding:7px 10px;font-size:13px;white-space:normal}
+body[data-nx-shared-ui="next"] #nxOfficeAIPanel :is(#nxAIStatus,#nxAIAppContext,#nxExperimentalQualitySummary){font-size:12px;line-height:1.6;overflow-wrap:anywhere;flex:none}
+body[data-nx-shared-ui="next"] #nxExperimentalQualitySummary{padding:10px 12px;border-radius:8px;background:#fff7e9;border:1px solid #e5ca9d;border-left:4px solid #b86d15}
+body[data-nx-shared-ui="next"] #nxAIAppContext{font-weight:650;color:#17646b}
+body[data-nx-shared-ui="next"] #nxOfficeAIPanel #nxAILog{flex:1 1 200px;min-height:120px;border:1px solid #d9e5e6;background:#fff;border-radius:12px;padding:10px;overflow:auto;overscroll-behavior:contain}
+#nxOfficeAIPanel #nxAILog:empty::before{content:'Your Office workspace helper';display:block;color:#17646b;font-weight:650;padding:18px 8px 6px}
+#nxOfficeAIPanel #nxAILog:empty::after{content:'Ask about tools, formatting, or import and export. Browse Suggestions & help for authored guidance. Experimental answers must be checked.';display:block;color:#607581;font-size:13px;line-height:1.6;padding:0 8px 18px}
+body[data-nx-shared-ui="next"] #nxOfficeAIPanel .nxai-message{font-size:13px;line-height:1.65;padding:12px;overflow-wrap:anywhere}
+body[data-nx-shared-ui="next"] #nxOfficeAIPanel>form{display:flex!important;flex-direction:column;align-items:stretch!important;gap:9px;flex:none;min-width:0;margin:0;padding:12px;border:1px solid #b6d1d4;border-radius:12px;background:#fff}
+body[data-nx-shared-ui="next"] #nxOfficeAIPanel>form>.nx-si-icon{display:none!important}
+body[data-nx-shared-ui="next"] #nxOfficeAIPanel #nxAIInput{display:block;box-sizing:border-box;width:100%!important;max-width:100%;min-width:0;min-height:96px;max-height:30vh;padding:10px;font:14px/1.5 system-ui,sans-serif;resize:vertical;border:1px solid #c3d5d8;border-radius:8px;order:0}
+body[data-nx-shared-ui="next"] #nxOfficeAIPanel>form>button{align-self:flex-end;order:1;min-width:100px;max-width:100%;height:auto;min-height:38px;padding:8px 18px;background:#0b7078;color:#fff;border-color:#0b7078;font-size:13px}
+body[data-nx-shared-ui="next"] #nxOfficeAIPanel details{padding-top:8px;border-top:1px solid #cadcde;min-width:0}
+body[data-nx-shared-ui="next"] #nxOfficeAIPanel details>summary{padding:6px 2px;font-size:13px;font-weight:600;line-height:1.5}
+body[data-nx-shared-ui="next"] #nxOfficeAIPanel #nxAITopics{gap:7px;grid-template-columns:minmax(0,1fr)}
+body[data-nx-shared-ui="next"] #nxOfficeAIPanel :is(#nxAITopics,#nxAISettingsMenu) :is(label,button,select,p){font-size:13px;line-height:1.5;min-width:0;max-width:100%;box-sizing:border-box;overflow-wrap:anywhere;white-space:normal}
+body[data-nx-shared-ui="next"] #nxOfficeAIPanel :is(#nxAITopics,#nxAISettingsMenu) select{width:100%;min-height:36px}
+body[data-nx-shared-ui="next"] #nxOfficeAIPanel .nxai-actions{gap:8px;margin-top:10px}
+/* All ribbon groups share the full remaining document width, not fixed left-hand tracks. */
+body[data-nx-exact-chrome="reference"][data-nxglass="v1"][data-nx-shared-ui="next"] #writerRibbon .ribbon[data-nxg-chrome="ribbon"] .ribbonPanel.active{display:flex!important;flex-wrap:wrap!important;align-items:stretch!important;gap:10px!important;min-width:0!important;width:100%!important;max-width:100%!important;height:auto!important;min-height:0!important;max-height:clamp(180px,34vh,360px)!important;box-sizing:border-box;padding:12px!important;overflow:auto!important;overscroll-behavior:contain;scrollbar-gutter:stable;grid-template-columns:none!important}
+body[data-nx-exact-chrome="reference"][data-nxglass="v1"][data-nx-shared-ui="next"] #writerRibbon :is(.ribbonGroup,.nxCleanGroup){display:flex!important;flex:1 1 190px!important;flex-direction:column!important;align-items:stretch!important;justify-content:flex-start!important;width:auto!important;min-width:0!important;max-width:100%!important;height:auto!important;min-height:0!important;margin:0!important;padding:8px 12px 28px!important;gap:7px!important;box-sizing:border-box;position:relative;border-right:1px solid #d6dfe6;overflow:visible!important}
+body[data-nx-exact-chrome="reference"][data-nxglass="v1"][data-nx-shared-ui="next"] #writerRibbon .nxCleanGroup:is([data-clean-label="Font"],[data-clean-label="Paragraph"]){flex:2 1 280px!important}
+body[data-nx-exact-chrome="reference"][data-nxglass="v1"][data-nx-shared-ui="next"] #writerRibbon :is(.ribbonGroup,.nxCleanGroup)>div{display:flex!important;flex-wrap:wrap!important;align-items:center!important;gap:6px!important;min-width:0!important;max-width:100%!important;width:auto!important}
+body[data-nx-exact-chrome="reference"][data-nxglass="v1"][data-nx-shared-ui="next"] #writerRibbon :is(.ribbonGroup,.nxCleanGroup) :is(.tool,button){min-width:0!important;max-width:100%!important;width:auto!important;height:auto!important;min-height:34px!important;padding:6px 9px!important;font-size:13px!important;line-height:1.4!important;white-space:normal!important;overflow-wrap:anywhere;flex-shrink:1!important;gap:6px!important}
+body[data-nx-exact-chrome="reference"][data-nxglass="v1"][data-nx-shared-ui="next"] #writerRibbon :is(.ribbonGroup,.nxCleanGroup) :is(select,input){box-sizing:border-box;max-width:100%!important;min-height:34px!important;height:auto!important;font-size:13px!important;min-width:0!important}
+body[data-nx-exact-chrome="reference"][data-nxglass="v1"][data-nx-shared-ui="next"] #writerRibbon .nx62FontSelect{width:145px!important;max-width:100%!important}
+body[data-nx-exact-chrome="reference"][data-nxglass="v1"][data-nx-shared-ui="next"] #writerRibbon .nx62SizeSelect{width:64px!important}
+body[data-nx-exact-chrome="reference"][data-nxglass="v1"][data-nx-shared-ui="next"] #writerRibbon :is(.ribbonGroup,.nxCleanGroup)::after{font-size:11px!important;line-height:1.4;bottom:5px;left:12px;max-width:calc(100% - 24px);white-space:normal}
+body[data-nx-shared-ui="next"] #writerRibbon .ribbonTabs{display:flex;flex-wrap:wrap;gap:3px;overflow:visible;height:auto!important;min-height:40px}
+body[data-nx-shared-ui="next"] #writerRibbon .ribbonTab{font-size:13px!important;min-height:36px;height:auto!important;white-space:normal}
+body[data-nx-exact-chrome="reference"] #writerRibbon .nxCleanStyles>.nx62Styles{position:static!important;width:100%!important;max-width:100%!important;grid-template-columns:repeat(auto-fit,minmax(min(100%,110px),1fr))!important;box-sizing:border-box}
+body[data-nx-shared-ui="next"] #nx62RulerBar[data-nx-ruler-drag="1"]{padding:8px 12px!important;gap:8px!important;box-sizing:border-box;min-width:0}
+body[data-nx-shared-ui="next"] #nxLayoutIndentControls{display:grid!important;grid-template-columns:repeat(auto-fit,minmax(min(100%,160px),1fr))!important;gap:8px 12px!important;align-items:end!important;width:100%;min-width:0;box-sizing:border-box;padding:0!important}
+body[data-nx-shared-ui="next"] #nxLayoutIndentControls label{display:flex!important;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:6px;min-width:0;font-size:12px!important;line-height:1.5;white-space:normal!important}
+body[data-nx-shared-ui="next"] #nxLayoutIndentControls input{width:72px!important;max-width:100%;min-width:0;min-height:32px;box-sizing:border-box;font-size:13px!important}
+body[data-nx-shared-ui="next"] :is(#nxLayoutSelectionHint,#nxRulerStatus){font-size:12px!important;line-height:1.5;white-space:normal;overflow-wrap:anywhere}
+body[data-nx-shared-ui="next"] #nxLayoutSelectionHint{grid-column:1/-1}
+@media(min-width:960px){
+body[data-nx-suite-chrome="reference"][data-nx-shared-ui="next"][data-nx-suite-app="writer"]>.app>.workspace{grid-template-columns:minmax(0,1fr)!important}
+body[data-nx-suite-chrome="reference"][data-nx-shared-ui="next"][data-nx-suite-app="writer"][data-nxui-ai-visible="true"][data-nxui-ai-pinned="true"]>.app>.workspace{grid-template-columns:minmax(0,1fr) var(--nxui-ai-width)!important}
+body[data-nx-suite-chrome="reference"][data-nx-shared-ui="next"][data-nx-suite-app="writer"]>.app>.workspace>.main{grid-column:1!important;min-width:0}
+body[data-nx-suite-chrome="reference"][data-nx-shared-ui="next"][data-nx-suite-app="writer"]>.app>.workspace>#nxOfficeAIPanel[data-nxui-docked="true"]{grid-column:2!important}
+}
+@media(max-width:599px){body[data-nx-shared-ui="next"] #nxOfficeAIPanel{padding:12px!important}body[data-nx-shared-ui="next"] #writerRibbon .ribbonTabs{max-height:120px;overflow:auto}body[data-nx-shared-ui="next"] #nxOfficeAIPanel #nxAILog{min-height:80px}}
+@media(forced-colors:active){body[data-nx-shared-ui="next"] #nxOfficeAIPanel,body[data-nx-shared-ui="next"] #nxOfficeAIPanel>form{background:Canvas;color:CanvasText;border-color:CanvasText}body[data-nx-shared-ui="next"] #nxOfficeAIPanel>form>button{background:ButtonFace;color:ButtonText;border-color:ButtonText}}
+}

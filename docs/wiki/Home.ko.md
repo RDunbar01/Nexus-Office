@@ -1,3 +1,15 @@
+# 현재 릴리스 6.45.1
+
+[브라우저에서 실행](https://rdunbar01.github.io/Nexus-Office/Nexus_Office_v6_45_1_Browser.html) · [전체 설치 구성 파일](https://github.com/RDunbar01/Nexus-Office/tree/main/releases/6.45.1) · [릴리스 노트](https://github.com/RDunbar01/Nexus-Office/blob/main/docs/CHANGELOG_6.45.1.md)
+
+설치형 앱과 브라우저 버전의 어시스턴트 패널, 헤더, 입력 영역을 개선했습니다. Writer는 리본 그룹을 가용 너비에 배치하고 어시스턴트를 고정했을 때를 포함하여 좁은 창에서도 컨트롤과 눈금자가 맞도록 조정합니다. 명령, 문서 형식, 모델과 편집 기능은 변경하지 않았습니다.
+
+현재 브라우저 버전과 설치형 버전에는 동일한 UI 변경이 포함됩니다. 전체 ZIP에는 설치 프로그램과 모든 데이터 파일이 포함되므로 함께 보관하세요. 데이터 파일은 각각 최대 10,000,000바이트이며 개별 배포 구성 요소는 20,000,000바이트 미만입니다. 이 UI 업데이트는 지원 모델을 추가하거나 실제 Windows/Radeon 하드웨어 검증을 입증하지 않습니다.
+
+Nexus 소유 자료의 개인 사용과 내부 상업적 테스트 및 평가는 허용됩니다. 배포, 수정, 프로덕션 배포 및 기타 상업적 사용에는 명시적인 서면 동의가 필요합니다. 타사 라이선스와 기존에 부여된 권리는 그대로 유지됩니다. [평가 허가](https://github.com/RDunbar01/Nexus-Office/blob/main/COMMERCIAL_EVALUATION_PERMISSION.md).
+
+## 이전 릴리스 설명 (변경 없이 보존)
+
 # Nexus Office
 
 [브라우저에서 사용해 보기](https://rdunbar01.github.io/Nexus-Office/Nexus_Office_v6_45_0_Browser.html) · [저장소](https://github.com/RDunbar01/Nexus-Office)

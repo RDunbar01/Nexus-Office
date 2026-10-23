@@ -1,3 +1,37 @@
+# Nexus Office browser trial 6.45.1
+
+[Open the current trial](https://rdunbar01.github.io/Nexus-Office/Nexus_Office_v6_45_1_Browser.html) · [Build manifest](OFFICE_BROWSER_BUILD.json) · [UI changes](CHANGELOG_6.45.1.md)
+
+## Current delivery and application changes
+
+Version 6.45.1 updates the assistant dock, header and composer, and the responsive Writer ribbon and ruler. These presentation changes are included in both the rebuilt local package and the browser edition. Commands, document formats, model assets and editing capabilities are unchanged.
+
+Writer’s ribbon wraps and grows across the available width. On short screens, a bounded, scrollable tool area preserves document space. All controls remain accessible, but are not necessarily visible at the same time.
+
+The browser builder uses the same reversible dictionary, gzip and ASCII Base85 envelope as the previous edition. It restores the two companion JavaScript libraries inline in their original order, restores the expanded application bytes and verifies their SHA-256 before execution. No application-code download, CDN or companion file is required by the single-file edition. Original libraries, model assets and attribution notices are retained.
+
+Both current editions carry the current evaluation-permission notice. Unlike the previous browser packaging revision, the permission notice is no longer a browser-only difference. The expanded browser edition includes its 6.45.1 end-of-body readiness marker. That marker means parsing reached the end, not that every browser action or model is qualified. The existing application notice still requires acknowledgment.
+
+## Artifact, requirements and checks
+
+The file is `Nexus_Office_v6_45_1_Browser.html`. The stable `NEXUS_Office.html` entry uses the exact same reviewed 6.45.1 browser blob, not a redirect; the versioned 6.45.0 file remains unchanged for rollback. The [current build manifest](OFFICE_BROWSER_BUILD.json) is the authority for this artifact's exact size, hashes, reconstructed byte count, source and vendor hashes. Historical 6.45.0 hashes below do not describe the new file. The distributed HTML must remain below 20,000,000 bytes. Expanded bytes and peak memory are larger; startup retains intermediate decoding buffers.
+
+Use a current desktop browser with `DecompressionStream('gzip')`, TextEncoder/TextDecoder and Web Crypto. Decoding and integrity checks run locally. Missing APIs, invalid data, incorrect lengths, corrupt compression or a reconstruction hash mismatch produce a startup error rather than executing unverified output. Retry handling and concurrent-job protection remain in the loader. Startup time depends on the device.
+
+The application's content security policy and script order are retained. Offline startup does not make remote media or optional connected services available offline. The command interface remains bounded and the included learned checkpoint is not enabled as a qualified general-purpose Office agent.
+
+Validation must identify the exact 6.45.1 artifact. Historical regression counts below are prior-release evidence, not proof that this patch passed. See the current release's validation records for executed reconstruction, UI, format, command and layout checks. Synthetic DOM checks do not establish physical Windows/Radeon performance, browser-native clipboard or printing behavior, or Microsoft Office fidelity.
+
+## Rebuild the current browser edition
+
+Extract the complete 6.45.1 local package. Keep its source `candidate.html` with `source_scripts/092_nexus-writing-writing_vendor.js` and `source_scripts/097_nx-clipart-data.js`. Set `NEXUS_OFFICE_SOURCE` to that source directory and use the matching [browser builder and loader](../tools/office-browser/) with CPython 3.12. Run `python tools/office-browser/build_trial.py`, then its `test_loader.cjs` and `test_base85.cjs` checks with a compatible Node.js runtime. The manifest must match the actual source and output; compression bytes may differ across Python/zlib versions. Do not publish expanded verification copies above the distribution file-size limit.
+
+Personal use and internal commercial testing and evaluation are permitted for Nexus-owned material. Distribution, modification, production deployment and other commercial use require express written consent. Third-party licenses and previously granted rights remain unchanged. See [evaluation permission](../COMMERCIAL_EVALUATION_PERMISSION.md).
+
+## Historical 6.45.0 packaging-revision-1 record
+
+The record below is preserved unchanged. Its versions, byte counts, hashes, test counts, environment limitations and relative manifest references describe that prior release, not 6.45.1.
+
 # Nexus Office browser trial
 
 Application version: **6.45.0**. Browser packaging revision: **1**.

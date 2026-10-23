@@ -1,0 +1,28 @@
+{
+  "product": "Nexus Office",
+  "version": "6.45.1",
+  "status": "PASS in the documented available scope",
+  "candidate_sha256": "ab4acadb55ef7eddca7ac18614651bec29a664ae034eec49d0cec397456e67d9",
+  "browser_filename": "Nexus_Office_v6_45_1_Browser.html",
+  "browser_sha256": "8302bc40442c6df65240c58cbb916b3b18697e354121ee2401b502a22f6eb234",
+  "fresh_serial_cycle": {
+    "status": "PASS",
+    "suite_count": 18,
+    "elapsed_seconds": 2976.91,
+    "production_sources_unchanged": true,
+    "receipt": "qualification/final_cycle.json"
+  },
+  "additional_checks": {
+    "installer_safety_unit_tests": 9,
+    "lossless_browser_native_parity": "PASS",
+    "browser_loader_error_retry_and_integrity_tests": "PASS"
+  },
+  "historical_qualification": "baseline_final_cycle.json and pre_* cycle directories are retained historical evidence, not the current pass claim",
+  "limitations": [
+    "jsdom canvas/native browser APIs are emulated as declared in tests",
+    "No actual Windows desktop, Radeon hardware, browser visual, printing, or Microsoft Office acceptance",
+    "Learned model remains unqualified; no training or generation performance claim"
+  ],
+  "physical_windows_radeon_tested": false,
+  "publication_validation": "Actual Pages rendering, public URLs and live wiki state are verified after deployment, not by this local receipt."
+}

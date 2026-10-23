@@ -1,3 +1,15 @@
+# Version actuelle 6.45.1
+
+[Essayer dans le navigateur](https://rdunbar01.github.io/Nexus-Office/Nexus_Office_v6_45_1_Browser.html) · [Composants de l’installateur complet](https://github.com/RDunbar01/Nexus-Office/tree/main/releases/6.45.1) · [Notes de version](https://github.com/RDunbar01/Nexus-Office/blob/main/docs/CHANGELOG_6.45.1.md)
+
+L’application installée et la version navigateur intègrent le panneau de l’assistant, son en-tête et sa zone de saisie remaniés. Writer répartit les groupes du ruban sur la largeur disponible et adapte les commandes et la règle aux fenêtres étroites, y compris lorsque l’assistant est épinglé. Les commandes, formats, modèles et fonctions d’édition restent inchangés.
+
+Les éditions navigateur et installée actuelles comportent les mêmes changements visuels. Le ZIP complet contient l’installateur et tous les fichiers de données ; conservez-les ensemble. Chaque fichier de données fait au plus 10 000 000 octets et chaque composant distribué moins de 20 000 000 octets. Cette mise à jour n’ajoute pas de modèles compatibles et ne constitue pas une qualification sur du matériel Windows/Radeon physique.
+
+L’utilisation personnelle et les tests et évaluations commerciaux internes du contenu Nexus sont autorisés. La distribution, la modification, le déploiement en production et les autres usages commerciaux exigent un consentement écrit exprès. Les licences tierces et les droits déjà accordés restent inchangés. [Autorisation d’évaluation](https://github.com/RDunbar01/Nexus-Office/blob/main/COMMERCIAL_EVALUATION_PERMISSION.md).
+
+## Notes de la version précédente (conservées sans modification)
+
 # Nexus Office
 
 [Essayer dans le navigateur](https://rdunbar01.github.io/Nexus-Office/Nexus_Office_v6_45_0_Browser.html) · [Dépôt](https://github.com/RDunbar01/Nexus-Office)
