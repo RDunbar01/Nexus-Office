@@ -1,38 +1,42 @@
 # Nexus Office
 
-## Start locally: Python and application requirements
+Local browser-based tools for documents, spreadsheets, presentations, visual design and dashboards. Version **6.45.0** combines the five workspaces with installed templates and a command layer that previews changes before asking for approval.
 
-The application runs in a browser and does **not** require Python or PyTorch. This release is not a hosted, self-contained Pages trial: download the complete [6.45.0 package](releases/6.45.0/) and keep `candidate.html` with its required local `source_scripts` assets.
+[Download 6.45.0](releases/6.45.0/) · [Installation instructions](releases/6.45.0/INSTALL.txt) · [Package manifest](releases/6.45.0/package_manifest.json)
 
-Use **CPython 3.12** for the supplied optional Python installer. The installer has no explicit Python-version guard; 3.12 is a recommendation, not a claim that every other version was tested. Rebuilding from source with `build.py` needs **Python 3.10 or newer** because it uses the `Path.write_text(newline=...)` API. That build-tool requirement does not apply to running the HTML app. No native PyTorch backend is supplied or claimed here.
+## What it does
 
-## Current release licensing
+- **Writer:** edit documents, choose installed templates and prepare a resume from explicitly supplied facts, with a full preview and Undo.
+- **Grid:** work with spreadsheets and templates; create charts and tables from bounded existing cell ranges.
+- **Present:** add an editable slide from an installed layout through a reviewed creation workflow.
+- **Paint and Dashboard:** use social-design layouts, a colouring gallery and dashboard templates; imported spreadsheet data is a snapshot, not a live connection.
+- **Office commands:** discover available actions, select captured context and fill supported existing fields with literal values. Edits require separate review and approval.
 
-This Nexus release is not offered under Apache License 2.0. Nexus-owned software may be used only for personal, non-commercial purposes. Any other use, including commercial use, modification or redistribution, requires express written consent from the rights holder. Third-party code, models, datasets and separately licensed components retain their own licenses and notices. Previously granted rights and rights that cannot lawfully be restricted remain unchanged.
+## Engineering contribution
 
+Developed by **Rich Dunbar / Nexus Emerging Technology with AI-assisted coding**. The project brings local productivity workspaces together and connects their existing editing APIs to bounded commands. The command registry reports what the installed host can actually do; previews are invalidated when inputs change, and Writer edits use its existing transaction and Undo path.
 
-> The reviewed source, installer and complete data-part set are published on the main branch. This is not a hosted browser deployment or a hardware-certified release.
+These are programmed workflows. The included small learned checkpoint has not passed qualification and is not enabled as a general-purpose Office agent. The command interface does not run arbitrary macros, shell commands or scripts, generate whole presentations, or invent missing resume facts.
 
-**6.45.0 · published source and installer components · experimental software**
+## Start locally
 
-Experimental local productivity suite for documents, spreadsheets, presentations, visual work and data.
+1. Download every file in [releases/6.45.0](releases/6.45.0/), preserving the directory structure. Keep `Nexus_office_Data_001.nxd`, `Nexus_office_Data_002.nxd`, `Nexus_office_Data_003.nxd`, `package_manifest.json` and `installer.py` together.
+2. With **CPython 3.12** installed, run `python installer.py`. Review the local installation plan before confirming. Add `--no-launch` to extract without opening the application.
+3. Open the extracted `candidate.html` in a modern desktop browser. Keep its `source_scripts` folder beside it, including `092_nexus-writing-writing_vendor.js` and `097_nx-clipart-data.js`.
+4. Open the Office Assistant and ask **Office commands** to inspect the available actions, or **I need a professional resume template** to try the reviewed Writer workflow with sample facts.
 
-## Current baseline and release status
+The application needs **neither Python nor PyTorch** after extraction. Python 3.12 is recommended for the optional installer, not a tested guarantee for every Python version. Rebuilding with `build.py` needs Python 3.10 or newer.
 
-The published package is version **6.45.0**, with active application and package version labels normalized. Historical documentation is retained separately.
+This release is a local HTML package, not a self-contained hosted trial. The companion libraries are required; the historical root `NEXUS_Office.html` is not the 6.45.0 package entry point. Each distributed file is below 20,000,000 bytes and each installer data part is at most 10,000,000 bytes.
 
-The latest audited source retains 183 original script blocks/assets and includes reviewed, bounded command workflows. It does not turn the failed small learned checkpoint into a qualified language model. Document writes require the application review/approval controls. Native Microsoft Office rendering, printing and Windows hardware are not validated by CPU round-trip tests.
+## Validation and limits
 
-## Install the published package
+The package includes source-hash records and regression checks using synthetic data, pinned jsdom 26.1.0 and the installed Writer transaction/Undo APIs. Package review also checked inventory, hashes and isolated no-launch extraction. These checks do not establish Microsoft Office rendering fidelity, printing, exhaustive browser visual acceptance or native Windows/GPU compatibility. See the extracted `RELEASE_VALIDATION.json` and `qualification/` records for scope.
 
-Download all files in [releases/6.45.0](releases/6.45.0), retaining the directory structure. Keep Nexus_office_Data_001.nxd, Nexus_office_Data_002.nxd and Nexus_office_Data_003.nxd together with package_manifest.json and [installer.py](releases/6.45.0/installer.py). Each data part is at most 10,000,000 bytes. With Python already installed, run python installer.py and review its local-only installation plan before confirming. Use --no-launch to extract without opening the app. The installer extracts the application HTML and local libraries into a new version-isolated directory; keep those files together. See [INSTALL.txt](releases/6.45.0/INSTALL.txt). No live browser deployment is created.
+The [historical README](docs/README_PREVIOUS.md) preserves earlier design notes and references. Its version-specific claims do not describe every current workflow.
 
-Independent package review verified the complete inventory, hashes, licensing notices and isolated no-launch installation/extraction. This does not qualify native Windows execution, physical hardware or Microsoft Office rendering.
+## Credits and license
 
-## Start and inspect the original project
+Retain the [third-party notices](NEXUS_Office_v6.7_THIRD_PARTY_NOTICES.md) and the notices included with the extracted libraries.
 
-Use the exact launch instructions accompanying the matching release package. The [preserved previous README](docs/README_PREVIOUS.md) contains the original workflow, research citations, credits, downloads and limitations. Treat its release-specific statements as historical; historical software and its original licenses remain preserved.
-
-## Evidence and licensing
-
-Developed by Rich Dunbar / Nexus Emerging Technology with AI-assisted coding. Retain existing licenses, attribution and third-party notices. No additional Windows, physical GPU, device-write or model-quality qualification is claimed by this documentation refresh. No live browser-trial deployment is created by this README.
+Personal use and internal commercial testing and evaluation are permitted for Nexus-owned material. Distribution, modification, production deployment and other commercial use require express written consent. Third-party licenses and previously granted rights remain unchanged. See the [license](LICENSE) and [evaluation permission](COMMERCIAL_EVALUATION_PERMISSION.md).
