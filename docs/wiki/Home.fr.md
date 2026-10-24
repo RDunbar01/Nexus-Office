@@ -1,57 +1,44 @@
-# Version actuelle 6.45.4
+# Nexus Office 6.45.20 · révision 6
 
-[Ouvrir l’essai navigateur](https://rdunbar01.github.io/Nexus-Office/Nexus_Office_v6_45_4_Browser.html) · [Paquet complet](https://github.com/RDunbar01/Nexus-Office/tree/main/releases/6.45.4)
+## [▶ Ouvrir Nexus Office](https://rdunbar01.github.io/Nexus-Office/releases/6.45.20/Nexus_Office_v6_45_20_Browser.html)
 
-L’accueil présente six cartes : Writer, Grid, Dashboard Studio, NexusPoint, Paint et Compatibility. Les panneaux de l’assistant et des éléments récents sont masqués et leur ouverture automatique est désactivée ; les documents et l’historique sont conservés. Le ruban de la version 6.45.3 est conservé. Cette mise à jour décrit l’interface actuelle, sans annoncer de nouvelles capacités de modèle ou d’édition.
+Ce lien ouvre directement l'application. L'édition pour navigateur ne nécessite ni installation ni Python. Utilisez un navigateur Chromium de bureau récent, lisez l'avis de l'application et décidez de continuer ou non. Le temps de chargement dépend de votre appareil et de votre connexion.
 
-L’utilisation personnelle et les tests et évaluations commerciaux internes du contenu Nexus sont autorisés. La distribution, la modification, le déploiement en production et les autres usages commerciaux exigent un consentement écrit exprès. Les licences tierces et les droits déjà accordés restent inchangés. [Autorisation d’évaluation](https://github.com/RDunbar01/Nexus-Office/blob/main/COMMERCIAL_EVALUATION_PERMISSION.md).
+[English](https://github.com/RDunbar01/Nexus-Office/wiki/Home) · [日本語](https://github.com/RDunbar01/Nexus-Office/wiki/Home.ja) · [한국어](https://github.com/RDunbar01/Nexus-Office/wiki/Home.ko) · [Fichiers de la version](https://github.com/RDunbar01/Nexus-Office/tree/main/releases/6.45.20)
 
-## Documentation des versions précédentes (conservée sans modification)
+## Documents, feuilles et signatures
 
-# Version corrective actuelle 6.45.2
+La révision 6 ajoute des onglets en bas de Writer et Paint. Utilisez **+** pour en ajouter un ; double-cliquez sur un onglet ou appuyez sur F2 pour le renommer. Chaque onglet conserve son contenu et son historique d'annulation pendant la session. Dans Paint, Clear et l'export d'image ne concernent que la feuille active. Writer enregistre tous les onglets dans un `.nxwriter`, et Paint toutes les feuilles dans un `.nxpaint`. Les projets collectifs acceptent jusqu'à 25 onglets et 120 MiB ; l'historique d'annulation n'est pas enregistré. Leur ouverture remplace la collection de l'application après confirmation. Les onglets Sheets se renomment aussi directement, avec mise à jour des références par le mécanisme existant.
 
-[Essai navigateur](https://rdunbar01.github.io/Nexus-Office/Nexus_Office_v6_45_2_Browser.html) · [Paquet complet](https://github.com/RDunbar01/Nexus-Office/tree/main/releases/6.45.2)
+L'import PDF reconstruit du texte modifiable et conserve la mise en page originale dans Compatibility view. Cette vue ne reflète pas les modifications ultérieures dans Nexus. Les fichiers originaux restent téléchargeables. L'import et l'aperçu PDF sont limités à 300 pages ; aucune reconnaissance de caractères n'est incluse pour les PDF numérisés. Les originaux contenant des macros sont conservés, mais VBA, ActiveX et le code embarqué ne s'exécutent pas.
 
-La version 6.45.2 corrige les règles de débordement du ruban Writer pour rendre effective la zone d’outils défilante et limitée en hauteur. Les champs numériques de la règle forment une bande horizontale compacte, défilante si nécessaire, afin de préserver l’espace du document. Tous les outils restent accessibles, mais ne sont pas nécessairement visibles en même temps. Les améliorations de l’assistant de la version 6.45.1 sont inchangées. La disposition publiée en 6.45.1 est remplacée par cette correction visuelle.
+Writer peut insérer une signature dessinée, importée ou enregistrée avec la date locale courante. **Une image de signature n'est pas une signature cryptographique. La conversion des anciens formats, le téléchargement direct d'un PDF paginé et la signature PKI nécessitent l'assistant local facultatif, pas seulement la page hébergée.** Cet assistant nécessite Python 3.10+ et LibreOffice ; la signature par certificat demande une configuration supplémentaire propre au paquet. Consultez le [guide des documents et signatures](https://github.com/RDunbar01/Nexus-Office/blob/main/releases/6.45.20/docs/OFFICE_DOCUMENTS.md).
 
-L’utilisation personnelle et les tests et évaluations commerciaux internes du contenu Nexus sont autorisés. La distribution, la modification, le déploiement en production et les autres usages commerciaux exigent un consentement écrit exprès. Les licences tierces et les droits déjà accordés restent inchangés. [Autorisation d’évaluation](https://github.com/RDunbar01/Nexus-Office/blob/main/COMMERCIAL_EVALUATION_PERMISSION.md).
+## Thèmes et espaces de travail conservés
 
-[6.45.2](https://github.com/RDunbar01/Nexus-Office/blob/main/docs/CHANGELOG_6.45.2.md) · [LICENSE](https://github.com/RDunbar01/Nexus-Office/blob/main/LICENSE) · [COMMERCIAL_EVALUATION_PERMISSION](https://github.com/RDunbar01/Nexus-Office/blob/main/COMMERCIAL_EVALUATION_PERMISSION.md)
+Les dix thèmes restent disponibles dans **Settings → Office themes**. Porcelain est le choix par défaut sans préférence enregistrée. Les thèmes modifient l'interface, pas le contenu créé. La préférence est enregistrée pour ce navigateur et cette origine ; si le stockage est bloqué, elle reste valable pour la session. Gardez les illustrations à côté du HTML. [Guide des thèmes Office](https://github.com/RDunbar01/Nexus-Office/blob/main/releases/6.45.20/docs/OFFICE_THEMES.md).
 
-## Documentation précédente (disposition remplacée ; conservée sans modification)
+- **Dashboard Studio → Aviation example → Use template** : 14 tables modifiables, 101 enregistrements fictifs, six pages, 15 mesures et 23 visualisations. Fleet overview et Safety & risks contiennent une matrice de risques dynamique de 5 × 5. Modifier Impact ou Likelihood déplace le risque ; sélectionner une cellule filtre la page. [Ouvrir l'exemple modifiable indépendant](https://rdunbar01.github.io/Nexus-Office/releases/6.45.20/examples/NEXUS_General_Aviation_Dashboard.html).
+- **Paint → Design Studio** : 629 modèles, 2 720 éléments et 19 polices conservés depuis la révision 2. **Photos → Before & after collections** propose 100 paires d'images générées, réparties en deux collections de 100 mises en page modifiables. Les photos et les textes restent sur des calques distincts. Les images illustrent des styles de sourcils, pas des résultats réels de traitement.
 
-# Version actuelle 6.45.1
+Le guide Word inclus décrit toujours les fonctions de la révision 3 ; OFFICE_DOCUMENTS.md décrit la révision 6. [Consulter les changements](https://github.com/RDunbar01/Nexus-Office/blob/main/releases/6.45.20/docs/CHANGELOG_6.45.20.md).
 
-[Essayer dans le navigateur](https://rdunbar01.github.io/Nexus-Office/Nexus_Office_v6_45_1_Browser.html) · [Composants de l’installateur complet](https://github.com/RDunbar01/Nexus-Office/tree/main/releases/6.45.1) · [Notes de version](https://github.com/RDunbar01/Nexus-Office/blob/main/docs/CHANGELOG_6.45.1.md)
+## Utilisation hors ligne et installation
 
-L’application installée et la version navigateur intègrent le panneau de l’assistant, son en-tête et sa zone de saisie remaniés. Writer répartit les groupes du ruban sur la largeur disponible et adapte les commandes et la règle aux fenêtres étroites, y compris lorsque l’assistant est épinglé. Les commandes, formats, modèles et fonctions d’édition restent inchangés.
+Le fichier HTML du navigateur fait 19 976 619 octets, mais **il ne contient pas à lui seul le moteur PDF, les illustrations des thèmes et toute la collection de photos**. Conservez `document_assets`, `theme_assets` et `comparison_assets` à côté du HTML. Le dossier `document_assets` complet fournit le moteur PDF, son manifeste et sa licence tierce pour l’import et l’aperçu locaux. Les 12 PNG de `theme_assets` fournissent les illustrations des thèmes ; s’ils manquent, les aperçus vectoriels intégrés prennent le relais sans désactiver les thèmes ni les commandes de lancement. Conservez les fichiers `comparison_assets/photos-01.js` à `photos-10.js` dans le dossier `comparison_assets`, à côté du HTML. Ces dix fichiers fournissent les 100 paires générées. S'ils manquent, utilisez **Load comparison photos** pour importer les packs `.nxcomparisons` correspondants. Les projets `.nxpaint` enregistrés intègrent les photos qu'ils utilisent.
 
-Les éditions navigateur et installée actuelles comportent les mêmes changements visuels. Le ZIP complet contient l’installateur et tous les fichiers de données ; conservez-les ensemble. Chaque fichier de données fait au plus 10 000 000 octets et chaque composant distribué moins de 20 000 000 octets. Cette mise à jour n’ajoute pas de modèles compatibles et ne constitue pas une qualification sur du matériel Windows/Radeon physique.
+Pour tout télécharger, choisissez **Code → Download ZIP** dans le dépôt, extrayez l'archive puis ouvrez `releases/6.45.20/Nexus_Office_v6_45_20_Browser.html`. Conservez l'arborescence. Aucun serveur local n'est nécessaire. Le navigateur doit prendre en charge DecompressionStream, TextEncoder/TextDecoder et Web Crypto. Les données décompressées et la mémoire utilisée dépassent la taille du HTML téléchargé.
 
-L’utilisation personnelle et les tests et évaluations commerciaux internes du contenu Nexus sont autorisés. La distribution, la modification, le déploiement en production et les autres usages commerciaux exigent un consentement écrit exprès. Les licences tierces et les droits déjà accordés restent inchangés. [Autorisation d’évaluation](https://github.com/RDunbar01/Nexus-Office/blob/main/COMMERCIAL_EVALUATION_PERMISSION.md).
+La version complète contient 482 fichiers, soit 500 273 126 octets après extraction. Chaque fichier distribué fait moins de 20 000 000 d'octets. Les grandes archives ZIP d'origine ne sont pas ajoutées au dépôt ; leurs composants extraits y figurent. Pour l'installation facultative des sources, regroupez l'installateur, le manifeste et **les 23 parties `.nxd`**. Chaque partie fait au maximum 10 000 000 d'octets. Suivez [INSTALL.txt](https://github.com/RDunbar01/Nexus-Office/blob/main/releases/6.45.20/INSTALL.txt) avec CPython 3.12 standard. Conservez ensemble `candidate.html`, `source_scripts`, `document_assets`, `theme_assets` et `comparison_assets` après extraction.
 
-## Notes de la version précédente (conservées sans modification)
+Sauvegardez vos documents et projets avant de changer de version. Cette version ne réécrit pas les projets enregistrés. Les [versions antérieures](https://github.com/RDunbar01/Nexus-Office/tree/main/releases) restent disponibles.
 
-# Nexus Office
+## Validation et limites
 
-[Essayer dans le navigateur](https://rdunbar01.github.io/Nexus-Office/Nexus_Office_v6_45_0_Browser.html) · [Dépôt](https://github.com/RDunbar01/Nexus-Office)
+Les [résultats fournis pour la révision 6](https://github.com/RDunbar01/Nexus-Office/blob/main/releases/6.45.20/RELEASE_VALIDATION.json) indiquent 25 contrôles des documents dans le navigateur, 14 des thèmes, 21 de Design Studio et 9 des risques, plus 6 contrôles du service, 6 des sources et 5 cas du chargeur, sous Chromium sur Linux. Ils comprennent des conversions réelles avec LibreOffice et un certificat de test autosigné. Les fichiers de test Pages avec aperçu intégré et les macros sont synthétiques ; ils ne prouvent pas la compatibilité avec tous les fichiers réels. Les anciens résultats restent des éléments historiques, pas de nouveaux tests de la révision 6.
 
-Nexus Office 6.45.0 réunit Writer, Grid, Present, Paint et Dashboard. La version d'essai, révision d'emballage 1, conserve le code et les ressources de l'application dans un seul fichier HTML. Ce format facilite l'évaluation en ligne et l'utilisation locale après téléchargement.
+La [vérification distincte du paquet](https://github.com/RDunbar01/Nexus-Office/blob/main/docs/PUBLICATION_VERIFICATION_6.45.20.json) contrôle les octets, empreintes, inventaires, données reconstruites et chemins des fichiers associés sans exécuter l'application fournie ni ses tests fonctionnels. Ce n'est pas une qualification multiplateforme. Le matériel Windows et macOS n’a pas été testé ; ces résultats ne qualifient ni les performances Radeon ni les écrans 4K physiques. La vitesse de démarrage et la fidélité des formats de documents ne sont pas garanties. [Empreintes exactes et détails du navigateur](https://github.com/RDunbar01/Nexus-Office/blob/main/docs/BROWSER_TRIAL.md).
 
-## Fonctions et limites
+## Autorisations
 
-Modifiez des documents et des classeurs, utilisez des modèles de présentation, des ressources graphiques et des tableaux de bord. Les commandes Office sont limitées à des actions définies, avec saisie littérale, aperçu et approbation avant modification. Les modifications Writer utilisent le mécanisme d'annulation existant. Le petit modèle inclus n'est ni qualifié ni activé comme agent Office généraliste.
-
-L'importation et l'exportation dépendent du format. La fidélité parfaite à Microsoft Office n'est pas garantie. Le presse-papiers, l'impression et le rendu dépendent du navigateur. Les tableaux de bord importés sont des instantanés, pas des connexions actives.
-
-## Démarrage
-
-Utilisez un navigateur de bureau récent avec DecompressionStream, TextEncoder/TextDecoder et Web Crypto. Le fichier vérifie et décompresse ses ressources localement avant d'afficher l'avis de l'application. Aucun serveur, Python, PyTorch ou CDN n'est requis au démarrage. Le fichier distribué fait moins de 20 000 000 octets ; l'application décompressée et la mémoire nécessaire sont plus volumineuses. Le délai de démarrage varie selon l'appareil.
-
-Le paquet complet 6.45.0 est conservé sans modification. CPython 3.12 est recommandé pour son installateur facultatif. Son ancien candidate.html nécessite deux scripts compagnons, contrairement au nouvel essai autonome.
-
-## Validation et autorisation
-
-Consultez les [détails de construction et de test](https://github.com/RDunbar01/Nexus-Office/blob/main/docs/BROWSER_TRIAL.md). L'utilisation personnelle et les tests et évaluations commerciaux internes du contenu Nexus sont autorisés. La distribution, la modification, le déploiement en production et les autres usages commerciaux exigent un consentement écrit exprès. Les licences tierces et les droits déjà accordés restent inchangés. Voir l'[autorisation d'évaluation](https://github.com/RDunbar01/Nexus-Office/blob/main/COMMERCIAL_EVALUATION_PERMISSION.md).
-
-[English](https://github.com/RDunbar01/Nexus-Office/wiki/Home) · [日本語](https://github.com/RDunbar01/Nexus-Office/wiki/Home.ja) · [한국어](https://github.com/RDunbar01/Nexus-Office/wiki/Home.ko)
+L'utilisation personnelle ainsi que les tests et évaluations commerciaux internes sont autorisés pour les éléments appartenant à Nexus. La redistribution, la modification, le déploiement en production et les autres usages commerciaux exigent un consentement écrit exprès. Les licences tierces et les droits accordés antérieurement restent inchangés. Consultez la [licence](https://github.com/RDunbar01/Nexus-Office/blob/main/LICENSE), l'[autorisation d'évaluation](https://github.com/RDunbar01/Nexus-Office/blob/main/COMMERCIAL_EVALUATION_PERMISSION.md) et les avis inclus.

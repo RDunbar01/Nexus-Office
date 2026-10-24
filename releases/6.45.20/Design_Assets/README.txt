@@ -1,0 +1,1 @@
+Generated comparison images only. Original supplied references are excluded. Import the reusable .nxassets pack through Photos > Browse stock & your photos > Import asset packs. Load .nxcomparisons packs through Before & after collections. Posts remain editable in the app; exported JPEGs are flattened.

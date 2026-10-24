@@ -1,0 +1,521 @@
+{
+  "version": "6.45.20",
+  "revision": 6,
+  "platform": "Chromium on Linux",
+  "current_suites": {
+    "browser-documents": {
+      "passed": 25,
+      "checks": [
+        "Writer and Paint tab bars remain visible at the bottom",
+        "Writer new tab preserves independent text and formatting",
+        "Double-click an inactive Writer tab to rename it inline",
+        "Writer history stays with its tab",
+        "Writer collective project saves and reopens every tab",
+        "Paint sheets isolate dimensions, raster pixels and editable objects",
+        "Paint double-click rename and current-sheet export",
+        "Clear sheet is isolated and undo restores its objects and pixels",
+        "Paint project API and visible Save retain every sheet",
+        "Legacy one-sheet Paint files open as an additional sheet",
+        "Native Office snapshots include every Writer and Paint tab",
+        "Invalid tab projects fail without replacing current documents",
+        "Sheets double-click rename updates sheet references",
+        "Multiple text documents import into new Writer tabs",
+        "PDF imports editable text and renders the preserved page layout offline",
+        "Apple Pages embedded PDF preview imports without an engine",
+        "DOCX, ODT, macro-enabled Excel and PowerPoint variants import",
+        "Unsupported binary files report the required engine and preserve documents",
+        "Saved signature insertion includes the current date and survives tab switches",
+        "Writer PDF controls offer browser printing and direct local export",
+        "Tab controls fit small, desktop and 4K layouts",
+        "Local launcher connection enables real legacy imports",
+        "Current Writer tab exports a paginated PDF through the local engine",
+        "PKI UI signs the current document without retaining its password",
+        "No JavaScript runtime errors"
+      ]
+    },
+    "themes": {
+      "passed": 14,
+      "checks": [
+        "Porcelain is the default and all ten themes are available",
+        "All ten Settings choices apply and expose the correct selection",
+        "Saved choice survives reload; keyboard selector and reset work",
+        "Every theme has six unclipped launch cards from mobile through 4K",
+        "Theme changes preserve authored data and document rendering",
+        "Every theme retains all app routes and the common navigation",
+        "Dashboard iframe theme follows selection and keeps white title bars",
+        "Design Studio panels follow every theme without changing the layered project",
+        "Invalid preferences fall back to Porcelain and blocked storage remains usable",
+        "Theme preferences synchronize between open tabs",
+        "The packaged app and artwork load directly from disk with networking disabled",
+        "Missing artwork retains vector previews and functional theme choices",
+        "Reduced motion, forced colours and print remain usable",
+        "No runtime errors"
+      ]
+    },
+    "design": {
+      "passed": 21,
+      "checks": [
+        "Design Studio tab opens the complete workspace in one click",
+        "Template previews are prominent and never replace artwork until Use is chosen",
+        "Search, category and size filters open a layered social template",
+        "Text properties change only the selected layer and support undo",
+        "Elements search inserts a shape with independent colour, size, rotation and opacity",
+        "All four layer ordering controls preserve object properties",
+        "Lock, visibility, duplicate and delete act on the chosen layer",
+        "Canvas objects move and resize with the native pointer gestures",
+        "Save and Open preserve the layered design and all object properties",
+        "Photo upload, editing, opacity and cancellation stay in Design Studio",
+        "Collage layout cards open the selected layout and create separate photo layers",
+        "Drawing creates a separate stroke with its chosen colour and transparency",
+        "Export downloads the same canvas with transparency and global Export routes correctly",
+        "Classic projects, 3D and other apps remain accessible without replacing artwork",
+        "Guided templates, colouring pages and Writer catalogue remain available",
+        "New design creates a true 3840 by 2160 canvas",
+        "Canvas background, shape outline and numeric fields have working controls",
+        "Responsive 4K, desktop, tablet and phone panes fit their workspace",
+        "The template gallery is the main studio surface at 4K and desktop sizes",
+        "Keyboard navigation and zero-result search remain usable",
+        "No browser runtime errors"
+      ]
+    },
+    "risk": {
+      "passed": 9,
+      "checks": [
+        "Risk aggregation counts duplicates, reports invalid coordinates and preserves all 25 positions",
+        "Overview and Safety & risks show the full 5\u00d75 matrix with all ten register risks",
+        "Source cell edits move a risk and recompute its score; Undo and Redo restore the matrix",
+        "Keyboard cell selection filters the linked risk register and can be undone",
+        "The visible chart editor exposes risk mode, numeric bindings, title and width",
+        "Invalid coordinates are reported and all-filtered-out data stays a labelled empty matrix",
+        "Ordinary sum heat maps retain their existing aggregation and renderer",
+        "Workspace snapshots and independent editable HTML preserve heat map data and behaviour",
+        "Heat map remains readable and operable at 4K"
+      ]
+    }
+  },
+  "service_checks": {
+    "tests": 6,
+    "successful": true,
+    "failures": 0,
+    "errors": 0
+  },
+  "native_source_checks": 6,
+  "loader_cases": 5,
+  "scope": {
+    "unchanged_existing_source_modules": 191,
+    "added_source_modules": [
+      "192_nx-document-tabs.js",
+      "193_nx-document-compatibility.js",
+      "194_nx-document-signatures.js"
+    ],
+    "changed_existing_source_modules": [
+      "085_inline.js"
+    ],
+    "template_changes": [
+      "Tabbed document styles",
+      "Three document module entries",
+      "Blob font permission for PDF.js"
+    ],
+    "preserved": "All ten Office themes, existing Paint catalogues and aviation dashboard modules"
+  },
+  "retained_revision_5_validation": {
+    "version": "6.45.20",
+    "revision": 5,
+    "platform": "Chromium on Linux",
+    "current_suites": {
+      "themes": {
+        "passed": 14,
+        "checks": [
+          "Porcelain is the default and all ten themes are available",
+          "All ten Settings choices apply and expose the correct selection",
+          "Saved choice survives reload; keyboard selector and reset work",
+          "Every theme has six unclipped launch cards from mobile through 4K",
+          "Theme changes preserve authored data and document rendering",
+          "Every theme retains all app routes and the common navigation",
+          "Dashboard iframe theme follows selection and keeps white title bars",
+          "Design Studio panels follow every theme without changing the layered project",
+          "Invalid preferences fall back to Porcelain and blocked storage remains usable",
+          "Theme preferences synchronize between open tabs",
+          "The packaged app and artwork load directly from disk with networking disabled",
+          "Missing artwork retains vector previews and functional theme choices",
+          "Reduced motion, forced colours and print remain usable",
+          "No runtime errors"
+        ]
+      },
+      "browser-themes": {
+        "passed": 14,
+        "checks": [
+          "Porcelain is the default and all ten themes are available",
+          "All ten Settings choices apply and expose the correct selection",
+          "Saved choice survives reload; keyboard selector and reset work",
+          "Every theme has six unclipped launch cards from mobile through 4K",
+          "Theme changes preserve authored data and document rendering",
+          "Every theme retains all app routes and the common navigation",
+          "Dashboard iframe theme follows selection and keeps white title bars",
+          "Design Studio panels follow every theme without changing the layered project",
+          "Invalid preferences fall back to Porcelain and blocked storage remains usable",
+          "Theme preferences synchronize between open tabs",
+          "The packaged app and artwork load directly from disk with networking disabled",
+          "Missing artwork retains vector previews and functional theme choices",
+          "Reduced motion, forced colours and print remain usable",
+          "No runtime errors"
+        ]
+      },
+      "home": {
+        "passed": 9,
+        "checks": [
+          "Six original workspace launch controls available",
+          "Assistant removed from layout and cannot auto-open",
+          "Recent names removed from layout, legacy save target preserved",
+          "4K, desktop, tablet and mobile layouts have six unobstructed cards",
+          "All five app cards route through their existing launch actions",
+          "Compatibility card opens the original supported-format dialog",
+          "Home Open button invokes native file selection without changing document",
+          "Keyboard access and Settings navigation remain available",
+          "No runtime or ResizeObserver errors"
+        ]
+      },
+      "design": {
+        "passed": 21,
+        "checks": [
+          "Design Studio tab opens the complete workspace in one click",
+          "Template previews are prominent and never replace artwork until Use is chosen",
+          "Search, category and size filters open a layered social template",
+          "Text properties change only the selected layer and support undo",
+          "Elements search inserts a shape with independent colour, size, rotation and opacity",
+          "All four layer ordering controls preserve object properties",
+          "Lock, visibility, duplicate and delete act on the chosen layer",
+          "Canvas objects move and resize with the native pointer gestures",
+          "Save and Open preserve the layered design and all object properties",
+          "Photo upload, editing, opacity and cancellation stay in Design Studio",
+          "Collage layout cards open the selected layout and create separate photo layers",
+          "Drawing creates a separate stroke with its chosen colour and transparency",
+          "Export downloads the same canvas with transparency and global Export routes correctly",
+          "Classic projects, 3D and other apps remain accessible without replacing artwork",
+          "Guided templates, colouring pages and Writer catalogue remain available",
+          "New design creates a true 3840 by 2160 canvas",
+          "Canvas background, shape outline and numeric fields have working controls",
+          "Responsive 4K, desktop, tablet and phone panes fit their workspace",
+          "The template gallery is the main studio surface at 4K and desktop sizes",
+          "Keyboard navigation and zero-result search remain usable",
+          "No browser runtime errors"
+        ]
+      },
+      "risk": {
+        "passed": 9,
+        "checks": [
+          "Risk aggregation counts duplicates, reports invalid coordinates and preserves all 25 positions",
+          "Overview and Safety & risks show the full 5\u00d75 matrix with all ten register risks",
+          "Source cell edits move a risk and recompute its score; Undo and Redo restore the matrix",
+          "Keyboard cell selection filters the linked risk register and can be undone",
+          "The visible chart editor exposes risk mode, numeric bindings, title and width",
+          "Invalid coordinates are reported and all-filtered-out data stays a labelled empty matrix",
+          "Ordinary sum heat maps retain their existing aggregation and renderer",
+          "Workspace snapshots and independent editable HTML preserve heat map data and behaviour",
+          "Heat map remains readable and operable at 4K"
+        ]
+      }
+    },
+    "native_source_checks": 6,
+    "loader_cases": 5,
+    "default_theme": "porcelain",
+    "theme_count": 10,
+    "artwork_pngs": 12,
+    "scope": {
+      "unchanged_existing_source_modules": 191,
+      "added_source_modules": [
+        "191_nx-office-themes.js"
+      ],
+      "changed_existing_source_modules": [],
+      "template_changes": [
+        "Theme layer order",
+        "Two screen-only theme stylesheets",
+        "Theme module entry",
+        "Same-origin local image permission"
+      ],
+      "document_state_writes": false
+    },
+    "retained_revision_4_validation": {
+      "version": "6.45.20",
+      "revision": 4,
+      "platform": "Chromium on Linux",
+      "current_suites": {
+        "home": {
+          "passed": 9,
+          "checks": [
+            "Six original workspace launch controls available",
+            "Assistant removed from layout and cannot auto-open",
+            "Recent names removed from layout, legacy save target preserved",
+            "4K, desktop, tablet and mobile layouts have six unobstructed cards",
+            "All five app cards route through their existing launch actions",
+            "Compatibility card opens the original supported-format dialog",
+            "Home Open button invokes native file selection without changing document",
+            "Keyboard access and Settings navigation remain available",
+            "No runtime or ResizeObserver errors"
+          ]
+        },
+        "browser-home": {
+          "passed": 9,
+          "checks": [
+            "Six original workspace launch controls available",
+            "Assistant removed from layout and cannot auto-open",
+            "Recent names removed from layout, legacy save target preserved",
+            "4K, desktop, tablet and mobile layouts have six unobstructed cards",
+            "All five app cards route through their existing launch actions",
+            "Compatibility card opens the original supported-format dialog",
+            "Home Open button invokes native file selection without changing document",
+            "Keyboard access and Settings navigation remain available",
+            "No runtime or ResizeObserver errors"
+          ]
+        }
+      },
+      "native_source_checks": 6,
+      "loader_cases": 5,
+      "changed_source_modules": [
+        "184_nx-modern-home.js"
+      ],
+      "template_changes": "Home CSS only",
+      "unchanged_aviation_and_paint_modules": true,
+      "unchanged_comparison_companions": true,
+      "retained_revision_3_validation": {
+        "version": "6.45.20",
+        "revision": 3,
+        "platform": "Chromium on Linux",
+        "current_suites": {
+          "home": {
+            "passed": 9,
+            "checks": [
+              "Six original workspace launch controls available",
+              "Assistant removed from layout and cannot auto-open",
+              "Recent names removed from layout, legacy save target preserved",
+              "4K, desktop, tablet and mobile layouts have six unobstructed cards",
+              "All five app cards route through their existing launch actions",
+              "Compatibility card opens the original supported-format dialog",
+              "Home Open button invokes native file selection without changing document",
+              "Keyboard access and Settings navigation remain available",
+              "No runtime or ResizeObserver errors"
+            ]
+          },
+          "browser-risk": {
+            "passed": 9,
+            "checks": [
+              "Risk aggregation counts duplicates, reports invalid coordinates and preserves all 25 positions",
+              "Overview and Safety & risks show the full 5\u00d75 matrix with all ten register risks",
+              "Source cell edits move a risk and recompute its score; Undo and Redo restore the matrix",
+              "Keyboard cell selection filters the linked risk register and can be undone",
+              "The visible chart editor exposes risk mode, numeric bindings, title and width",
+              "Invalid coordinates are reported and all-filtered-out data stays a labelled empty matrix",
+              "Ordinary sum heat maps retain their existing aggregation and renderer",
+              "Workspace snapshots and independent editable HTML preserve heat map data and behaviour",
+              "Heat map remains readable and operable at 4K"
+            ]
+          },
+          "browser-aviation": {
+            "passed": 8,
+            "checks": [
+              "Visible Aviation example action opens the native template picker",
+              "All six report pages render without chart errors and source tables are editable",
+              "Source edits recalculate cards and Undo/Redo restores exact values",
+              "Filters, chart titles and widths use normal editable dashboard operations",
+              "Opening the example can be cancelled without losing the existing project",
+              "Office navigation and NXO snapshot/restore preserve all aviation content",
+              "Exported authoring HTML opens independently with editable tables and charts",
+              "Aviation dashboard remains usable with the shared Office rail at 4K"
+            ]
+          },
+          "aviation": {
+            "passed": 8,
+            "checks": [
+              "Visible Aviation example action opens the native template picker",
+              "All six report pages render without chart errors and source tables are editable",
+              "Source edits recalculate cards and Undo/Redo restores exact values",
+              "Filters, chart titles and widths use normal editable dashboard operations",
+              "Opening the example can be cancelled without losing the existing project",
+              "Office navigation and NXO snapshot/restore preserve all aviation content",
+              "Exported authoring HTML opens independently with editable tables and charts",
+              "Aviation dashboard remains usable with the shared Office rail at 4K"
+            ]
+          },
+          "risk": {
+            "passed": 9,
+            "checks": [
+              "Risk aggregation counts duplicates, reports invalid coordinates and preserves all 25 positions",
+              "Overview and Safety & risks show the full 5\u00d75 matrix with all ten register risks",
+              "Source cell edits move a risk and recompute its score; Undo and Redo restore the matrix",
+              "Keyboard cell selection filters the linked risk register and can be undone",
+              "The visible chart editor exposes risk mode, numeric bindings, title and width",
+              "Invalid coordinates are reported and all-filtered-out data stays a labelled empty matrix",
+              "Ordinary sum heat maps retain their existing aggregation and renderer",
+              "Workspace snapshots and independent editable HTML preserve heat map data and behaviour",
+              "Heat map remains readable and operable at 4K"
+            ]
+          },
+          "browser-home": {
+            "passed": 9,
+            "checks": [
+              "Six original workspace launch controls available",
+              "Assistant removed from layout and cannot auto-open",
+              "Recent names removed from layout, legacy save target preserved",
+              "4K, desktop, tablet and mobile layouts have six unobstructed cards",
+              "All five app cards route through their existing launch actions",
+              "Compatibility card opens the original supported-format dialog",
+              "Home Open button invokes native file selection without changing document",
+              "Keyboard access and Settings navigation remain available",
+              "No runtime or ResizeObserver errors"
+            ]
+          }
+        },
+        "native_source_checks": 6,
+        "dashboard_and_gif_engine_checks": 12,
+        "loader_cases": 5,
+        "base85_suite": "passed",
+        "retained_revision_2_suites": {
+          "comparisons": {
+            "passed": 9,
+            "checks": [
+              "100 generated pairs supply 200 layouts, with no original-photo entries",
+              "All 200 layouts across all nine sizes contain separate editable photos and native text within canvas bounds",
+              "Both collections are searchable and expose 100 choices without changing the canvas during preview",
+              "The alternate template opens with separately selectable before and after photos",
+              "An AI comparison opens through the gallery and all labels can be edited without replacing its photos",
+              "Photo rotation, opacity, resize and Undo preserve independent photo layers",
+              "Comparison Save/Open retains images and edited labels, and raster export contains the photos",
+              "Invalid photo packs fail without altering the current design or loaded library",
+              "The comparison gallery remains usable at 4K"
+            ]
+          },
+          "browser-aviation": {
+            "passed": 8,
+            "checks": [
+              "Visible Aviation example action opens the native template picker",
+              "All six report pages render without chart errors and source tables are editable",
+              "Source edits recalculate cards and Undo/Redo restores exact values",
+              "Filters, chart titles and widths use normal editable dashboard operations",
+              "Opening the example can be cancelled without losing the existing project",
+              "Office navigation and NXO snapshot/restore preserve all aviation content",
+              "Exported authoring HTML opens independently with editable tables and charts",
+              "Aviation dashboard remains usable with the shared Office rail at 4K"
+            ]
+          },
+          "aviation": {
+            "passed": 8,
+            "checks": [
+              "Visible Aviation example action opens the native template picker",
+              "All six report pages render without chart errors and source tables are editable",
+              "Source edits recalculate cards and Undo/Redo restores exact values",
+              "Filters, chart titles and widths use normal editable dashboard operations",
+              "Opening the example can be cancelled without losing the existing project",
+              "Office navigation and NXO snapshot/restore preserve all aviation content",
+              "Exported authoring HTML opens independently with editable tables and charts",
+              "Aviation dashboard remains usable with the shared Office rail at 4K"
+            ]
+          },
+          "browser-comparisons": {
+            "passed": 9,
+            "checks": [
+              "100 generated pairs supply 200 layouts, with no original-photo entries",
+              "All 200 layouts across all nine sizes contain separate editable photos and native text within canvas bounds",
+              "Both collections are searchable and expose 100 choices without changing the canvas during preview",
+              "The alternate template opens with separately selectable before and after photos",
+              "An AI comparison opens through the gallery and all labels can be edited without replacing its photos",
+              "Photo rotation, opacity, resize and Undo preserve independent photo layers",
+              "Comparison Save/Open retains images and edited labels, and raster export contains the photos",
+              "Invalid photo packs fail without altering the current design or loaded library",
+              "The comparison gallery remains usable at 4K"
+            ]
+          },
+          "packs": {
+            "passed": 3,
+            "checks": []
+          },
+          "browser-pro": {
+            "passed": 12,
+            "checks": [
+              "629 templates retain 321 professional compositions and expand all comparison layouts",
+              "2400 new vector objects include 400 banners and 400 borders",
+              "All 19 supplied font families decode and render offline",
+              "Every layout can commit a validated project with independent photographs and text",
+              "Before and after images and labels remain separate editable layers",
+              "Text, image, banner and border rotation survive validation and export rendering",
+              "Custom text watermark supports repeat, opacity, colour and rotation",
+              "Logo watermark imports a separate image with editable rotation and opacity",
+              "Image scaling doubles pixels while preserving layer transform and opacity",
+              "Reusable object library preserves shape and rotation across browser reload",
+              "The supplied mockup asset pack imports through the UI and exports a reusable backup",
+              "Invalid asset packs leave the library unchanged"
+            ]
+          },
+          "text-caret": {
+            "passed": 7,
+            "checks": [
+              "Opening existing text leaves an insertion caret; typing preserves the existing words",
+              "Native Undo and both Redo shortcuts edit the draft without changing the canvas",
+              "Clicking between existing words places the caret and inserts without replacing the text",
+              "Partial selection, backspace and multiline editing preserve surrounding text and all other layers",
+              "Canvas Undo and Redo still restore the complete committed edit",
+              "Cancel discards partial text edits and retains the committed project",
+              "The Properties text field also keeps native text Undo separate from canvas history"
+            ]
+          },
+          "pro": {
+            "passed": 12,
+            "checks": [
+              "629 templates retain 321 professional compositions and expand all comparison layouts",
+              "2400 new vector objects include 400 banners and 400 borders",
+              "All 19 supplied font families decode and render offline",
+              "Every layout can commit a validated project with independent photographs and text",
+              "Before and after images and labels remain separate editable layers",
+              "Text, image, banner and border rotation survive validation and export rendering",
+              "Custom text watermark supports repeat, opacity, colour and rotation",
+              "Logo watermark imports a separate image with editable rotation and opacity",
+              "Image scaling doubles pixels while preserving layer transform and opacity",
+              "Reusable object library preserves shape and rotation across browser reload",
+              "The supplied mockup asset pack imports through the UI and exports a reusable backup",
+              "Invalid asset packs leave the library unchanged"
+            ]
+          },
+          "text": {
+            "passed": 9,
+            "checks": [
+              "The blank-canvas placeholder is removed from main Paint and Design Studio",
+              "Every text layer in all 429 templates and nine sizes is editable and uses an embedded font",
+              "All included fonts load offline and appear in both Paint and Design Studio",
+              "Text content and font controls are first in Properties, with a complete text-layer picker",
+              "Every text box in the reported template can be edited independently through the visible editor",
+              "Double-clicking text opens the editor; Cancel and Escape preserve the project",
+              "Text style edits preserve rotation and opacity and visibly affect raster export",
+              "Locked text cannot be changed, and project Save/Open retains text and included fonts",
+              "Template previews embed legacy fonts and replacement prompts use plain language"
+            ]
+          }
+        },
+        "unchanged_paint_modules": true,
+        "unchanged_comparison_companions": true,
+        "original_reference_photos_shipped": 0,
+        "word_guide_pages_reviewed": 3,
+        "limitations": [
+          "No Windows or physical 4K monitor qualification",
+          "Existing user projects are not automatically replaced by the new example"
+        ]
+      },
+      "guide": "Included Word guide describes revision 3 functional features; revision 4 is Home presentation only.",
+      "limitations": [
+        "No Windows or physical 4K monitor qualification",
+        "Existing user projects are not automatically replaced by the new example"
+      ]
+    },
+    "limitations": [
+      "No physical Windows or 4K monitor qualification",
+      "Theme artwork is raster; interface text, icons and layout scale independently",
+      "Browser-only HTML uses optional companion theme_assets; missing artwork falls back to vector previews"
+    ]
+  },
+  "limitations": [
+    "No physical Windows or macOS qualification",
+    "Compatibility depends on file version, fonts, encryption and advanced features; no universal fidelity guarantee",
+    "Macro code is retained in originals, not executed",
+    "Pages embedded-preview and macro fixtures are synthetic",
+    "Legacy conversion and direct paginated PDF require local LibreOffice; PKI requires the optional package-specific Python environment",
+    "Scanned PDFs have no OCR; PDF import/preview limited to 300 pages"
+  ]
+}

@@ -1,0 +1,2680 @@
+{
+  "schema": 1,
+  "product_id": "office",
+  "product": "Nexus Office",
+  "version": "6.45.20",
+  "entrypoint": "candidate.html",
+  "launch_kind": "html",
+  "payload_sha256": "2f314996b136a5e7c68c43ecf5543f3a080e37b5a01ad47c4423c5f9b60acb47",
+  "parts": [
+    {
+      "name": "Nexus_office_Data_001.nxd",
+      "bytes": 10000000,
+      "sha256": "c3447e2687f37809792e0609e46c657d3007db0be524e781e5b3a8609c4b93ec"
+    },
+    {
+      "name": "Nexus_office_Data_002.nxd",
+      "bytes": 10000000,
+      "sha256": "e90d89dab161818c98b247aa0a81e638b555837011b89b8e867ecc5fe7f8c22b"
+    },
+    {
+      "name": "Nexus_office_Data_003.nxd",
+      "bytes": 10000000,
+      "sha256": "ee377f26e24855dad4d60a34e755298d19130b1b1c92ccf5cb00238818494d0b"
+    },
+    {
+      "name": "Nexus_office_Data_004.nxd",
+      "bytes": 10000000,
+      "sha256": "32603366f70101deed600ba9766975a8b3163536ea1ad6eae37f98b2cd444e01"
+    },
+    {
+      "name": "Nexus_office_Data_005.nxd",
+      "bytes": 10000000,
+      "sha256": "6c139fc0e0da4f41df913d8988b33fb82438b7a95032131a89acd0e46e547781"
+    },
+    {
+      "name": "Nexus_office_Data_006.nxd",
+      "bytes": 10000000,
+      "sha256": "76f35eb9a7530dd161a3641a81f12546f0a77fdc0208a42bad6f8fa96568dc26"
+    },
+    {
+      "name": "Nexus_office_Data_007.nxd",
+      "bytes": 10000000,
+      "sha256": "faa6546f01c8f3d144e47dea41d4e881305146d3e17556a04cbf6a49d6916e43"
+    },
+    {
+      "name": "Nexus_office_Data_008.nxd",
+      "bytes": 10000000,
+      "sha256": "a03e955aff1f88c2e8c7f339b8f339b14574d96a46fbe14756988d0b98971256"
+    },
+    {
+      "name": "Nexus_office_Data_009.nxd",
+      "bytes": 10000000,
+      "sha256": "c5aea46120d67c2af4b4da7207c73daa269e2cf443634eb434630a5ba3458f7d"
+    },
+    {
+      "name": "Nexus_office_Data_010.nxd",
+      "bytes": 10000000,
+      "sha256": "103196ab67780b2dc9855d8a23a8d659d308e7f639b5f9bb4b7186e576bf78f3"
+    },
+    {
+      "name": "Nexus_office_Data_011.nxd",
+      "bytes": 10000000,
+      "sha256": "f7a7831adf093ecc0ccfbbffbafb3d332e3f9c13905f7f01992c17cc03f478e7"
+    },
+    {
+      "name": "Nexus_office_Data_012.nxd",
+      "bytes": 10000000,
+      "sha256": "a0e834e6bc12b8292fb91661681e9c9d284cb5ff55e768c22ec672b14ab77fab"
+    },
+    {
+      "name": "Nexus_office_Data_013.nxd",
+      "bytes": 10000000,
+      "sha256": "aeb16eeabca5889b8b86e3d32b48b112b6e1a57960791cc9e620ae9fce38f88a"
+    },
+    {
+      "name": "Nexus_office_Data_014.nxd",
+      "bytes": 10000000,
+      "sha256": "db3144b93d10f78642cdc82b1c9705df9afc45cd8975118960f992558f9d7f24"
+    },
+    {
+      "name": "Nexus_office_Data_015.nxd",
+      "bytes": 10000000,
+      "sha256": "f197a59151b2ce2ff5f165ae021b76efe8053f32d89ad7188619bd7ecefce77a"
+    },
+    {
+      "name": "Nexus_office_Data_016.nxd",
+      "bytes": 10000000,
+      "sha256": "5c143c1092d75bfb44e95ea1fa75112f81a287e1d5ceac769b51c55f06645b57"
+    },
+    {
+      "name": "Nexus_office_Data_017.nxd",
+      "bytes": 10000000,
+      "sha256": "c1bd94133ae08fd851ebab1f99354dad26c3280c5f6662207f9f10e38c33a924"
+    },
+    {
+      "name": "Nexus_office_Data_018.nxd",
+      "bytes": 10000000,
+      "sha256": "4ff6071430cd28f43c68157fd8bd0f4cc3f29435752b0d8a0449596f1c819adc"
+    },
+    {
+      "name": "Nexus_office_Data_019.nxd",
+      "bytes": 10000000,
+      "sha256": "3a8f0a39fa398d4f35729fdd24f7a6f5ce2dc976a424a9033c050b702039ebeb"
+    },
+    {
+      "name": "Nexus_office_Data_020.nxd",
+      "bytes": 10000000,
+      "sha256": "22e81d0be710eaaf8c3980a8e1a36dac1d79237793e5b7a3d0f967d29c261ac6"
+    },
+    {
+      "name": "Nexus_office_Data_021.nxd",
+      "bytes": 10000000,
+      "sha256": "344c6435e22c1722e23f213c801c3efde9a6af40317737baf50ee607ffcbdb4d"
+    },
+    {
+      "name": "Nexus_office_Data_022.nxd",
+      "bytes": 10000000,
+      "sha256": "ba85cbca85207a65897bf14361ca4f3b2619ce52f4001f52eda68a203b7fa58d"
+    },
+    {
+      "name": "Nexus_office_Data_023.nxd",
+      "bytes": 1478767,
+      "sha256": "3a946effbe9bd90e2c078c93b98f6e8ee92f9703f1403ae726cf87f0109a80c2"
+    }
+  ],
+  "files": {
+    "ACTION_REGISTRY_HOST_RESULTS.json": {
+      "bytes": 34110,
+      "sha256": "682710f05a1011edf93b73c9b098f1e34ccc7179fc19401e924db2a6bdd377b4"
+    },
+    "ACTION_REGISTRY_UNIT_RESULTS.json": {
+      "bytes": 872,
+      "sha256": "63fb515012c6b8e4b9f44733c0e7cbe003349df13362dadcd8ef7296ce22a07d"
+    },
+    "BUILD_MANIFEST.json": {
+      "bytes": 20898,
+      "sha256": "ec149255e1c9d8728418d9d6a72d4b244f86d90f6d6ecf0afc97a1bd5585e3c6"
+    },
+    "BUILD_PROVENANCE.json": {
+      "bytes": 4928,
+      "sha256": "e23c0a2740ac342f69665380f8b857ed350f75377c1b2d915a4a42fec25b8ecd"
+    },
+    "CHANGELOG_6.45.13.md": {
+      "bytes": 3050,
+      "sha256": "add62ded58ce27c953a0730570dee660d6b5c5a248c1605f9e9c9313f627b2fe"
+    },
+    "CHANGELOG_6.45.14.md": {
+      "bytes": 2593,
+      "sha256": "79f3483397970019c455eeb2d6046901b059eab8baa46adcb3776234a6fae1b2"
+    },
+    "CHANGELOG_6.45.15.md": {
+      "bytes": 3307,
+      "sha256": "889e75682d672d8e52a6976c13cc215af11516838d5b5bf6740e4aab44ff9043"
+    },
+    "CHANGELOG_6.45.16.md": {
+      "bytes": 5435,
+      "sha256": "24d5489a02a73f0968ddc3923d324b7141d576c9115beb3999fe19086a35e617"
+    },
+    "CHANGELOG_6.45.20.md": {
+      "bytes": 5074,
+      "sha256": "72b9dc1e023ea7d47f9a49901d2f6871a015e0b8a6fe54260999495c02cf0453"
+    },
+    "CHANGELOG_6.45.4.md": {
+      "bytes": 3670,
+      "sha256": "045712c8948db71c50318ca59417f36328051a2f6fb6069634aff69e702ebcfd"
+    },
+    "CHANGELOG_6.45.5.md": {
+      "bytes": 3497,
+      "sha256": "f2fc30bf231f3adc79d22c73bb5d30e6cac62085ab2003f732cdc8d64376bb8d"
+    },
+    "COLOURING_COLLECTIONS.md": {
+      "bytes": 2578,
+      "sha256": "fe5fabfe5fe7b5bcd49347ee7cff4e75a977ab5826e69165b77397f9a1ac3f01"
+    },
+    "COMMERCIAL_EVALUATION_PERMISSION.md": {
+      "bytes": 1795,
+      "sha256": "0f8c10132dd54a21366d04b74314d60a6aabbd253e3d67721061f72a25d2cd01"
+    },
+    "HOME_BROWSER_RESULTS.json": {
+      "bytes": 138596,
+      "sha256": "2a8b71b033273eca33b811a6c20c6f3f9b7a90626c496f80a2b22b7718ac57be"
+    },
+    "HOME_NATIVE_RESULTS.json": {
+      "bytes": 138577,
+      "sha256": "5cea3f687861c6c7b3a33f5716d48aa4f4f87c342fa6cf1d184bea1041b2f34b"
+    },
+    "HOST_RESULTS.json": {
+      "bytes": 1213,
+      "sha256": "6f8110bb25d1b00f910828444534f5d660c8e747500b08097953ba6486ff1954"
+    },
+    "LICENSE": {
+      "bytes": 2496,
+      "sha256": "9005f4fc1ef5b8323a01723f62846b81a2386b43dabd79956381cc2137b3341d"
+    },
+    "NEXUS_General_Aviation_Dashboard.html": {
+      "bytes": 1419860,
+      "sha256": "3bb63b92939d77469e1f14091d1af8916fe45961fef1312f2af852313807ec82"
+    },
+    "NEXUS_LICENSE_SCOPE.md": {
+      "bytes": 2355,
+      "sha256": "d46d8813a98cdef2d4483245ea5fb6776c98162f242a6e653035c85dcb31b4f6"
+    },
+    "Nexus_Office_6_45_20_Implementation_Guide.docx": {
+      "bytes": 41806,
+      "sha256": "e5f8d41d8b4cded0683628345bc909eff8b86fb4029efde30a3b3c3656f5b91c"
+    },
+    "OFFICE_DOCUMENTS.md": {
+      "bytes": 7992,
+      "sha256": "2a9c7d2475921e07566b68a47ffd99ed78287e7e63610155411f3d70f6c0faea"
+    },
+    "OFFICE_THEMES.md": {
+      "bytes": 4064,
+      "sha256": "4fefe6b9f1e543585153e374811adfb24680ac9864e7925595d0fcff9261c4f5"
+    },
+    "PAINT_STUDIO_GUIDE.md": {
+      "bytes": 5555,
+      "sha256": "6cce7eca7eb5c226282869529ac9383516ec183e523ec5b67048093fcf57605a"
+    },
+    "PRODUCT_RELEASE.json": {
+      "bytes": 4204,
+      "sha256": "2444190dcfc38e138469a71e19f43b75d6f54d29927b293e41501bfdbe38d00f"
+    },
+    "README.txt": {
+      "bytes": 4902,
+      "sha256": "630371d2e6a3326c41f2d43f0426651452a9a7d957c78be7019fc26a21a8ac32"
+    },
+    "REFINEMENT_BROWSER_RESULTS.json": {
+      "bytes": 124751,
+      "sha256": "c7a2aa838ddd52b760e204cffa0a4d80213fd804559061ca0340e31ce86452f8"
+    },
+    "REFINEMENT_NATIVE_RESULTS.json": {
+      "bytes": 124732,
+      "sha256": "438f535c2c2070978e881cca573e86fa0a20851df445bc5d4e311f387d0db3ae"
+    },
+    "RELEASE_SOURCE_SHA256.json": {
+      "bytes": 75414,
+      "sha256": "70b7edcc00485da9957f44fd464f7ebd81b0f574d02658bc55518738830e441c"
+    },
+    "RELEASE_VALIDATION.json": {
+      "bytes": 29291,
+      "sha256": "f186f7a789fc39f4e1d4d07321a28b02e6254744131635d85ad3aa6f80a4ae18"
+    },
+    "RESUME_COMMAND_PARSER_RESULTS.json": {
+      "bytes": 1161,
+      "sha256": "16de5c4b8bed107a5a959edcf40d3ce15863e14a5bf620c7f136ddb374c5841c"
+    },
+    "RIBBON_BROWSER_RESULTS.json": {
+      "bytes": 3663,
+      "sha256": "3a72aa8ee978a2e5d8550330bca82ffe45fafd277f753043d58a532c8bb55130"
+    },
+    "RIBBON_NATIVE_RESULTS.json": {
+      "bytes": 3644,
+      "sha256": "c34b8a812db23d830a559dd3a7178ba403bbf126978658801cd4250b221b7734"
+    },
+    "Start_Nexus_Office.py": {
+      "bytes": 1002,
+      "sha256": "356d4985ed68f24625fd0cbcb1e29d35e02a5ca33f570544ca223217b7f68b8f"
+    },
+    "TEMPLATE_DESIGN_SOURCES.md": {
+      "bytes": 7772,
+      "sha256": "42e15d97fbfd3adf189888ede9f885208adb8bf597b2f1da87b6f26edaa1b3a6"
+    },
+    "action_registry.js": {
+      "bytes": 10442,
+      "sha256": "d297a3a3ac65d361d5abc507cc665e6b307767b04db9708c0ee6d62a4f165700"
+    },
+    "aviation-example.json": {
+      "bytes": 63324,
+      "sha256": "8ceb12d18d198e2da6371ad2a2864e472ec7f8ebb7902a9d9d47da0d12c42ff3"
+    },
+    "browser_tools/boot.html": {
+      "bytes": 4161,
+      "sha256": "d04d50bafe57af882bf66cb913ac70e48d765481e0ad95ca0ef0b64b4e6183e8"
+    },
+    "browser_tools/build_trial.py": {
+      "bytes": 7464,
+      "sha256": "7a08f82522861527c1084faed75827105560773282adf53963fe8851e6745ba5"
+    },
+    "browser_tools/loader.js": {
+      "bytes": 5523,
+      "sha256": "b01440e6832659e6296e5f15e0726756aa961599c66a7144d6da57d3984774ca"
+    },
+    "browser_tools/test_base85.cjs": {
+      "bytes": 768,
+      "sha256": "41ed51bd5d1024b1dfbc8c8752f0c86fad21ebe9de585668a60c49e25f4af753"
+    },
+    "browser_tools/test_loader.cjs": {
+      "bytes": 2603,
+      "sha256": "a308d1b5ad29c50091a30625ed296bb8124c9f61e3a519c4f85ee8f1c16d68f6"
+    },
+    "build.py": {
+      "bytes": 2323,
+      "sha256": "a27a6af96edc6ffc8c66014a416bb31359973b098f161f0aed2f974543d8a4a9"
+    },
+    "candidate.html": {
+      "bytes": 18772917,
+      "sha256": "91297e5394b134190264b8a556063a65f8feb055bf8cdd8aa61c8676f358d9ca"
+    },
+    "comparison_assets/Nexus_Comparison_Photos_01.nxcomparisons": {
+      "bytes": 5353908,
+      "sha256": "68c8a2159cfcb95578c6412190340bade5db250ace659ac5adc981f0cc4a9254"
+    },
+    "comparison_assets/Nexus_Comparison_Photos_02.nxcomparisons": {
+      "bytes": 5528814,
+      "sha256": "b52e45ed35b60cd74ad04ae10d1a1dc8b004f8698b5198402fce51e7082f8e4c"
+    },
+    "comparison_assets/Nexus_Comparison_Photos_03.nxcomparisons": {
+      "bytes": 5540430,
+      "sha256": "aa3d5a8b88517c90edaef39316cef99294bebf97916657c6c78622556a3512d1"
+    },
+    "comparison_assets/Nexus_Comparison_Photos_04.nxcomparisons": {
+      "bytes": 5467386,
+      "sha256": "eb9ab874a39f80c226e5524ea3c4cea5152bcee941e9ba5d4518b5fb4696e18c"
+    },
+    "comparison_assets/Nexus_Comparison_Photos_05.nxcomparisons": {
+      "bytes": 5524762,
+      "sha256": "b13727ed2b48c89859f3ad2e033a780982998b5de34888d2577a30853ded04d1"
+    },
+    "comparison_assets/Nexus_Comparison_Photos_06.nxcomparisons": {
+      "bytes": 5630658,
+      "sha256": "bac5ca8e62fbdcb9bd1792ae7f4a8280a75a4dad34299da9f9a5691397430d1a"
+    },
+    "comparison_assets/Nexus_Comparison_Photos_07.nxcomparisons": {
+      "bytes": 5530206,
+      "sha256": "b9e0c3053a0d542677d1026cb78c73f05f08154c357fef88634a0b26af168ffe"
+    },
+    "comparison_assets/Nexus_Comparison_Photos_08.nxcomparisons": {
+      "bytes": 5604570,
+      "sha256": "c071190d633eb4f25bc2a55252e52ca5cf1c2f9d1be96c363feb5d1630410607"
+    },
+    "comparison_assets/Nexus_Comparison_Photos_09.nxcomparisons": {
+      "bytes": 5518546,
+      "sha256": "b15e2cc268eaa397671651c400591083450286225d2f43ab7b9c4b1cbd48a3a4"
+    },
+    "comparison_assets/Nexus_Comparison_Photos_10.nxcomparisons": {
+      "bytes": 5623710,
+      "sha256": "51b6074a8519a3cdd2f67c3083ec2d1b45c6ca731168762ec3389729ddf737bc"
+    },
+    "comparison_assets/photos-01.js": {
+      "bytes": 5354041,
+      "sha256": "6591858163feb29b1967112af6cab6640195f95f80f2fbffd1ef0cfc1e6dd680"
+    },
+    "comparison_assets/photos-02.js": {
+      "bytes": 5528947,
+      "sha256": "f7df1f634aa9efb6f0b6057c69a89b316d48da402062e222cb8a6bb31ab28b6b"
+    },
+    "comparison_assets/photos-03.js": {
+      "bytes": 5540563,
+      "sha256": "7e3edc9dbedcdbac0c3458a1f2f39ed1026249e35ad478cdd2806c86a81f8499"
+    },
+    "comparison_assets/photos-04.js": {
+      "bytes": 5467519,
+      "sha256": "8be7499ef52c9136ba973754726657b851b58e8a48c040ba040d27a9a6831b68"
+    },
+    "comparison_assets/photos-05.js": {
+      "bytes": 5524895,
+      "sha256": "5b8a95cd140a04a0f7cce713d57905897bbf8782c7c2e9254f54ae051621e585"
+    },
+    "comparison_assets/photos-06.js": {
+      "bytes": 5630791,
+      "sha256": "efa43b765ac4ca53e5ba85808f04f0a89c53b33b0368251ce59f9e4d67470084"
+    },
+    "comparison_assets/photos-07.js": {
+      "bytes": 5530339,
+      "sha256": "dcd3d13c6f6a762101504e10da92ab91c7425ba43ddc34ed2277ac1088c624d9"
+    },
+    "comparison_assets/photos-08.js": {
+      "bytes": 5604703,
+      "sha256": "57b28cc2864e326eb209d13efc542e485f7facb5c18e554159085496bf027287"
+    },
+    "comparison_assets/photos-09.js": {
+      "bytes": 5518679,
+      "sha256": "665d4b524b0d83c625be7c901f0ede18c19bbabe8d6a7f64e94c9c2b716cd36c"
+    },
+    "comparison_assets/photos-10.js": {
+      "bytes": 5623843,
+      "sha256": "5e2cdc8534a59203c5d30aad9d281e9cb2696f7b13224696d7ef7218b8569c4f"
+    },
+    "compatibility_service.py": {
+      "bytes": 12669,
+      "sha256": "7dfc56e3f5e529757683a6e61a493ae63aa812039530d1759084cb6fb8bec628"
+    },
+    "design_studio_tools/README.md": {
+      "bytes": 8426,
+      "sha256": "24c4461b0ec0620980e98657a0ab6b5de6c46fc062234b32dc676b856675da0b"
+    },
+    "design_studio_tools/apply_aviation_example.py": {
+      "bytes": 2823,
+      "sha256": "bde57d008d714f17049e16e5c5613f5d0594491a353e1af83b7e3d5c85e16d1d"
+    },
+    "design_studio_tools/apply_design_studio.py": {
+      "bytes": 7625,
+      "sha256": "3088f1ad624e137d02bdf4af327a0ab54c478556b146578d90b85792aef15c01"
+    },
+    "design_studio_tools/apply_home.py": {
+      "bytes": 3157,
+      "sha256": "093ecee7cf9e8772425f634b66cc0bedc919c18e013c9963777238b17c45b54e"
+    },
+    "design_studio_tools/apply_home_risk.py": {
+      "bytes": 5415,
+      "sha256": "51bac4ea7b3c4d6ec126e8382cda2c6c33ab9001a7eeb22ff154289ff3e37e30"
+    },
+    "design_studio_tools/apply_ribbon.py": {
+      "bytes": 3443,
+      "sha256": "8c0a5ebdcebef4df8a462438d6e0dfe9b0c931d1cd436f47f15a9895e519b891"
+    },
+    "design_studio_tools/apply_sleek_home.py": {
+      "bytes": 1358,
+      "sha256": "567d117e151228a4baad21435e6eb86f48e645e2882dfe58a50379a15ba92507"
+    },
+    "design_studio_tools/apply_themes.py": {
+      "bytes": 2709,
+      "sha256": "a0adb35f5bd8e8e979bbc0d46076894359095725b1567c3365ab35e2c1a93094"
+    },
+    "design_studio_tools/assets/comparisons/IMAGE_INVENTORY.json": {
+      "bytes": 17674,
+      "sha256": "d0f0183ef635792c6f6516826638f4028c8174a910c009b0464b2f2764bb6871"
+    },
+    "design_studio_tools/assets/comparisons/bundles/Nexus_Comparison_Photos_01.nxcomparisons": {
+      "bytes": 5353908,
+      "sha256": "68c8a2159cfcb95578c6412190340bade5db250ace659ac5adc981f0cc4a9254"
+    },
+    "design_studio_tools/assets/comparisons/bundles/Nexus_Comparison_Photos_02.nxcomparisons": {
+      "bytes": 5528814,
+      "sha256": "b52e45ed35b60cd74ad04ae10d1a1dc8b004f8698b5198402fce51e7082f8e4c"
+    },
+    "design_studio_tools/assets/comparisons/bundles/Nexus_Comparison_Photos_03.nxcomparisons": {
+      "bytes": 5540430,
+      "sha256": "aa3d5a8b88517c90edaef39316cef99294bebf97916657c6c78622556a3512d1"
+    },
+    "design_studio_tools/assets/comparisons/bundles/Nexus_Comparison_Photos_04.nxcomparisons": {
+      "bytes": 5467386,
+      "sha256": "eb9ab874a39f80c226e5524ea3c4cea5152bcee941e9ba5d4518b5fb4696e18c"
+    },
+    "design_studio_tools/assets/comparisons/bundles/Nexus_Comparison_Photos_05.nxcomparisons": {
+      "bytes": 5524762,
+      "sha256": "b13727ed2b48c89859f3ad2e033a780982998b5de34888d2577a30853ded04d1"
+    },
+    "design_studio_tools/assets/comparisons/bundles/Nexus_Comparison_Photos_06.nxcomparisons": {
+      "bytes": 5630658,
+      "sha256": "bac5ca8e62fbdcb9bd1792ae7f4a8280a75a4dad34299da9f9a5691397430d1a"
+    },
+    "design_studio_tools/assets/comparisons/bundles/Nexus_Comparison_Photos_07.nxcomparisons": {
+      "bytes": 5530206,
+      "sha256": "b9e0c3053a0d542677d1026cb78c73f05f08154c357fef88634a0b26af168ffe"
+    },
+    "design_studio_tools/assets/comparisons/bundles/Nexus_Comparison_Photos_08.nxcomparisons": {
+      "bytes": 5604570,
+      "sha256": "c071190d633eb4f25bc2a55252e52ca5cf1c2f9d1be96c363feb5d1630410607"
+    },
+    "design_studio_tools/assets/comparisons/bundles/Nexus_Comparison_Photos_09.nxcomparisons": {
+      "bytes": 5518546,
+      "sha256": "b15e2cc268eaa397671651c400591083450286225d2f43ab7b9c4b1cbd48a3a4"
+    },
+    "design_studio_tools/assets/comparisons/bundles/Nexus_Comparison_Photos_10.nxcomparisons": {
+      "bytes": 5623710,
+      "sha256": "51b6074a8519a3cdd2f67c3083ec2d1b45c6ca731168762ec3389729ddf737bc"
+    },
+    "design_studio_tools/assets/comparisons/bundles/photos-01.js": {
+      "bytes": 5354041,
+      "sha256": "6591858163feb29b1967112af6cab6640195f95f80f2fbffd1ef0cfc1e6dd680"
+    },
+    "design_studio_tools/assets/comparisons/bundles/photos-02.js": {
+      "bytes": 5528947,
+      "sha256": "f7df1f634aa9efb6f0b6057c69a89b316d48da402062e222cb8a6bb31ab28b6b"
+    },
+    "design_studio_tools/assets/comparisons/bundles/photos-03.js": {
+      "bytes": 5540563,
+      "sha256": "7e3edc9dbedcdbac0c3458a1f2f39ed1026249e35ad478cdd2806c86a81f8499"
+    },
+    "design_studio_tools/assets/comparisons/bundles/photos-04.js": {
+      "bytes": 5467519,
+      "sha256": "8be7499ef52c9136ba973754726657b851b58e8a48c040ba040d27a9a6831b68"
+    },
+    "design_studio_tools/assets/comparisons/bundles/photos-05.js": {
+      "bytes": 5524895,
+      "sha256": "5b8a95cd140a04a0f7cce713d57905897bbf8782c7c2e9254f54ae051621e585"
+    },
+    "design_studio_tools/assets/comparisons/bundles/photos-06.js": {
+      "bytes": 5630791,
+      "sha256": "efa43b765ac4ca53e5ba85808f04f0a89c53b33b0368251ce59f9e4d67470084"
+    },
+    "design_studio_tools/assets/comparisons/bundles/photos-07.js": {
+      "bytes": 5530339,
+      "sha256": "dcd3d13c6f6a762101504e10da92ab91c7425ba43ddc34ed2277ac1088c624d9"
+    },
+    "design_studio_tools/assets/comparisons/bundles/photos-08.js": {
+      "bytes": 5604703,
+      "sha256": "57b28cc2864e326eb209d13efc542e485f7facb5c18e554159085496bf027287"
+    },
+    "design_studio_tools/assets/comparisons/bundles/photos-09.js": {
+      "bytes": 5518679,
+      "sha256": "665d4b524b0d83c625be7c901f0ede18c19bbabe8d6a7f64e94c9c2b716cd36c"
+    },
+    "design_studio_tools/assets/comparisons/bundles/photos-10.js": {
+      "bytes": 5623843,
+      "sha256": "5e2cdc8534a59203c5d30aad9d281e9cb2696f7b13224696d7ef7218b8569c4f"
+    },
+    "design_studio_tools/assets/comparisons/bundles.json": {
+      "bytes": 151,
+      "sha256": "6d49fd33a001c3410681b07731d341777a88d212adf15517af95e5e5d907a57a"
+    },
+    "design_studio_tools/assets/comparisons/prompts/001.json": {
+      "bytes": 1947,
+      "sha256": "1e070b050c8eec3e5fd6f7abc3bfed6d8b2f0d4bf42451976226aeacd7bf2c04"
+    },
+    "design_studio_tools/assets/comparisons/prompts/002.json": {
+      "bytes": 2640,
+      "sha256": "f071848dd51104d7fdcc63c1292cf346deb9bd421456b1d382aeffb8e3458ad3"
+    },
+    "design_studio_tools/assets/comparisons/prompts/003.json": {
+      "bytes": 2580,
+      "sha256": "e81c180961aaae3133b905f8ef00cc3fd52220f50f49fcc09cc5d452ac11e2e1"
+    },
+    "design_studio_tools/assets/comparisons/prompts/004.json": {
+      "bytes": 2690,
+      "sha256": "6c52114bc487bc17845493cedc712b29d835bf11fc7fd492785e7293990877a1"
+    },
+    "design_studio_tools/assets/comparisons/prompts/005.json": {
+      "bytes": 2538,
+      "sha256": "713921fbf91084cbd4f94c202b366db3b050e944bedffbcc48d63e7ddfbe7240"
+    },
+    "design_studio_tools/assets/comparisons/prompts/006.json": {
+      "bytes": 2637,
+      "sha256": "f87bbd168a5e4e6fdb4d6a05a5a4f2b7577e6b47af4a8828d9c92fb1f97b73d6"
+    },
+    "design_studio_tools/assets/comparisons/prompts/007.json": {
+      "bytes": 2523,
+      "sha256": "16d57c361ee4a72339a7558dbe4f7b824f5c318cdbc7488bd4e162ec2fdbf1fc"
+    },
+    "design_studio_tools/assets/comparisons/prompts/008.json": {
+      "bytes": 2591,
+      "sha256": "3195c268d997b34a3cb384bb6bb0a5a4a4e74e398367edfd16cc375b92cbbd1c"
+    },
+    "design_studio_tools/assets/comparisons/prompts/009.json": {
+      "bytes": 2539,
+      "sha256": "6040a1629835e712de1925af45bd7449ec01b7e8fe9943d92bc0368122ca9a1f"
+    },
+    "design_studio_tools/assets/comparisons/prompts/010.json": {
+      "bytes": 2681,
+      "sha256": "97432441af7c47112f490d256a5945c4782dd09383a8ae37a7a680df637e4755"
+    },
+    "design_studio_tools/assets/comparisons/prompts/011.json": {
+      "bytes": 2530,
+      "sha256": "b05b42fd00b5fea06753c5872c242f38bfeca479719c8d02ad8df8d49db5c8bf"
+    },
+    "design_studio_tools/assets/comparisons/prompts/012.json": {
+      "bytes": 2628,
+      "sha256": "5df8850f641167a21f5bfadda345a508f3215bf5a09d8c85aeb051b6f4e6d34c"
+    },
+    "design_studio_tools/assets/comparisons/prompts/013.json": {
+      "bytes": 2693,
+      "sha256": "a865d289b5e853f968aea7a752bc6e3d6aef1d6b8e25af6918cd074479c45cbc"
+    },
+    "design_studio_tools/assets/comparisons/prompts/014.json": {
+      "bytes": 2596,
+      "sha256": "f92c92ee297a5364a0ecf802006b37458e60ecb6c201ae8de1fba0341fb1e7e0"
+    },
+    "design_studio_tools/assets/comparisons/prompts/015.json": {
+      "bytes": 2566,
+      "sha256": "033d9aca5def7e77f37f2cfce086305b6c3e9c7d8c70d83e0f08e93ee551ea43"
+    },
+    "design_studio_tools/assets/comparisons/prompts/016.json": {
+      "bytes": 2581,
+      "sha256": "37276fca68cf2ab42ff9a60632fa3650b002d8229b8d8962252de344518620ca"
+    },
+    "design_studio_tools/assets/comparisons/prompts/017.json": {
+      "bytes": 2553,
+      "sha256": "a13deb46865204db6b6b64b219be9c973cc0c9edc34ccf062b706c84512e8fdc"
+    },
+    "design_studio_tools/assets/comparisons/prompts/018.json": {
+      "bytes": 2640,
+      "sha256": "0a2f46ab8771e4d0afe99f8e8f5126a8a467acfa95351dcf3b742d7aab63adca"
+    },
+    "design_studio_tools/assets/comparisons/prompts/019.json": {
+      "bytes": 2585,
+      "sha256": "f5a4fcb1d4603eeb1deed4c8ffac25d1adbf2b8e273f0bd7a309134d5fa8c254"
+    },
+    "design_studio_tools/assets/comparisons/prompts/020.json": {
+      "bytes": 2621,
+      "sha256": "86d0ffca19f435c4a1e9bb2be8c432bbe24c55cff41b1733c4368492801b1ad6"
+    },
+    "design_studio_tools/assets/comparisons/prompts/021.json": {
+      "bytes": 2600,
+      "sha256": "7c113d3eb89ce5b6e582a870fe0ba9192b9e193af0dd3214a5fc81f1ec4b0a11"
+    },
+    "design_studio_tools/assets/comparisons/prompts/022.json": {
+      "bytes": 2726,
+      "sha256": "a19e57eadc83a17de45d751195611da43b2803d77f7b5981f8756f1b10ac5740"
+    },
+    "design_studio_tools/assets/comparisons/prompts/023.json": {
+      "bytes": 2506,
+      "sha256": "d93bc87a21f0382fba371f0e8293a0d263af6fd2bc3b057ae0030599732fe8a1"
+    },
+    "design_studio_tools/assets/comparisons/prompts/024.json": {
+      "bytes": 2604,
+      "sha256": "a97ba42d4e862b2c5eee22604cd7760d1c1caf7eca9f5f40253466f8fa1cf1cb"
+    },
+    "design_studio_tools/assets/comparisons/prompts/025.json": {
+      "bytes": 2506,
+      "sha256": "c07003cd3e90276c310e811de69aa9a7cb2fa88c991e18cff792d8d060d7a392"
+    },
+    "design_studio_tools/assets/comparisons/prompts/026.json": {
+      "bytes": 2619,
+      "sha256": "184a4faf255f8e699128cefa20c2605ef27fe315c4f4df73b5354daab9df5d1f"
+    },
+    "design_studio_tools/assets/comparisons/prompts/027.json": {
+      "bytes": 2579,
+      "sha256": "4f777dea67256e4bc853eabba993a63b89e7323914a64eef20a626cf951c7027"
+    },
+    "design_studio_tools/assets/comparisons/prompts/028.json": {
+      "bytes": 2627,
+      "sha256": "6cb25f3d680b0eddbfeb3b35ee5cb5fb43dca57043885b56f0e628689bd2543e"
+    },
+    "design_studio_tools/assets/comparisons/prompts/029.json": {
+      "bytes": 2553,
+      "sha256": "5e0deadb6de031d8e9ca6b4210d17eb54ac2f7d92c69d943e0eb6c12304d2d51"
+    },
+    "design_studio_tools/assets/comparisons/prompts/030.json": {
+      "bytes": 2663,
+      "sha256": "38641352cabb2c4f4026a70a0e36b03786cf94e9a1ca2aef81fa8b80059436ba"
+    },
+    "design_studio_tools/assets/comparisons/prompts/031.json": {
+      "bytes": 2656,
+      "sha256": "a714c764c3365bf565b8799ac4a5535500e5bb6fb8af073f07aa2dc256012fec"
+    },
+    "design_studio_tools/assets/comparisons/prompts/032.json": {
+      "bytes": 2583,
+      "sha256": "a9a753abd30eddc6c0ff18513460f7ddc32e2f64d83486c179913884f594f059"
+    },
+    "design_studio_tools/assets/comparisons/prompts/033.json": {
+      "bytes": 2568,
+      "sha256": "e428aec858b3404f304dc0f0e4c8b90b3d477fe08704151e0889d7f065806d44"
+    },
+    "design_studio_tools/assets/comparisons/prompts/034.json": {
+      "bytes": 2625,
+      "sha256": "a6c7ba12880b28c6352c8196a655b0f97e689b1b44ea25ef2324f74654101613"
+    },
+    "design_studio_tools/assets/comparisons/prompts/035.json": {
+      "bytes": 2517,
+      "sha256": "afec480a60158897c28bbc853f11f1fb7f83efcc772004164b36c26295b1d597"
+    },
+    "design_studio_tools/assets/comparisons/prompts/036.json": {
+      "bytes": 2605,
+      "sha256": "4bc2e11cca8824c569785b3054f29d188b65788a152609cc5b926b4a0e674503"
+    },
+    "design_studio_tools/assets/comparisons/prompts/037.json": {
+      "bytes": 2588,
+      "sha256": "34cced8119e411f60e60032e906c47bf62fb9b2d30e080c18c120ddcd2efe982"
+    },
+    "design_studio_tools/assets/comparisons/prompts/038.json": {
+      "bytes": 2599,
+      "sha256": "b4aded98f3d9dffcb5cfe4cc9e114793401b6d5d249dbf7b93eb344e59a2e7f1"
+    },
+    "design_studio_tools/assets/comparisons/prompts/039.json": {
+      "bytes": 2598,
+      "sha256": "401b40057f91cba1b4f7ede999a51eba7f2a37cd9a26c489c46cec5f261d2043"
+    },
+    "design_studio_tools/assets/comparisons/prompts/040.json": {
+      "bytes": 2654,
+      "sha256": "aec8492f7dc4ddda0db8f7a48933cb4b2f9f43d02db2bc56b5673412c09ac05e"
+    },
+    "design_studio_tools/assets/comparisons/prompts/041.json": {
+      "bytes": 2508,
+      "sha256": "9b9510c9c3f7f112d69a0e7f79727e2f8de1f4ca275361848434f7bc4601b8a0"
+    },
+    "design_studio_tools/assets/comparisons/prompts/042.json": {
+      "bytes": 2628,
+      "sha256": "33427b10d0b386624a44629434c006beed78c552ed6e4a127b9edc8ce1f6ac20"
+    },
+    "design_studio_tools/assets/comparisons/prompts/043.json": {
+      "bytes": 2555,
+      "sha256": "bab25e23be2019deb9aca3586dbd0d9c7a4c95224fff7791118af48efe862a32"
+    },
+    "design_studio_tools/assets/comparisons/prompts/044.json": {
+      "bytes": 2628,
+      "sha256": "7d96d6627d9c8fce99aea7e2891b369725d26c91a212524e16ad4c6783d3899f"
+    },
+    "design_studio_tools/assets/comparisons/prompts/045.json": {
+      "bytes": 2547,
+      "sha256": "d9a99f8ffa1e3cae5c9f6f611bf34f327d39e12feff6f8191216164a496deb96"
+    },
+    "design_studio_tools/assets/comparisons/prompts/046.json": {
+      "bytes": 2655,
+      "sha256": "f88b2573d1f4f21e4a5a3e94f214b30f75b32b164d9d3a66fc37d721f8641882"
+    },
+    "design_studio_tools/assets/comparisons/prompts/047.json": {
+      "bytes": 2577,
+      "sha256": "8e20875487dc59249bc9248b2792ee93718672b878db750d67a5af56d66c3894"
+    },
+    "design_studio_tools/assets/comparisons/prompts/048.json": {
+      "bytes": 2626,
+      "sha256": "0d6066b0e959f3cd6dfc52e315809705bf8fd05e676fecacfc3a0a3ffaff3296"
+    },
+    "design_studio_tools/assets/comparisons/prompts/049.json": {
+      "bytes": 2557,
+      "sha256": "268b2e8534f8a43ae3080f450355288e38dcd0214c626fb02b7fe2a73a45e706"
+    },
+    "design_studio_tools/assets/comparisons/prompts/050.json": {
+      "bytes": 2702,
+      "sha256": "ba10f31f0bdb732b45b1f2d1d44152e36a32e546150b1e8f4f1d1c8ef47c475d"
+    },
+    "design_studio_tools/assets/comparisons/prompts/051.json": {
+      "bytes": 2577,
+      "sha256": "369f435ef621a0b3f8f019d0b711013a88d0ac7742d0137c4974ae2971bea4d1"
+    },
+    "design_studio_tools/assets/comparisons/prompts/052.json": {
+      "bytes": 2591,
+      "sha256": "24d5c359e2b688c6a27fd90b406917f48db79b89abf00c82ce116647ecbdd741"
+    },
+    "design_studio_tools/assets/comparisons/prompts/053.json": {
+      "bytes": 2545,
+      "sha256": "9641ef238265ac03a0189e8b285870d3084f77dabfcb3d6ea2de66ed1f990298"
+    },
+    "design_studio_tools/assets/comparisons/prompts/054.json": {
+      "bytes": 2597,
+      "sha256": "83f3f395e17a7d10e843eabe424338cff342d108f21d3e310a2a9b07d144ea95"
+    },
+    "design_studio_tools/assets/comparisons/prompts/055.json": {
+      "bytes": 2597,
+      "sha256": "08754dce8bbfea0888bc09a342ef6d2864e94ffb09371eb92d73208b48facef3"
+    },
+    "design_studio_tools/assets/comparisons/prompts/056.json": {
+      "bytes": 2626,
+      "sha256": "69c50677ddcc8dae783d9a50ebcaf683832b82cc894c3e6ebb594a026eed7d80"
+    },
+    "design_studio_tools/assets/comparisons/prompts/057.json": {
+      "bytes": 2574,
+      "sha256": "17d88bae6068e7b86192c6d0954076de087c7c88e5b5de857bdee337eb18ae06"
+    },
+    "design_studio_tools/assets/comparisons/prompts/058.json": {
+      "bytes": 2628,
+      "sha256": "4ccd922aff54bd8b7a6f68cd9353bea8c6f39bb617934c5c4944493fe2fb5049"
+    },
+    "design_studio_tools/assets/comparisons/prompts/059.json": {
+      "bytes": 2634,
+      "sha256": "128ceedadfb400882bce4e3eea69c3410c8fde0bd8a4e19eabf7cd7730268b23"
+    },
+    "design_studio_tools/assets/comparisons/prompts/060.json": {
+      "bytes": 2624,
+      "sha256": "a37198acb7d836e06392f6136d5ba8c868a866f8503760926f1f82c8ec76c293"
+    },
+    "design_studio_tools/assets/comparisons/prompts/061.json": {
+      "bytes": 2519,
+      "sha256": "1995a3b37c16a33811182ccdeafb858465c027d64144d9ff80916b150254dbc6"
+    },
+    "design_studio_tools/assets/comparisons/prompts/062.json": {
+      "bytes": 2619,
+      "sha256": "999abac62ff714691fe6b36fd12a5977f473b1331c9d1bd9f2cfce0f3b56a6e5"
+    },
+    "design_studio_tools/assets/comparisons/prompts/063.json": {
+      "bytes": 2592,
+      "sha256": "2d28bf49398b0c478c0e5533d6eebc9ac437b34da0aef259d86a6dca8854507a"
+    },
+    "design_studio_tools/assets/comparisons/prompts/064.json": {
+      "bytes": 2641,
+      "sha256": "a6a3d0e0e937011d4175233c117f6a0d0281b88fb8ac316195f19085027b69a1"
+    },
+    "design_studio_tools/assets/comparisons/prompts/065.json": {
+      "bytes": 2535,
+      "sha256": "2401387909e13e649b33f3a801f1310c3349b6ec47a7b002dff1cdfe586e4fad"
+    },
+    "design_studio_tools/assets/comparisons/prompts/066.json": {
+      "bytes": 2590,
+      "sha256": "e8330fd6385fc2b375b927d11b3b3a548d33b712344299108dd36be592769581"
+    },
+    "design_studio_tools/assets/comparisons/prompts/067.json": {
+      "bytes": 2560,
+      "sha256": "508ff7ec26cfacfeb7bcc5c32ef2520e1c793bdcad354c62260d32dc9cf2358f"
+    },
+    "design_studio_tools/assets/comparisons/prompts/068.json": {
+      "bytes": 2739,
+      "sha256": "3ff4ff38977cd0451693165d35ea50b68e6c17ab2bb73f5b506ec18128bf9fdc"
+    },
+    "design_studio_tools/assets/comparisons/prompts/069.json": {
+      "bytes": 2538,
+      "sha256": "1d93151babb0fa6ed2799b2a44bfb38ef3bf56020d98dfdb93a5bfb022aa903d"
+    },
+    "design_studio_tools/assets/comparisons/prompts/070.json": {
+      "bytes": 2650,
+      "sha256": "3bebf66746786fea740a9e75acb1209f2c459ab2024931f00ae3866b436b13a1"
+    },
+    "design_studio_tools/assets/comparisons/prompts/071.json": {
+      "bytes": 2559,
+      "sha256": "6772b508b6b6c013cb741d9987ba2be05febf88f0d88521a488ee43db360238d"
+    },
+    "design_studio_tools/assets/comparisons/prompts/072.json": {
+      "bytes": 2647,
+      "sha256": "03fb36c3f4802590f8061fc384ee6cb55a2bf97b1d519920c5cb25db5b269cb0"
+    },
+    "design_studio_tools/assets/comparisons/prompts/073.json": {
+      "bytes": 2581,
+      "sha256": "fd610c52ec794916c84d82b30087e64118bd176d83f7e5355baa34355d014dd5"
+    },
+    "design_studio_tools/assets/comparisons/prompts/074.json": {
+      "bytes": 2611,
+      "sha256": "55fce3a18e29f12e5e0c3a689f2022602ca9accdc3a096771387f19a7ff544f6"
+    },
+    "design_studio_tools/assets/comparisons/prompts/075.json": {
+      "bytes": 2579,
+      "sha256": "433505527ec78f85b4282426a16df9832df4835bea56ffcf3ad954b0ae8d804b"
+    },
+    "design_studio_tools/assets/comparisons/prompts/076.json": {
+      "bytes": 2662,
+      "sha256": "479f1533583e5faf89a5921baf20b73bf1d99441d8a5b4de13649642074c284b"
+    },
+    "design_studio_tools/assets/comparisons/prompts/077.json": {
+      "bytes": 2660,
+      "sha256": "3496cea1d068aae20fd10d7c479390e4bde3c9bdb4f7e529e5283a8cb816ef2c"
+    },
+    "design_studio_tools/assets/comparisons/prompts/078.json": {
+      "bytes": 2554,
+      "sha256": "d23a7dd7b4d89853c0088abcc55a9f8d825fb49a418008e349bfd87b2a67d4a0"
+    },
+    "design_studio_tools/assets/comparisons/prompts/079.json": {
+      "bytes": 2548,
+      "sha256": "b7cb5274ad5cfa7ea2e4386d1471558106876da475a28b8dc99e671f49559bec"
+    },
+    "design_studio_tools/assets/comparisons/prompts/080.json": {
+      "bytes": 2592,
+      "sha256": "d55aeca57e0d2b0bc9ebfc569a20f439734b148e5cb8573739afcdd73f520391"
+    },
+    "design_studio_tools/assets/comparisons/prompts/081.json": {
+      "bytes": 2543,
+      "sha256": "d755517cc6ab21b54cde762ae6c6f759455f6e1924f062e8e1091fb38a9a3190"
+    },
+    "design_studio_tools/assets/comparisons/prompts/082.json": {
+      "bytes": 2654,
+      "sha256": "e5194fbb209fdee9b7be835995432f62fc2d5dedd210f2a0da76f1ed02e317a6"
+    },
+    "design_studio_tools/assets/comparisons/prompts/083.json": {
+      "bytes": 2551,
+      "sha256": "9520e512fcc5fcb25519295c8a734186203e4b330ee1d76f3de1831f6e1ed6e4"
+    },
+    "design_studio_tools/assets/comparisons/prompts/084.json": {
+      "bytes": 2654,
+      "sha256": "a9dc4160268314439a62faed4baa5ab8b66cab358363d57e78dc7d9deebd21f6"
+    },
+    "design_studio_tools/assets/comparisons/prompts/085.json": {
+      "bytes": 2568,
+      "sha256": "48d1ce34bb63bec26e3b868db53f229c94502edf268c866c6901e5ce236e2fc7"
+    },
+    "design_studio_tools/assets/comparisons/prompts/086.json": {
+      "bytes": 2716,
+      "sha256": "7adba6d7190193648486c3655596d832ef35da095d3b28e63a0e1a0c11de46ed"
+    },
+    "design_studio_tools/assets/comparisons/prompts/087.json": {
+      "bytes": 2515,
+      "sha256": "ddfb1d8738bbd4f223aae61e64eacea77241ed7e9025ba5c0ac3606d2960f17a"
+    },
+    "design_studio_tools/assets/comparisons/prompts/088.json": {
+      "bytes": 2614,
+      "sha256": "55780415de934b25253ecaca08f268b6a36cfab3af95a2ecc85d7518e2fb3fa7"
+    },
+    "design_studio_tools/assets/comparisons/prompts/089.json": {
+      "bytes": 2567,
+      "sha256": "577231e47d58a9a4b499e80e36a619962f11b09577891eb174d8a4f051f5a93c"
+    },
+    "design_studio_tools/assets/comparisons/prompts/090.json": {
+      "bytes": 2601,
+      "sha256": "b2376fcf0bbae852049a3c93ca6adfca193f5e1641d54105c4c4ef4cf5bf5581"
+    },
+    "design_studio_tools/assets/comparisons/prompts/091.json": {
+      "bytes": 2595,
+      "sha256": "519027e434422caca830c559d7fb44467efa63230777459adc6bbc84e08585b9"
+    },
+    "design_studio_tools/assets/comparisons/prompts/092.json": {
+      "bytes": 2645,
+      "sha256": "5ea365df3783f9127f6fc929e5598a046ff25b79aea5bc4c9ddb89f5a78b6381"
+    },
+    "design_studio_tools/assets/comparisons/prompts/093.json": {
+      "bytes": 2580,
+      "sha256": "a63dcedaae0c4bc49400d972fba32736d0764c15f04b1da641b71fe5290ced82"
+    },
+    "design_studio_tools/assets/comparisons/prompts/094.json": {
+      "bytes": 2615,
+      "sha256": "d724ae4ac440aa2b07a89ee10a042c44d4fb971f1a59df2cd20123e2411b406c"
+    },
+    "design_studio_tools/assets/comparisons/prompts/095.json": {
+      "bytes": 2618,
+      "sha256": "e480daabd68685c8fbae0713e384088058e1b2778d3fd8df1b5355857e3ab605"
+    },
+    "design_studio_tools/assets/comparisons/prompts/096.json": {
+      "bytes": 2570,
+      "sha256": "32e7ead436027e573da114d31e6a1adf8ba275d65671aa0cc24a85e3abbb0dae"
+    },
+    "design_studio_tools/assets/comparisons/prompts/097.json": {
+      "bytes": 2562,
+      "sha256": "2d76a0f09447475aa88e84654805d47af77806dd57d32c85901e6089f97de81e"
+    },
+    "design_studio_tools/assets/comparisons/prompts/098.json": {
+      "bytes": 2603,
+      "sha256": "cbbe05dd64bfb97d25acb471595be78694376b738f16e66c197288670160da1e"
+    },
+    "design_studio_tools/assets/comparisons/prompts/099.json": {
+      "bytes": 2572,
+      "sha256": "ea6777d1e7c9d5c8bd6aa8c1935e5fc1da83b4cdfb4201fd14ddfb953532d87a"
+    },
+    "design_studio_tools/assets/comparisons/prompts/100.json": {
+      "bytes": 2633,
+      "sha256": "1c3c03ae8ef9b3e52e5c8861f3197349a040463656a5e1ca9442ef15fd2b8142"
+    },
+    "design_studio_tools/assets/comparisons/seed.json": {
+      "bytes": 44181,
+      "sha256": "71234981488d0e7240aa16f3ba6ec4fe6502c8f842c871adf8b0391391cb591c"
+    },
+    "design_studio_tools/assets/cutouts/matcha.webp": {
+      "bytes": 54098,
+      "sha256": "423fa3eeeb487b343a9f8b2edd62755b27ecf3287f582419170df9c5e4b13b85"
+    },
+    "design_studio_tools/assets/cutouts/megaphone.webp": {
+      "bytes": 57386,
+      "sha256": "55d825a4dbe817a19483dd7a6cb3cc9256a2486d5f1fe78797c8a8d45adbb496"
+    },
+    "design_studio_tools/assets/cutouts/pampas.webp": {
+      "bytes": 104652,
+      "sha256": "7bdb3c808b2894b992095a04515b65a5593ad40822537c98a636cad3e44bae18"
+    },
+    "design_studio_tools/assets/cutouts/serum.webp": {
+      "bytes": 23670,
+      "sha256": "7e57ee341b0638bba888d851c1d4f9cd80e8defc3c24ef6a1fb6157faea42187"
+    },
+    "design_studio_tools/assets/dashboard/aviation-example.json": {
+      "bytes": 63311,
+      "sha256": "a2fd4dc8369a9caa3efa55b711138f6161e7ccd144197843c241dd5ebd0fdd52"
+    },
+    "design_studio_tools/assets/dashboard/aviation-source-seed.json": {
+      "bytes": 100027,
+      "sha256": "2f5b8502810fe677e459f20a8d6ce7ed574c9ec2204592c4ab0a2e8b7ba9b1b5"
+    },
+    "design_studio_tools/assets/fonts/Allura-Regular.ttf": {
+      "bytes": 246632,
+      "sha256": "9c142b2e515832c0dfc4ff8b8ea18f40314943bf937b72e2b23c4661bac14cc6"
+    },
+    "design_studio_tools/assets/fonts/Anton-Regular.ttf": {
+      "bytes": 170812,
+      "sha256": "a4ba3a92350ebb031da0cb47630ac49eb265082ca1bc0450442f4a83ab947cab"
+    },
+    "design_studio_tools/assets/fonts/ArchivoBlack-Regular.ttf": {
+      "bytes": 90988,
+      "sha256": "dd9a89a019b4849f66ab75455fe7bdf931311042cbb0f0f97acc061539703180"
+    },
+    "design_studio_tools/assets/fonts/BebasNeue-Regular.ttf": {
+      "bytes": 61400,
+      "sha256": "08e4623805102d819f58601e46e345648846075e363b2ceb23313c2d1c83ec73"
+    },
+    "design_studio_tools/assets/fonts/BodoniModa[opsz,wght].ttf": {
+      "bytes": 162104,
+      "sha256": "550f5e34ee0a828d7941b1fe9bc58b34e5260d3f33a61532e6d0a0114e79a5cf"
+    },
+    "design_studio_tools/assets/fonts/Caveat[wght].ttf": {
+      "bytes": 403648,
+      "sha256": "0bdb6b660482d31531b3945849fba5916b3ef8695da7024a9e6b9ee3c4157988"
+    },
+    "design_studio_tools/assets/fonts/CormorantGaramond[wght].ttf": {
+      "bytes": 1195560,
+      "sha256": "b20b7d9626dd956b2c5e558692ad328b1f19e3275e2782db4fa07670d83f35e0"
+    },
+    "design_studio_tools/assets/fonts/DMSerifDisplay-Regular.ttf": {
+      "bytes": 76580,
+      "sha256": "8cc3643535edf039aa5d95440a8542735e9197e4f4b8d9303e980fefbf5ab616"
+    },
+    "design_studio_tools/assets/fonts/GreatVibes-Regular.ttf": {
+      "bytes": 457588,
+      "sha256": "8d509802186f1b51572531ecf313e8098f9a5bfdfaca93f0c9b34467f9982d15"
+    },
+    "design_studio_tools/assets/fonts/Inter[opsz,wght].ttf": {
+      "bytes": 876576,
+      "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+    },
+    "design_studio_tools/assets/fonts/Italiana-Regular.ttf": {
+      "bytes": 31828,
+      "sha256": "0ad271d9cd42a57cd5c5fa483ae2406a8138b95acb2a43eb73a8d37b7291fee9"
+    },
+    "design_studio_tools/assets/fonts/LeagueSpartan[wght].ttf": {
+      "bytes": 95116,
+      "sha256": "2dbb6290b39ab7c48a40b18f74ca59ef48a69a015c3ea0542703f0c6ce51d617"
+    },
+    "design_studio_tools/assets/fonts/Montserrat[wght].ttf": {
+      "bytes": 744936,
+      "sha256": "0f7b311b2f3279e4eef9b2f968bcdbab6e28f4daeb1f049f4f278a902bcd82f7"
+    },
+    "design_studio_tools/assets/fonts/Oswald[wght].ttf": {
+      "bytes": 172088,
+      "sha256": "5b38c246e255a12f5712d640d56bcced0472466fc68983d2d0410ec0457c2817"
+    },
+    "design_studio_tools/assets/fonts/Pacifico-Regular.ttf": {
+      "bytes": 329380,
+      "sha256": "5b6c0d5334a7bf77dea52b975c5a0c408878c0f7115ed5b6fb151f634b7bf701"
+    },
+    "design_studio_tools/assets/fonts/Parisienne-Regular.ttf": {
+      "bytes": 61248,
+      "sha256": "bc9ee17f022e20bc700797e5f557d14bfa43af0c98d9e6c9c5c1ca4ec7aacd57"
+    },
+    "design_studio_tools/assets/fonts/PlayfairDisplay[wght].ttf": {
+      "bytes": 300724,
+      "sha256": "c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6"
+    },
+    "design_studio_tools/assets/fonts/Poppins-Light.ttf": {
+      "bytes": 161936,
+      "sha256": "650ba57fa99d12ec40c31ccfb680be656be4497fbe14164617d67e32ffe9cd46"
+    },
+    "design_studio_tools/assets/fonts/Silkscreen-Regular.ttf": {
+      "bytes": 32220,
+      "sha256": "c845473330b94c2079ce9af01c51ac8ba2d99c24f4d14c039843bbb8e642ebd8"
+    },
+    "design_studio_tools/assets/fonts/allura-OFL.txt": {
+      "bytes": 4478,
+      "sha256": "c8cb4c94a558b6cb82ac5dc981a73a0b8aee35a5c52c8a7832fc0280c289ad49"
+    },
+    "design_studio_tools/assets/fonts/allura.woff": {
+      "bytes": 90272,
+      "sha256": "f9c26d23dde7a2a65d78a606f815eb258383079c13e932b997c831b59ec8d7ae"
+    },
+    "design_studio_tools/assets/fonts/anton-OFL.txt": {
+      "bytes": 4484,
+      "sha256": "ee67e6ee22790b7929f1a3769ca2801d565c64b5a9096942c1adf5596de9c9e4"
+    },
+    "design_studio_tools/assets/fonts/anton.woff": {
+      "bytes": 44960,
+      "sha256": "e33245c3f064761d526daed5ebb030aab3f89b1c64a113d9672f25e984099f55"
+    },
+    "design_studio_tools/assets/fonts/archivoblack-OFL.txt": {
+      "bytes": 4492,
+      "sha256": "3173acd82f8c6159b5b1037b539fcbd4edff68e65c2ea8b9412b5a5ca97b08ff"
+    },
+    "design_studio_tools/assets/fonts/archivoblack.woff": {
+      "bytes": 34804,
+      "sha256": "e5d17144937241f25a20251d61b069a39a39e666b6b7a2469310342c82455227"
+    },
+    "design_studio_tools/assets/fonts/bebasneue-OFL.txt": {
+      "bytes": 4337,
+      "sha256": "72082f6cb4d04be2ecf7cc7d9e1e7d73787f0af8a5a278a47cade70c16b78341"
+    },
+    "design_studio_tools/assets/fonts/bebasneue.woff": {
+      "bytes": 21340,
+      "sha256": "6a703b73c41320e61be3072fa9b6d1d8e06a54b6510d953051eecc3c983f7e8c"
+    },
+    "design_studio_tools/assets/fonts/bodonimoda-OFL.txt": {
+      "bytes": 4400,
+      "sha256": "931dfe2e0cd3c9443295f5c1d754b8a8403bf060df50c1d5900267ade83d0046"
+    },
+    "design_studio_tools/assets/fonts/bodonimoda.woff": {
+      "bytes": 76444,
+      "sha256": "89c56c6bf53a3601e290c74fa8dea6cd8364de568c3580a052fd111ea1bde4c0"
+    },
+    "design_studio_tools/assets/fonts/caveat-OFL.txt": {
+      "bytes": 4385,
+      "sha256": "1f9d81d094273d82f3898a1ee8b598a717d050ecbf5ff7bede105b704880157b"
+    },
+    "design_studio_tools/assets/fonts/caveat.woff": {
+      "bytes": 104508,
+      "sha256": "4cfd79f356a97c52036d231223a21d87ec91c69e1a1ef06b238f1fe5ab906fe4"
+    },
+    "design_studio_tools/assets/fonts/cormorantgaramond-OFL.txt": {
+      "bytes": 4387,
+      "sha256": "60700d351cac4650c51f3f9db318d2a420f8b45052dba2715eb5fec41f0f6956"
+    },
+    "design_studio_tools/assets/fonts/cormorantgaramond.woff": {
+      "bytes": 132072,
+      "sha256": "804b783eb55d2db1a7d9e679560316f1c0d1246c8aa61d34696cc9fde117aeb4"
+    },
+    "design_studio_tools/assets/fonts/dmserifdisplay-OFL.txt": {
+      "bytes": 4605,
+      "sha256": "a3e5cdd67d4571dd0a24fcc968de0efde7ae97ef752daf0906e4767619dd7231"
+    },
+    "design_studio_tools/assets/fonts/dmserifdisplay.woff": {
+      "bytes": 35840,
+      "sha256": "5ed6e17f95df3b0ba73305373ce40f15e8db63401dccb6925332f0a646171846"
+    },
+    "design_studio_tools/assets/fonts/fonts.json": {
+      "bytes": 7405,
+      "sha256": "83e30256ea98cb98431855676b30778de495b866843090bcfb732faca07ec6e2"
+    },
+    "design_studio_tools/assets/fonts/greatvibes-OFL.txt": {
+      "bytes": 4399,
+      "sha256": "61093a21f5e63dedf54222b3c09997e54c0fe43e3851d21386e02ddcbc246d49"
+    },
+    "design_studio_tools/assets/fonts/greatvibes.woff": {
+      "bytes": 102896,
+      "sha256": "1e0330484c16c809f0775ba54f24a72168838cb2cf473addd820e47aa0a4ab00"
+    },
+    "design_studio_tools/assets/fonts/inter-OFL.txt": {
+      "bytes": 4377,
+      "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57"
+    },
+    "design_studio_tools/assets/fonts/inter.woff": {
+      "bytes": 189584,
+      "sha256": "b2929bad879f1e37660616f5007abfd460fb126ae7ff443f2f43a54f4b2b4a0c"
+    },
+    "design_studio_tools/assets/fonts/italiana-OFL.txt": {
+      "bytes": 4393,
+      "sha256": "486c4d5b9baf0d0ba5546ef3c43fcfe22c062299ab6948045a43efffe4b0f74b"
+    },
+    "design_studio_tools/assets/fonts/italiana.woff": {
+      "bytes": 14076,
+      "sha256": "fd17e628f537c5686389bbfa5f486fbafdcec58be450ee2b9a386993af1d69b6"
+    },
+    "design_studio_tools/assets/fonts/leaguespartan-OFL.txt": {
+      "bytes": 4402,
+      "sha256": "41c9980cacc325ccd1afa6553bcae038cc6c74fa519aff60bacb99e3854292ce"
+    },
+    "design_studio_tools/assets/fonts/leaguespartan.woff": {
+      "bytes": 37276,
+      "sha256": "d630360ede15fcff98dca3d5034bfb20138acc9683b2cdfffa366f69220e48f3"
+    },
+    "design_studio_tools/assets/fonts/montserrat-OFL.txt": {
+      "bytes": 4400,
+      "sha256": "8b7141c03fa4f8d44e6345d5d4931709290f0f67875e452e95ac1fd3a027802e"
+    },
+    "design_studio_tools/assets/fonts/montserrat.woff": {
+      "bytes": 133492,
+      "sha256": "27689e57464052bb629bd77878fd1377a4be8359a669ed868286805ae0cb9471"
+    },
+    "design_studio_tools/assets/fonts/oswald-OFL.txt": {
+      "bytes": 4483,
+      "sha256": "0fd731a904b729a4e02eaf5e8ebd06783edd9abe400e8882760160230675b652"
+    },
+    "design_studio_tools/assets/fonts/oswald.woff": {
+      "bytes": 45232,
+      "sha256": "3b25778a6173dd04bd575d30779f9f5ac3db567c1750a4e8edb9796dadeb5ecb"
+    },
+    "design_studio_tools/assets/fonts/pacifico-OFL.txt": {
+      "bytes": 4389,
+      "sha256": "a47e5daeda73568969395c656823102678f2eefb0d7d7ecb47aac4cc17e42204"
+    },
+    "design_studio_tools/assets/fonts/pacifico.woff": {
+      "bytes": 68612,
+      "sha256": "54f456880cc57b614c556569c6cf2b8c4ba8d08c828c5d5a03789d32350f4ce6"
+    },
+    "design_studio_tools/assets/fonts/parisienne-OFL.txt": {
+      "bytes": 4433,
+      "sha256": "1dd84b611f4bed7f9ff9089e76a96337b187e6f283a4ab33bcb987f844f2c4db"
+    },
+    "design_studio_tools/assets/fonts/parisienne.woff": {
+      "bytes": 31272,
+      "sha256": "e6f51f3c8daa2d50e9c7620eff71fda098d49a9e54bbe9ebbd225b3b4e319802"
+    },
+    "design_studio_tools/assets/fonts/playfairdisplay-OFL.txt": {
+      "bytes": 4449,
+      "sha256": "566be814f8e96e93dfa16101331557eb6b5467e9e03f627c0910fe93ca12300e"
+    },
+    "design_studio_tools/assets/fonts/playfairdisplay.woff": {
+      "bytes": 77996,
+      "sha256": "42203e603fb38ec63ad6b7f74e1c1893f2be673f058bc1f08f9e2c7a2c009d89"
+    },
+    "design_studio_tools/assets/fonts/poppins-OFL.txt": {
+      "bytes": 4385,
+      "sha256": "6be04893d770899a015649c7aa3b582f871b272f8747a92b78b17c3e5c8b2573"
+    },
+    "design_studio_tools/assets/fonts/poppins.woff": {
+      "bytes": 15352,
+      "sha256": "56537fb5d31dae77ee5a9d53fef74c1bd17a6c787d05b3b02e0fc36607190cfd"
+    },
+    "design_studio_tools/assets/fonts/silkscreen-OFL.txt": {
+      "bytes": 4394,
+      "sha256": "86c5e9c9382cdcc5948704fdfe60f2aa164a719746931219a42736ecd9cefbd3"
+    },
+    "design_studio_tools/assets/fonts/silkscreen.woff": {
+      "bytes": 10616,
+      "sha256": "4f64f04676555cc44b01066cd3dcf201dadde7b5ae49d72d69337e2ca7be3f82"
+    },
+    "design_studio_tools/assets/media.json": {
+      "bytes": 3508,
+      "sha256": "ca86d4431d177616e731512d4ec2f24b1e5834e131a02cc6a96d06d8c5bed570"
+    },
+    "design_studio_tools/assets/photos/beauty.jpg": {
+      "bytes": 45746,
+      "sha256": "26e882f11c522da058a52acca4156ba3f7b16eba6ad160ea1b3f36dfd3fa95a9"
+    },
+    "design_studio_tools/assets/photos/browAfter.jpg": {
+      "bytes": 192829,
+      "sha256": "c51edde72aca2151df6c012de27b2f69da3aeb808a03973ccc7186ca8a79c31b"
+    },
+    "design_studio_tools/assets/photos/browBefore.jpg": {
+      "bytes": 199970,
+      "sha256": "a914b0bc1545dfa24acf0a4056793ea0e7806e51a0719dfbdb93b1de05eae97b"
+    },
+    "design_studio_tools/assets/photos/business.jpg": {
+      "bytes": 45091,
+      "sha256": "993423dc59b083449fcff04cd1721300049f98f646297228d06f41a312cb0e2d"
+    },
+    "design_studio_tools/assets/photos/fashion.jpg": {
+      "bytes": 105128,
+      "sha256": "2530dee66a57c37b1053263de4955fe12d03a239e23b01eddb46bbac7708847d"
+    },
+    "design_studio_tools/assets/photos/food.jpg": {
+      "bytes": 172778,
+      "sha256": "85d66dd8df5180a16ee3caaf26913384eb96e9c25365c5e7b709b650328136a1"
+    },
+    "design_studio_tools/assets/photos/fruit.jpg": {
+      "bytes": 169796,
+      "sha256": "d32cc026895f64bd141bc09fd7f0759da3f9b5c73e0c9f802ef3dbde4c800242"
+    },
+    "design_studio_tools/assets/photos/workspace.jpg": {
+      "bytes": 104790,
+      "sha256": "92da357a3ba2598ad61842f5162798545eccd02e1c34ebd7758b8563d7571cf2"
+    },
+    "design_studio_tools/aviation-risk.css": {
+      "bytes": 2232,
+      "sha256": "4535fe1ceb49e3f7499a48b425bc0ac6337bffa6699325ba8c0508ccee1e5b02"
+    },
+    "design_studio_tools/aviation-risk.js": {
+      "bytes": 3995,
+      "sha256": "bce174d66135c3fd82d6f75980c6863f1d83dd76d039fa8371e86347aba499be"
+    },
+    "design_studio_tools/build_aviation_example.cjs": {
+      "bytes": 5744,
+      "sha256": "e00b449aa627df87b3fe64eb74ad146b8a69693d96c64f233c52c8aca6c76f0c"
+    },
+    "design_studio_tools/comparison-catalog.js": {
+      "bytes": 7350,
+      "sha256": "65296b28e179dd0b9f4248dd50d905db761bce018185000a3dfa39c52e383483"
+    },
+    "design_studio_tools/comparison-library.js": {
+      "bytes": 5432,
+      "sha256": "e06022cb6730802c931edc395add8bd06c787b077d136925f3ffc59176b8ca3b"
+    },
+    "design_studio_tools/design-library.js": {
+      "bytes": 15299,
+      "sha256": "c34fe31394992dbbafa9749382ef54b60a5fbddbe855e8a69be28ae784fded3c"
+    },
+    "design_studio_tools/design-studio.css": {
+      "bytes": 27842,
+      "sha256": "8565966524015b3bbef8c932d4b57cc015010469f03c1753e20ed5e44ab79f78"
+    },
+    "design_studio_tools/design-studio.js": {
+      "bytes": 36842,
+      "sha256": "0eec7f77979cac4d46cf23bdde542216f60f06f8d5ebfcde8d82cf885d330989"
+    },
+    "design_studio_tools/design-text-model.js": {
+      "bytes": 1866,
+      "sha256": "5239ee3f9a99f57d121676beaf58a1650b3de566da83ef5cdc166ca5b76817a1"
+    },
+    "design_studio_tools/design-text-ui.js": {
+      "bytes": 7281,
+      "sha256": "302c08a198deb5f57d5f86ade28d6e0a6d3e99e6963571915cabfcade235dfa4"
+    },
+    "design_studio_tools/export_comparison_layouts.cjs": {
+      "bytes": 1338,
+      "sha256": "fe4934d7b9192e1b2b6af3558b6af677e43428df4f283003aadc25ba550123fe"
+    },
+    "design_studio_tools/fixtures/Nexus_Before_After_Mockups.nxassets": {
+      "bytes": 2041731,
+      "sha256": "bc3dc9664d6f334b708e9ba5bb5c5b5451b1feb107175c3b5e87608af8ae6fa3"
+    },
+    "design_studio_tools/fixtures/test-photo.png": {
+      "bytes": 1632,
+      "sha256": "cc81c60736e97b40c1769813f4e5a957315bafd3e1f557e0be4087021e99cd6d"
+    },
+    "design_studio_tools/home.css": {
+      "bytes": 14924,
+      "sha256": "7b4485c3dab4eaa026a605e22f359c416a4e990f3dfa1db7e5a5d6e68dd7b335"
+    },
+    "design_studio_tools/home.js": {
+      "bytes": 7052,
+      "sha256": "16d79c0311b163a22abacc88c78dc3183ef66a53056af22e0ab290bd463a20aa"
+    },
+    "design_studio_tools/layout.css": {
+      "bytes": 10284,
+      "sha256": "9f91c2e71fae61e85c4ca50f4e99306088f8fe5efbb1601fae3dfa878e91df5d"
+    },
+    "design_studio_tools/package_release.py": {
+      "bytes": 3303,
+      "sha256": "863fd1e72327175d245d90e322aa8425c20c2d5ca743b6b7c7c84c8fe96e85fa"
+    },
+    "design_studio_tools/prepare_comparison_assets.cjs": {
+      "bytes": 3660,
+      "sha256": "3b878a2dfc3b1b893cf609576d2c0a5fcf88825e28cbb534efbec63cfdbdb044"
+    },
+    "design_studio_tools/pro-elements.js": {
+      "bytes": 10836,
+      "sha256": "c62f9511ef98cc6aefd8aa1cdbd22da819f85b6ab8298f38f544906dcffaf1f9"
+    },
+    "design_studio_tools/pro-templates.js": {
+      "bytes": 19309,
+      "sha256": "1bcfe7e602a361f4e19a40b97d347bc71ebac1ddc82bcca2b81cd770bbdf84f0"
+    },
+    "design_studio_tools/ribbon.css": {
+      "bytes": 13703,
+      "sha256": "470e4e67a4195609b4f30a6f09c322be1844489ce3841e57edef30105948a2a3"
+    },
+    "design_studio_tools/ribbon.js": {
+      "bytes": 12755,
+      "sha256": "e60fad7ffbbb253a52975e5665fad8f6e058c9ca41a4b49478fc88223b8529d3"
+    },
+    "design_studio_tools/test_aviation_example.cjs": {
+      "bytes": 6523,
+      "sha256": "c042997321d4b42bb974d7a261aca2951d9b7ced6bf21ec4f41b1e05dd2ebb2f"
+    },
+    "design_studio_tools/test_aviation_risk.cjs": {
+      "bytes": 8022,
+      "sha256": "9b0b807d6b695a5ceb7020bfc65467350acc3d10dd1924dbab9d42254b2cbddc"
+    },
+    "design_studio_tools/test_comparison_packs.cjs": {
+      "bytes": 2231,
+      "sha256": "7bfd614498b7cd321b4cf9fb8d7d89d50600af52260c3ca599f70ffd12b8b714"
+    },
+    "design_studio_tools/test_comparisons.cjs": {
+      "bytes": 9418,
+      "sha256": "8e4ad40bff050b6fae0decf32881eb6da13e94f797bfe81c6815efb078c56034"
+    },
+    "design_studio_tools/test_design_studio.cjs": {
+      "bytes": 20295,
+      "sha256": "278aa29ad96e0295cd264a6f4ed72e98162cba2c05d77bf7e6cc15734dc5d76d"
+    },
+    "design_studio_tools/test_home.cjs": {
+      "bytes": 7851,
+      "sha256": "1e85192f6da3170721c99db0645d56e13bdc0dc576ef25862cdb59173c7c662f"
+    },
+    "design_studio_tools/test_paint_text.cjs": {
+      "bytes": 10274,
+      "sha256": "98092106461a09b7c1c74d6169c12edef3d50461949600eb98513edb11cd709e"
+    },
+    "design_studio_tools/test_paint_text_caret.cjs": {
+      "bytes": 6161,
+      "sha256": "8c510ad83989f6e1cc6ba68a5c451564210d4f626e646cf2883e643abbabad1a"
+    },
+    "design_studio_tools/test_pro_catalog.cjs": {
+      "bytes": 11127,
+      "sha256": "4cd4e11c0715f28605479841d969921a3fa1f95817f61ea1230d91484728ed0e"
+    },
+    "design_studio_tools/test_ribbon.cjs": {
+      "bytes": 12288,
+      "sha256": "998bf97f7ef60b6f9927ad86cba7d14437c7fe9d03a57127d24fc6660b2a40cf"
+    },
+    "design_studio_tools/test_themes.cjs": {
+      "bytes": 12514,
+      "sha256": "568c94e153074dc47200c0db8f1cceede03fb3cab85c5946893cfb2a7aeeddad"
+    },
+    "design_studio_tools/themes-dashboard.css": {
+      "bytes": 3104,
+      "sha256": "bee979844d006754d93a0d8a7374ac72bbf5dfce3ff3f0f5ef7952be1b29331a"
+    },
+    "design_studio_tools/themes.css": {
+      "bytes": 20526,
+      "sha256": "f6fc65e9b80fa80d8c4d8943bfe2a4d67fd5163515edc3a3cf223cbbafdfa66e"
+    },
+    "design_studio_tools/themes.js": {
+      "bytes": 12030,
+      "sha256": "b27c432fe1517a67bda01daccf6f8e4b799655dbf3a2ece269a67158b47bf195"
+    },
+    "document_assets/PDFJS-LICENSE.txt": {
+      "bytes": 10174,
+      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+    },
+    "document_assets/manifest.json": {
+      "bytes": 330,
+      "sha256": "e4913c60def5298eba938f0210d2e89d67f8ccf2b67dd3bc3942fa05128241c1"
+    },
+    "document_assets/pdf-runtime.js": {
+      "bytes": 1789963,
+      "sha256": "7ade894078d388a1483f0050e8605a746a08ed207f9006d8394fcfa4671fbbcc"
+    },
+    "document_tools/README.md": {
+      "bytes": 1671,
+      "sha256": "65864c9ef509c961a8b12f9870acba205a3e2c61a99e379a1d774043170e27e6"
+    },
+    "document_tools/Start_Nexus_Office.py": {
+      "bytes": 1002,
+      "sha256": "356d4985ed68f24625fd0cbcb1e29d35e02a5ca33f570544ca223217b7f68b8f"
+    },
+    "document_tools/apply_documents.py": {
+      "bytes": 3683,
+      "sha256": "cac00aee2c4fcab048cd75add3d3a771522482ffeec60a03b62617f8ede6766b"
+    },
+    "document_tools/compatibility.js": {
+      "bytes": 24410,
+      "sha256": "f62a2a162cce1aa8fdb6a76145684cbde8418ae3da9931d626ed73b533e817b9"
+    },
+    "document_tools/compatibility_service.py": {
+      "bytes": 12669,
+      "sha256": "7dfc56e3f5e529757683a6e61a493ae63aa812039530d1759084cb6fb8bec628"
+    },
+    "document_tools/signatures.js": {
+      "bytes": 8532,
+      "sha256": "a557860dcc8c0de53e990c3ba256d439b2c7a87bbd40695c8dc700476be67011"
+    },
+    "document_tools/styles.css": {
+      "bytes": 3159,
+      "sha256": "ad7806546edd07d94d5c654770ccb83f5f3c70b3d7876c507f090f3ca1904eb2"
+    },
+    "document_tools/tabs.js": {
+      "bytes": 17715,
+      "sha256": "a183e0f6394f831d135ef4d01ddf4d6db42dc9b42bb02b97ba25b62e22d171c6"
+    },
+    "document_tools/test_documents.cjs": {
+      "bytes": 16941,
+      "sha256": "a352455b1f7978a9d2e4c8e695f96a7659119a9f2477fa1d23bf204a43b7d226"
+    },
+    "document_tools/test_service.py": {
+      "bytes": 8072,
+      "sha256": "a084faa658b4ff1c8c7cdcf94e7f1c2d9b2963cdbcc530a67f7db656f69f5df0"
+    },
+    "document_tools/vendor/PDFJS-LICENSE.txt": {
+      "bytes": 10174,
+      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+    },
+    "document_tools/vendor/manifest.json": {
+      "bytes": 330,
+      "sha256": "e4913c60def5298eba938f0210d2e89d67f8ccf2b67dd3bc3942fa05128241c1"
+    },
+    "document_tools/vendor/pdf-runtime.js": {
+      "bytes": 1789963,
+      "sha256": "7ade894078d388a1483f0050e8605a746a08ed207f9006d8394fcfa4671fbbcc"
+    },
+    "office_build_tests.py": {
+      "bytes": 3470,
+      "sha256": "fa72827c570299df74e17a77ccfb75f1165efe1872c25820ecdfe6466fd544bd"
+    },
+    "office_chrome_observer_tests.cjs": {
+      "bytes": 1810,
+      "sha256": "db5a7a1d663c81fcf47174190250402b30f6cde407bb8e1a8f04254a7ff379a6"
+    },
+    "office_commands_lifecycle.cjs": {
+      "bytes": 3764,
+      "sha256": "12ff24b0001dab1fe5d3e080cc87e89acd3d7528bd88b98d1e2e9a00cbd73c5e"
+    },
+    "office_commands_unit.cjs": {
+      "bytes": 7732,
+      "sha256": "2a584b9dbce8eec8258abf4630bc8ce8037e597163c6b94467393c18593f0527"
+    },
+    "office_design_model_tests.cjs": {
+      "bytes": 3205,
+      "sha256": "6c641c63fb58274f9bb5cab634bce559622bd33d3e45c9cf4954cfa0aae0252c"
+    },
+    "office_formats_codec.cjs": {
+      "bytes": 3115,
+      "sha256": "8a95325fec18be4d076d22d9215f14950f0be56a99b32abbc07c79c05d911963"
+    },
+    "office_formats_formula.cjs": {
+      "bytes": 1005,
+      "sha256": "29ef0bc988557d1aca16d7854fd3823456e3c43531901844e0c9d523db04104f"
+    },
+    "office_formats_host.cjs": {
+      "bytes": 4956,
+      "sha256": "fdcbf3acfe2e60ca371ebb74d2c372776d6d240ff94b3e14f1fc9ece5432e372"
+    },
+    "office_formats_host_results.json": {
+      "bytes": 698,
+      "sha256": "ee8202db94513c47546d8f5f807e66d0661631bfeacff8b28ed4f7c5f5ffbe2b"
+    },
+    "office_formats_open_atomic.cjs": {
+      "bytes": 1349,
+      "sha256": "1ed8c849540ab37c0d6c8a22618cc2bba4e7d754808a682f72d66f5b5f2d5877"
+    },
+    "office_formats_projects.cjs": {
+      "bytes": 2090,
+      "sha256": "143d3379ccfb695a33db935779f680f29111c58b026ed5a30c83c22ff98bb714"
+    },
+    "office_layout_corrective_tests.cjs": {
+      "bytes": 1828,
+      "sha256": "0abb09eba1375c29d77a14b354d8523e68863b8693b8175e1ff852a0c0f1bc7f"
+    },
+    "office_layout_tests.cjs": {
+      "bytes": 4441,
+      "sha256": "48189fe681f910047224f74865a3e442012ff1b228810766ddb6312648dc9c67"
+    },
+    "office_media_dashboard_tests.cjs": {
+      "bytes": 5325,
+      "sha256": "88d4839ecfd133285368938c2a1c89d7843ff8b0a0c4669f659f665e1fa77496"
+    },
+    "office_template_catalog_tests.cjs": {
+      "bytes": 1251,
+      "sha256": "a8d5de23d99d6e2ed865216d23f6c3fdfcdd4bd5f0bd8706989adc01aa607aee"
+    },
+    "office_ui_smoke.cjs": {
+      "bytes": 5912,
+      "sha256": "f6ffb2053bdd00ae62569af9ef7204dce4d8b2c0717bba913fdc7ea411883470"
+    },
+    "package-lock.json": {
+      "bytes": 18664,
+      "sha256": "082dd764cc86eaa7be944298dd4db5879c1a485d4ff4b1e2ca938c5b935085d4"
+    },
+    "package.json": {
+      "bytes": 259,
+      "sha256": "f6fe0e85647b959d8e24f64b64cd5dc590f45f88863eb12fd85c81e9dfd780e5"
+    },
+    "qualification/CYCLE_LEDGER.md": {
+      "bytes": 4782,
+      "sha256": "ba2c5fdc157a63db2050591b538d13d16f060dbc40f0f71bd4323dc1cea84d6c"
+    },
+    "qualification/REAL_BROWSER_STATUS.txt": {
+      "bytes": 624,
+      "sha256": "251125db34c13921adcd6ef882adab7a987e200aacb87edd8a74aea0521cb114"
+    },
+    "qualification/action_registry.log": {
+      "bytes": 1585,
+      "sha256": "ce3ff3d6613b7e810936090f3d88e35b77ae3850cfece7187cceb08826905e38"
+    },
+    "qualification/baseline_final_cycle.json": {
+      "bytes": 47635,
+      "sha256": "85b2cbe59878ef6a86a3ea80266c71545b9e98f934481c69b7d66c5e13dc0bf4"
+    },
+    "qualification/check_office_browser.py": {
+      "bytes": 3625,
+      "sha256": "cd801774febc1e6ae24b41386f08a965b67cb83539b4ee5cdc035d9df410d649"
+    },
+    "qualification/chrome_settle.log": {
+      "bytes": 114,
+      "sha256": "ee567af192c076579cc84a75d24e9ec10487cd99af0893121fcddfa798f2fc4a"
+    },
+    "qualification/command_complete_host.log": {
+      "bytes": 798,
+      "sha256": "434ec5e7f679975134a995549d457c1a65fdff0ad56b75c99af02f14da050dcb"
+    },
+    "qualification/command_units.log": {
+      "bytes": 1720,
+      "sha256": "c2f469200dbaf719aaf7bddb9ef4df33f33a740b7873f27de0932bead88ac2a4"
+    },
+    "qualification/design_model_units.log": {
+      "bytes": 584,
+      "sha256": "73578459bb8584530841e4217f06263aaacc38b0b2042c6f13fec154e32c9a77"
+    },
+    "qualification/failed_open_units.log": {
+      "bytes": 24,
+      "sha256": "fc739d566ffa16c7d48b8f7e781f4d5e3e29850fe1f56a8ee27149474e020945"
+    },
+    "qualification/final_cycle.json": {
+      "bytes": 47955,
+      "sha256": "a4e6778f609912faa4d098f880831453d55a51f7f9180dbeefbf2aa6d993cd30"
+    },
+    "qualification/formats_complete_host.log": {
+      "bytes": 1260,
+      "sha256": "e02b661e65f0ff755f3f71eca8e02d1d86367455c7495ff590f666772e109938"
+    },
+    "qualification/formula_units.log": {
+      "bytes": 25,
+      "sha256": "80d17d77e4b40f8705206780be2aeb025b61aa496ad4c82db8fc89b500137378"
+    },
+    "qualification/layout_baseline_controls.json": {
+      "bytes": 29347,
+      "sha256": "7bc2bfb1bf58940d19802472d32605f3a7bd25983d615e28376b9fc621439a12"
+    },
+    "qualification/layout_complete_host.log": {
+      "bytes": 646,
+      "sha256": "f4e1fa235d6b3fa2dc919099a35510cba705e422740d7c9f448dfca8f9d81110"
+    },
+    "qualification/layout_pre_notice_cycle/final_cycle.json": {
+      "bytes": 47148,
+      "sha256": "2a61ecbe4efe1a5b74a42f2a25ccc19b7205d6a2bd3cdecbf0abda6e6fa39878"
+    },
+    "qualification/media_dashboard_units.log": {
+      "bytes": 833,
+      "sha256": "076cbb87f91c23a170544be4a40e5232dca56485ae657ecb2f5ab8f31351e216"
+    },
+    "qualification/native_codec_units.log": {
+      "bytes": 60,
+      "sha256": "964158c5f786de78bb05f92d3b93a548a418f4aa13b0c33a17846c0822625ce0"
+    },
+    "qualification/next_release/office_cancelled_cycle.json": {
+      "bytes": 350,
+      "sha256": "9a72cf0dbb36ad3dcc26e4356638e731c97f8933c3c9fbf0054c74da43673eec"
+    },
+    "qualification/next_release/office_runner.json": {
+      "bytes": 148,
+      "sha256": "8eedeb28c1645700782d07268b384f829f98b55591604051d833b10d0ef8c8ad"
+    },
+    "qualification/original_complete_host.log": {
+      "bytes": 1995,
+      "sha256": "8d152d73469622990666a68ee75e0f043494ef5334604c1eb29e0cab9728d545"
+    },
+    "qualification/pre_small_file_cycle/action_registry.log": {
+      "bytes": 1585,
+      "sha256": "ce3ff3d6613b7e810936090f3d88e35b77ae3850cfece7187cceb08826905e38"
+    },
+    "qualification/pre_small_file_cycle/chrome_settle.log": {
+      "bytes": 114,
+      "sha256": "ee567af192c076579cc84a75d24e9ec10487cd99af0893121fcddfa798f2fc4a"
+    },
+    "qualification/pre_small_file_cycle/command_complete_host.log": {
+      "bytes": 798,
+      "sha256": "434ec5e7f679975134a995549d457c1a65fdff0ad56b75c99af02f14da050dcb"
+    },
+    "qualification/pre_small_file_cycle/command_units.log": {
+      "bytes": 1720,
+      "sha256": "c2f469200dbaf719aaf7bddb9ef4df33f33a740b7873f27de0932bead88ac2a4"
+    },
+    "qualification/pre_small_file_cycle/design_model_units.log": {
+      "bytes": 584,
+      "sha256": "73578459bb8584530841e4217f06263aaacc38b0b2042c6f13fec154e32c9a77"
+    },
+    "qualification/pre_small_file_cycle/failed_open_units.log": {
+      "bytes": 24,
+      "sha256": "fc739d566ffa16c7d48b8f7e781f4d5e3e29850fe1f56a8ee27149474e020945"
+    },
+    "qualification/pre_small_file_cycle/final_cycle.json": {
+      "bytes": 47793,
+      "sha256": "af53162fc7e304e54edbfdc9d6be9e296ce6205ca524122d5ae0767b4f61b0e1"
+    },
+    "qualification/pre_small_file_cycle/formats_complete_host.log": {
+      "bytes": 1260,
+      "sha256": "e02b661e65f0ff755f3f71eca8e02d1d86367455c7495ff590f666772e109938"
+    },
+    "qualification/pre_small_file_cycle/formula_units.log": {
+      "bytes": 25,
+      "sha256": "80d17d77e4b40f8705206780be2aeb025b61aa496ad4c82db8fc89b500137378"
+    },
+    "qualification/pre_small_file_cycle/media_dashboard_units.log": {
+      "bytes": 833,
+      "sha256": "076cbb87f91c23a170544be4a40e5232dca56485ae657ecb2f5ab8f31351e216"
+    },
+    "qualification/pre_small_file_cycle/native_codec_units.log": {
+      "bytes": 60,
+      "sha256": "964158c5f786de78bb05f92d3b93a548a418f4aa13b0c33a17846c0822625ce0"
+    },
+    "qualification/pre_small_file_cycle/original_complete_host.log": {
+      "bytes": 1995,
+      "sha256": "e0175a506f53be0965968c257a2b0a9ee11f59b65197682671251a12ed11add8"
+    },
+    "qualification/pre_small_file_cycle/project_import_units.log": {
+      "bytes": 25,
+      "sha256": "0b7e080b3ac111d8392ddbb8f826958922311dab102562ba561d86e193688e05"
+    },
+    "qualification/pre_small_file_cycle/registry_complete_host.log": {
+      "bytes": 5251,
+      "sha256": "4deb947079bc529ba555169a303bbdd552ef45863f63880fe949efe893c195b8"
+    },
+    "qualification/pre_small_file_cycle/resume_parser.log": {
+      "bytes": 1924,
+      "sha256": "86f35c652d0317583e612e60cc6b5434c0fed328c4057723d089610d162d9f0b"
+    },
+    "qualification/pre_small_file_cycle/standalone_build.log": {
+      "bytes": 526,
+      "sha256": "fffefa666286eac0e9c42a4cbb1bb2c194bd92bd511554dde027527a1a22a822"
+    },
+    "qualification/pre_small_file_cycle/ui_complete_host.log": {
+      "bytes": 1476,
+      "sha256": "57253ec53ca7774662f51726bd3feddd55d31803c05a35ae65b741ad82ad0f6c"
+    },
+    "qualification/pre_small_file_cycle/writer_template_catalog.log": {
+      "bytes": 1975,
+      "sha256": "4e00abb165531d4caed51282adfbe90f595e86b3bdc8d5908e5156ee863b4ce1"
+    },
+    "qualification/pre_viewport_cycle/final_cycle.json": {
+      "bytes": 47153,
+      "sha256": "ae67d6a9939fd490a51a064128c8aac4a204e9f2bdf340b53e3ca521e89687fe"
+    },
+    "qualification/project_import_units.log": {
+      "bytes": 25,
+      "sha256": "0b7e080b3ac111d8392ddbb8f826958922311dab102562ba561d86e193688e05"
+    },
+    "qualification/registry_complete_host.log": {
+      "bytes": 5242,
+      "sha256": "6f68a174f9ee02c01548af7e9bd028fdca4dce0a5cf499dba4174b1f9a52e830"
+    },
+    "qualification/resume_parser.log": {
+      "bytes": 1924,
+      "sha256": "86f35c652d0317583e612e60cc6b5434c0fed328c4057723d089610d162d9f0b"
+    },
+    "qualification/standalone_build.log": {
+      "bytes": 827,
+      "sha256": "63e1fd597bf80cfa897c7cb25c9c1157fd5cfa44c6afd686f71e728acfb4036d"
+    },
+    "qualification/supplemental_cycle.json": {
+      "bytes": 463,
+      "sha256": "7af894ce6c1b6bcaba5188edeac2f5a4193e3fbc03906f7380553a036d82fdce"
+    },
+    "qualification/ui_complete_host.log": {
+      "bytes": 1476,
+      "sha256": "57253ec53ca7774662f51726bd3feddd55d31803c05a35ae65b741ad82ad0f6c"
+    },
+    "qualification/writer_template_catalog.log": {
+      "bytes": 1975,
+      "sha256": "4e00abb165531d4caed51282adfbe90f595e86b3bdc8d5908e5156ee863b4ce1"
+    },
+    "resume_commands.js": {
+      "bytes": 6621,
+      "sha256": "3e9d3064f87e9ae92bc7e43334602fbdbdf5775f8e15fbc4d1e423c343d2982e"
+    },
+    "revision_validation/aviation-aviation-results.json": {
+      "bytes": 712,
+      "sha256": "c6ad43ff9c2c867d632d2744da6601b608903981579d9479462e6853c1d51336"
+    },
+    "revision_validation/browser-aviation-aviation-results.json": {
+      "bytes": 732,
+      "sha256": "1dd9071292964199ab031f2c0851b0c87d1b9f3086e5c81e2a2b4cc510355f01"
+    },
+    "revision_validation/browser-comparisons-comparison-results.json": {
+      "bytes": 912,
+      "sha256": "5e11299ae2de6d951cd82de51f23655a89405160a67bf4b58c425552ef567d4f"
+    },
+    "revision_validation/browser-pro-pro-results.json": {
+      "bytes": 1039,
+      "sha256": "060b1daa4372f056b4f666728faf43b7bd45213a2392f02880d378d1a4a584ba"
+    },
+    "revision_validation/comparisons-comparison-results.json": {
+      "bytes": 892,
+      "sha256": "36bca51e1ee5e2161d9deba6c7d282b25bd76ea6ef07739a275a4f383fddb81b"
+    },
+    "revision_validation/original-exclusion.json": {
+      "bytes": 152,
+      "sha256": "3e81a83ae4aa460d5f4d4e6623f5a729901500c89d6122388541bdfbc5be4851"
+    },
+    "revision_validation/packs-comparison-pack-results.json": {
+      "bytes": 107,
+      "sha256": "ae544ba40c391d2c62a85fc51f837a057eb233fd87b8753c65c0d17ca514b05a"
+    },
+    "revision_validation/pro-pro-results.json": {
+      "bytes": 1019,
+      "sha256": "4e1e5b5ba7e1d6ec90adf931420fe6729e5718f52cd4a63f465a0c3361ffa013"
+    },
+    "revision_validation/r3-aviation-aviation-results.json": {
+      "bytes": 712,
+      "sha256": "c6ad43ff9c2c867d632d2744da6601b608903981579d9479462e6853c1d51336"
+    },
+    "revision_validation/r3-browser-aviation-aviation-results.json": {
+      "bytes": 732,
+      "sha256": "1dd9071292964199ab031f2c0851b0c87d1b9f3086e5c81e2a2b4cc510355f01"
+    },
+    "revision_validation/r3-browser-home-home-results.json": {
+      "bytes": 138415,
+      "sha256": "6871f855d649c8d49e0f07fb80bda0cbfdfe9130962754a9319dd720829cf899"
+    },
+    "revision_validation/r3-browser-risk-aviation-risk-results.json": {
+      "bytes": 872,
+      "sha256": "7617dbc10aa419af977a002d4cbe1392738801f6ad26a4dcddd059b85d38404c"
+    },
+    "revision_validation/r3-home-home-results.json": {
+      "bytes": 138395,
+      "sha256": "d76e88678f405ccfaaac9c53ced27632e551f779495bed95f276c5fc614ae7dc"
+    },
+    "revision_validation/r3-risk-aviation-risk-results.json": {
+      "bytes": 852,
+      "sha256": "d63d581dbba388534e042be3bbce99b6d92988711a6cedb0508120ca047a9e5f"
+    },
+    "revision_validation/r4-browser-home-home-results.json": {
+      "bytes": 136630,
+      "sha256": "44062553aa831a6ab68ea646ff1190cc0027b646ef6e12fdbfe5f0b8d460a5a7"
+    },
+    "revision_validation/r4-change-scope.json": {
+      "bytes": 234,
+      "sha256": "f6e3e60b9a7969baf55dc23a9e804615b36e5b63428484ec20ed65b204685155"
+    },
+    "revision_validation/r4-home-home-results.json": {
+      "bytes": 136610,
+      "sha256": "978146243064a030338c6315c454a86d4d0b6844bea6b4f8f38b774277851f92"
+    },
+    "revision_validation/r5-browser-themes-themes-results.json": {
+      "bytes": 9538,
+      "sha256": "605d83e759b08cb85324b84802e2e8585cbbc95633be2a179408f4779f3048ca"
+    },
+    "revision_validation/r5-build-tests.log": {
+      "bytes": 827,
+      "sha256": "efe5e07bd2d121242c02f5eceae2e86b3965e23708fda67745e7680a22c61396"
+    },
+    "revision_validation/r5-change-scope.json": {
+      "bytes": 347,
+      "sha256": "b38a57404198cf8c8d140e55d9804ed00ceaad197a584f101cea2b0e57d45116"
+    },
+    "revision_validation/r5-design-design-studio-results.json": {
+      "bytes": 14263,
+      "sha256": "9ed648e8d6d9fb2c6882f3867d6d069701736d8f511e87b2a2322c6e5a82ef89"
+    },
+    "revision_validation/r5-home-home-results.json": {
+      "bytes": 108485,
+      "sha256": "58097114053ca1d87711a991eb72f58a3d1588caedba7ddd87beea8711b53b0f"
+    },
+    "revision_validation/r5-loader.log": {
+      "bytes": 178,
+      "sha256": "ff740e88a0dc96126797a1a314f86e5424cbb60c257af789273c5e7b54880a11"
+    },
+    "revision_validation/r5-risk-aviation-risk-results.json": {
+      "bytes": 852,
+      "sha256": "d63d581dbba388534e042be3bbce99b6d92988711a6cedb0508120ca047a9e5f"
+    },
+    "revision_validation/r5-themes-themes-results.json": {
+      "bytes": 9518,
+      "sha256": "85df84633bde76668db4590bfb1f65f022a7358a3de1af722e5a48a74f5752e9"
+    },
+    "revision_validation/r6-browser-documents-document-results.json": {
+      "bytes": 1746,
+      "sha256": "707304785a6e0e0059aafedcb2b7b78b02e8a1fbed12bd4c4484e89a576f3e0b"
+    },
+    "revision_validation/r6-build-tests.log": {
+      "bytes": 827,
+      "sha256": "e6debb89c67bc7157a21d32e4f97a3a008501bd1f4b39fbb8b35b1c8cb366019"
+    },
+    "revision_validation/r6-change-scope.json": {
+      "bytes": 483,
+      "sha256": "37477d72ee2a32d1dde9d47d80a24e7a833914087623d3f8bdcc9448b6660468"
+    },
+    "revision_validation/r6-design-design-studio-results.json": {
+      "bytes": 14257,
+      "sha256": "374ab270fd5c91ca915f95cd393b9b1b57671cb29eabe007cd3ccf29a020c530"
+    },
+    "revision_validation/r6-loader.log": {
+      "bytes": 178,
+      "sha256": "ff740e88a0dc96126797a1a314f86e5424cbb60c257af789273c5e7b54880a11"
+    },
+    "revision_validation/r6-pki-browser-check.json": {
+      "bytes": 168,
+      "sha256": "bd1fe37c801bb2b4067621bf3851a80c367a387d702fdc00e83f54cf9cb33fbc"
+    },
+    "revision_validation/r6-risk-aviation-risk-results.json": {
+      "bytes": 852,
+      "sha256": "d63d581dbba388534e042be3bbce99b6d92988711a6cedb0508120ca047a9e5f"
+    },
+    "revision_validation/r6-service-results.json": {
+      "bytes": 71,
+      "sha256": "031a21a68a9b629efca064968dc5a60706add1cbf70eec683997c902e7c60ca5"
+    },
+    "revision_validation/r6-themes-themes-results.json": {
+      "bytes": 9518,
+      "sha256": "85df84633bde76668db4590bfb1f65f022a7358a3de1af722e5a48a74f5752e9"
+    },
+    "revision_validation/text-caret-paint-text-caret-results.json": {
+      "bytes": 694,
+      "sha256": "1ce54ac019895c796716378d0f23ee54bef7dd4043a559708f1079326193b4a1"
+    },
+    "revision_validation/text-paint-text-results.json": {
+      "bytes": 1048,
+      "sha256": "310575799047ab0f10bbda796953ed53c1d886459ade5196a55355e882a64de0"
+    },
+    "run_debug_cycle.py": {
+      "bytes": 4181,
+      "sha256": "db9f9d2713b6be1d931fbd4c3f55a35fd54a71130f72744d5ff4b73e8507831d"
+    },
+    "source_scripts/000_nx-office-notice-bootstrap.js": {
+      "bytes": 1817,
+      "sha256": "d38fa8c3c78d2240dd60538bfde5e5683ca8e4fb3295f499ce93233bfa1dbd14"
+    },
+    "source_scripts/001_inline.js": {
+      "bytes": 31495,
+      "sha256": "146c22d4d72a940864e16970601a3db18b1695305316e4821da3d90efcf85d49"
+    },
+    "source_scripts/002_nexus-v3-pro-js.js": {
+      "bytes": 104750,
+      "sha256": "8f12dfa9b7a62ed4af0d037b4fae7f8d9b2c06bdea83ff004dd4f9af9fb89a3e"
+    },
+    "source_scripts/003_nexus-v4-enterprise-js.js": {
+      "bytes": 83703,
+      "sha256": "3dc4ac0f7fe3e46f59c07b7be5739a3e4750423fbd7f951f2b6f6acf2d0cd599"
+    },
+    "source_scripts/004_nexus-v5-visual-js.js": {
+      "bytes": 78991,
+      "sha256": "5da5a84b4ff8f2dc0b9659b34138a56d01ba2eb3978b83afce5e34fe01cab00a"
+    },
+    "source_scripts/005_nexus-v6-enterprise-js.js": {
+      "bytes": 100370,
+      "sha256": "122502df7d9307154a34f0d2ec8aeccbd4fe6bcb2489ca50ac8640ac559d22d0"
+    },
+    "source_scripts/006_nexus-v61-design-js.js": {
+      "bytes": 56459,
+      "sha256": "db4cd4748839ed9454deef099b2d712f832ed2f9877715c5fa99451a84209a99"
+    },
+    "source_scripts/007_nexus-v61-filebinding-js.js": {
+      "bytes": 4135,
+      "sha256": "560d300649b3e1a7fb0879c4e78e4944feb06457ca4e7e7817f894e6d2ca8431"
+    },
+    "source_scripts/008_nexus-v62-authoring-js.js": {
+      "bytes": 70398,
+      "sha256": "31acb6000fd94d0f4fe85685054339ce0328040f4773f82d27ea8f9c573af144"
+    },
+    "source_scripts/009_nexus-v63-js.js": {
+      "bytes": 66178,
+      "sha256": "f0c9ce734f22e441a40e30787c7dc93d9a649aaf3ae269860457f5cc61f220e3"
+    },
+    "source_scripts/010_nexus-local-safe-boot.js": {
+      "bytes": 183,
+      "sha256": "59087d00b713462c6c5aa0f6efd8705e0e05aa8d0c1b63833734ebf9430fa0ce"
+    },
+    "source_scripts/011_nexus-v632-functional-js.js": {
+      "bytes": 30581,
+      "sha256": "1f7e1f61ba3ddcdb34fe30a1fbce99cb4e5ed1bf983cc41e29674fa3b1900fde"
+    },
+    "source_scripts/012_nexus-v632-maintenance-js.js": {
+      "bytes": 4460,
+      "sha256": "ef4f18ce05ed3405a5626ab5bacf37daeb8671e2714ca04398140add3e15095a"
+    },
+    "source_scripts/013_nexus-v632-context-repairs.js": {
+      "bytes": 2880,
+      "sha256": "b90783b77c7f18a6a81b7445f6447663da8b3e2f3603c50da54ed3ff8929cbb8"
+    },
+    "source_scripts/014_nexus-v64-calendar-code-js.js": {
+      "bytes": 42938,
+      "sha256": "41cb520bd34662e0ba4cf352b55ee52b75043d1a15587e8bcd85eea394f1c49d"
+    },
+    "source_scripts/015_nexus-v65-desktop-ux-js.js": {
+      "bytes": 19654,
+      "sha256": "b77655cabd920f041edca0c865d42b77d23df63df73525d5031409d344584da6"
+    },
+    "source_scripts/016_nexus-v65-polish-js.js": {
+      "bytes": 12460,
+      "sha256": "5a36079d4ac81de084d4dccc2a72e7427305d8c31d8607e707d300561b59e987"
+    },
+    "source_scripts/017_nexus-v66-theme-paint-history-js.js": {
+      "bytes": 34740,
+      "sha256": "cbb03199f91bc8041f4fac882f5c9c0885910214f844f7a7f04cc5404e4896e4"
+    },
+    "source_scripts/018_nexus-v67-futuristic-theme-templates-js.js": {
+      "bytes": 23434,
+      "sha256": "f53deba0e8ca3c993e6318caeb11fcc8460343bb99cba42fd655dcff6a3089f4"
+    },
+    "source_scripts/019_nexus-wheelhouse-c1-js.js": {
+      "bytes": 5526,
+      "sha256": "824b9711aa38725cffbdb388cace7b6b8ec61d6d2bd9cbebaebfed8cd8153b0a"
+    },
+    "source_scripts/020_nexus-68-archive.js": {
+      "bytes": 3565,
+      "sha256": "fe9f69e43dfa1eff5d4bdfa452b848174c2c92f1e2a785d4f2fcd66576894c1d"
+    },
+    "source_scripts/021_nexus-68-import.js": {
+      "bytes": 1873,
+      "sha256": "598e59dacff4c046d8f5f339c67e0db9f91e2beb31ddcb18d2501ea49eef01c9"
+    },
+    "source_scripts/022_nexus-68-grid.js": {
+      "bytes": 42900,
+      "sha256": "ad87561fe5b5e6372605b0fe8389c772100a712e68983258e7b8f66afff47a9d"
+    },
+    "source_scripts/023_nexus-68-writer.js": {
+      "bytes": 36015,
+      "sha256": "57448275a56aa1da1f7468880e4b8c59b4fefaa5e96874463e029d7acd2a933a"
+    },
+    "source_scripts/024_nexus-68-present.js": {
+      "bytes": 32272,
+      "sha256": "47a25dd3ee773f97c9113dca6172a25de3b21a7bf3764ec6013df04c1c2197bd"
+    },
+    "source_scripts/025_nexus-68-release.js": {
+      "bytes": 5001,
+      "sha256": "2fa996ec81bd18e1cc318b2b68d7474378bf86b2bb9937e6c27e384d7934289c"
+    },
+    "source_scripts/026_nexus-69-docx.js": {
+      "bytes": 33236,
+      "sha256": "647fe8f9e87c74b7e5740c7f9ba806bc0ada39a02f8a87c120ec49e405526c96"
+    },
+    "source_scripts/027_nexus-69-grid_structure.js": {
+      "bytes": 27285,
+      "sha256": "5676e8715ddc331291a5e8b7079c2878e83da70d6256e17511aa31187005d93a"
+    },
+    "source_scripts/028_nexus-610-xlsx_styles.js": {
+      "bytes": 32880,
+      "sha256": "4241d7873fb7ca86c5fc68072d1607316f12977cfa7940cacc7ce089bddffdd4"
+    },
+    "source_scripts/029_nexus-610-xlsx_notes.js": {
+      "bytes": 19232,
+      "sha256": "89dc41f0ed8d90a42057de8709cea991dd2da7bdac61c3a8f07586af01d780c6"
+    },
+    "source_scripts/030_nexus-610-xlsx_validation.js": {
+      "bytes": 39435,
+      "sha256": "4fbbab1dd85dc8196198668e39673fc92aac64cc06dd176f6388d06b38bce08f"
+    },
+    "source_scripts/031_nexus-610-interop_ui.js": {
+      "bytes": 4053,
+      "sha256": "024e78cad6a8cc578366dfb91823730970d5f48422f0af5a1c38987a8a2f8734"
+    },
+    "source_scripts/032_nexus-611-structured_refs.js": {
+      "bytes": 13405,
+      "sha256": "cb66fa90d3c51722491fbf436a31b6a8aacecf7080dcd35f01fcd5603927ebaf"
+    },
+    "source_scripts/033_nexus-611-xlsx_tables.js": {
+      "bytes": 24412,
+      "sha256": "f1f9014ca0dce4cd0380dc52eeba30d7c698b9854171d7bd800b1ebd7f6abf04"
+    },
+    "source_scripts/034_nexus-611-xlsx_charts.js": {
+      "bytes": 33312,
+      "sha256": "2199ed6ac9b16a30e447d49a5086caa86c4c29efbe0fcf887bced4a7ab5f4811"
+    },
+    "source_scripts/035_nexus-611-validation_insertion.js": {
+      "bytes": 1182,
+      "sha256": "3044858ef2c6412a098ab29e36277a66ff05dd2b589df64b0fcce5ca006273a6"
+    },
+    "source_scripts/036_nexus-611-table_workflows.js": {
+      "bytes": 10069,
+      "sha256": "5894d2075adc641ff27c95380bbb1eefa1bc1c48f2cc07faaa781eafb308bdd2"
+    },
+    "source_scripts/037_nexus-612-docx_review.js": {
+      "bytes": 23104,
+      "sha256": "45d80db65e6603cac82f02ee54b5633f6d3b0f1e1082b678f21f4b32378d797c"
+    },
+    "source_scripts/038_nexus-612-writer_review_workflows.js": {
+      "bytes": 11619,
+      "sha256": "22f9c1213dd2f989785a167b85b168034213a83d07a237956f5db04941d4aa80"
+    },
+    "source_scripts/039_nexus-613-pptx_package.js": {
+      "bytes": 37524,
+      "sha256": "efadcdb0d702f19baa7a8493f21a32d923ea6f09a6e5cfeb5109118c0e471ec4"
+    },
+    "source_scripts/040_nexus-613-pptx_text.js": {
+      "bytes": 33110,
+      "sha256": "a64bc4df2594abd7da82292843c0b3177bb8c68f802fad26e92a9d41fcf70346"
+    },
+    "source_scripts/041_nexus-613-pptx_tables.js": {
+      "bytes": 26369,
+      "sha256": "488d87a64962a065dbeeaf67a0f53a45d89133b7781071705e601687e2a7d19a"
+    },
+    "source_scripts/042_nexus-613-pptx_notes.js": {
+      "bytes": 23389,
+      "sha256": "fa079c63aca84dab109b51f6cf49e2dc601687f1369c2d9fafb8d1c133e747a8"
+    },
+    "source_scripts/043_nxpoint-ink-model.js": {
+      "bytes": 8256,
+      "sha256": "d275f4b0d763c9c3f054a205c7a1fda1fff92c840a4ec696d5aebde35a38541e"
+    },
+    "source_scripts/044_nxpoint-ink-codec.js": {
+      "bytes": 12144,
+      "sha256": "d63e1cc025d3b475499222b3acd4d69d71389d8274555cf2deddb36ea05f3dc7"
+    },
+    "source_scripts/045_nexus-613-pptx_content.js": {
+      "bytes": 38805,
+      "sha256": "fddf63946f12ca411268d547c6c981aa256bea346f402c107b1ca9dffdd79017"
+    },
+    "source_scripts/046_nexus-613-docx_review_format.js": {
+      "bytes": 14190,
+      "sha256": "e247e8b9077e6dafaf7b92d93a18724e4ce8b1a956ab24737eb3a91fdfd54521"
+    },
+    "source_scripts/047_nexus-615-native-names.js": {
+      "bytes": 26269,
+      "sha256": "62c78428bdb8265d6cfc5153e687849e5b893add1c9c864bfc907664fd5f7506"
+    },
+    "source_scripts/048_nexus-616-numbering.js": {
+      "bytes": 20025,
+      "sha256": "9c42f230893cc4201706c70724e0ec39e28a0e276c89ede933cae66af3329b1f"
+    },
+    "source_scripts/049_nexus-618-literal.js": {
+      "bytes": 6397,
+      "sha256": "fc820879bdc3add1839ff8c0393913b0ad902dd37f3121d97f78d3fff4f8a1d8"
+    },
+    "source_scripts/050_nexus-69-preservation.js": {
+      "bytes": 24033,
+      "sha256": "e37e7429de4c96bc6674ca42c7b20bbe7a71d93b57ef6994d226858ca624b3cf"
+    },
+    "source_scripts/051_nexus-69-release.js": {
+      "bytes": 1874,
+      "sha256": "e489b28fb60f63281c7a9f345d1a8d8446dcfd9c39604e1afd8f456d05434ea1"
+    },
+    "source_scripts/052_nexus-610-release.js": {
+      "bytes": 1546,
+      "sha256": "7e93684adfada9098546bb6603ea75d80c55b356a301ef66e4af69655d9d4185"
+    },
+    "source_scripts/053_nexus-611-release.js": {
+      "bytes": 1308,
+      "sha256": "b2583c6626b3cff973daf6c95bf6c60716789ad00d2a46042bc10b73029a0617"
+    },
+    "source_scripts/054_nexus-612-release.js": {
+      "bytes": 3041,
+      "sha256": "012dfdf3df6ab2471bbe2ba41eac7c4629d9abcd2270576600db6fe8f5c6fca6"
+    },
+    "source_scripts/055_nexus-614-word_style_import.js": {
+      "bytes": 11717,
+      "sha256": "f15d593dbbae82aaa6583fb537a0607dcd53d2a13ca385227a2f5bc8a3617989"
+    },
+    "source_scripts/056_nexus-614-tracked_edit.js": {
+      "bytes": 22843,
+      "sha256": "198b2f2ef850874a863a820e2aa579b0fe6f913da820e6d7db10daa57e088a3f"
+    },
+    "source_scripts/057_nexus-614-word_paragraph_metrics.js": {
+      "bytes": 2079,
+      "sha256": "27e5ec57bdfc7d345bcf50ec6bf3b0339d1aa1163217da9d36b4b6a50ae504cf"
+    },
+    "source_scripts/058_nexus-615-sheet_refs.js": {
+      "bytes": 18943,
+      "sha256": "cae4ffd59583b467da45f425469c851e53ce7bb042f5f573d4328b58299ad404"
+    },
+    "source_scripts/059_nexus-615-sheet_operations.js": {
+      "bytes": 11984,
+      "sha256": "98fea9fbb13e125f3941f763ceb9a4be2d70c22d0bda095516ea0468b54594de"
+    },
+    "source_scripts/060_nexus-616-para616_codec.js": {
+      "bytes": 35072,
+      "sha256": "3c1e1a182ac4ef760f93664b2dc6410baafa96146d45dff84411a2a81969fc34"
+    },
+    "source_scripts/061_nexus-616-para616_ui.js": {
+      "bytes": 23299,
+      "sha256": "856a24d2657d8d68658854a952cd07ba25fdc80ab49c0ca53d583281d09410fa"
+    },
+    "source_scripts/062_nexus-617-paint3d_model.js": {
+      "bytes": 18013,
+      "sha256": "d0d56010324ed757103fe31d5f677af23365b8df01d2966d305068133bc4aff7"
+    },
+    "source_scripts/063_nexus-617-paint3d_glb.js": {
+      "bytes": 12056,
+      "sha256": "3bec2d7260e0675bf223b193714d2b9db0a4afc3dba36af869f5958fcc19b7be"
+    },
+    "source_scripts/064_nexus-617-paint3d_ui.js": {
+      "bytes": 28875,
+      "sha256": "368231a6452d87301ac3dcadbf55b94a69210fbba964d9d19e197c1e258dfca0"
+    },
+    "source_scripts/065_nexus-618-pivot_model.js": {
+      "bytes": 5844,
+      "sha256": "bb2bfadbd48eeb4da875217b3698f4006c594908fd6c55c2e609269c5e4bdf50"
+    },
+    "source_scripts/066_nexus-618-pivot_ui.js": {
+      "bytes": 18397,
+      "sha256": "759acfe4467b0c3bc67cdd7af09d6c94a8ce6d0b11541c06d1d0563ae91256c4"
+    },
+    "source_scripts/067_nexus-grid-mutation-core.js": {
+      "bytes": 5865,
+      "sha256": "9615feb2ca53e6c18cb60bc08db283987608e7cbae02d1b1968751d99fe4e449"
+    },
+    "source_scripts/068_nexus-grid-mutation-integration.js": {
+      "bytes": 19672,
+      "sha256": "acb7f0ffb98ece17a162f05827edb96148132d074578db5940e5dac531bde0b9"
+    },
+    "source_scripts/069_nx619-dashboard-runtime.js": {
+      "bytes": 1854644,
+      "sha256": "1172ab2fc5aea6c42fba27a13626ef913760b92b1e360bc6db6affc4370f6a9d"
+    },
+    "source_scripts/070_nx619-dashboard_engine.js": {
+      "bytes": 21181,
+      "sha256": "9a2464dcef8adcee2520e54ed1db1abc1f67e7418eb897a442d49c3f78e30977"
+    },
+    "source_scripts/071_nx-dashboard-permissions-core.js": {
+      "bytes": 9617,
+      "sha256": "dd08e459a0dff779932e25aea8671a9e4b17368aef1752cc0f0ec100454fc1a2"
+    },
+    "source_scripts/072_nx619-dashboard_office.js": {
+      "bytes": 15652,
+      "sha256": "3b0b0a61cc235c5842a74bab5d19b5b2c6aa745172fdce5415f7f74cae4ded65"
+    },
+    "source_scripts/073_nx619-dashboard_grid_bridge.js": {
+      "bytes": 6324,
+      "sha256": "946660a781b74511a14f1a3e681a44379c6aabdc99e6c16e91b486babe9a16af"
+    },
+    "source_scripts/074_nx619-grid_native_cf_notice.js": {
+      "bytes": 2871,
+      "sha256": "a59653d87531ddac6fbc714a4feb3fddfdb26d9d325105ce137e08feee115ab7"
+    },
+    "source_scripts/075_nx620-grid-template-library.js": {
+      "bytes": 317235,
+      "sha256": "23d620fe2b0589412a0913931a7d48230fea78dd170b34b2df2b0748bf288ed3"
+    },
+    "source_scripts/076_nx620-grid-template-adapter.js": {
+      "bytes": 23992,
+      "sha256": "8ac8e620a6f8a88ba299a9549e36fda3da485f81c3fe29bc420d3a310d8391b3"
+    },
+    "source_scripts/077_nx620-writer_templates.js": {
+      "bytes": 110173,
+      "sha256": "ba91c812bd7fba118b6c1f39edc4218dc451336ef124c84b6708de8780e8b10e"
+    },
+    "source_scripts/078_nx620-writer_government_templates.js": {
+      "bytes": 96768,
+      "sha256": "c1202d6e46d3f15a8d6e93f5d266daf8ac825dd1441d20227cab5e59074e9018"
+    },
+    "source_scripts/079_nx620-writer_government_ui.js": {
+      "bytes": 19549,
+      "sha256": "8aae5c2213e95fec6ac88a8e89f39ba1282d93b5bb4aadb0eb3ea8b932ae1815"
+    },
+    "source_scripts/080_nx620-install.js": {
+      "bytes": 29,
+      "sha256": "ebf7e0b4764ddcaba168cb5e5e5f3e206545e724d6f5628db6f1e89499753a11"
+    },
+    "source_scripts/081_nx-apa7-core.js": {
+      "bytes": 45011,
+      "sha256": "7d84725ee757eef4ed3bbcf5b67f2a16d6ea6d741fea09dfd8552818ed6dfd9b"
+    },
+    "source_scripts/082_nx-writer-apa-ui.js": {
+      "bytes": 33205,
+      "sha256": "57457dbb8d06364e6671a6a2b6dd2dbd1b8a4cdc48ab8eacfc3f0238e76b4360"
+    },
+    "source_scripts/083_inline.js": {
+      "bytes": 22,
+      "sha256": "b3a4fafce693fef92ae2cb22720f6780aec666491feebf1c58110b40a34459e6"
+    },
+    "source_scripts/084_inline.js": {
+      "bytes": 77129,
+      "sha256": "1c1745ee2b3eac8dd110ecdcb7dab8372b0ba932e9369f92427376253cdc9aa8"
+    },
+    "source_scripts/085_inline.js": {
+      "bytes": 46208,
+      "sha256": "d59ef47ec3bb70766ae456b878b7643b5720fe0f799ff1658c886c87f98dcbac"
+    },
+    "source_scripts/086_inline.js": {
+      "bytes": 1415,
+      "sha256": "442b0d1c9b1f23ecdac51bb7120fd2d7247d696be89175431a436c053bdec9b3"
+    },
+    "source_scripts/087_inline.js": {
+      "bytes": 8994,
+      "sha256": "bc771eb24c16c7d7c17a7d1d609258bfd53b53b01f6896a4d689d6cf23a8ab30"
+    },
+    "source_scripts/088_inline.js": {
+      "bytes": 11174,
+      "sha256": "8a23fbb431e1dbeba7b82496ab6a8db1412e4b1ae08e85a5d857c7ecfe67ac83"
+    },
+    "source_scripts/089_inline.js": {
+      "bytes": 18610,
+      "sha256": "296516ccd1c4ce8b1bb00de32d81742e5ad8dd0e3fcf6f10407265c87217882e"
+    },
+    "source_scripts/090_inline.js": {
+      "bytes": 15127,
+      "sha256": "c756533c5c95e4740b7340dfb62c5deb3e1803a0243665234b07f0a1e44701a5"
+    },
+    "source_scripts/091_nexus-writing-writer_sidebar.js": {
+      "bytes": 3927,
+      "sha256": "58177db7c803bf1a8aed0631875d6f4659d6b5d0fc3c02eba81d9f6f580e0518"
+    },
+    "source_scripts/092_nexus-writing-writing_vendor.js": {
+      "bytes": 2811825,
+      "sha256": "b020ab03cde13f3989d4c6d3bf6d661fef2d3a6201ace620578466270529e2f0"
+    },
+    "source_scripts/093_nexus-writing-writing_engine.js": {
+      "bytes": 10798,
+      "sha256": "519481bbe7190634fc794eec97973ba918efab4011211e1a17f6dd1d6fbba02d"
+    },
+    "source_scripts/094_nexus-writing-writing_review.js": {
+      "bytes": 26511,
+      "sha256": "d17c65c82d4c542cb04fd197e50e426cfba0ecfba5dfd2c241aedfa3b44b6215"
+    },
+    "source_scripts/095_nexus-writer-layout-tools.js": {
+      "bytes": 53851,
+      "sha256": "46007089a58199c70d57ec9fd620beec57825872dc104833e9b7bad4e668bc91"
+    },
+    "source_scripts/096_nexus-writer-typography.js": {
+      "bytes": 26183,
+      "sha256": "bb974345fc1e9dd8c91222af85f2e45ecc8776f6e9da8b9adc1d5110f9b51190"
+    },
+    "source_scripts/097_nx-clipart-data.js": {
+      "bytes": 7865280,
+      "sha256": "d4475f684d11d69b173fcba7ae9e91c5474c3a08ebb73c0993df8dbc0dd2a3e9"
+    },
+    "source_scripts/098_nx-clipart-core.js": {
+      "bytes": 4488,
+      "sha256": "4c15f79c7399b571c90352b5ef09709afb5df3d1bd6619cac08261ba556cb8c6"
+    },
+    "source_scripts/099_nx-clipart-ui.js": {
+      "bytes": 19004,
+      "sha256": "571dcea91572a5397aed30379719c9d302e43629d88405d379e2c9df145b2fa0"
+    },
+    "source_scripts/100_nexus-glass-ribbon-js.js": {
+      "bytes": 21587,
+      "sha256": "24790fc5ffbd77b94df35432ff5fc02707cbd630aa3e03af7160472b90b4b81e"
+    },
+    "source_scripts/101_nexus-glass-ribbon-startup.js": {
+      "bytes": 309,
+      "sha256": "f052626ca414cfbdba23ef091ef47c5b3c31ec247d3379a29128b99c50920e0a"
+    },
+    "source_scripts/102_nx-appearance-settings-js.js": {
+      "bytes": 5906,
+      "sha256": "f101daac502163df2aba669fc39b710b9df4a03ae6bc3b678a7f173c414d7270"
+    },
+    "source_scripts/103_nx-nwd-codec.js": {
+      "bytes": 4084,
+      "sha256": "897e9e2bc77c11c9ea536a2dc7fafc99ed53ddcfba78f0af64e89611c00192d4"
+    },
+    "source_scripts/104_nx-nwd-integration.js": {
+      "bytes": 10227,
+      "sha256": "4035885c0adfba8811c2b7c1943cb04b023436f5a08053ed35ac85b2638508d5"
+    },
+    "source_scripts/105_nx-office-command-core.js": {
+      "bytes": 5967,
+      "sha256": "2afefd23f3c462b53703dab7164da203d7505cb79e024f11195ea14eb671b0a7"
+    },
+    "source_scripts/106_nx-office-command-host.js": {
+      "bytes": 15371,
+      "sha256": "d5fbdaf456e2f10d1caad0214fddd057337d728f1a9ac243bc44a7223d2943ab"
+    },
+    "source_scripts/107_nx-office-notice-runtime.js": {
+      "bytes": 8679,
+      "sha256": "5d60c2c1764477a1e55cfb93271661c5aeaff3cccb869f439a7cc188f5abe183"
+    },
+    "source_scripts/108_nx-presentation-theme-library.js": {
+      "bytes": 5687,
+      "sha256": "b3fdf3220ad4074cba7099752d97f885b3cf9dc393ba892c2a083d82fb179866"
+    },
+    "source_scripts/109_nx-presentation-theme-adapter.js": {
+      "bytes": 7334,
+      "sha256": "b98f49498024b87b27386badc3972508444801ce7b555785e883fa44d3f5d06c"
+    },
+    "source_scripts/110_nx-suite-navigation.js": {
+      "bytes": 1970,
+      "sha256": "d8a27d393402a0ca47b61a89d265b1e3032b37569a8e2f30e75fc83a3b680638"
+    },
+    "source_scripts/111_nx-paint-interaction-correction.js": {
+      "bytes": 6968,
+      "sha256": "2baaac16b3c1b3a95916a048277b1eb5c9f1bccce35009c0ba51ca5265f61469"
+    },
+    "source_scripts/112_nx-white-glass-workspace-js.js": {
+      "bytes": 8726,
+      "sha256": "632aec1ae9c23055f15723de20ee2eb2327b03975fdba7fd7e575e2243e0b81b"
+    },
+    "source_scripts/113_nx-output-lora.js": {
+      "bytes": 3526,
+      "sha256": "72db2c862fabaccd78f53873e80f8786bcf8d1cbc564fde1698dd365fcaeab15"
+    },
+    "source_scripts/114_nx-experimental-evaluation-notice.js": {
+      "bytes": 871,
+      "sha256": "ac2f2fae6e0ac1b4a14b600060480eabc1538b348009b8a6d4637412775fca98"
+    },
+    "source_scripts/115_nx-experimental-model-assets.js": {
+      "bytes": 4118068,
+      "sha256": "99e2fbde7d3385b59636dec6e141c2bbbc5bfb87cbf18f3ed4f293f7fa148e58"
+    },
+    "source_scripts/116_nx-experimental-rollback-assets.js": {
+      "bytes": 4118019,
+      "sha256": "f33b6811c87638690783bdee6e771a23fecaf589abb52f92931001734eb2cc33"
+    },
+    "source_scripts/117_nx-office-ai-model.js": {
+      "bytes": 2784248,
+      "sha256": "f98d9195f5e197695274e61ceb5ed456d15a96c6a7ce3cbdb0a5c32370e397de"
+    },
+    "source_scripts/118_nx-utf8-tokenizer-v2.js": {
+      "bytes": 4025,
+      "sha256": "6120c8ce2f27099d2f0eea80f105196626efb0b05667cf58ee60980eaaa0612b"
+    },
+    "source_scripts/119_nx-utf8-runtime-v2.js": {
+      "bytes": 7175,
+      "sha256": "959eb3da4dcfecc832ac83dadac26675d5b863bec106183df3f283f09fbddf18"
+    },
+    "source_scripts/120_nx-utf8-trained-assets.js": {
+      "bytes": 1263568,
+      "sha256": "37226506da977e051f5435fe081cf7572576ae683770829a768fd6dbe8667578"
+    },
+    "source_scripts/121_nx-utf8-model-dispatch.js": {
+      "bytes": 4600,
+      "sha256": "cce859c7e3e22939bd05629cb8628fb002d85c552e626ea05b1b9c16f42f566f"
+    },
+    "source_scripts/122_nx-office-help-core.js": {
+      "bytes": 60087,
+      "sha256": "d4381d5102c4701125f73a365e882f5801b631122392c3cd8b5371ab25acfee8"
+    },
+    "source_scripts/123_nx-learned-contract.js": {
+      "bytes": 7686,
+      "sha256": "bccc84bf3840812a506fab811a45c22e3051dfe4238ae766d60bb894c72f7c7a"
+    },
+    "source_scripts/124_nx-learned-conversation.js": {
+      "bytes": 2172,
+      "sha256": "c9b89ff8edee58559950f68935c7bcfdc67dc69354d28beeb4d7908dcdad19e6"
+    },
+    "source_scripts/125_nx-learned-session_history.js": {
+      "bytes": 1206,
+      "sha256": "66076543443ad33c2f470c6b016fcf281e805325d108cbadb5681b16fef36df5"
+    },
+    "source_scripts/126_nx-learned-controller.js": {
+      "bytes": 2993,
+      "sha256": "1c4c36145a04a8bae1dc2efa76764d2841fe82e13d18e177d5283a8799472311"
+    },
+    "source_scripts/127_nx-office-ai-panel.js": {
+      "bytes": 11836,
+      "sha256": "22e79d9fd63d8ab6f393b8efefa8341a1e301f733ad5b8bdf6f8434b375c26a7"
+    },
+    "source_scripts/128_nx-grid-cell-inspector.js": {
+      "bytes": 13409,
+      "sha256": "098acc63f3cc091f2246720dc4204736ec369f21344e6aded71b26a790cfbd57"
+    },
+    "source_scripts/129_nexus-animated-gif-codec.js": {
+      "bytes": 8578,
+      "sha256": "d7d9640d62ae9c5aeaf2d24e7be923b1d2df6247f5a897b33663ba3431b296d1"
+    },
+    "source_scripts/130_nexus-animated-gif-model.js": {
+      "bytes": 3863,
+      "sha256": "b1227b0af3f5e6a0c331e416285316547e175ec87047d25857e6f0415a67cac8"
+    },
+    "source_scripts/131_nexus-animated-gif-office.js": {
+      "bytes": 19626,
+      "sha256": "66bd04fcbd48e85ddb91a67ea9ba3b4953b2064eb97d95cb0ccd8ca85ae6939d"
+    },
+    "source_scripts/132_nx-social-core-js.js": {
+      "bytes": 3504328,
+      "sha256": "0fe46517c28de90863b8ff803dad5d91a75e1ac760ea87bd15f472ce032fc0e5"
+    },
+    "source_scripts/133_nx-social-ui-js.js": {
+      "bytes": 10026,
+      "sha256": "bedf88ee609558aaf2bf2d66f2025749e3d0fb10ab36fcd8f723c2c3e9283acb"
+    },
+    "source_scripts/134_nx-save-control-truth.js": {
+      "bytes": 1339,
+      "sha256": "388b0ffb5cd41afb683fa443c805a87f9cff67b0d73aa8fd7b1040c5d9a5c6e6"
+    },
+    "source_scripts/135_nx-repair-media-controls.js": {
+      "bytes": 13464,
+      "sha256": "3adba9f4f23d741c106f4cf12cb1476d2b040ff1881f19a056b09e50ef20db43"
+    },
+    "source_scripts/136_nx-repair-design-controls.js": {
+      "bytes": 5064,
+      "sha256": "d5c63c29fe496b72a3b740c5b5e704f7ac8ac3e7dcdc03f8bcddb1f397724842"
+    },
+    "source_scripts/137_nx-repair-writer-grid-controls.js": {
+      "bytes": 26582,
+      "sha256": "133bbbd2c69aa17742615db7751820dde4cfc0b0ad2435dd058439d7b4038664"
+    },
+    "source_scripts/138_nx-repair-media-scope.js": {
+      "bytes": 5752,
+      "sha256": "24da50ad3979f65478712280b304092c378ebbc0f4b15198d6f8e03b3284917c"
+    },
+    "source_scripts/139_nx-present-layout-guard.js": {
+      "bytes": 10007,
+      "sha256": "a737bc06fbd26c7a1bd85eb2946e0cc6848ddaaacd8518e3f42693a40d8eb6c0"
+    },
+    "source_scripts/140_nx-repair-availability.js": {
+      "bytes": 988,
+      "sha256": "aaaa5a7da690416fb8c7b9844f856197f04a7397d2c6d61ae80156d23b26834c"
+    },
+    "source_scripts/141_nx-ordinary-clipboard-workflows.js": {
+      "bytes": 7863,
+      "sha256": "9db6ea73e803956ad4a2967326e10febc4551546e7bf480cbf8ad92019129985"
+    },
+    "source_scripts/142_nx-shared-ui-next-js.js": {
+      "bytes": 8701,
+      "sha256": "3630f747667a6c0022b3131486581420d72587e4975ae4216b4879b60831bdc2"
+    },
+    "source_scripts/143_nx-grid-dashboard-ui-next.js": {
+      "bytes": 10162,
+      "sha256": "ea8f09bcf376ceaca0ea97fb54beaac07cb1daa93b756c4da617c2abaa0bed87"
+    },
+    "source_scripts/144_nx-present-ui-next-model.js": {
+      "bytes": 17688,
+      "sha256": "223882cb44d886e83c09c4d09f642aa8b097e405cfe438fd8af25d30186eecf2"
+    },
+    "source_scripts/145_nx-present-ui-next-adapter.js": {
+      "bytes": 17001,
+      "sha256": "753d34e6c7ec3f08ecbaa7ce9eaaf5c565e3e48720d9cf719cfe2f9c9bf0d1f9"
+    },
+    "source_scripts/146_nx-exact-writer-focus.js": {
+      "bytes": 2329,
+      "sha256": "cd5f58d31280ad2c9d618debd6188c5d45ac7772b8087c173ad83cacbe046522"
+    },
+    "source_scripts/147_nx-exact-menu-lifecycle.js": {
+      "bytes": 4428,
+      "sha256": "c5ae218d52e20989d379d85c0bf7f9a37917a5ea6f4349ce35c8f7b2ffb4c6b6"
+    },
+    "source_scripts/148_nx-reference-suite-rail.js": {
+      "bytes": 8367,
+      "sha256": "7a41f65d451e132bd49a192b33cd57bfd13b785e75633548207cbce3c8a2c58a"
+    },
+    "source_scripts/149_nexus-writer-ruler-drag.js": {
+      "bytes": 32115,
+      "sha256": "bfb5ab81ce338167229439d390e8b6afc8d15b3e71bf17d7d28339d9b9c43343"
+    },
+    "source_scripts/150_nxpoint-reference-geometry.js": {
+      "bytes": 1327,
+      "sha256": "bdf3ea755bb7570294acc892fa4dcebf6028e05f8d3f95e1b7a5767d57568d5c"
+    },
+    "source_scripts/151_nxpoint-reference-adapter.js": {
+      "bytes": 15164,
+      "sha256": "6b0357bdc2f9e220e9a739f4ebe13da2df28680891b06b9f1b536b86c9b31734"
+    },
+    "source_scripts/152_nx-semantic-icons-js.js": {
+      "bytes": 504230,
+      "sha256": "7a0d43170a74705e7dcdaba3bf6d2fb40b8f0f88b09e78c56d03f8d1f6559d12"
+    },
+    "source_scripts/153_nxpoint-designer-model.js": {
+      "bytes": 16234,
+      "sha256": "1e9e396886533a569ea43e278a15df5bafccf4e684f8affa34b8889fe95cb334"
+    },
+    "source_scripts/154_nxpoint-designer-renderer.js": {
+      "bytes": 2632,
+      "sha256": "cbddba3b82467cb01773fede0f69a958d88e1b19c3e09d879574996184567da5"
+    },
+    "source_scripts/155_nxpoint-designer-adapter.js": {
+      "bytes": 32006,
+      "sha256": "6607c905c5bf21bc647b6ed533a08fdbdb30840463630adb873b01f25e7b930e"
+    },
+    "source_scripts/156_nxpoint-ink-renderer.js": {
+      "bytes": 2619,
+      "sha256": "3fe8973b558bd155ad6aaa1048ed606ba499d03502acd5226613624dbffd2132"
+    },
+    "source_scripts/157_nxpoint-ink-adapter.js": {
+      "bytes": 15256,
+      "sha256": "a355484f4d5c91a751eba2ace35f2896e93be0eff5ac58e106d41128d051b76d"
+    },
+    "source_scripts/158_nx-template-wizard-wizard_core.js": {
+      "bytes": 9588,
+      "sha256": "98a755fb8820794f3fff07f611da76a2713ac173eeaceaa8bdd6f9a117831e98"
+    },
+    "source_scripts/159_nx-point-template-point_core.js": {
+      "bytes": 5750,
+      "sha256": "58bded2fa3afdce8207674dc3901f3be27355445085a5bb60ad335fd65477d18"
+    },
+    "source_scripts/160_nx-point-template-point_host.js": {
+      "bytes": 2595,
+      "sha256": "4fa2ea29b6b2c377af13c85fc487ce181bc63060b359d87800d986e660a9475e"
+    },
+    "source_scripts/161_nx-point-template-point_preview.js": {
+      "bytes": 3665,
+      "sha256": "bcd4dbaf24f17b6d2450a7da54acef485cd231d73a7c135974995b11dbd83c90"
+    },
+    "source_scripts/162_nx-dashboard-template-core.js": {
+      "bytes": 14115,
+      "sha256": "90789da113c18a1eee752a323662639765f07629473c234fb2956cb5ee495a69"
+    },
+    "source_scripts/163_nx-dashboard-template-host.js": {
+      "bytes": 3283,
+      "sha256": "c3d2166e676e58e75dbfbbb7da9d6bede37b1c2602974d8ddd5a865911a81ee7"
+    },
+    "source_scripts/164_nx-dashboard-template-preview.js": {
+      "bytes": 3011,
+      "sha256": "ca2e3b537181894d1b8be74f436b73477dd02dbc1eb14fc992772fb986bc678c"
+    },
+    "source_scripts/165_nx-paint-template-core.js": {
+      "bytes": 6373,
+      "sha256": "2d2e03ad7f49226625f12d817adb2066c1b2d148a40458cc40103ec516078a55"
+    },
+    "source_scripts/166_nx-paint-template-preview.js": {
+      "bytes": 1242,
+      "sha256": "1eb52475d61a4da0eb9e16fd53320459e1592711d414271628dabd916b0ef3f5"
+    },
+    "source_scripts/167_nx-template-wizard-wizard_controller.js": {
+      "bytes": 8484,
+      "sha256": "eed7d6a8f8e391ef4f5ced7bcc3ae5d2af57ee7a6b5b71f436524522cd46ecd2"
+    },
+    "source_scripts/168_nx-template-wizard-wizard_ui.js": {
+      "bytes": 27468,
+      "sha256": "6cc12219861af711d55854160e82a1e2495c26abfb74a561f29dd5f67181ca4e"
+    },
+    "source_scripts/169_nx-template-help-flow-core.js": {
+      "bytes": 13939,
+      "sha256": "7e819786f2774656981730686c93b25b5ac6679085188946d4ca767bf1c9f4ab"
+    },
+    "source_scripts/170_nx-template-help-flow-ui.js": {
+      "bytes": 6988,
+      "sha256": "0048463cfc92b54d7f836d5ec429db928d4655475958d567ceb8b4fc4de2a1e5"
+    },
+    "source_scripts/171_nx-english-actions.js": {
+      "bytes": 13678,
+      "sha256": "9cc92960c25f9bcd9501b04fc1e0a03368765a26d09a27175ad8ca9988609d61"
+    },
+    "source_scripts/172_nx-experimental-model-ui.js": {
+      "bytes": 4230,
+      "sha256": "4770a202adf0299577f74c40805f01c469ecadc338decd2c2beaa719230a161b"
+    },
+    "source_scripts/173_nx-clean-office-ui-events.js": {
+      "bytes": 808,
+      "sha256": "143f70b2030df9e90afcab5e942531406f391d081e1e919ee033bfe49f9845d9"
+    },
+    "source_scripts/174_nx-utf8-tokenizer-tools.js": {
+      "bytes": 4776,
+      "sha256": "ee34aa75954d3167c02909bd839902c2b024763973bcdecd473359a404332a10"
+    },
+    "source_scripts/175_nx-learned-command-panel.js": {
+      "bytes": 3651,
+      "sha256": "0ac409f5e12309995ac7b3c18299a566a1ee0b43d6100b18b23fe695557b16f3"
+    },
+    "source_scripts/176_nx-resume-resume-flow.js": {
+      "bytes": 16647,
+      "sha256": "afaffb3ba3b2087e8e8526212bb4dcf778a9486e13152c7e6b70e5cc27062823"
+    },
+    "source_scripts/177_nx-resume-resume-panel.js": {
+      "bytes": 10196,
+      "sha256": "e85163e859dc386cfddcedb0988ee6eefef120eab98d98c7163a30dc16526d16"
+    },
+    "source_scripts/178_nx-resume-resume-chat.js": {
+      "bytes": 5117,
+      "sha256": "da885205918096ebfdf2d5b965b878cc2f365fb306107cfeef01ce2a4e68761d"
+    },
+    "source_scripts/179_nx-resume_controller.js": {
+      "bytes": 1944,
+      "sha256": "1a727bd024f363df7dcb25487e915a5654e7de445c9dcd4a2c346dde0895d559"
+    },
+    "source_scripts/180_nx-resume_chat_binding.js": {
+      "bytes": 2360,
+      "sha256": "10c4704decabe7bf9da463cbaff7e2aa34f63cad6e50d7d719eeef4affc80302"
+    },
+    "source_scripts/181_nx-command-interaction-resume_commands.js": {
+      "bytes": 6621,
+      "sha256": "3e9d3064f87e9ae92bc7e43334602fbdbdf5775f8e15fbc4d1e423c343d2982e"
+    },
+    "source_scripts/182_nx-command-interaction-action_registry.js": {
+      "bytes": 10442,
+      "sha256": "d297a3a3ac65d361d5abc507cc665e6b307767b04db9708c0ee6d62a4f165700"
+    },
+    "source_scripts/183_nx-modern-writer-ribbon.js": {
+      "bytes": 12758,
+      "sha256": "c38db3860687251f48bce0beb4602454fcbd5b19379432801674a85dca949f78"
+    },
+    "source_scripts/184_nx-modern-home.js": {
+      "bytes": 7052,
+      "sha256": "16d79c0311b163a22abacc88c78dc3183ef66a53056af22e0ab290bd463a20aa"
+    },
+    "source_scripts/185_nx-writer-ruler-ui.js": {
+      "bytes": 3224,
+      "sha256": "369699eec7db998a7f645d7ee678ff85f801e2f0d37fa123c7c5692ba712b362"
+    },
+    "source_scripts/186_nx-writer-design.js": {
+      "bytes": 23788,
+      "sha256": "c26727f1a33abda565ebd2e2d799d6c2f6bc13b04c32a2e8f500dde3134f56ed"
+    },
+    "source_scripts/187_nx-writer-remaining-ribbons.js": {
+      "bytes": 8052,
+      "sha256": "ee4f4f5b365b386e9262f70248d8ab1ac87f579d864d0b2239addfca9e82f504"
+    },
+    "source_scripts/188_nx-writer-template-design.js": {
+      "bytes": 9153,
+      "sha256": "05b555bc4d7bea3b8943108b92af3e54ece92cd004149d459ad608e43e0b0c7e"
+    },
+    "source_scripts/189_nx-paint-studio.js": {
+      "bytes": 40419,
+      "sha256": "a2c5a013ab3c3f80b9d05fb5a92aacc01c50503cadc66c2ddd3348f11719f73e"
+    },
+    "source_scripts/190_nx-unified-design-studio.js": {
+      "bytes": 64857,
+      "sha256": "7cf2d7a984b9ce5e67f5020de7bd717c5faf9d6a1206060df7c90ca76199b386"
+    },
+    "source_scripts/191_nx-office-themes.js": {
+      "bytes": 12030,
+      "sha256": "b27c432fe1517a67bda01daccf6f8e4b799655dbf3a2ece269a67158b47bf195"
+    },
+    "source_scripts/192_nx-document-tabs.js": {
+      "bytes": 17715,
+      "sha256": "a183e0f6394f831d135ef4d01ddf4d6db42dc9b42bb02b97ba25b62e22d171c6"
+    },
+    "source_scripts/193_nx-document-compatibility.js": {
+      "bytes": 24410,
+      "sha256": "f62a2a162cce1aa8fdb6a76145684cbde8418ae3da9931d626ed73b533e817b9"
+    },
+    "source_scripts/194_nx-document-signatures.js": {
+      "bytes": 8532,
+      "sha256": "a557860dcc8c0de53e990c3ba256d439b2c7a87bbd40695c8dc700476be67011"
+    },
+    "source_scripts.json": {
+      "bytes": 41393,
+      "sha256": "8b78f186572dd0000b2cbaac39ef1aa6cca52131de8746f9bc1b0593e750b4d5"
+    },
+    "source_template.html": {
+      "bytes": 485361,
+      "sha256": "cadba805853191b2017168802d61ef397bcc186bf8db2cfaac0fe2203d66b1b8"
+    },
+    "test_action_registry.cjs": {
+      "bytes": 5417,
+      "sha256": "7b0b2524680ff48bc19b6d20e4f05434641281fb239dba49c96ac3efb79eecaf"
+    },
+    "test_action_registry_host.cjs": {
+      "bytes": 2643,
+      "sha256": "35d11a9d048447a5344a75314d993c40e7f255b446e431a5d9e3ed2da047732f"
+    },
+    "test_host.cjs": {
+      "bytes": 7826,
+      "sha256": "6e97f9eaee132da2f12ed363122e491566dae2b37c0e02591e2f6e1b3ed52cec"
+    },
+    "test_resume_command_parser.cjs": {
+      "bytes": 6427,
+      "sha256": "0047bfee1f7f26b984b3cacc6a1c03ceb0208175a331a46fc7b1e0d7ea93129b"
+    },
+    "test_support.cjs": {
+      "bytes": 3805,
+      "sha256": "d2bbfe5fff4d3243160f05062b601cc2d36fbbfbc37b6aea99808d6cf0b64ad6"
+    },
+    "theme_assets/architect.png": {
+      "bytes": 1370177,
+      "sha256": "1bce0d7f8b8c633373edabc14db00787fc53f14cad866a2b1c5fa9e2901bafa7"
+    },
+    "theme_assets/aurora-artwork.png": {
+      "bytes": 1514912,
+      "sha256": "a09e50f4fd942cd6171c353d721a5f99ddb35537791888d2481443f46d71a2d3"
+    },
+    "theme_assets/aurora.png": {
+      "bytes": 1559364,
+      "sha256": "2a8eb559f77cfba1d6e6c0f1fcaa611045a402fc08e4718cc6e60b52e24fe8e8"
+    },
+    "theme_assets/chromatic.png": {
+      "bytes": 1592026,
+      "sha256": "d10b4ffa3815c7bf99dba882be7171e7a325d900d133db13dc516766dd144acb"
+    },
+    "theme_assets/crystal-artwork.png": {
+      "bytes": 1537459,
+      "sha256": "ee31ecfc074e870354c125d1d054e2361334d8aa4df2bc0cf12623a3279d8660"
+    },
+    "theme_assets/crystal.png": {
+      "bytes": 1602697,
+      "sha256": "7089786c60c9b0e7c2477946d51be1c20d078b26622615964c27c3957e471180"
+    },
+    "theme_assets/editorial.png": {
+      "bytes": 1486124,
+      "sha256": "0f4a7ec74e8262c3c1ab14b0ffb4cbf7e08edee98fefb7b9346da9d231cf0171"
+    },
+    "theme_assets/manifest.json": {
+      "bytes": 3524,
+      "sha256": "b7a1829cdb8d5ee0e1a88b97538c958f566731d5c4a01363564fcb6f9929b554"
+    },
+    "theme_assets/midnight.png": {
+      "bytes": 1645849,
+      "sha256": "03b7dc7aaedabc2c6004033c2d730435148fe0a7bcdb2d55e441b7638245f301"
+    },
+    "theme_assets/panorama.png": {
+      "bytes": 1583171,
+      "sha256": "3beb41baee99b7cfafda6ac1a6ddb299c8db5dedf3dba8ccfad4cc849ba6b77e"
+    },
+    "theme_assets/porcelain.png": {
+      "bytes": 1484519,
+      "sha256": "0325fbe615261c26aa28936a30a8d648ccff8e7c0825c1298cf9ea5f0afcb0c1"
+    },
+    "theme_assets/soft-modern.png": {
+      "bytes": 1497860,
+      "sha256": "5753d39aff988ac3d1c77c929f137bf0e5d756419cdb0e3ab2e92fffaf53346c"
+    },
+    "theme_assets/swiss.png": {
+      "bytes": 1283925,
+      "sha256": "6c16828301fda495b11d384c272bd1ebc7930e28cef9b3adea58df9157c30ea2"
+    }
+  }
+}
