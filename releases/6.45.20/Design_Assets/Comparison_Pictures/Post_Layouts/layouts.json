@@ -1,0 +1,3602 @@
+[
+  {
+    "id": "comparison-mock-001",
+    "pair": "mock-001",
+    "variant": 0,
+    "orientation": "side",
+    "name": "AI mockup 001 · Gallery pair",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. medium olive skin · dark-brown fine hair with slightly oily roots · small mole, sun spots, tiny comedones, mild oily shine",
+    "palette": [
+      "#f7f5ef",
+      "#2c302c",
+      "#7b8879"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 0
+  },
+  {
+    "id": "comparison-reference-01-0",
+    "pair": "mock-001",
+    "variant": 1,
+    "orientation": "side",
+    "name": "AI layout 001 · Warm editorial",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. medium olive skin · dark-brown fine hair with slightly oily roots · small mole, sun spots, tiny comedones, mild oily shine",
+    "palette": [
+      "#f2e8df",
+      "#4b352c",
+      "#b08770"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 1
+  },
+  {
+    "id": "comparison-mock-002",
+    "pair": "mock-002",
+    "variant": 6,
+    "orientation": "stacked",
+    "name": "AI mockup 002 · Centred journal",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. fair neutral skin with pinkness around the nose · ash-blonde thin hair with slightly oily roots · a few sun spots on cheekbone, asymmetrical brow heights, mild under-eye hollows",
+    "palette": [
+      "#f1f3ee",
+      "#2c3a31",
+      "#87967f"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 2
+  },
+  {
+    "id": "comparison-reference-01-5",
+    "pair": "mock-002",
+    "variant": 7,
+    "orientation": "stacked",
+    "name": "AI layout 002 · Studio notes",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. fair neutral skin with pinkness around the nose · ash-blonde thin hair with slightly oily roots · a few sun spots on cheekbone, asymmetrical brow heights, mild under-eye hollows",
+    "palette": [
+      "#f7e9e5",
+      "#4b3431",
+      "#b88c81"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 3
+  },
+  {
+    "id": "comparison-mock-003",
+    "pair": "mock-003",
+    "variant": 2,
+    "orientation": "side",
+    "name": "AI mockup 003 · Framed study",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. light warm beige skin with scattered sun spots · dark-blonde straight hair, natural unstyled roots · fine crow's feet, a tiny forehead blemish, slight asymmetry of the nose",
+    "palette": [
+      "#fcfaf7",
+      "#202b30",
+      "#a28a60"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 4
+  },
+  {
+    "id": "comparison-reference-01-1",
+    "pair": "mock-003",
+    "variant": 3,
+    "orientation": "side",
+    "name": "AI layout 003 · Rose studio",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. light warm beige skin with scattered sun spots · dark-blonde straight hair, natural unstyled roots · fine crow's feet, a tiny forehead blemish, slight asymmetry of the nose",
+    "palette": [
+      "#eee7e8",
+      "#3e3036",
+      "#936f7c"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 5
+  },
+  {
+    "id": "comparison-mock-004",
+    "pair": "mock-004",
+    "variant": 8,
+    "orientation": "stacked",
+    "name": "AI mockup 004 · Contrast stack",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. light olive skin with a few brown freckles · chestnut wavy hair, some dryness and frizz · a faint old acne mark, two small moles, textured chin and natural smile lines",
+    "palette": [
+      "#25242a",
+      "#f5efe9",
+      "#b1978a"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 6
+  },
+  {
+    "id": "comparison-reference-01-6",
+    "pair": "mock-004",
+    "variant": 9,
+    "orientation": "stacked",
+    "name": "AI layout 004 · Minimal details",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. light olive skin with a few brown freckles · chestnut wavy hair, some dryness and frizz · a faint old acne mark, two small moles, textured chin and natural smile lines",
+    "palette": [
+      "#fafafa",
+      "#283940",
+      "#75949b"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 7
+  },
+  {
+    "id": "comparison-mock-005",
+    "pair": "mock-005",
+    "variant": 4,
+    "orientation": "side",
+    "name": "AI mockup 005 · Noir journal",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. medium golden skin with visible pores · dark-brown fine hair with lightly oily roots · visible nose blackheads, one small healing pimple near temple, slightly unequal eyelids",
+    "palette": [
+      "#20292c",
+      "#faf4e8",
+      "#b8a78b"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 8
+  },
+  {
+    "id": "comparison-reference-01-2",
+    "pair": "mock-005",
+    "variant": 0,
+    "orientation": "side",
+    "name": "AI layout 005 · Gallery pair",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. medium golden skin with visible pores · dark-brown fine hair with lightly oily roots · visible nose blackheads, one small healing pimple near temple, slightly unequal eyelids",
+    "palette": [
+      "#f7f5ef",
+      "#2c302c",
+      "#7b8879"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 9
+  },
+  {
+    "id": "comparison-mock-006",
+    "pair": "mock-006",
+    "variant": 5,
+    "orientation": "stacked",
+    "name": "AI mockup 006 · Quiet stack",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. medium neutral brown skin with small moles · black tightly curled hair gently flattened at the pillow · a few mild acne marks, visible pores, one mouth corner higher than the other",
+    "palette": [
+      "#f4eee6",
+      "#4b4139",
+      "#9d876d"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 10
+  },
+  {
+    "id": "comparison-reference-01-7",
+    "pair": "mock-006",
+    "variant": 6,
+    "orientation": "stacked",
+    "name": "AI layout 006 · Centred journal",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. medium neutral brown skin with small moles · black tightly curled hair gently flattened at the pillow · a few mild acne marks, visible pores, one mouth corner higher than the other",
+    "palette": [
+      "#f1f3ee",
+      "#2c3a31",
+      "#87967f"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 11
+  },
+  {
+    "id": "comparison-mock-007",
+    "pair": "mock-007",
+    "variant": 1,
+    "orientation": "side",
+    "name": "AI mockup 007 · Warm editorial",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. warm tan skin with mild uneven pigmentation · salt-and-pepper thinning hair and loose wisps · soft eye bags, irregular natural lip outline, a small cheek pimple",
+    "palette": [
+      "#f2e8df",
+      "#4b352c",
+      "#b08770"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 12
+  },
+  {
+    "id": "comparison-reference-01-3",
+    "pair": "mock-007",
+    "variant": 2,
+    "orientation": "side",
+    "name": "AI layout 007 · Framed study",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. warm tan skin with mild uneven pigmentation · salt-and-pepper thinning hair and loose wisps · soft eye bags, irregular natural lip outline, a small cheek pimple",
+    "palette": [
+      "#fcfaf7",
+      "#202b30",
+      "#a28a60"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 13
+  },
+  {
+    "id": "comparison-mock-008",
+    "pair": "mock-008",
+    "variant": 7,
+    "orientation": "stacked",
+    "name": "AI mockup 008 · Studio notes",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. deep warm brown skin with small freckles · black straight hair, naturally shiny and slightly oily · light freckles across nose, uneven lip corners, fine forehead lines",
+    "palette": [
+      "#f7e9e5",
+      "#4b3431",
+      "#b88c81"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 14
+  },
+  {
+    "id": "comparison-reference-01-8",
+    "pair": "mock-008",
+    "variant": 8,
+    "orientation": "stacked",
+    "name": "AI layout 008 · Contrast stack",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. deep warm brown skin with small freckles · black straight hair, naturally shiny and slightly oily · light freckles across nose, uneven lip corners, fine forehead lines",
+    "palette": [
+      "#25242a",
+      "#f5efe9",
+      "#b1978a"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 15
+  },
+  {
+    "id": "comparison-mock-009",
+    "pair": "mock-009",
+    "variant": 3,
+    "orientation": "side",
+    "name": "AI mockup 009 · Rose studio",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. deep neutral brown skin with an oily T-zone · brown curly hair with dry ends and baby hairs · natural oily forehead sheen, small cheek moles, dry unpainted lips",
+    "palette": [
+      "#eee7e8",
+      "#3e3036",
+      "#936f7c"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 16
+  },
+  {
+    "id": "comparison-reference-01-4",
+    "pair": "mock-009",
+    "variant": 4,
+    "orientation": "side",
+    "name": "AI layout 009 · Noir journal",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. deep neutral brown skin with an oily T-zone · brown curly hair with dry ends and baby hairs · natural oily forehead sheen, small cheek moles, dry unpainted lips",
+    "palette": [
+      "#20292c",
+      "#faf4e8",
+      "#b8a78b"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 17
+  },
+  {
+    "id": "comparison-mock-010",
+    "pair": "mock-010",
+    "variant": 9,
+    "orientation": "stacked",
+    "name": "AI mockup 010 · Minimal details",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. rich dark skin with subtle natural tonal variation · silver-grey fine hair, thin temples and flyaways · nose blackheads, scattered freckles, fine facial hairs and natural under-eye darkness",
+    "palette": [
+      "#fafafa",
+      "#283940",
+      "#75949b"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 18
+  },
+  {
+    "id": "comparison-reference-01-9",
+    "pair": "mock-010",
+    "variant": 5,
+    "orientation": "stacked",
+    "name": "AI layout 010 · Quiet stack",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. rich dark skin with subtle natural tonal variation · silver-grey fine hair, thin temples and flyaways · nose blackheads, scattered freckles, fine facial hairs and natural under-eye darkness",
+    "palette": [
+      "#f4eee6",
+      "#4b4139",
+      "#9d876d"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 19
+  },
+  {
+    "id": "comparison-mock-011",
+    "pair": "mock-011",
+    "variant": 0,
+    "orientation": "side",
+    "name": "AI mockup 011 · Gallery pair",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. fair cool skin with light copper freckles · chestnut wavy hair, some dryness and frizz · light freckles across nose, uneven lip corners, fine forehead lines",
+    "palette": [
+      "#f7f5ef",
+      "#2c302c",
+      "#7b8879"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 20
+  },
+  {
+    "id": "comparison-reference-02-0",
+    "pair": "mock-011",
+    "variant": 1,
+    "orientation": "side",
+    "name": "AI layout 011 · Warm editorial",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. fair cool skin with light copper freckles · chestnut wavy hair, some dryness and frizz · light freckles across nose, uneven lip corners, fine forehead lines",
+    "palette": [
+      "#f2e8df",
+      "#4b352c",
+      "#b08770"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 21
+  },
+  {
+    "id": "comparison-mock-012",
+    "pair": "mock-012",
+    "variant": 6,
+    "orientation": "stacked",
+    "name": "AI mockup 012 · Centred journal",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. fair neutral skin with pinkness around the nose · dark-brown fine hair with lightly oily roots · natural oily forehead sheen, small cheek moles, dry unpainted lips",
+    "palette": [
+      "#f1f3ee",
+      "#2c3a31",
+      "#87967f"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 22
+  },
+  {
+    "id": "comparison-reference-02-5",
+    "pair": "mock-012",
+    "variant": 7,
+    "orientation": "stacked",
+    "name": "AI layout 012 · Studio notes",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. fair neutral skin with pinkness around the nose · dark-brown fine hair with lightly oily roots · natural oily forehead sheen, small cheek moles, dry unpainted lips",
+    "palette": [
+      "#f7e9e5",
+      "#4b3431",
+      "#b88c81"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 23
+  },
+  {
+    "id": "comparison-mock-013",
+    "pair": "mock-013",
+    "variant": 2,
+    "orientation": "side",
+    "name": "AI mockup 013 · Framed study",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. light warm beige skin with scattered sun spots · black tightly curled hair gently flattened at the pillow · nose blackheads, scattered freckles, fine facial hairs and natural under-eye darkness",
+    "palette": [
+      "#fcfaf7",
+      "#202b30",
+      "#a28a60"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 24
+  },
+  {
+    "id": "comparison-reference-02-1",
+    "pair": "mock-013",
+    "variant": 3,
+    "orientation": "side",
+    "name": "AI layout 013 · Rose studio",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. light warm beige skin with scattered sun spots · black tightly curled hair gently flattened at the pillow · nose blackheads, scattered freckles, fine facial hairs and natural under-eye darkness",
+    "palette": [
+      "#eee7e8",
+      "#3e3036",
+      "#936f7c"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 25
+  },
+  {
+    "id": "comparison-mock-014",
+    "pair": "mock-014",
+    "variant": 8,
+    "orientation": "stacked",
+    "name": "AI mockup 014 · Contrast stack",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. light olive skin with a few brown freckles · salt-and-pepper thinning hair and loose wisps · a few tiny whiteheads on forehead, a mole under one eye, faint under-eye shadows",
+    "palette": [
+      "#25242a",
+      "#f5efe9",
+      "#b1978a"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 26
+  },
+  {
+    "id": "comparison-reference-02-6",
+    "pair": "mock-014",
+    "variant": 9,
+    "orientation": "stacked",
+    "name": "AI layout 014 · Minimal details",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. light olive skin with a few brown freckles · salt-and-pepper thinning hair and loose wisps · a few tiny whiteheads on forehead, a mole under one eye, faint under-eye shadows",
+    "palette": [
+      "#fafafa",
+      "#283940",
+      "#75949b"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 27
+  },
+  {
+    "id": "comparison-mock-015",
+    "pair": "mock-015",
+    "variant": 4,
+    "orientation": "side",
+    "name": "AI mockup 015 · Noir journal",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. medium golden skin with visible pores · black straight hair, naturally shiny and slightly oily · a few sun spots on cheekbone, asymmetrical brow heights, mild under-eye hollows",
+    "palette": [
+      "#20292c",
+      "#faf4e8",
+      "#b8a78b"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 28
+  },
+  {
+    "id": "comparison-reference-02-2",
+    "pair": "mock-015",
+    "variant": 0,
+    "orientation": "side",
+    "name": "AI layout 015 · Gallery pair",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. medium golden skin with visible pores · black straight hair, naturally shiny and slightly oily · a few sun spots on cheekbone, asymmetrical brow heights, mild under-eye hollows",
+    "palette": [
+      "#f7f5ef",
+      "#2c302c",
+      "#7b8879"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 29
+  },
+  {
+    "id": "comparison-mock-016",
+    "pair": "mock-016",
+    "variant": 5,
+    "orientation": "stacked",
+    "name": "AI mockup 016 · Quiet stack",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. medium neutral brown skin with small moles · brown curly hair with dry ends and baby hairs · fine crow's feet, a tiny forehead blemish, slight asymmetry of the nose",
+    "palette": [
+      "#f4eee6",
+      "#4b4139",
+      "#9d876d"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 30
+  },
+  {
+    "id": "comparison-reference-02-7",
+    "pair": "mock-016",
+    "variant": 6,
+    "orientation": "stacked",
+    "name": "AI layout 016 · Centred journal",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. medium neutral brown skin with small moles · brown curly hair with dry ends and baby hairs · fine crow's feet, a tiny forehead blemish, slight asymmetry of the nose",
+    "palette": [
+      "#f1f3ee",
+      "#2c3a31",
+      "#87967f"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 31
+  },
+  {
+    "id": "comparison-mock-017",
+    "pair": "mock-017",
+    "variant": 1,
+    "orientation": "side",
+    "name": "AI mockup 017 · Warm editorial",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. warm tan skin with mild uneven pigmentation · silver-grey fine hair, thin temples and flyaways · a faint old acne mark, two small moles, textured chin and natural smile lines",
+    "palette": [
+      "#f2e8df",
+      "#4b352c",
+      "#b08770"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 32
+  },
+  {
+    "id": "comparison-reference-02-3",
+    "pair": "mock-017",
+    "variant": 2,
+    "orientation": "side",
+    "name": "AI layout 017 · Framed study",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. warm tan skin with mild uneven pigmentation · silver-grey fine hair, thin temples and flyaways · a faint old acne mark, two small moles, textured chin and natural smile lines",
+    "palette": [
+      "#fcfaf7",
+      "#202b30",
+      "#a28a60"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 33
+  },
+  {
+    "id": "comparison-mock-018",
+    "pair": "mock-018",
+    "variant": 7,
+    "orientation": "stacked",
+    "name": "AI mockup 018 · Studio notes",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. deep warm brown skin with small freckles · copper-red fine hair, dry ends and flyaways · visible nose blackheads, one small healing pimple near temple, slightly unequal eyelids",
+    "palette": [
+      "#f7e9e5",
+      "#4b3431",
+      "#b88c81"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 34
+  },
+  {
+    "id": "comparison-reference-02-8",
+    "pair": "mock-018",
+    "variant": 8,
+    "orientation": "stacked",
+    "name": "AI layout 018 · Contrast stack",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. deep warm brown skin with small freckles · copper-red fine hair, dry ends and flyaways · visible nose blackheads, one small healing pimple near temple, slightly unequal eyelids",
+    "palette": [
+      "#25242a",
+      "#f5efe9",
+      "#b1978a"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 35
+  },
+  {
+    "id": "comparison-mock-019",
+    "pair": "mock-019",
+    "variant": 3,
+    "orientation": "side",
+    "name": "AI mockup 019 · Rose studio",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. deep neutral brown skin with an oily T-zone · ash-blonde thin hair with slightly oily roots · a few mild acne marks, visible pores, one mouth corner higher than the other",
+    "palette": [
+      "#eee7e8",
+      "#3e3036",
+      "#936f7c"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 36
+  },
+  {
+    "id": "comparison-reference-02-4",
+    "pair": "mock-019",
+    "variant": 4,
+    "orientation": "side",
+    "name": "AI layout 019 · Noir journal",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. deep neutral brown skin with an oily T-zone · ash-blonde thin hair with slightly oily roots · a few mild acne marks, visible pores, one mouth corner higher than the other",
+    "palette": [
+      "#20292c",
+      "#faf4e8",
+      "#b8a78b"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 37
+  },
+  {
+    "id": "comparison-mock-020",
+    "pair": "mock-020",
+    "variant": 9,
+    "orientation": "stacked",
+    "name": "AI mockup 020 · Minimal details",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. rich dark skin with subtle natural tonal variation · dark-blonde straight hair, natural unstyled roots · soft eye bags, irregular natural lip outline, a small cheek pimple",
+    "palette": [
+      "#fafafa",
+      "#283940",
+      "#75949b"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 38
+  },
+  {
+    "id": "comparison-reference-02-9",
+    "pair": "mock-020",
+    "variant": 5,
+    "orientation": "stacked",
+    "name": "AI layout 020 · Quiet stack",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. rich dark skin with subtle natural tonal variation · dark-blonde straight hair, natural unstyled roots · soft eye bags, irregular natural lip outline, a small cheek pimple",
+    "palette": [
+      "#f4eee6",
+      "#4b4139",
+      "#9d876d"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 39
+  },
+  {
+    "id": "comparison-mock-021",
+    "pair": "mock-021",
+    "variant": 0,
+    "orientation": "side",
+    "name": "AI mockup 021 · Gallery pair",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. fair cool skin with light copper freckles · salt-and-pepper thinning hair and loose wisps · visible nose blackheads, one small healing pimple near temple, slightly unequal eyelids",
+    "palette": [
+      "#f7f5ef",
+      "#2c302c",
+      "#7b8879"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 40
+  },
+  {
+    "id": "comparison-reference-03-0",
+    "pair": "mock-021",
+    "variant": 1,
+    "orientation": "side",
+    "name": "AI layout 021 · Warm editorial",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. fair cool skin with light copper freckles · salt-and-pepper thinning hair and loose wisps · visible nose blackheads, one small healing pimple near temple, slightly unequal eyelids",
+    "palette": [
+      "#f2e8df",
+      "#4b352c",
+      "#b08770"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 41
+  },
+  {
+    "id": "comparison-mock-022",
+    "pair": "mock-022",
+    "variant": 6,
+    "orientation": "stacked",
+    "name": "AI mockup 022 · Centred journal",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. fair neutral skin with pinkness around the nose · black straight hair, naturally shiny and slightly oily · a few mild acne marks, visible pores, one mouth corner higher than the other",
+    "palette": [
+      "#f1f3ee",
+      "#2c3a31",
+      "#87967f"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 42
+  },
+  {
+    "id": "comparison-reference-03-5",
+    "pair": "mock-022",
+    "variant": 7,
+    "orientation": "stacked",
+    "name": "AI layout 022 · Studio notes",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. fair neutral skin with pinkness around the nose · black straight hair, naturally shiny and slightly oily · a few mild acne marks, visible pores, one mouth corner higher than the other",
+    "palette": [
+      "#f7e9e5",
+      "#4b3431",
+      "#b88c81"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 43
+  },
+  {
+    "id": "comparison-mock-023",
+    "pair": "mock-023",
+    "variant": 2,
+    "orientation": "side",
+    "name": "AI mockup 023 · Framed study",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. light warm beige skin with scattered sun spots · brown curly hair with dry ends and baby hairs · soft eye bags, irregular natural lip outline, a small cheek pimple",
+    "palette": [
+      "#fcfaf7",
+      "#202b30",
+      "#a28a60"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 44
+  },
+  {
+    "id": "comparison-reference-03-1",
+    "pair": "mock-023",
+    "variant": 3,
+    "orientation": "side",
+    "name": "AI layout 023 · Rose studio",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. light warm beige skin with scattered sun spots · brown curly hair with dry ends and baby hairs · soft eye bags, irregular natural lip outline, a small cheek pimple",
+    "palette": [
+      "#eee7e8",
+      "#3e3036",
+      "#936f7c"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 45
+  },
+  {
+    "id": "comparison-mock-024",
+    "pair": "mock-024",
+    "variant": 8,
+    "orientation": "stacked",
+    "name": "AI mockup 024 · Contrast stack",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. light olive skin with a few brown freckles · silver-grey fine hair, thin temples and flyaways · light freckles across nose, uneven lip corners, fine forehead lines",
+    "palette": [
+      "#25242a",
+      "#f5efe9",
+      "#b1978a"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 46
+  },
+  {
+    "id": "comparison-reference-03-6",
+    "pair": "mock-024",
+    "variant": 9,
+    "orientation": "stacked",
+    "name": "AI layout 024 · Minimal details",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. light olive skin with a few brown freckles · silver-grey fine hair, thin temples and flyaways · light freckles across nose, uneven lip corners, fine forehead lines",
+    "palette": [
+      "#fafafa",
+      "#283940",
+      "#75949b"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 47
+  },
+  {
+    "id": "comparison-mock-025",
+    "pair": "mock-025",
+    "variant": 4,
+    "orientation": "side",
+    "name": "AI mockup 025 · Noir journal",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. medium golden skin with visible pores · copper-red fine hair, dry ends and flyaways · natural oily forehead sheen, small cheek moles, dry unpainted lips",
+    "palette": [
+      "#20292c",
+      "#faf4e8",
+      "#b8a78b"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 48
+  },
+  {
+    "id": "comparison-reference-03-2",
+    "pair": "mock-025",
+    "variant": 0,
+    "orientation": "side",
+    "name": "AI layout 025 · Gallery pair",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. medium golden skin with visible pores · copper-red fine hair, dry ends and flyaways · natural oily forehead sheen, small cheek moles, dry unpainted lips",
+    "palette": [
+      "#f7f5ef",
+      "#2c302c",
+      "#7b8879"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 49
+  },
+  {
+    "id": "comparison-mock-026",
+    "pair": "mock-026",
+    "variant": 5,
+    "orientation": "stacked",
+    "name": "AI mockup 026 · Quiet stack",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. medium neutral brown skin with small moles · ash-blonde thin hair with slightly oily roots · nose blackheads, scattered freckles, fine facial hairs and natural under-eye darkness",
+    "palette": [
+      "#f4eee6",
+      "#4b4139",
+      "#9d876d"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 50
+  },
+  {
+    "id": "comparison-reference-03-7",
+    "pair": "mock-026",
+    "variant": 6,
+    "orientation": "stacked",
+    "name": "AI layout 026 · Centred journal",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. medium neutral brown skin with small moles · ash-blonde thin hair with slightly oily roots · nose blackheads, scattered freckles, fine facial hairs and natural under-eye darkness",
+    "palette": [
+      "#f1f3ee",
+      "#2c3a31",
+      "#87967f"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 51
+  },
+  {
+    "id": "comparison-mock-027",
+    "pair": "mock-027",
+    "variant": 1,
+    "orientation": "side",
+    "name": "AI mockup 027 · Warm editorial",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. warm tan skin with mild uneven pigmentation · dark-blonde straight hair, natural unstyled roots · a few tiny whiteheads on forehead, a mole under one eye, faint under-eye shadows",
+    "palette": [
+      "#f2e8df",
+      "#4b352c",
+      "#b08770"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 52
+  },
+  {
+    "id": "comparison-reference-03-3",
+    "pair": "mock-027",
+    "variant": 2,
+    "orientation": "side",
+    "name": "AI layout 027 · Framed study",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. warm tan skin with mild uneven pigmentation · dark-blonde straight hair, natural unstyled roots · a few tiny whiteheads on forehead, a mole under one eye, faint under-eye shadows",
+    "palette": [
+      "#fcfaf7",
+      "#202b30",
+      "#a28a60"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 53
+  },
+  {
+    "id": "comparison-mock-028",
+    "pair": "mock-028",
+    "variant": 7,
+    "orientation": "stacked",
+    "name": "AI mockup 028 · Studio notes",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. deep warm brown skin with small freckles · chestnut wavy hair, some dryness and frizz · a few sun spots on cheekbone, asymmetrical brow heights, mild under-eye hollows",
+    "palette": [
+      "#f7e9e5",
+      "#4b3431",
+      "#b88c81"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 54
+  },
+  {
+    "id": "comparison-reference-03-8",
+    "pair": "mock-028",
+    "variant": 8,
+    "orientation": "stacked",
+    "name": "AI layout 028 · Contrast stack",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. deep warm brown skin with small freckles · chestnut wavy hair, some dryness and frizz · a few sun spots on cheekbone, asymmetrical brow heights, mild under-eye hollows",
+    "palette": [
+      "#25242a",
+      "#f5efe9",
+      "#b1978a"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 55
+  },
+  {
+    "id": "comparison-mock-029",
+    "pair": "mock-029",
+    "variant": 3,
+    "orientation": "side",
+    "name": "AI mockup 029 · Rose studio",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. deep neutral brown skin with an oily T-zone · dark-brown fine hair with lightly oily roots · fine crow's feet, a tiny forehead blemish, slight asymmetry of the nose",
+    "palette": [
+      "#eee7e8",
+      "#3e3036",
+      "#936f7c"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 56
+  },
+  {
+    "id": "comparison-reference-03-4",
+    "pair": "mock-029",
+    "variant": 4,
+    "orientation": "side",
+    "name": "AI layout 029 · Noir journal",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. deep neutral brown skin with an oily T-zone · dark-brown fine hair with lightly oily roots · fine crow's feet, a tiny forehead blemish, slight asymmetry of the nose",
+    "palette": [
+      "#20292c",
+      "#faf4e8",
+      "#b8a78b"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 57
+  },
+  {
+    "id": "comparison-mock-030",
+    "pair": "mock-030",
+    "variant": 9,
+    "orientation": "stacked",
+    "name": "AI mockup 030 · Minimal details",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. rich dark skin with subtle natural tonal variation · black tightly curled hair gently flattened at the pillow · a faint old acne mark, two small moles, textured chin and natural smile lines",
+    "palette": [
+      "#fafafa",
+      "#283940",
+      "#75949b"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 58
+  },
+  {
+    "id": "comparison-reference-03-9",
+    "pair": "mock-030",
+    "variant": 5,
+    "orientation": "stacked",
+    "name": "AI layout 030 · Quiet stack",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. rich dark skin with subtle natural tonal variation · black tightly curled hair gently flattened at the pillow · a faint old acne mark, two small moles, textured chin and natural smile lines",
+    "palette": [
+      "#f4eee6",
+      "#4b4139",
+      "#9d876d"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 59
+  },
+  {
+    "id": "comparison-mock-031",
+    "pair": "mock-031",
+    "variant": 0,
+    "orientation": "side",
+    "name": "AI mockup 031 · Gallery pair",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. fair cool skin with light copper freckles · silver-grey fine hair, thin temples and flyaways · a few sun spots on cheekbone, asymmetrical brow heights, mild under-eye hollows",
+    "palette": [
+      "#f7f5ef",
+      "#2c302c",
+      "#7b8879"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 60
+  },
+  {
+    "id": "comparison-reference-04-0",
+    "pair": "mock-031",
+    "variant": 1,
+    "orientation": "side",
+    "name": "AI layout 031 · Warm editorial",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. fair cool skin with light copper freckles · silver-grey fine hair, thin temples and flyaways · a few sun spots on cheekbone, asymmetrical brow heights, mild under-eye hollows",
+    "palette": [
+      "#f2e8df",
+      "#4b352c",
+      "#b08770"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 61
+  },
+  {
+    "id": "comparison-mock-032",
+    "pair": "mock-032",
+    "variant": 6,
+    "orientation": "stacked",
+    "name": "AI mockup 032 · Centred journal",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. fair neutral skin with pinkness around the nose · copper-red fine hair, dry ends and flyaways · fine crow's feet, a tiny forehead blemish, slight asymmetry of the nose",
+    "palette": [
+      "#f1f3ee",
+      "#2c3a31",
+      "#87967f"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 62
+  },
+  {
+    "id": "comparison-reference-04-5",
+    "pair": "mock-032",
+    "variant": 7,
+    "orientation": "stacked",
+    "name": "AI layout 032 · Studio notes",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. fair neutral skin with pinkness around the nose · copper-red fine hair, dry ends and flyaways · fine crow's feet, a tiny forehead blemish, slight asymmetry of the nose",
+    "palette": [
+      "#f7e9e5",
+      "#4b3431",
+      "#b88c81"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 63
+  },
+  {
+    "id": "comparison-mock-033",
+    "pair": "mock-033",
+    "variant": 2,
+    "orientation": "side",
+    "name": "AI mockup 033 · Framed study",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. light warm beige skin with scattered sun spots · ash-blonde thin hair with slightly oily roots · a faint old acne mark, two small moles, textured chin and natural smile lines",
+    "palette": [
+      "#fcfaf7",
+      "#202b30",
+      "#a28a60"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 64
+  },
+  {
+    "id": "comparison-reference-04-1",
+    "pair": "mock-033",
+    "variant": 3,
+    "orientation": "side",
+    "name": "AI layout 033 · Rose studio",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. light warm beige skin with scattered sun spots · ash-blonde thin hair with slightly oily roots · a faint old acne mark, two small moles, textured chin and natural smile lines",
+    "palette": [
+      "#eee7e8",
+      "#3e3036",
+      "#936f7c"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 65
+  },
+  {
+    "id": "comparison-mock-034",
+    "pair": "mock-034",
+    "variant": 8,
+    "orientation": "stacked",
+    "name": "AI mockup 034 · Contrast stack",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. light olive skin with a few brown freckles · dark-blonde straight hair, natural unstyled roots · visible nose blackheads, one small healing pimple near temple, slightly unequal eyelids",
+    "palette": [
+      "#25242a",
+      "#f5efe9",
+      "#b1978a"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 66
+  },
+  {
+    "id": "comparison-reference-04-6",
+    "pair": "mock-034",
+    "variant": 9,
+    "orientation": "stacked",
+    "name": "AI layout 034 · Minimal details",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. light olive skin with a few brown freckles · dark-blonde straight hair, natural unstyled roots · visible nose blackheads, one small healing pimple near temple, slightly unequal eyelids",
+    "palette": [
+      "#fafafa",
+      "#283940",
+      "#75949b"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 67
+  },
+  {
+    "id": "comparison-mock-035",
+    "pair": "mock-035",
+    "variant": 4,
+    "orientation": "side",
+    "name": "AI mockup 035 · Noir journal",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. medium golden skin with visible pores · chestnut wavy hair, some dryness and frizz · a few mild acne marks, visible pores, one mouth corner higher than the other",
+    "palette": [
+      "#20292c",
+      "#faf4e8",
+      "#b8a78b"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 68
+  },
+  {
+    "id": "comparison-reference-04-2",
+    "pair": "mock-035",
+    "variant": 0,
+    "orientation": "side",
+    "name": "AI layout 035 · Gallery pair",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. medium golden skin with visible pores · chestnut wavy hair, some dryness and frizz · a few mild acne marks, visible pores, one mouth corner higher than the other",
+    "palette": [
+      "#f7f5ef",
+      "#2c302c",
+      "#7b8879"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 69
+  },
+  {
+    "id": "comparison-mock-036",
+    "pair": "mock-036",
+    "variant": 5,
+    "orientation": "stacked",
+    "name": "AI mockup 036 · Quiet stack",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. medium neutral brown skin with small moles · dark-brown fine hair with lightly oily roots · soft eye bags, irregular natural lip outline, a small cheek pimple",
+    "palette": [
+      "#f4eee6",
+      "#4b4139",
+      "#9d876d"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 70
+  },
+  {
+    "id": "comparison-reference-04-7",
+    "pair": "mock-036",
+    "variant": 6,
+    "orientation": "stacked",
+    "name": "AI layout 036 · Centred journal",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. medium neutral brown skin with small moles · dark-brown fine hair with lightly oily roots · soft eye bags, irregular natural lip outline, a small cheek pimple",
+    "palette": [
+      "#f1f3ee",
+      "#2c3a31",
+      "#87967f"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 71
+  },
+  {
+    "id": "comparison-mock-037",
+    "pair": "mock-037",
+    "variant": 1,
+    "orientation": "side",
+    "name": "AI mockup 037 · Warm editorial",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. warm tan skin with mild uneven pigmentation · black tightly curled hair gently flattened at the pillow · light freckles across nose, uneven lip corners, fine forehead lines",
+    "palette": [
+      "#f2e8df",
+      "#4b352c",
+      "#b08770"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 72
+  },
+  {
+    "id": "comparison-reference-04-3",
+    "pair": "mock-037",
+    "variant": 2,
+    "orientation": "side",
+    "name": "AI layout 037 · Framed study",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. warm tan skin with mild uneven pigmentation · black tightly curled hair gently flattened at the pillow · light freckles across nose, uneven lip corners, fine forehead lines",
+    "palette": [
+      "#fcfaf7",
+      "#202b30",
+      "#a28a60"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 73
+  },
+  {
+    "id": "comparison-mock-038",
+    "pair": "mock-038",
+    "variant": 7,
+    "orientation": "stacked",
+    "name": "AI mockup 038 · Studio notes",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. deep warm brown skin with small freckles · salt-and-pepper thinning hair and loose wisps · natural oily forehead sheen, small cheek moles, dry unpainted lips",
+    "palette": [
+      "#f7e9e5",
+      "#4b3431",
+      "#b88c81"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 74
+  },
+  {
+    "id": "comparison-reference-04-8",
+    "pair": "mock-038",
+    "variant": 8,
+    "orientation": "stacked",
+    "name": "AI layout 038 · Contrast stack",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. deep warm brown skin with small freckles · salt-and-pepper thinning hair and loose wisps · natural oily forehead sheen, small cheek moles, dry unpainted lips",
+    "palette": [
+      "#25242a",
+      "#f5efe9",
+      "#b1978a"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 75
+  },
+  {
+    "id": "comparison-mock-039",
+    "pair": "mock-039",
+    "variant": 3,
+    "orientation": "side",
+    "name": "AI mockup 039 · Rose studio",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. deep neutral brown skin with an oily T-zone · black straight hair, naturally shiny and slightly oily · nose blackheads, scattered freckles, fine facial hairs and natural under-eye darkness",
+    "palette": [
+      "#eee7e8",
+      "#3e3036",
+      "#936f7c"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 76
+  },
+  {
+    "id": "comparison-reference-04-4",
+    "pair": "mock-039",
+    "variant": 4,
+    "orientation": "side",
+    "name": "AI layout 039 · Noir journal",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. deep neutral brown skin with an oily T-zone · black straight hair, naturally shiny and slightly oily · nose blackheads, scattered freckles, fine facial hairs and natural under-eye darkness",
+    "palette": [
+      "#20292c",
+      "#faf4e8",
+      "#b8a78b"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 77
+  },
+  {
+    "id": "comparison-mock-040",
+    "pair": "mock-040",
+    "variant": 9,
+    "orientation": "stacked",
+    "name": "AI mockup 040 · Minimal details",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. rich dark skin with subtle natural tonal variation · brown curly hair with dry ends and baby hairs · a few tiny whiteheads on forehead, a mole under one eye, faint under-eye shadows",
+    "palette": [
+      "#fafafa",
+      "#283940",
+      "#75949b"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 78
+  },
+  {
+    "id": "comparison-reference-04-9",
+    "pair": "mock-040",
+    "variant": 5,
+    "orientation": "stacked",
+    "name": "AI layout 040 · Quiet stack",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. rich dark skin with subtle natural tonal variation · brown curly hair with dry ends and baby hairs · a few tiny whiteheads on forehead, a mole under one eye, faint under-eye shadows",
+    "palette": [
+      "#f4eee6",
+      "#4b4139",
+      "#9d876d"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 79
+  },
+  {
+    "id": "comparison-mock-041",
+    "pair": "mock-041",
+    "variant": 0,
+    "orientation": "side",
+    "name": "AI mockup 041 · Gallery pair",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. fair cool skin with light copper freckles · dark-blonde straight hair, natural unstyled roots · natural oily forehead sheen, small cheek moles, dry unpainted lips",
+    "palette": [
+      "#f7f5ef",
+      "#2c302c",
+      "#7b8879"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 80
+  },
+  {
+    "id": "comparison-reference-05-0",
+    "pair": "mock-041",
+    "variant": 1,
+    "orientation": "side",
+    "name": "AI layout 041 · Warm editorial",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. fair cool skin with light copper freckles · dark-blonde straight hair, natural unstyled roots · natural oily forehead sheen, small cheek moles, dry unpainted lips",
+    "palette": [
+      "#f2e8df",
+      "#4b352c",
+      "#b08770"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 81
+  },
+  {
+    "id": "comparison-mock-042",
+    "pair": "mock-042",
+    "variant": 6,
+    "orientation": "stacked",
+    "name": "AI mockup 042 · Centred journal",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. fair neutral skin with pinkness around the nose · chestnut wavy hair, some dryness and frizz · nose blackheads, scattered freckles, fine facial hairs and natural under-eye darkness",
+    "palette": [
+      "#f1f3ee",
+      "#2c3a31",
+      "#87967f"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 82
+  },
+  {
+    "id": "comparison-reference-05-5",
+    "pair": "mock-042",
+    "variant": 7,
+    "orientation": "stacked",
+    "name": "AI layout 042 · Studio notes",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. fair neutral skin with pinkness around the nose · chestnut wavy hair, some dryness and frizz · nose blackheads, scattered freckles, fine facial hairs and natural under-eye darkness",
+    "palette": [
+      "#f7e9e5",
+      "#4b3431",
+      "#b88c81"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 83
+  },
+  {
+    "id": "comparison-mock-043",
+    "pair": "mock-043",
+    "variant": 2,
+    "orientation": "side",
+    "name": "AI mockup 043 · Framed study",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. light warm beige skin with scattered sun spots · dark-brown fine hair with lightly oily roots · a few tiny whiteheads on forehead, a mole under one eye, faint under-eye shadows",
+    "palette": [
+      "#fcfaf7",
+      "#202b30",
+      "#a28a60"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 84
+  },
+  {
+    "id": "comparison-reference-05-1",
+    "pair": "mock-043",
+    "variant": 3,
+    "orientation": "side",
+    "name": "AI layout 043 · Rose studio",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. light warm beige skin with scattered sun spots · dark-brown fine hair with lightly oily roots · a few tiny whiteheads on forehead, a mole under one eye, faint under-eye shadows",
+    "palette": [
+      "#eee7e8",
+      "#3e3036",
+      "#936f7c"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 85
+  },
+  {
+    "id": "comparison-mock-044",
+    "pair": "mock-044",
+    "variant": 8,
+    "orientation": "stacked",
+    "name": "AI mockup 044 · Contrast stack",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. light olive skin with a few brown freckles · black tightly curled hair gently flattened at the pillow · a few sun spots on cheekbone, asymmetrical brow heights, mild under-eye hollows",
+    "palette": [
+      "#25242a",
+      "#f5efe9",
+      "#b1978a"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 86
+  },
+  {
+    "id": "comparison-reference-05-6",
+    "pair": "mock-044",
+    "variant": 9,
+    "orientation": "stacked",
+    "name": "AI layout 044 · Minimal details",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. light olive skin with a few brown freckles · black tightly curled hair gently flattened at the pillow · a few sun spots on cheekbone, asymmetrical brow heights, mild under-eye hollows",
+    "palette": [
+      "#fafafa",
+      "#283940",
+      "#75949b"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 87
+  },
+  {
+    "id": "comparison-mock-045",
+    "pair": "mock-045",
+    "variant": 4,
+    "orientation": "side",
+    "name": "AI mockup 045 · Noir journal",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. medium golden skin with visible pores · salt-and-pepper thinning hair and loose wisps · fine crow's feet, a tiny forehead blemish, slight asymmetry of the nose",
+    "palette": [
+      "#20292c",
+      "#faf4e8",
+      "#b8a78b"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 88
+  },
+  {
+    "id": "comparison-reference-05-2",
+    "pair": "mock-045",
+    "variant": 0,
+    "orientation": "side",
+    "name": "AI layout 045 · Gallery pair",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. medium golden skin with visible pores · salt-and-pepper thinning hair and loose wisps · fine crow's feet, a tiny forehead blemish, slight asymmetry of the nose",
+    "palette": [
+      "#f7f5ef",
+      "#2c302c",
+      "#7b8879"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 89
+  },
+  {
+    "id": "comparison-mock-046",
+    "pair": "mock-046",
+    "variant": 5,
+    "orientation": "stacked",
+    "name": "AI mockup 046 · Quiet stack",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. medium neutral brown skin with small moles · black straight hair, naturally shiny and slightly oily · a faint old acne mark, two small moles, textured chin and natural smile lines",
+    "palette": [
+      "#f4eee6",
+      "#4b4139",
+      "#9d876d"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 90
+  },
+  {
+    "id": "comparison-reference-05-7",
+    "pair": "mock-046",
+    "variant": 6,
+    "orientation": "stacked",
+    "name": "AI layout 046 · Centred journal",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. medium neutral brown skin with small moles · black straight hair, naturally shiny and slightly oily · a faint old acne mark, two small moles, textured chin and natural smile lines",
+    "palette": [
+      "#f1f3ee",
+      "#2c3a31",
+      "#87967f"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 91
+  },
+  {
+    "id": "comparison-mock-047",
+    "pair": "mock-047",
+    "variant": 1,
+    "orientation": "side",
+    "name": "AI mockup 047 · Warm editorial",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. warm tan skin with mild uneven pigmentation · brown curly hair with dry ends and baby hairs · visible nose blackheads, one small healing pimple near temple, slightly unequal eyelids",
+    "palette": [
+      "#f2e8df",
+      "#4b352c",
+      "#b08770"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 92
+  },
+  {
+    "id": "comparison-reference-05-3",
+    "pair": "mock-047",
+    "variant": 2,
+    "orientation": "side",
+    "name": "AI layout 047 · Framed study",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. warm tan skin with mild uneven pigmentation · brown curly hair with dry ends and baby hairs · visible nose blackheads, one small healing pimple near temple, slightly unequal eyelids",
+    "palette": [
+      "#fcfaf7",
+      "#202b30",
+      "#a28a60"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 93
+  },
+  {
+    "id": "comparison-mock-048",
+    "pair": "mock-048",
+    "variant": 7,
+    "orientation": "stacked",
+    "name": "AI mockup 048 · Studio notes",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. deep warm brown skin with small freckles · silver-grey fine hair, thin temples and flyaways · a few mild acne marks, visible pores, one mouth corner higher than the other",
+    "palette": [
+      "#f7e9e5",
+      "#4b3431",
+      "#b88c81"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 94
+  },
+  {
+    "id": "comparison-reference-05-8",
+    "pair": "mock-048",
+    "variant": 8,
+    "orientation": "stacked",
+    "name": "AI layout 048 · Contrast stack",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. deep warm brown skin with small freckles · silver-grey fine hair, thin temples and flyaways · a few mild acne marks, visible pores, one mouth corner higher than the other",
+    "palette": [
+      "#25242a",
+      "#f5efe9",
+      "#b1978a"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 95
+  },
+  {
+    "id": "comparison-mock-049",
+    "pair": "mock-049",
+    "variant": 3,
+    "orientation": "side",
+    "name": "AI mockup 049 · Rose studio",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. deep neutral brown skin with an oily T-zone · copper-red fine hair, dry ends and flyaways · soft eye bags, irregular natural lip outline, a small cheek pimple",
+    "palette": [
+      "#eee7e8",
+      "#3e3036",
+      "#936f7c"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 96
+  },
+  {
+    "id": "comparison-reference-05-4",
+    "pair": "mock-049",
+    "variant": 4,
+    "orientation": "side",
+    "name": "AI layout 049 · Noir journal",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. deep neutral brown skin with an oily T-zone · copper-red fine hair, dry ends and flyaways · soft eye bags, irregular natural lip outline, a small cheek pimple",
+    "palette": [
+      "#20292c",
+      "#faf4e8",
+      "#b8a78b"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 97
+  },
+  {
+    "id": "comparison-mock-050",
+    "pair": "mock-050",
+    "variant": 9,
+    "orientation": "stacked",
+    "name": "AI mockup 050 · Minimal details",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. rich dark skin with subtle natural tonal variation · ash-blonde thin hair with slightly oily roots · light freckles across nose, uneven lip corners, fine forehead lines",
+    "palette": [
+      "#fafafa",
+      "#283940",
+      "#75949b"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 98
+  },
+  {
+    "id": "comparison-reference-05-9",
+    "pair": "mock-050",
+    "variant": 5,
+    "orientation": "stacked",
+    "name": "AI layout 050 · Quiet stack",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. rich dark skin with subtle natural tonal variation · ash-blonde thin hair with slightly oily roots · light freckles across nose, uneven lip corners, fine forehead lines",
+    "palette": [
+      "#f4eee6",
+      "#4b4139",
+      "#9d876d"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 99
+  },
+  {
+    "id": "comparison-mock-051",
+    "pair": "mock-051",
+    "variant": 0,
+    "orientation": "side",
+    "name": "AI mockup 051 · Gallery pair",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. fair cool skin with light copper freckles · black tightly curled hair gently flattened at the pillow · a few mild acne marks, visible pores, one mouth corner higher than the other",
+    "palette": [
+      "#f7f5ef",
+      "#2c302c",
+      "#7b8879"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 100
+  },
+  {
+    "id": "comparison-reference-06-0",
+    "pair": "mock-051",
+    "variant": 1,
+    "orientation": "side",
+    "name": "AI layout 051 · Warm editorial",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. fair cool skin with light copper freckles · black tightly curled hair gently flattened at the pillow · a few mild acne marks, visible pores, one mouth corner higher than the other",
+    "palette": [
+      "#f2e8df",
+      "#4b352c",
+      "#b08770"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 101
+  },
+  {
+    "id": "comparison-mock-052",
+    "pair": "mock-052",
+    "variant": 6,
+    "orientation": "stacked",
+    "name": "AI mockup 052 · Centred journal",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. fair neutral skin with pinkness around the nose · salt-and-pepper thinning hair and loose wisps · soft eye bags, irregular natural lip outline, a small cheek pimple",
+    "palette": [
+      "#f1f3ee",
+      "#2c3a31",
+      "#87967f"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 102
+  },
+  {
+    "id": "comparison-reference-06-5",
+    "pair": "mock-052",
+    "variant": 7,
+    "orientation": "stacked",
+    "name": "AI layout 052 · Studio notes",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. fair neutral skin with pinkness around the nose · salt-and-pepper thinning hair and loose wisps · soft eye bags, irregular natural lip outline, a small cheek pimple",
+    "palette": [
+      "#f7e9e5",
+      "#4b3431",
+      "#b88c81"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 103
+  },
+  {
+    "id": "comparison-mock-053",
+    "pair": "mock-053",
+    "variant": 2,
+    "orientation": "side",
+    "name": "AI mockup 053 · Framed study",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. light warm beige skin with scattered sun spots · black straight hair, naturally shiny and slightly oily · light freckles across nose, uneven lip corners, fine forehead lines",
+    "palette": [
+      "#fcfaf7",
+      "#202b30",
+      "#a28a60"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 104
+  },
+  {
+    "id": "comparison-reference-06-1",
+    "pair": "mock-053",
+    "variant": 3,
+    "orientation": "side",
+    "name": "AI layout 053 · Rose studio",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. light warm beige skin with scattered sun spots · black straight hair, naturally shiny and slightly oily · light freckles across nose, uneven lip corners, fine forehead lines",
+    "palette": [
+      "#eee7e8",
+      "#3e3036",
+      "#936f7c"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 105
+  },
+  {
+    "id": "comparison-mock-054",
+    "pair": "mock-054",
+    "variant": 8,
+    "orientation": "stacked",
+    "name": "AI mockup 054 · Contrast stack",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. light olive skin with a few brown freckles · brown curly hair with dry ends and baby hairs · natural oily forehead sheen, small cheek moles, dry unpainted lips",
+    "palette": [
+      "#25242a",
+      "#f5efe9",
+      "#b1978a"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 106
+  },
+  {
+    "id": "comparison-reference-06-6",
+    "pair": "mock-054",
+    "variant": 9,
+    "orientation": "stacked",
+    "name": "AI layout 054 · Minimal details",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. light olive skin with a few brown freckles · brown curly hair with dry ends and baby hairs · natural oily forehead sheen, small cheek moles, dry unpainted lips",
+    "palette": [
+      "#fafafa",
+      "#283940",
+      "#75949b"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 107
+  },
+  {
+    "id": "comparison-mock-055",
+    "pair": "mock-055",
+    "variant": 4,
+    "orientation": "side",
+    "name": "AI mockup 055 · Noir journal",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. medium golden skin with visible pores · silver-grey fine hair, thin temples and flyaways · nose blackheads, scattered freckles, fine facial hairs and natural under-eye darkness",
+    "palette": [
+      "#20292c",
+      "#faf4e8",
+      "#b8a78b"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 108
+  },
+  {
+    "id": "comparison-reference-06-2",
+    "pair": "mock-055",
+    "variant": 0,
+    "orientation": "side",
+    "name": "AI layout 055 · Gallery pair",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. medium golden skin with visible pores · silver-grey fine hair, thin temples and flyaways · nose blackheads, scattered freckles, fine facial hairs and natural under-eye darkness",
+    "palette": [
+      "#f7f5ef",
+      "#2c302c",
+      "#7b8879"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 109
+  },
+  {
+    "id": "comparison-mock-056",
+    "pair": "mock-056",
+    "variant": 5,
+    "orientation": "stacked",
+    "name": "AI mockup 056 · Quiet stack",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. medium neutral brown skin with small moles · copper-red fine hair, dry ends and flyaways · a few tiny whiteheads on forehead, a mole under one eye, faint under-eye shadows",
+    "palette": [
+      "#f4eee6",
+      "#4b4139",
+      "#9d876d"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 110
+  },
+  {
+    "id": "comparison-reference-06-7",
+    "pair": "mock-056",
+    "variant": 6,
+    "orientation": "stacked",
+    "name": "AI layout 056 · Centred journal",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. medium neutral brown skin with small moles · copper-red fine hair, dry ends and flyaways · a few tiny whiteheads on forehead, a mole under one eye, faint under-eye shadows",
+    "palette": [
+      "#f1f3ee",
+      "#2c3a31",
+      "#87967f"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 111
+  },
+  {
+    "id": "comparison-mock-057",
+    "pair": "mock-057",
+    "variant": 1,
+    "orientation": "side",
+    "name": "AI mockup 057 · Warm editorial",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. warm tan skin with mild uneven pigmentation · ash-blonde thin hair with slightly oily roots · a few sun spots on cheekbone, asymmetrical brow heights, mild under-eye hollows",
+    "palette": [
+      "#f2e8df",
+      "#4b352c",
+      "#b08770"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 112
+  },
+  {
+    "id": "comparison-reference-06-3",
+    "pair": "mock-057",
+    "variant": 2,
+    "orientation": "side",
+    "name": "AI layout 057 · Framed study",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. warm tan skin with mild uneven pigmentation · ash-blonde thin hair with slightly oily roots · a few sun spots on cheekbone, asymmetrical brow heights, mild under-eye hollows",
+    "palette": [
+      "#fcfaf7",
+      "#202b30",
+      "#a28a60"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 113
+  },
+  {
+    "id": "comparison-mock-058",
+    "pair": "mock-058",
+    "variant": 7,
+    "orientation": "stacked",
+    "name": "AI mockup 058 · Studio notes",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. deep warm brown skin with small freckles · dark-blonde straight hair, natural unstyled roots · fine crow's feet, a tiny forehead blemish, slight asymmetry of the nose",
+    "palette": [
+      "#f7e9e5",
+      "#4b3431",
+      "#b88c81"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 114
+  },
+  {
+    "id": "comparison-reference-06-8",
+    "pair": "mock-058",
+    "variant": 8,
+    "orientation": "stacked",
+    "name": "AI layout 058 · Contrast stack",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. deep warm brown skin with small freckles · dark-blonde straight hair, natural unstyled roots · fine crow's feet, a tiny forehead blemish, slight asymmetry of the nose",
+    "palette": [
+      "#25242a",
+      "#f5efe9",
+      "#b1978a"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 115
+  },
+  {
+    "id": "comparison-mock-059",
+    "pair": "mock-059",
+    "variant": 3,
+    "orientation": "side",
+    "name": "AI mockup 059 · Rose studio",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. deep neutral brown skin with an oily T-zone · chestnut wavy hair, some dryness and frizz · a faint old acne mark, two small moles, textured chin and natural smile lines",
+    "palette": [
+      "#eee7e8",
+      "#3e3036",
+      "#936f7c"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 116
+  },
+  {
+    "id": "comparison-reference-06-4",
+    "pair": "mock-059",
+    "variant": 4,
+    "orientation": "side",
+    "name": "AI layout 059 · Noir journal",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. deep neutral brown skin with an oily T-zone · chestnut wavy hair, some dryness and frizz · a faint old acne mark, two small moles, textured chin and natural smile lines",
+    "palette": [
+      "#20292c",
+      "#faf4e8",
+      "#b8a78b"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 117
+  },
+  {
+    "id": "comparison-mock-060",
+    "pair": "mock-060",
+    "variant": 9,
+    "orientation": "stacked",
+    "name": "AI mockup 060 · Minimal details",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. rich dark skin with subtle natural tonal variation · dark-brown fine hair with lightly oily roots · visible nose blackheads, one small healing pimple near temple, slightly unequal eyelids",
+    "palette": [
+      "#fafafa",
+      "#283940",
+      "#75949b"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 118
+  },
+  {
+    "id": "comparison-reference-06-9",
+    "pair": "mock-060",
+    "variant": 5,
+    "orientation": "stacked",
+    "name": "AI layout 060 · Quiet stack",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. rich dark skin with subtle natural tonal variation · dark-brown fine hair with lightly oily roots · visible nose blackheads, one small healing pimple near temple, slightly unequal eyelids",
+    "palette": [
+      "#f4eee6",
+      "#4b4139",
+      "#9d876d"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 119
+  },
+  {
+    "id": "comparison-mock-061",
+    "pair": "mock-061",
+    "variant": 0,
+    "orientation": "side",
+    "name": "AI mockup 061 · Gallery pair",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. fair cool skin with light copper freckles · brown curly hair with dry ends and baby hairs · fine crow's feet, a tiny forehead blemish, slight asymmetry of the nose",
+    "palette": [
+      "#f7f5ef",
+      "#2c302c",
+      "#7b8879"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 120
+  },
+  {
+    "id": "comparison-reference-07-0",
+    "pair": "mock-061",
+    "variant": 1,
+    "orientation": "side",
+    "name": "AI layout 061 · Warm editorial",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. fair cool skin with light copper freckles · brown curly hair with dry ends and baby hairs · fine crow's feet, a tiny forehead blemish, slight asymmetry of the nose",
+    "palette": [
+      "#f2e8df",
+      "#4b352c",
+      "#b08770"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 121
+  },
+  {
+    "id": "comparison-mock-062",
+    "pair": "mock-062",
+    "variant": 6,
+    "orientation": "stacked",
+    "name": "AI mockup 062 · Centred journal",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. fair neutral skin with pinkness around the nose · silver-grey fine hair, thin temples and flyaways · a faint old acne mark, two small moles, textured chin and natural smile lines",
+    "palette": [
+      "#f1f3ee",
+      "#2c3a31",
+      "#87967f"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 122
+  },
+  {
+    "id": "comparison-reference-07-5",
+    "pair": "mock-062",
+    "variant": 7,
+    "orientation": "stacked",
+    "name": "AI layout 062 · Studio notes",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. fair neutral skin with pinkness around the nose · silver-grey fine hair, thin temples and flyaways · a faint old acne mark, two small moles, textured chin and natural smile lines",
+    "palette": [
+      "#f7e9e5",
+      "#4b3431",
+      "#b88c81"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 123
+  },
+  {
+    "id": "comparison-mock-063",
+    "pair": "mock-063",
+    "variant": 2,
+    "orientation": "side",
+    "name": "AI mockup 063 · Framed study",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. light warm beige skin with scattered sun spots · copper-red fine hair, dry ends and flyaways · visible nose blackheads, one small healing pimple near temple, slightly unequal eyelids",
+    "palette": [
+      "#fcfaf7",
+      "#202b30",
+      "#a28a60"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 124
+  },
+  {
+    "id": "comparison-reference-07-1",
+    "pair": "mock-063",
+    "variant": 3,
+    "orientation": "side",
+    "name": "AI layout 063 · Rose studio",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. light warm beige skin with scattered sun spots · copper-red fine hair, dry ends and flyaways · visible nose blackheads, one small healing pimple near temple, slightly unequal eyelids",
+    "palette": [
+      "#eee7e8",
+      "#3e3036",
+      "#936f7c"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 125
+  },
+  {
+    "id": "comparison-mock-064",
+    "pair": "mock-064",
+    "variant": 8,
+    "orientation": "stacked",
+    "name": "AI mockup 064 · Contrast stack",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. light olive skin with a few brown freckles · ash-blonde thin hair with slightly oily roots · a few mild acne marks, visible pores, one mouth corner higher than the other",
+    "palette": [
+      "#25242a",
+      "#f5efe9",
+      "#b1978a"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 126
+  },
+  {
+    "id": "comparison-reference-07-6",
+    "pair": "mock-064",
+    "variant": 9,
+    "orientation": "stacked",
+    "name": "AI layout 064 · Minimal details",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. light olive skin with a few brown freckles · ash-blonde thin hair with slightly oily roots · a few mild acne marks, visible pores, one mouth corner higher than the other",
+    "palette": [
+      "#fafafa",
+      "#283940",
+      "#75949b"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 127
+  },
+  {
+    "id": "comparison-mock-065",
+    "pair": "mock-065",
+    "variant": 4,
+    "orientation": "side",
+    "name": "AI mockup 065 · Noir journal",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. medium golden skin with visible pores · dark-blonde straight hair, natural unstyled roots · soft eye bags, irregular natural lip outline, a small cheek pimple",
+    "palette": [
+      "#20292c",
+      "#faf4e8",
+      "#b8a78b"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 128
+  },
+  {
+    "id": "comparison-reference-07-2",
+    "pair": "mock-065",
+    "variant": 0,
+    "orientation": "side",
+    "name": "AI layout 065 · Gallery pair",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. medium golden skin with visible pores · dark-blonde straight hair, natural unstyled roots · soft eye bags, irregular natural lip outline, a small cheek pimple",
+    "palette": [
+      "#f7f5ef",
+      "#2c302c",
+      "#7b8879"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 129
+  },
+  {
+    "id": "comparison-mock-066",
+    "pair": "mock-066",
+    "variant": 5,
+    "orientation": "stacked",
+    "name": "AI mockup 066 · Quiet stack",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. medium neutral brown skin with small moles · chestnut wavy hair, some dryness and frizz · light freckles across nose, uneven lip corners, fine forehead lines",
+    "palette": [
+      "#f4eee6",
+      "#4b4139",
+      "#9d876d"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 130
+  },
+  {
+    "id": "comparison-reference-07-7",
+    "pair": "mock-066",
+    "variant": 6,
+    "orientation": "stacked",
+    "name": "AI layout 066 · Centred journal",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. medium neutral brown skin with small moles · chestnut wavy hair, some dryness and frizz · light freckles across nose, uneven lip corners, fine forehead lines",
+    "palette": [
+      "#f1f3ee",
+      "#2c3a31",
+      "#87967f"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 131
+  },
+  {
+    "id": "comparison-mock-067",
+    "pair": "mock-067",
+    "variant": 1,
+    "orientation": "side",
+    "name": "AI mockup 067 · Warm editorial",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. warm tan skin with mild uneven pigmentation · dark-brown fine hair with lightly oily roots · natural oily forehead sheen, small cheek moles, dry unpainted lips",
+    "palette": [
+      "#f2e8df",
+      "#4b352c",
+      "#b08770"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 132
+  },
+  {
+    "id": "comparison-reference-07-3",
+    "pair": "mock-067",
+    "variant": 2,
+    "orientation": "side",
+    "name": "AI layout 067 · Framed study",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. warm tan skin with mild uneven pigmentation · dark-brown fine hair with lightly oily roots · natural oily forehead sheen, small cheek moles, dry unpainted lips",
+    "palette": [
+      "#fcfaf7",
+      "#202b30",
+      "#a28a60"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 133
+  },
+  {
+    "id": "comparison-mock-068",
+    "pair": "mock-068",
+    "variant": 7,
+    "orientation": "stacked",
+    "name": "AI mockup 068 · Studio notes",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. deep warm brown skin with small freckles · black tightly curled hair gently flattened at the pillow · nose blackheads, scattered freckles, fine facial hairs and natural under-eye darkness",
+    "palette": [
+      "#f7e9e5",
+      "#4b3431",
+      "#b88c81"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 134
+  },
+  {
+    "id": "comparison-reference-07-8",
+    "pair": "mock-068",
+    "variant": 8,
+    "orientation": "stacked",
+    "name": "AI layout 068 · Contrast stack",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. deep warm brown skin with small freckles · black tightly curled hair gently flattened at the pillow · nose blackheads, scattered freckles, fine facial hairs and natural under-eye darkness",
+    "palette": [
+      "#25242a",
+      "#f5efe9",
+      "#b1978a"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 135
+  },
+  {
+    "id": "comparison-mock-069",
+    "pair": "mock-069",
+    "variant": 3,
+    "orientation": "side",
+    "name": "AI mockup 069 · Rose studio",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. deep neutral brown skin with an oily T-zone · salt-and-pepper thinning hair and loose wisps · a few tiny whiteheads on forehead, a mole under one eye, faint under-eye shadows",
+    "palette": [
+      "#eee7e8",
+      "#3e3036",
+      "#936f7c"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 136
+  },
+  {
+    "id": "comparison-reference-07-4",
+    "pair": "mock-069",
+    "variant": 4,
+    "orientation": "side",
+    "name": "AI layout 069 · Noir journal",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. deep neutral brown skin with an oily T-zone · salt-and-pepper thinning hair and loose wisps · a few tiny whiteheads on forehead, a mole under one eye, faint under-eye shadows",
+    "palette": [
+      "#20292c",
+      "#faf4e8",
+      "#b8a78b"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 137
+  },
+  {
+    "id": "comparison-mock-070",
+    "pair": "mock-070",
+    "variant": 9,
+    "orientation": "stacked",
+    "name": "AI mockup 070 · Minimal details",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. rich dark skin with subtle natural tonal variation · black straight hair, naturally shiny and slightly oily · a few sun spots on cheekbone, asymmetrical brow heights, mild under-eye hollows",
+    "palette": [
+      "#fafafa",
+      "#283940",
+      "#75949b"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 138
+  },
+  {
+    "id": "comparison-reference-07-9",
+    "pair": "mock-070",
+    "variant": 5,
+    "orientation": "stacked",
+    "name": "AI layout 070 · Quiet stack",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. rich dark skin with subtle natural tonal variation · black straight hair, naturally shiny and slightly oily · a few sun spots on cheekbone, asymmetrical brow heights, mild under-eye hollows",
+    "palette": [
+      "#f4eee6",
+      "#4b4139",
+      "#9d876d"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 139
+  },
+  {
+    "id": "comparison-mock-071",
+    "pair": "mock-071",
+    "variant": 0,
+    "orientation": "side",
+    "name": "AI mockup 071 · Gallery pair",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. fair cool skin with light copper freckles · ash-blonde thin hair with slightly oily roots · nose blackheads, scattered freckles, fine facial hairs and natural under-eye darkness",
+    "palette": [
+      "#f7f5ef",
+      "#2c302c",
+      "#7b8879"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 140
+  },
+  {
+    "id": "comparison-reference-08-0",
+    "pair": "mock-071",
+    "variant": 1,
+    "orientation": "side",
+    "name": "AI layout 071 · Warm editorial",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. fair cool skin with light copper freckles · ash-blonde thin hair with slightly oily roots · nose blackheads, scattered freckles, fine facial hairs and natural under-eye darkness",
+    "palette": [
+      "#f2e8df",
+      "#4b352c",
+      "#b08770"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 141
+  },
+  {
+    "id": "comparison-mock-072",
+    "pair": "mock-072",
+    "variant": 6,
+    "orientation": "stacked",
+    "name": "AI mockup 072 · Centred journal",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. fair neutral skin with pinkness around the nose · dark-blonde straight hair, natural unstyled roots · a few tiny whiteheads on forehead, a mole under one eye, faint under-eye shadows",
+    "palette": [
+      "#f1f3ee",
+      "#2c3a31",
+      "#87967f"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 142
+  },
+  {
+    "id": "comparison-reference-08-5",
+    "pair": "mock-072",
+    "variant": 7,
+    "orientation": "stacked",
+    "name": "AI layout 072 · Studio notes",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. fair neutral skin with pinkness around the nose · dark-blonde straight hair, natural unstyled roots · a few tiny whiteheads on forehead, a mole under one eye, faint under-eye shadows",
+    "palette": [
+      "#f7e9e5",
+      "#4b3431",
+      "#b88c81"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 143
+  },
+  {
+    "id": "comparison-mock-073",
+    "pair": "mock-073",
+    "variant": 2,
+    "orientation": "side",
+    "name": "AI mockup 073 · Framed study",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. light warm beige skin with scattered sun spots · chestnut wavy hair, some dryness and frizz · a few sun spots on cheekbone, asymmetrical brow heights, mild under-eye hollows",
+    "palette": [
+      "#fcfaf7",
+      "#202b30",
+      "#a28a60"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 144
+  },
+  {
+    "id": "comparison-reference-08-1",
+    "pair": "mock-073",
+    "variant": 3,
+    "orientation": "side",
+    "name": "AI layout 073 · Rose studio",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. light warm beige skin with scattered sun spots · chestnut wavy hair, some dryness and frizz · a few sun spots on cheekbone, asymmetrical brow heights, mild under-eye hollows",
+    "palette": [
+      "#eee7e8",
+      "#3e3036",
+      "#936f7c"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 145
+  },
+  {
+    "id": "comparison-mock-074",
+    "pair": "mock-074",
+    "variant": 8,
+    "orientation": "stacked",
+    "name": "AI mockup 074 · Contrast stack",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. light olive skin with a few brown freckles · dark-brown fine hair with lightly oily roots · fine crow's feet, a tiny forehead blemish, slight asymmetry of the nose",
+    "palette": [
+      "#25242a",
+      "#f5efe9",
+      "#b1978a"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 146
+  },
+  {
+    "id": "comparison-reference-08-6",
+    "pair": "mock-074",
+    "variant": 9,
+    "orientation": "stacked",
+    "name": "AI layout 074 · Minimal details",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. light olive skin with a few brown freckles · dark-brown fine hair with lightly oily roots · fine crow's feet, a tiny forehead blemish, slight asymmetry of the nose",
+    "palette": [
+      "#fafafa",
+      "#283940",
+      "#75949b"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 147
+  },
+  {
+    "id": "comparison-mock-075",
+    "pair": "mock-075",
+    "variant": 4,
+    "orientation": "side",
+    "name": "AI mockup 075 · Noir journal",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. medium golden skin with visible pores · black tightly curled hair gently flattened at the pillow · a faint old acne mark, two small moles, textured chin and natural smile lines",
+    "palette": [
+      "#20292c",
+      "#faf4e8",
+      "#b8a78b"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 148
+  },
+  {
+    "id": "comparison-reference-08-2",
+    "pair": "mock-075",
+    "variant": 0,
+    "orientation": "side",
+    "name": "AI layout 075 · Gallery pair",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. medium golden skin with visible pores · black tightly curled hair gently flattened at the pillow · a faint old acne mark, two small moles, textured chin and natural smile lines",
+    "palette": [
+      "#f7f5ef",
+      "#2c302c",
+      "#7b8879"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 149
+  },
+  {
+    "id": "comparison-mock-076",
+    "pair": "mock-076",
+    "variant": 5,
+    "orientation": "stacked",
+    "name": "AI mockup 076 · Quiet stack",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. medium neutral brown skin with small moles · salt-and-pepper thinning hair and loose wisps · visible nose blackheads, one small healing pimple near temple, slightly unequal eyelids",
+    "palette": [
+      "#f4eee6",
+      "#4b4139",
+      "#9d876d"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 150
+  },
+  {
+    "id": "comparison-reference-08-7",
+    "pair": "mock-076",
+    "variant": 6,
+    "orientation": "stacked",
+    "name": "AI layout 076 · Centred journal",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. medium neutral brown skin with small moles · salt-and-pepper thinning hair and loose wisps · visible nose blackheads, one small healing pimple near temple, slightly unequal eyelids",
+    "palette": [
+      "#f1f3ee",
+      "#2c3a31",
+      "#87967f"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 151
+  },
+  {
+    "id": "comparison-mock-077",
+    "pair": "mock-077",
+    "variant": 1,
+    "orientation": "side",
+    "name": "AI mockup 077 · Warm editorial",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. warm tan skin with mild uneven pigmentation · black straight hair, naturally shiny and slightly oily · a few mild acne marks, visible pores, one mouth corner higher than the other",
+    "palette": [
+      "#f2e8df",
+      "#4b352c",
+      "#b08770"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 152
+  },
+  {
+    "id": "comparison-reference-08-3",
+    "pair": "mock-077",
+    "variant": 2,
+    "orientation": "side",
+    "name": "AI layout 077 · Framed study",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. warm tan skin with mild uneven pigmentation · black straight hair, naturally shiny and slightly oily · a few mild acne marks, visible pores, one mouth corner higher than the other",
+    "palette": [
+      "#fcfaf7",
+      "#202b30",
+      "#a28a60"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 153
+  },
+  {
+    "id": "comparison-mock-078",
+    "pair": "mock-078",
+    "variant": 7,
+    "orientation": "stacked",
+    "name": "AI mockup 078 · Studio notes",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. deep warm brown skin with small freckles · brown curly hair with dry ends and baby hairs · soft eye bags, irregular natural lip outline, a small cheek pimple",
+    "palette": [
+      "#f7e9e5",
+      "#4b3431",
+      "#b88c81"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 154
+  },
+  {
+    "id": "comparison-reference-08-8",
+    "pair": "mock-078",
+    "variant": 8,
+    "orientation": "stacked",
+    "name": "AI layout 078 · Contrast stack",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. deep warm brown skin with small freckles · brown curly hair with dry ends and baby hairs · soft eye bags, irregular natural lip outline, a small cheek pimple",
+    "palette": [
+      "#25242a",
+      "#f5efe9",
+      "#b1978a"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 155
+  },
+  {
+    "id": "comparison-mock-079",
+    "pair": "mock-079",
+    "variant": 3,
+    "orientation": "side",
+    "name": "AI mockup 079 · Rose studio",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. deep neutral brown skin with an oily T-zone · silver-grey fine hair, thin temples and flyaways · light freckles across nose, uneven lip corners, fine forehead lines",
+    "palette": [
+      "#eee7e8",
+      "#3e3036",
+      "#936f7c"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 156
+  },
+  {
+    "id": "comparison-reference-08-4",
+    "pair": "mock-079",
+    "variant": 4,
+    "orientation": "side",
+    "name": "AI layout 079 · Noir journal",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. deep neutral brown skin with an oily T-zone · silver-grey fine hair, thin temples and flyaways · light freckles across nose, uneven lip corners, fine forehead lines",
+    "palette": [
+      "#20292c",
+      "#faf4e8",
+      "#b8a78b"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 157
+  },
+  {
+    "id": "comparison-mock-080",
+    "pair": "mock-080",
+    "variant": 9,
+    "orientation": "stacked",
+    "name": "AI mockup 080 · Minimal details",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. rich dark skin with subtle natural tonal variation · copper-red fine hair, dry ends and flyaways · natural oily forehead sheen, small cheek moles, dry unpainted lips",
+    "palette": [
+      "#fafafa",
+      "#283940",
+      "#75949b"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 158
+  },
+  {
+    "id": "comparison-reference-08-9",
+    "pair": "mock-080",
+    "variant": 5,
+    "orientation": "stacked",
+    "name": "AI layout 080 · Quiet stack",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. rich dark skin with subtle natural tonal variation · copper-red fine hair, dry ends and flyaways · natural oily forehead sheen, small cheek moles, dry unpainted lips",
+    "palette": [
+      "#f4eee6",
+      "#4b4139",
+      "#9d876d"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 159
+  },
+  {
+    "id": "comparison-mock-081",
+    "pair": "mock-081",
+    "variant": 0,
+    "orientation": "side",
+    "name": "AI mockup 081 · Gallery pair",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. fair cool skin with light copper freckles · dark-brown fine hair with lightly oily roots · soft eye bags, irregular natural lip outline, a small cheek pimple",
+    "palette": [
+      "#f7f5ef",
+      "#2c302c",
+      "#7b8879"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 160
+  },
+  {
+    "id": "comparison-reference-09-0",
+    "pair": "mock-081",
+    "variant": 1,
+    "orientation": "side",
+    "name": "AI layout 081 · Warm editorial",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. fair cool skin with light copper freckles · dark-brown fine hair with lightly oily roots · soft eye bags, irregular natural lip outline, a small cheek pimple",
+    "palette": [
+      "#f2e8df",
+      "#4b352c",
+      "#b08770"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 161
+  },
+  {
+    "id": "comparison-mock-082",
+    "pair": "mock-082",
+    "variant": 6,
+    "orientation": "stacked",
+    "name": "AI mockup 082 · Centred journal",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. fair neutral skin with pinkness around the nose · black tightly curled hair gently flattened at the pillow · light freckles across nose, uneven lip corners, fine forehead lines",
+    "palette": [
+      "#f1f3ee",
+      "#2c3a31",
+      "#87967f"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 162
+  },
+  {
+    "id": "comparison-reference-09-5",
+    "pair": "mock-082",
+    "variant": 7,
+    "orientation": "stacked",
+    "name": "AI layout 082 · Studio notes",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. fair neutral skin with pinkness around the nose · black tightly curled hair gently flattened at the pillow · light freckles across nose, uneven lip corners, fine forehead lines",
+    "palette": [
+      "#f7e9e5",
+      "#4b3431",
+      "#b88c81"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 163
+  },
+  {
+    "id": "comparison-mock-083",
+    "pair": "mock-083",
+    "variant": 2,
+    "orientation": "side",
+    "name": "AI mockup 083 · Framed study",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. light warm beige skin with scattered sun spots · salt-and-pepper thinning hair and loose wisps · natural oily forehead sheen, small cheek moles, dry unpainted lips",
+    "palette": [
+      "#fcfaf7",
+      "#202b30",
+      "#a28a60"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 164
+  },
+  {
+    "id": "comparison-reference-09-1",
+    "pair": "mock-083",
+    "variant": 3,
+    "orientation": "side",
+    "name": "AI layout 083 · Rose studio",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. light warm beige skin with scattered sun spots · salt-and-pepper thinning hair and loose wisps · natural oily forehead sheen, small cheek moles, dry unpainted lips",
+    "palette": [
+      "#eee7e8",
+      "#3e3036",
+      "#936f7c"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 165
+  },
+  {
+    "id": "comparison-mock-084",
+    "pair": "mock-084",
+    "variant": 8,
+    "orientation": "stacked",
+    "name": "AI mockup 084 · Contrast stack",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. light olive skin with a few brown freckles · black straight hair, naturally shiny and slightly oily · nose blackheads, scattered freckles, fine facial hairs and natural under-eye darkness",
+    "palette": [
+      "#25242a",
+      "#f5efe9",
+      "#b1978a"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 166
+  },
+  {
+    "id": "comparison-reference-09-6",
+    "pair": "mock-084",
+    "variant": 9,
+    "orientation": "stacked",
+    "name": "AI layout 084 · Minimal details",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. light olive skin with a few brown freckles · black straight hair, naturally shiny and slightly oily · nose blackheads, scattered freckles, fine facial hairs and natural under-eye darkness",
+    "palette": [
+      "#fafafa",
+      "#283940",
+      "#75949b"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 167
+  },
+  {
+    "id": "comparison-mock-085",
+    "pair": "mock-085",
+    "variant": 4,
+    "orientation": "side",
+    "name": "AI mockup 085 · Noir journal",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. medium golden skin with visible pores · brown curly hair with dry ends and baby hairs · a few tiny whiteheads on forehead, a mole under one eye, faint under-eye shadows",
+    "palette": [
+      "#20292c",
+      "#faf4e8",
+      "#b8a78b"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 168
+  },
+  {
+    "id": "comparison-reference-09-2",
+    "pair": "mock-085",
+    "variant": 0,
+    "orientation": "side",
+    "name": "AI layout 085 · Gallery pair",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. medium golden skin with visible pores · brown curly hair with dry ends and baby hairs · a few tiny whiteheads on forehead, a mole under one eye, faint under-eye shadows",
+    "palette": [
+      "#f7f5ef",
+      "#2c302c",
+      "#7b8879"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 169
+  },
+  {
+    "id": "comparison-mock-086",
+    "pair": "mock-086",
+    "variant": 5,
+    "orientation": "stacked",
+    "name": "AI mockup 086 · Quiet stack",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. medium neutral brown skin with small moles · silver-grey fine hair, thin temples and flyaways · a few sun spots on cheekbone, asymmetrical brow heights, mild under-eye hollows",
+    "palette": [
+      "#f4eee6",
+      "#4b4139",
+      "#9d876d"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 170
+  },
+  {
+    "id": "comparison-reference-09-7",
+    "pair": "mock-086",
+    "variant": 6,
+    "orientation": "stacked",
+    "name": "AI layout 086 · Centred journal",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. medium neutral brown skin with small moles · silver-grey fine hair, thin temples and flyaways · a few sun spots on cheekbone, asymmetrical brow heights, mild under-eye hollows",
+    "palette": [
+      "#f1f3ee",
+      "#2c3a31",
+      "#87967f"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 171
+  },
+  {
+    "id": "comparison-mock-087",
+    "pair": "mock-087",
+    "variant": 1,
+    "orientation": "side",
+    "name": "AI mockup 087 · Warm editorial",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. warm tan skin with mild uneven pigmentation · copper-red fine hair, dry ends and flyaways · fine crow's feet, a tiny forehead blemish, slight asymmetry of the nose",
+    "palette": [
+      "#f2e8df",
+      "#4b352c",
+      "#b08770"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 172
+  },
+  {
+    "id": "comparison-reference-09-3",
+    "pair": "mock-087",
+    "variant": 2,
+    "orientation": "side",
+    "name": "AI layout 087 · Framed study",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. warm tan skin with mild uneven pigmentation · copper-red fine hair, dry ends and flyaways · fine crow's feet, a tiny forehead blemish, slight asymmetry of the nose",
+    "palette": [
+      "#fcfaf7",
+      "#202b30",
+      "#a28a60"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 173
+  },
+  {
+    "id": "comparison-mock-088",
+    "pair": "mock-088",
+    "variant": 7,
+    "orientation": "stacked",
+    "name": "AI mockup 088 · Studio notes",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. deep warm brown skin with small freckles · ash-blonde thin hair with slightly oily roots · a faint old acne mark, two small moles, textured chin and natural smile lines",
+    "palette": [
+      "#f7e9e5",
+      "#4b3431",
+      "#b88c81"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 174
+  },
+  {
+    "id": "comparison-reference-09-8",
+    "pair": "mock-088",
+    "variant": 8,
+    "orientation": "stacked",
+    "name": "AI layout 088 · Contrast stack",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. deep warm brown skin with small freckles · ash-blonde thin hair with slightly oily roots · a faint old acne mark, two small moles, textured chin and natural smile lines",
+    "palette": [
+      "#25242a",
+      "#f5efe9",
+      "#b1978a"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 175
+  },
+  {
+    "id": "comparison-mock-089",
+    "pair": "mock-089",
+    "variant": 3,
+    "orientation": "side",
+    "name": "AI mockup 089 · Rose studio",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. deep neutral brown skin with an oily T-zone · dark-blonde straight hair, natural unstyled roots · visible nose blackheads, one small healing pimple near temple, slightly unequal eyelids",
+    "palette": [
+      "#eee7e8",
+      "#3e3036",
+      "#936f7c"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 176
+  },
+  {
+    "id": "comparison-reference-09-4",
+    "pair": "mock-089",
+    "variant": 4,
+    "orientation": "side",
+    "name": "AI layout 089 · Noir journal",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. deep neutral brown skin with an oily T-zone · dark-blonde straight hair, natural unstyled roots · visible nose blackheads, one small healing pimple near temple, slightly unequal eyelids",
+    "palette": [
+      "#20292c",
+      "#faf4e8",
+      "#b8a78b"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 177
+  },
+  {
+    "id": "comparison-mock-090",
+    "pair": "mock-090",
+    "variant": 9,
+    "orientation": "stacked",
+    "name": "AI mockup 090 · Minimal details",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. rich dark skin with subtle natural tonal variation · chestnut wavy hair, some dryness and frizz · a few mild acne marks, visible pores, one mouth corner higher than the other",
+    "palette": [
+      "#fafafa",
+      "#283940",
+      "#75949b"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 178
+  },
+  {
+    "id": "comparison-reference-09-9",
+    "pair": "mock-090",
+    "variant": 5,
+    "orientation": "stacked",
+    "name": "AI layout 090 · Quiet stack",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. rich dark skin with subtle natural tonal variation · chestnut wavy hair, some dryness and frizz · a few mild acne marks, visible pores, one mouth corner higher than the other",
+    "palette": [
+      "#f4eee6",
+      "#4b4139",
+      "#9d876d"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 179
+  },
+  {
+    "id": "comparison-mock-091",
+    "pair": "mock-091",
+    "variant": 0,
+    "orientation": "side",
+    "name": "AI mockup 091 · Gallery pair",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. fair cool skin with light copper freckles · black straight hair, naturally shiny and slightly oily · a faint old acne mark, two small moles, textured chin and natural smile lines",
+    "palette": [
+      "#f7f5ef",
+      "#2c302c",
+      "#7b8879"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 180
+  },
+  {
+    "id": "comparison-reference-10-0",
+    "pair": "mock-091",
+    "variant": 1,
+    "orientation": "side",
+    "name": "AI layout 091 · Warm editorial",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. fair cool skin with light copper freckles · black straight hair, naturally shiny and slightly oily · a faint old acne mark, two small moles, textured chin and natural smile lines",
+    "palette": [
+      "#f2e8df",
+      "#4b352c",
+      "#b08770"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 181
+  },
+  {
+    "id": "comparison-mock-092",
+    "pair": "mock-092",
+    "variant": 6,
+    "orientation": "stacked",
+    "name": "AI mockup 092 · Centred journal",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. fair neutral skin with pinkness around the nose · brown curly hair with dry ends and baby hairs · visible nose blackheads, one small healing pimple near temple, slightly unequal eyelids",
+    "palette": [
+      "#f1f3ee",
+      "#2c3a31",
+      "#87967f"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 182
+  },
+  {
+    "id": "comparison-reference-10-5",
+    "pair": "mock-092",
+    "variant": 7,
+    "orientation": "stacked",
+    "name": "AI layout 092 · Studio notes",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. fair neutral skin with pinkness around the nose · brown curly hair with dry ends and baby hairs · visible nose blackheads, one small healing pimple near temple, slightly unequal eyelids",
+    "palette": [
+      "#f7e9e5",
+      "#4b3431",
+      "#b88c81"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 183
+  },
+  {
+    "id": "comparison-mock-093",
+    "pair": "mock-093",
+    "variant": 2,
+    "orientation": "side",
+    "name": "AI mockup 093 · Framed study",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. light warm beige skin with scattered sun spots · silver-grey fine hair, thin temples and flyaways · a few mild acne marks, visible pores, one mouth corner higher than the other",
+    "palette": [
+      "#fcfaf7",
+      "#202b30",
+      "#a28a60"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 184
+  },
+  {
+    "id": "comparison-reference-10-1",
+    "pair": "mock-093",
+    "variant": 3,
+    "orientation": "side",
+    "name": "AI layout 093 · Rose studio",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. light warm beige skin with scattered sun spots · silver-grey fine hair, thin temples and flyaways · a few mild acne marks, visible pores, one mouth corner higher than the other",
+    "palette": [
+      "#eee7e8",
+      "#3e3036",
+      "#936f7c"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 185
+  },
+  {
+    "id": "comparison-mock-094",
+    "pair": "mock-094",
+    "variant": 8,
+    "orientation": "stacked",
+    "name": "AI mockup 094 · Contrast stack",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. light olive skin with a few brown freckles · copper-red fine hair, dry ends and flyaways · soft eye bags, irregular natural lip outline, a small cheek pimple",
+    "palette": [
+      "#25242a",
+      "#f5efe9",
+      "#b1978a"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 186
+  },
+  {
+    "id": "comparison-reference-10-6",
+    "pair": "mock-094",
+    "variant": 9,
+    "orientation": "stacked",
+    "name": "AI layout 094 · Minimal details",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. light olive skin with a few brown freckles · copper-red fine hair, dry ends and flyaways · soft eye bags, irregular natural lip outline, a small cheek pimple",
+    "palette": [
+      "#fafafa",
+      "#283940",
+      "#75949b"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 187
+  },
+  {
+    "id": "comparison-mock-095",
+    "pair": "mock-095",
+    "variant": 4,
+    "orientation": "side",
+    "name": "AI mockup 095 · Noir journal",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. medium golden skin with visible pores · ash-blonde thin hair with slightly oily roots · light freckles across nose, uneven lip corners, fine forehead lines",
+    "palette": [
+      "#20292c",
+      "#faf4e8",
+      "#b8a78b"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 188
+  },
+  {
+    "id": "comparison-reference-10-2",
+    "pair": "mock-095",
+    "variant": 0,
+    "orientation": "side",
+    "name": "AI layout 095 · Gallery pair",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. medium golden skin with visible pores · ash-blonde thin hair with slightly oily roots · light freckles across nose, uneven lip corners, fine forehead lines",
+    "palette": [
+      "#f7f5ef",
+      "#2c302c",
+      "#7b8879"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 189
+  },
+  {
+    "id": "comparison-mock-096",
+    "pair": "mock-096",
+    "variant": 5,
+    "orientation": "stacked",
+    "name": "AI mockup 096 · Quiet stack",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. medium neutral brown skin with small moles · dark-blonde straight hair, natural unstyled roots · natural oily forehead sheen, small cheek moles, dry unpainted lips",
+    "palette": [
+      "#f4eee6",
+      "#4b4139",
+      "#9d876d"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 190
+  },
+  {
+    "id": "comparison-reference-10-7",
+    "pair": "mock-096",
+    "variant": 6,
+    "orientation": "stacked",
+    "name": "AI layout 096 · Centred journal",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. medium neutral brown skin with small moles · dark-blonde straight hair, natural unstyled roots · natural oily forehead sheen, small cheek moles, dry unpainted lips",
+    "palette": [
+      "#f1f3ee",
+      "#2c3a31",
+      "#87967f"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 191
+  },
+  {
+    "id": "comparison-mock-097",
+    "pair": "mock-097",
+    "variant": 1,
+    "orientation": "side",
+    "name": "AI mockup 097 · Warm editorial",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. warm tan skin with mild uneven pigmentation · chestnut wavy hair, some dryness and frizz · nose blackheads, scattered freckles, fine facial hairs and natural under-eye darkness",
+    "palette": [
+      "#f2e8df",
+      "#4b352c",
+      "#b08770"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 192
+  },
+  {
+    "id": "comparison-reference-10-3",
+    "pair": "mock-097",
+    "variant": 2,
+    "orientation": "side",
+    "name": "AI layout 097 · Framed study",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. warm tan skin with mild uneven pigmentation · chestnut wavy hair, some dryness and frizz · nose blackheads, scattered freckles, fine facial hairs and natural under-eye darkness",
+    "palette": [
+      "#fcfaf7",
+      "#202b30",
+      "#a28a60"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 193
+  },
+  {
+    "id": "comparison-mock-098",
+    "pair": "mock-098",
+    "variant": 7,
+    "orientation": "stacked",
+    "name": "AI mockup 098 · Studio notes",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. deep warm brown skin with small freckles · dark-brown fine hair with lightly oily roots · a few tiny whiteheads on forehead, a mole under one eye, faint under-eye shadows",
+    "palette": [
+      "#f7e9e5",
+      "#4b3431",
+      "#b88c81"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 194
+  },
+  {
+    "id": "comparison-reference-10-8",
+    "pair": "mock-098",
+    "variant": 8,
+    "orientation": "stacked",
+    "name": "AI layout 098 · Contrast stack",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. deep warm brown skin with small freckles · dark-brown fine hair with lightly oily roots · a few tiny whiteheads on forehead, a mole under one eye, faint under-eye shadows",
+    "palette": [
+      "#25242a",
+      "#f5efe9",
+      "#b1978a"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 195
+  },
+  {
+    "id": "comparison-mock-099",
+    "pair": "mock-099",
+    "variant": 3,
+    "orientation": "side",
+    "name": "AI mockup 099 · Rose studio",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. deep neutral brown skin with an oily T-zone · black tightly curled hair gently flattened at the pillow · a few sun spots on cheekbone, asymmetrical brow heights, mild under-eye hollows",
+    "palette": [
+      "#eee7e8",
+      "#3e3036",
+      "#936f7c"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 196
+  },
+  {
+    "id": "comparison-reference-10-4",
+    "pair": "mock-099",
+    "variant": 4,
+    "orientation": "side",
+    "name": "AI layout 099 · Noir journal",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Side by side; adapts to tall or wide posts. deep neutral brown skin with an oily T-zone · black tightly curled hair gently flattened at the pillow · a few sun spots on cheekbone, asymmetrical brow heights, mild under-eye hollows",
+    "palette": [
+      "#20292c",
+      "#faf4e8",
+      "#b8a78b"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 197
+  },
+  {
+    "id": "comparison-mock-100",
+    "pair": "mock-100",
+    "variant": 9,
+    "orientation": "stacked",
+    "name": "AI mockup 100 · Minimal details",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. rich dark skin with subtle natural tonal variation · salt-and-pepper thinning hair and loose wisps · fine crow's feet, a tiny forehead blemish, slight asymmetry of the nose",
+    "palette": [
+      "#fafafa",
+      "#283940",
+      "#75949b"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": false,
+    "comparisonOrder": 198
+  },
+  {
+    "id": "comparison-reference-10-9",
+    "pair": "mock-100",
+    "variant": 5,
+    "orientation": "stacked",
+    "name": "AI layout 100 · Quiet stack",
+    "category": "Before & after",
+    "description": "Generated illustrative eyebrow comparison. Large independent photo layers, editable captions and branding. Top and bottom; adapts to tall or wide posts. rich dark skin with subtle natural tonal variation · salt-and-pepper thinning hair and loose wisps · fine crow's feet, a tiny forehead blemish, slight asymmetry of the nose",
+    "palette": [
+      "#f4eee6",
+      "#4b4139",
+      "#9d876d"
+    ],
+    "comparison": true,
+    "synthetic": true,
+    "alternate": true,
+    "comparisonOrder": 199
+  }
+]

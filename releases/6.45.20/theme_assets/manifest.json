@@ -1,0 +1,122 @@
+{
+  "porcelain": {
+    "file": "porcelain.png",
+    "sha256": "0325fbe615261c26aa28936a30a8d648ccff8e7c0825c1298cf9ea5f0afcb0c1",
+    "bytes": 1484519,
+    "source": "User-selected generated Nexus Office concept; unmodified original image",
+    "dimensions": [
+      1672,
+      941
+    ]
+  },
+  "architect": {
+    "file": "architect.png",
+    "sha256": "1bce0d7f8b8c633373edabc14db00787fc53f14cad866a2b1c5fa9e2901bafa7",
+    "bytes": 1370177,
+    "source": "User-selected generated Nexus Office concept; unmodified original image",
+    "dimensions": [
+      1672,
+      941
+    ]
+  },
+  "chromatic": {
+    "file": "chromatic.png",
+    "sha256": "d10b4ffa3815c7bf99dba882be7171e7a325d900d133db13dc516766dd144acb",
+    "bytes": 1592026,
+    "source": "User-selected generated Nexus Office concept; unmodified original image",
+    "dimensions": [
+      1672,
+      941
+    ]
+  },
+  "editorial": {
+    "file": "editorial.png",
+    "sha256": "0f4a7ec74e8262c3c1ab14b0ffb4cbf7e08edee98fefb7b9346da9d231cf0171",
+    "bytes": 1486124,
+    "source": "User-selected generated Nexus Office concept; unmodified original image",
+    "dimensions": [
+      1672,
+      941
+    ]
+  },
+  "crystal": {
+    "file": "crystal.png",
+    "sha256": "7089786c60c9b0e7c2477946d51be1c20d078b26622615964c27c3957e471180",
+    "bytes": 1602697,
+    "source": "User-selected generated Nexus Office concept; unmodified original image",
+    "dimensions": [
+      1672,
+      941
+    ],
+    "artwork": {
+      "file": "crystal-artwork.png",
+      "sha256": "ee31ecfc074e870354c125d1d054e2361334d8aa4df2bc0cf12623a3279d8660",
+      "bytes": 1537459,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "source": "Generated clean illustration atlas derived from approved concept"
+    }
+  },
+  "midnight": {
+    "file": "midnight.png",
+    "sha256": "03b7dc7aaedabc2c6004033c2d730435148fe0a7bcdb2d55e441b7638245f301",
+    "bytes": 1645849,
+    "source": "User-selected generated Nexus Office concept; unmodified original image",
+    "dimensions": [
+      1672,
+      941
+    ]
+  },
+  "swiss": {
+    "file": "swiss.png",
+    "sha256": "6c16828301fda495b11d384c272bd1ebc7930e28cef9b3adea58df9157c30ea2",
+    "bytes": 1283925,
+    "source": "User-selected generated Nexus Office concept; unmodified original image",
+    "dimensions": [
+      1672,
+      941
+    ]
+  },
+  "soft-modern": {
+    "file": "soft-modern.png",
+    "sha256": "5753d39aff988ac3d1c77c929f137bf0e5d756419cdb0e3ab2e92fffaf53346c",
+    "bytes": 1497860,
+    "source": "User-selected generated Nexus Office concept; unmodified original image",
+    "dimensions": [
+      1672,
+      941
+    ]
+  },
+  "panorama": {
+    "file": "panorama.png",
+    "sha256": "3beb41baee99b7cfafda6ac1a6ddb299c8db5dedf3dba8ccfad4cc849ba6b77e",
+    "bytes": 1583171,
+    "source": "User-selected generated Nexus Office concept; unmodified original image",
+    "dimensions": [
+      1672,
+      941
+    ]
+  },
+  "aurora": {
+    "file": "aurora.png",
+    "sha256": "2a8eb559f77cfba1d6e6c0f1fcaa611045a402fc08e4718cc6e60b52e24fe8e8",
+    "bytes": 1559364,
+    "source": "User-selected generated Nexus Office concept; unmodified original image",
+    "dimensions": [
+      1672,
+      941
+    ],
+    "artwork": {
+      "file": "aurora-artwork.png",
+      "sha256": "a09e50f4fd942cd6171c353d721a5f99ddb35537791888d2481443f46d71a2d3",
+      "bytes": 1514912,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "source": "Generated clean illustration atlas derived from approved concept"
+    }
+  }
+}

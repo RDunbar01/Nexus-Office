@@ -1,0 +1,48 @@
+NEXUS OFFICE DOCUMENT TABS — REVISION 6
+
+Extract the complete ZIP before opening its HTML. Keep document_assets, theme_assets and comparison_assets beside it.
+Writer and Paint have bottom tabs. Double-click any tab to rename it; Sheets tabs also rename this way. Paint Clear affects only the current sheet. Save project keeps all tabs; Export uses the current tab.
+
+For older Office/Apple format conversion and direct PDF download, install Python 3.10+ and LibreOffice, then run:
+  python Start_Nexus_Office.py
+Use python3 if that is your system's Python command. Keep its window open while using Office.
+For PKI PDF signing, run once:
+  python Start_Nexus_Office.py --setup-signing
+This installs dependencies only in this Office package's private environment. It does not alter the shared Nexus launcher.
+Read docs/OFFICE_DOCUMENTS.md for formats, signature workflows, supported content and fidelity limits. Macro code is retained in originals and does not execute.
+
+Nexus Office 6.45.20 revision 6
+
+START
+Extract the ZIP. Keep document_assets, theme_assets and comparison_assets beside Nexus_Office_v6_45_20_Browser.html and open the HTML in a desktop Chromium browser. No server or Python is needed for this browser edition.
+
+OFFICE THEMES
+Ten complete themes are included. Porcelain is the default. Open Settings > Office themes to apply a theme or reset to Porcelain. Choices are remembered in this browser. Keep theme_assets beside the HTML for the generated artwork. Missing art falls back to native vector previews. Writer formatting, spreadsheet data, slide content, Paint layers and dashboard data are unaffected by theme changes. See docs/OFFICE_THEMES.md.
+
+MODERN HOME AND STARTUP
+Home uses the layout and artwork of the chosen Office theme. Porcelain uses a three-column gallery, while other themes offer horizontal, panoramic and bento layouts. The matching white startup screen shows actual loading progress and keeps Retry available if startup fails.
+
+EDITABLE AVIATION EXAMPLE
+Open Dashboard Studio > Aviation example > Use template. All 14 source tables, 101 fictional records, six pages, 15 measures and 23 visuals are editable. Source edits update the charts. Save authoring HTML or the complete Office workspace. An independent editable example is included in examples/NEXUS_General_Aviation_Dashboard.html.
+
+AVIATION RISK HEAT MAP
+Open Fleet overview or Safety & risks. The 5 by 5 matrix counts the filtered Aviation Risk Register rows and displays their IDs. Edit Impact (1-5) and Likelihood (1-5) to move a risk. Select a cell to filter the page; use Undo or remove filter chips to clear it. Chart Edit allows risk mode, source mappings, title and width changes. Colours are based on impact multiplied by likelihood: Low 1-7, Medium 8-14, High 15-19, Extreme 20-25. Invalid coordinates are excluded with a warning.
+
+LARGER GENERATED COMPARISONS
+Open Paint > Design Studio > Photos > Before & after collections. Choose 100 AI mockup pairs or 100 alternate layouts. Both collections use generated photography; the supplied originals are excluded. Photos fill about 74 percent of each post. All 21 earlier comparison templates use the same enlarged photo layout. Labels, photos, frames, brand and website remain independent native layers with text editing, resizing, rotation, opacity, ordering and Undo.
+
+PHOTO PACKS
+The ten comparison_assets companions load locally. If they are missing, use Load comparison photos and select the .nxcomparisons packs. Paint projects embed the photos used, so saved .nxpaint files reopen independently. Original user imports and previously saved projects are not rewritten.
+
+SOURCE INSTALL
+Keep installer.py, package_manifest.json and all .nxd parts together. Run python installer.py with standard CPython 3.12; add --no-launch to extract only. The installer uses an isolated version and checksum directory. Keep candidate.html, source_scripts and comparison_assets together. The expanded source rebuilds using build.py.
+
+PICTURES
+Design_Assets/Comparison_Pictures contains 200 large-photo JPEG post exports plus 100 generated comparison pairs. These exports are flattened. Use Paint templates to edit each object. Untouched generated PNG masters are in the separate Nexus_Before_After_200_Pictures.zip under Generated_PNG_Masters. Copy these into design_studio_tools/assets/comparisons/generated to rebuild the photo packs.
+
+DETAILS
+All individual components are below 20,000,000 bytes. The combined ZIP and expanded source are larger. Source pairs are 1536 x 1024 pixels. AI mockups illustrate eyebrow designs; aviation sample dates and data are fictional. See docs and RELEASE_VALIDATION.json for scope. Existing application licences and evaluation permissions remain in force.
+
+
+GUIDE
+The included Word guide covers revision 3 functional features. The current theme workflow is documented in docs/OFFICE_THEMES.md and CHANGELOG_6.45.20.md.

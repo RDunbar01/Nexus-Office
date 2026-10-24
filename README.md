@@ -1,51 +1,65 @@
-# Nexus Office 6.45.4
+# Nexus Office 6.45.20 · revision 6
 
-A local-first productivity application for documents, spreadsheets, presentations, visual work and dashboards.
+## [▶ Open Nexus Office in your browser](https://rdunbar01.github.io/Nexus-Office/releases/6.45.20/Nexus_Office_v6_45_20_Browser.html)
 
-[Open Nexus Office in your browser](https://rdunbar01.github.io/Nexus-Office/Nexus_Office_v6_45_4_Browser.html) · [Download the single HTML](Nexus_Office_v6_45_4_Browser.html) · [Full local package](releases/6.45.4/)
+**Go straight to the application. No installation or Python is needed for the browser edition.** Use a current desktop Chromium browser, read the application notice and choose whether to continue. Initial loading depends on your device and connection.
 
-## Current release
+[Release files](releases/6.45.20/) · [Offline instructions](docs/BROWSER_TRIAL.md) · [English](https://github.com/RDunbar01/Nexus-Office/wiki/Home) · [Français](https://github.com/RDunbar01/Nexus-Office/wiki/Home.fr) · [日本語](https://github.com/RDunbar01/Nexus-Office/wiki/Home.ja) · [한국어](https://github.com/RDunbar01/Nexus-Office/wiki/Home.ko)
 
-Version 6.45.4 introduces a redesigned Home workspace with six cards: Writer, Grid, Dashboard Studio, NexusPoint, Paint and Compatibility. Native text, CSS and SVG graphics adapt the layout from narrow windows to 4K desktops. Home retains command search and the existing Open action.
+Nexus Office brings Writer, Grid, Dashboard Studio, NexusPoint and Paint into one workspace. Home also provides Compatibility, Open and Settings.
 
-The Assistant dock, Home card and launch button are no longer shown, and automatic Assistant opening is disabled. Recent document names are also removed from Home. Documents, stored history, existing launch actions and the 6.45.3 Writer ribbon remain intact; hiding these panels does not delete their underlying data or modules.
+## What changed in revision 6
 
-## Try it now
+- **Writer and Paint tabs:** add and switch documents at the bottom, then double-click a tab or press F2 to rename it. Each tab has its own content and session Undo history. Paint Clear and image export affect only the active sheet.
+- **Collective projects:** Writer saves all tabs as `.nxwriter`; Paint saves all sheets as `.nxpaint`. Regular document and image exports use the active tab. Projects support up to 25 tabs and 120 MiB; Undo history is not saved. Opening a collective project replaces that application's collection after confirmation.
+- **Sheets renaming:** double-click a worksheet tab to rename it through the existing reference-aware backend.
+- **PDF and compatibility:** the bundled local PDF runtime imports editable text and displays the retained original page layout. Compatibility view does not reflect later edits. Original files remain available to download. PDF import/preview supports up to 300 pages; scanned PDFs have no OCR.
+- **Signature appearances:** Writer can insert a drawn, uploaded or saved signature image with the current local date. An image of a signature is not a cryptographic signature.
 
-The Pages link opens the actual single-file application, not a mock-up. Acknowledge its application notice to continue. No Python, PyTorch backend, server or CDN is needed to start the browser edition.
+**Legacy format conversion, direct paginated PDF download and certificate-based PDF signing require the optional local helper. They are not provided by the GitHub Pages launch alone.** The helper uses Python 3.10+ and LibreOffice; PKI signing needs additional package-specific setup. Macro-enabled files can expose supported content and retain their originals, but VBA, ActiveX and embedded code do not run. Compatibility is format-specific, not a guarantee of perfect Office or Apple fidelity. See the [documents and signatures guide](releases/6.45.20/docs/OFFICE_DOCUMENTS.md) and [local setup](docs/BROWSER_TRIAL.md#optional-local-conversion-and-certificate-signing).
 
-Use a current desktop Chromium browser with `DecompressionStream('gzip')`, TextEncoder/TextDecoder and Web Crypto. The loader checks its embedded data before execution and reports unsupported APIs or corrupt data. Startup time depends on the device and connection; a fixed ten-second launch is not guaranteed.
+## Office themes
 
-The monolithic HTML makes online trials straightforward: one link opens the application, and one saved file contains its code and assets. Lossless dictionary/gzip/Base85 packaging keeps the delivered HTML at **16,572,073 bytes**, below 20 MB. The expanded application is about 29 MB, and runtime memory use is higher. The loader does not upload user documents.
+The ten themes from revision 5 remain available through **Settings → Office themes**. Porcelain is the default without a saved choice. Themes change Home, navigation and editing-panel appearance, not authored content. The choice is stored for this browser and origin; blocked storage keeps it for the session. [Office themes guide](releases/6.45.20/docs/OFFICE_THEMES.md).
 
-## Workspaces
+## Try the included workspaces
 
-- **Writer:** document editing, templates, formatting and existing import/export workflows. All 223 Writer ribbon controls are retained in this release.
-- **Grid:** workbooks, formulas, charts and tables.
-- **NexusPoint:** presentation editing and existing slide layouts.
-- **Paint and Dashboard Studio:** visual work, colouring assets and dashboard templates. Imported spreadsheet data is a snapshot, not a live connection.
-- **Compatibility:** access the existing compatibility information and workflows.
+- **Aviation dashboard:** open Dashboard Studio → Aviation example → Use template. It contains 14 editable source tables, 101 fictional records, six pages, 15 measures and 23 visuals. Fleet overview and Safety & risks include a live 5 × 5 impact/likelihood matrix. Source edits update the matrix; selecting a cell filters the page.
+- **Paint and Design Studio:** 629 templates, 2,720 elements and 19 fonts are retained from revision 2. Open Paint → Design Studio → Photos → Before & after collections for 100 generated comparison pairs in two sets of 100 editable layouts. Photos, text and other objects remain separate layers. Generated examples illustrate eyebrow designs; they are not records of real treatment outcomes.
+- **Independent dashboard example:** [open the editable aviation example](https://rdunbar01.github.io/Nexus-Office/releases/6.45.20/examples/NEXUS_General_Aviation_Dashboard.html).
 
-Developed by **Rich Dunbar / Nexus Emerging Technology with AI-assisted coding**. The engineering contribution is a locally usable productivity suite with a self-contained, integrity-checked browser distribution. The included learned checkpoint remains unqualified; this release does not claim a general-purpose autonomous Office agent or new inference performance.
+See the [release changelog](releases/6.45.20/docs/CHANGELOG_6.45.20.md) and [installation notes](releases/6.45.20/INSTALL.txt) for the exact scope.
 
-## Full local package
+## Use it offline
 
-The [6.45.4 package directory](releases/6.45.4/) contains the exact delivered installer, manifest and three numbered data files. Download all of them together and follow [INSTALL.txt](releases/6.45.4/INSTALL.txt). Each data file is at most 10,000,000 bytes, and every individual distributed component is below 20,000,000 bytes.
+The browser HTML is **19,976,619 bytes**. It is not fully self-contained. Keep all three asset folders beside it:
 
-The complete Library download is named `Nexus_office_6.45.4_Full.zip`. Its SHA-256 is `19aa2a783e4b8a6096ad9d67f2d15fb19b7be00a3ec85fde82d5eb4b1df1e238`. The complete ZIP is larger than 20 MB; Git supplies its components separately. Do not mix releases.
+- **`document_assets/`** contains the PDF runtime, its manifest and Mozilla PDF.js license. Keep these files for local PDF import and preview.
+- **`theme_assets/`** contains 12 PNGs for theme artwork. If they are missing, built-in vector previews remain available and theme controls still work.
+- **`comparison_assets/`** contains `photos-01.js` through `photos-10.js` for all 100 generated comparison-photo pairs, plus the matching manual-import packs.
 
-**Standard CPython 3.12** is recommended for the optional installer. It creates a version-isolated folder and verifies checksums without global dependency changes or downloads. Python and PyTorch are not required after extraction. Keep the installed `candidate.html` with its `source_scripts` directory; the standalone browser HTML already embeds its companion libraries.
+Download the repository with **Code → Download ZIP**, extract it, and open `releases/6.45.20/Nexus_Office_v6_45_20_Browser.html`. Keep that release folder's structure intact. If selecting individual files, download the HTML and all three asset folders while preserving their names and relative paths. No local server is needed for this browser edition.
 
-Existing browser state is not automatically migrated. Export documents from the old edition and import them into the new one when needed, keeping the originals. Published [6.45.2](releases/6.45.2/), [6.45.1](releases/6.45.1/) and [6.45.0](releases/6.45.0/) files remain unchanged for rollback and historical comparison.
+If comparison photos are missing, use **Load comparison photos** and select the matching `.nxcomparisons` packs from the same release. Saved `.nxpaint` projects embed the photos they use. Back up existing documents and projects before opening another version; this release does not rewrite saved projects.
 
-## Evidence and limits
+The browser needs DecompressionStream, TextEncoder/TextDecoder and Web Crypto. Expanded application data is about 33.0 MB; runtime memory use is higher than the download size.
 
-See [release changes](releases/6.45.4/docs/CHANGELOG_6.45.4.md), [delivered validation records](releases/6.45.4/RELEASE_VALIDATION.json) and [browser artifact details](docs/BROWSER_TRIAL.md). The delivered records report Home and Writer integration checks on both editions in headless Chromium on Linux, including an actual 3840 × 2160 capture. These are scoped checks, not a guarantee of every document or device.
+## Full package and optional source installation
 
-Physical Windows/Radeon behavior, OS clipboard, printing and other browser engines were not tested by those records. Microsoft Office fidelity and hardware performance are not guaranteed. The prior Writer implementation guide remains included for the ribbon; its Assistant-layout guidance is superseded by 6.45.4.
+The [6.45.20 release directory](releases/6.45.20/) contains the **482 delivered files**, totaling **500,273,126 extracted bytes**. Every distributed file is below **20,000,000 bytes**. The large full and browser ZIP containers are not committed; their extracted components are supplied instead.
 
-## License and credits
+For source installation, keep `installer.py`, `package_manifest.json` and **all 23** `Nexus_office_Data_001.nxd` through `Nexus_office_Data_023.nxd` files together. Each data part is at most 10,000,000 bytes. Use standard CPython 3.12 and follow [INSTALL.txt](releases/6.45.20/INSTALL.txt); `python installer.py --no-launch` extracts without launching. Do not mix parts from different releases. Keep extracted `candidate.html`, `source_scripts`, `document_assets`, `theme_assets` and `comparison_assets` together.
 
-Personal use and internal commercial testing and evaluation are permitted for Nexus-owned material. Distribution, modification, production deployment and other commercial use require express written consent. Third-party licenses and previously granted rights remain unchanged. See [LICENSE](LICENSE), the [current repository evaluation permission covering 6.45.4](COMMERCIAL_EVALUATION_PERMISSION.md), and [scope](NEXUS_LICENSE_SCOPE.md) and [third-party notices](NEXUS_Office_v6.7_THIRD_PARTY_NOTICES.md). Retain the notices embedded in the application.
+[Earlier releases](releases/) remain available. The delivered 6.45.20 application and package components are preserved unchanged, rather than rebuilt for publication.
 
-The delivered package is preserved byte-for-byte. Its enclosed supplemental version list predates 6.45.4; the current repository permission explicitly covers this release. This publication does not rewrite the package license files.
+## Validation and limits
+
+The [supplied revision-6 validation](releases/6.45.20/RELEASE_VALIDATION.json) records **25 browser-document checks, 14 theme checks, 21 Design Studio checks and 9 risk checks**, plus **6 service checks, 6 source checks and 5 loader cases**, in Chromium on Linux. It includes real LibreOffice conversions and a self-signed test certificate, but the Pages embedded-preview and macro fixtures are synthetic. Older receipts are retained as historical evidence, not counted as new revision-6 runs.
+
+[Separate read-only package checks](docs/PUBLICATION_VERIFICATION_6.45.20.json) cover archive contents, sizes, hashes, data parts, source inventories, browser reconstruction and companion-asset paths. They are integrity checks, not a new functional or cross-platform test. Windows and macOS hardware were not exercised; physical display and Radeon performance qualification are not established by these records. Startup speed and document-format fidelity are not guaranteed. [Artifact hashes and technical details](docs/BROWSER_TRIAL.md). The included Word implementation guide remains the revision 3 guide; use OFFICE_DOCUMENTS.md for revision 6.
+
+## License and attribution
+
+Rich Dunbar / Nexus Emerging Technology. Personal use and internal commercial testing and evaluation are permitted for Nexus-owned material. Redistribution, modification, production deployment and other commercial use require express written consent. Third-party licenses and previously granted rights remain unchanged.
+
+Read the [repository license](LICENSE), [commercial-evaluation permission](COMMERCIAL_EVALUATION_PERMISSION.md), [license scope](NEXUS_LICENSE_SCOPE.md) and the release's bundled notices. Source availability does not grant additional rights.

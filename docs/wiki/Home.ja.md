@@ -1,57 +1,44 @@
-# 現行リリース 6.45.4
+# Nexus Office 6.45.20 · リビジョン 6
 
-[ブラウザーで試す](https://rdunbar01.github.io/Nexus-Office/Nexus_Office_v6_45_4_Browser.html) · [完全版パッケージ](https://github.com/RDunbar01/Nexus-Office/tree/main/releases/6.45.4)
+## [▶ Nexus Office を開く](https://rdunbar01.github.io/Nexus-Office/releases/6.45.20/Nexus_Office_v6_45_20_Browser.html)
 
-ホーム画面には Writer、Grid、Dashboard Studio、NexusPoint、Paint、Compatibility の6つのカードがあります。アシスタントと最近の項目のパネルは非表示になり、自動表示は無効になっています。文書と履歴は保持されます。6.45.3 のリボンは維持されています。この更新は現行の画面構成を説明するもので、モデルや編集機能の追加を示すものではありません。
+このリンクからアプリケーションを直接開けます。ブラウザー版にはインストールや Python は不要です。最新のデスクトップ向け Chromium 系ブラウザーを使用し、アプリケーションの注意事項を読んでから続行するか判断してください。読み込み時間は端末と接続環境によって異なります。
 
-Nexus 所有の素材は個人利用および社内の商用テスト・評価に利用できます。配布、改変、本番導入、その他の商用利用には明示的な書面による同意が必要です。第三者のライセンスと既に付与された権利は変更されません。 [評価許可](https://github.com/RDunbar01/Nexus-Office/blob/main/COMMERCIAL_EVALUATION_PERMISSION.md).
+[English](https://github.com/RDunbar01/Nexus-Office/wiki/Home) · [Français](https://github.com/RDunbar01/Nexus-Office/wiki/Home.fr) · [한국어](https://github.com/RDunbar01/Nexus-Office/wiki/Home.ko) · [リリースファイル](https://github.com/RDunbar01/Nexus-Office/tree/main/releases/6.45.20)
 
-## 旧版の説明（変更せず保存）
+## 文書、シート、署名
 
-# 現行の修正版 6.45.2
+リビジョン 6 では Writer と Paint の下部にタブを追加しました。**+** でタブを追加し、ダブルクリックまたは F2 で名前を変更できます。各タブは独立した内容とセッション中の Undo 履歴を保持します。Paint の Clear と画像エクスポートは現在のシートだけに作用します。Writer は全タブを `.nxwriter` に、Paint は全シートを `.nxpaint` に保存します。集合プロジェクトは最大 25 タブ、120 MiB に対応し、Undo 履歴は保存しません。開く際には確認後にそのアプリのタブ集合を置き換えます。Sheets のタブも直接名前を変更でき、既存の仕組みでシート参照を更新します。
 
-[ブラウザーで試す](https://rdunbar01.github.io/Nexus-Office/Nexus_Office_v6_45_2_Browser.html) · [完全版パッケージ](https://github.com/RDunbar01/Nexus-Office/tree/main/releases/6.45.2)
+PDF の読み込みでは編集可能なテキストを再構成し、Compatibility view には元のページレイアウトを保持します。この表示には、その後の Nexus での編集は反映されません。元のファイルは引き続きダウンロードできます。PDF の読み込みとプレビューは最大 300 ページで、スキャンした PDF の OCR は含まれません。マクロを含む元ファイルは保持しますが、VBA、ActiveX、埋め込みコードは実行しません。
 
-6.45.2 では Writer リボンのオーバーフロー規則を修正し、高さを制限したツール領域を実際にスクロールできるようにしました。ルーラーの数値入力欄をコンパクトな横一列にまとめ、必要に応じてスクロールすることで文書の表示領域を確保します。すべての操作項目にアクセスできますが、常に同時に表示されるわけではありません。6.45.1 のアシスタント改善は変更していません。公開済みの 6.45.1 のレイアウトは、この表示修正によって置き換えられます。
+Writer では描画、アップロード、保存済みの署名画像と現在のローカル日付を挿入できます。**署名画像は暗号学的な電子署名ではありません。旧形式の変換、ページ分割された PDF の直接ダウンロード、PKI 署名には任意のローカルヘルパーが必要で、公開ブラウザーページだけでは利用できません。** ヘルパーには Python 3.10 以降と LibreOffice が必要です。証明書による署名には、さらにこのパッケージ専用の設定が必要です。[文書と署名のガイド](https://github.com/RDunbar01/Nexus-Office/blob/main/releases/6.45.20/docs/OFFICE_DOCUMENTS.md)を確認してください。
 
-Nexus 所有の素材は個人利用および社内の商用テスト・評価に利用できます。配布、改変、本番導入、その他の商用利用には明示的な書面による同意が必要です。第三者のライセンスと既に付与された権利は変更されません。 [評価許可](https://github.com/RDunbar01/Nexus-Office/blob/main/COMMERCIAL_EVALUATION_PERMISSION.md).
+## テーマと引き継がれた機能
 
-[6.45.2](https://github.com/RDunbar01/Nexus-Office/blob/main/docs/CHANGELOG_6.45.2.md) · [LICENSE](https://github.com/RDunbar01/Nexus-Office/blob/main/LICENSE) · [COMMERCIAL_EVALUATION_PERMISSION](https://github.com/RDunbar01/Nexus-Office/blob/main/COMMERCIAL_EVALUATION_PERMISSION.md)
+10 種類のテーマは引き続き **Settings → Office themes** から選べます。保存済みの設定がなければ Porcelain が既定です。テーマはインターフェースを変更し、作成した内容は変更しません。設定はこのブラウザーとオリジンに保存され、ストレージが使えない場合はセッション中のみ保持されます。テーマ画像は HTML の隣に保持してください。[Office テーマガイド](https://github.com/RDunbar01/Nexus-Office/blob/main/releases/6.45.20/docs/OFFICE_THEMES.md)。
 
-## 旧版の説明（レイアウトは更新済み・本文は変更せず保存）
+- **Dashboard Studio → Aviation example → Use template**：編集可能な表 14 個、架空のレコード 101 件、6 ページ、15 個のメジャー、23 個のビジュアルを収録しています。Fleet overview と Safety & risks には、データに連動する 5 × 5 のリスクマトリックスがあります。Impact または Likelihood を編集するとリスクの位置が変わり、セルを選択するとページを絞り込めます。[独立した編集可能なサンプルを開く](https://rdunbar01.github.io/Nexus-Office/releases/6.45.20/examples/NEXUS_General_Aviation_Dashboard.html)。
+- **Paint → Design Studio**：リビジョン 2 から引き継いだ 629 個のテンプレート、2,720 個の要素、19 種類のフォントを収録しています。**Photos → Before & after collections** では、生成された比較画像 100 組を、各 100 種類の編集可能なレイアウトからなる 2 つのコレクションで利用できます。写真と文字は別々のレイヤーです。画像は眉のデザインを示すもので、実際の施術結果ではありません。
 
-# 現行リリース 6.45.1
+同梱の Word 実装ガイドは引き続きリビジョン 3 の機能を説明しています。リビジョン 6 の説明は OFFICE_DOCUMENTS.md を参照してください。[変更履歴](https://github.com/RDunbar01/Nexus-Office/blob/main/releases/6.45.20/docs/CHANGELOG_6.45.20.md)。
 
-[ブラウザーで試す](https://rdunbar01.github.io/Nexus-Office/Nexus_Office_v6_45_1_Browser.html) · [完全版インストーラーの構成ファイル](https://github.com/RDunbar01/Nexus-Office/tree/main/releases/6.45.1) · [リリースノート](https://github.com/RDunbar01/Nexus-Office/blob/main/docs/CHANGELOG_6.45.1.md)
+## オフライン利用とインストール
 
-インストール版とブラウザー版のアシスタントパネル、ヘッダー、入力欄を改善しました。Writer はリボンの各グループを利用可能な幅に配置し、アシスタントを固定した場合を含め、狭いウィンドウでも操作項目とルーラーが収まるようにしました。コマンド、文書形式、モデル、編集機能は変更していません。
+ブラウザー版 HTML は 19,976,619 バイトですが、**PDF ランタイム、テーマ画像、写真コレクション全体が HTML 単体に含まれているわけではありません**。HTML の隣に `document_assets`、`theme_assets`、`comparison_assets` を保持してください。`document_assets` フォルダー全体には、ローカルでの PDF 読み込みとプレビューに使うランタイム、マニフェスト、第三者ライセンスが含まれます。`theme_assets` 内の 12 個の PNG がテーマ画像を提供します。画像がない場合は組み込みのベクタープレビューに切り替わり、テーマの選択やアプリの起動は引き続き利用できます。HTML と同じ場所に `comparison_assets` フォルダーを置き、その中に `photos-01.js` から `photos-10.js` までを保持してください。この 10 個のファイルが、生成された画像 100 組を提供します。ファイルがない場合は、**Load comparison photos** で対応する `.nxcomparisons` パックを読み込めます。保存した `.nxpaint` プロジェクトには、使用した写真が埋め込まれます。
 
-現行のブラウザー版とインストール版には同じ UI 変更が含まれます。完全版 ZIP にはインストーラーと全データファイルが含まれるため、一緒に保管してください。各データファイルは 10,000,000 バイト以下、各配布コンポーネントは 20,000,000 バイト未満です。この UI 更新は対応モデルを追加せず、実機の Windows/Radeon 検証を示すものではありません。
+一式をダウンロードするには、リポジトリの **Code → Download ZIP** を選び、展開してから `releases/6.45.20/Nexus_Office_v6_45_20_Browser.html` を開いてください。フォルダー構成を変更しないでください。ローカルサーバーは不要です。ブラウザーは DecompressionStream、TextEncoder/TextDecoder、Web Crypto に対応している必要があります。展開後のアプリケーションデータと実行時メモリー使用量は、HTML のダウンロードサイズより大きくなります。
 
-Nexus 所有の素材は個人利用および社内の商用テスト・評価に利用できます。配布、改変、本番導入、その他の商用利用には明示的な書面による同意が必要です。第三者のライセンスと既に付与された権利は変更されません。 [評価許可](https://github.com/RDunbar01/Nexus-Office/blob/main/COMMERCIAL_EVALUATION_PERMISSION.md).
+完全版には 482 個のファイルがあり、展開後の合計は 500,273,126 バイトです。配布ファイルはそれぞれ 20,000,000 バイト未満です。元の大きな ZIP アーカイブはコミットされず、展開済みの構成ファイルが提供されています。任意のソースインストールを行う場合は、インストーラー、マニフェスト、**23 個すべての `.nxd` 分割ファイル**を同じ場所に置いてください。各分割ファイルは最大 10,000,000 バイトです。標準の CPython 3.12 を使い、[INSTALL.txt](https://github.com/RDunbar01/Nexus-Office/blob/main/releases/6.45.20/INSTALL.txt) に従ってください。展開後も `candidate.html`、`source_scripts`、`document_assets`、`theme_assets`、`comparison_assets` を同じ場所に保持してください。
 
-## 旧版の説明（変更せず保存）
+バージョンを切り替える前に、既存の文書とプロジェクトをバックアップしてください。このリリースは保存済みプロジェクトを書き換えません。[以前のリリース](https://github.com/RDunbar01/Nexus-Office/tree/main/releases)も引き続き利用できます。
 
-# Nexus Office
+## 検証範囲と制限
 
-[ブラウザーで試す](https://rdunbar01.github.io/Nexus-Office/Nexus_Office_v6_45_0_Browser.html) · [リポジトリ](https://github.com/RDunbar01/Nexus-Office)
+[提供されたリビジョン 6 の結果](https://github.com/RDunbar01/Nexus-Office/blob/main/releases/6.45.20/RELEASE_VALIDATION.json)には、Linux 上の Chromium におけるブラウザー文書機能 25 項目、テーマ 14 項目、Design Studio 21 項目、リスク 9 項目に加え、サービス 6 項目、ソース 6 項目、ローダー 5 ケースの検証が記録されています。実際の LibreOffice 変換と自己署名のテスト証明書を使用しています。埋め込みプレビュー付き Pages とマクロのテストファイルは合成されたもので、実在するすべてのファイルとの互換性を証明するものではありません。古い結果は過去の検証記録であり、リビジョン 6 で新たに実行されたテストではありません。
 
-Nexus Office 6.45.0 は Writer、Grid、Present、Paint、Dashboard をまとめたアプリです。ブラウザー試用版（パッケージ改訂 1）は、既存アプリのコードと素材を単一 HTML に格納します。オンライン評価を始めやすくし、ダウンロード後は一つのファイルで利用できるようにするための形式です。
+[別途行われたパッケージ検証](https://github.com/RDunbar01/Nexus-Office/blob/main/docs/PUBLICATION_VERIFICATION_6.45.20.json)は、提供されたアプリケーションや機能テストを実行せず、バイト列、ハッシュ、ファイル一覧、復元データ、補助ファイルのパスを確認しています。これは複数プラットフォームでの動作保証ではありません。Windows と macOS の実機ではテストしていません。これらの記録は Radeon の性能や物理的な 4K モニターを検証したものではありません。起動速度や文書形式の完全な再現性は保証されません。[正確なハッシュとブラウザー版の詳細](https://github.com/RDunbar01/Nexus-Office/blob/main/docs/BROWSER_TRIAL.md)。
 
-## 機能と制限
+## 利用許諾
 
-文書とワークブックの編集、プレゼンテーションのレイアウト、画像素材、ダッシュボードを利用できます。Office コマンドは定義済み操作に限定され、入力値、プレビュー、承認に基づいて変更します。Writer の変更は既存の取り消し機能を使います。同梱の小規模モデルは汎用 Office エージェントとして認定されておらず、有効化もされていません。
-
-インポートとエクスポートの対応範囲は形式によって異なります。Microsoft Office との完全な互換性は保証しません。クリップボード、印刷、表示はブラウザーに依存します。取り込んだダッシュボードデータはスナップショットであり、ライブ接続ではありません。
-
-## 起動
-
-DecompressionStream、TextEncoder/TextDecoder、Web Crypto に対応した最新のデスクトップブラウザーを使ってください。同梱データをローカルで検証・展開してからアプリの通知を表示します。起動にはサーバー、Python、PyTorch、CDN は不要です。配布 HTML は 20,000,000 バイト未満ですが、展開後のアプリと必要メモリはより大きくなります。起動時間は端末によって異なります。
-
-完全版 6.45.0 のパッケージは変更せずに残しています。任意のインストーラーには CPython 3.12 を推奨します。旧パッケージの candidate.html には二つの付属スクリプトが必要ですが、新しい単一ファイル試用版には不要です。
-
-## 検証と許可
-
-[ビルドとテストの詳細](https://github.com/RDunbar01/Nexus-Office/blob/main/docs/BROWSER_TRIAL.md)を参照してください。Nexus 所有部分の個人利用と社内での商用テスト・評価は許可されています。配布、変更、本番導入、その他の商用利用には明示的な書面による同意が必要です。第三者ライセンスと以前に付与された権利は変わりません。[評価許可](https://github.com/RDunbar01/Nexus-Office/blob/main/COMMERCIAL_EVALUATION_PERMISSION.md)をご確認ください。
-
-[English](https://github.com/RDunbar01/Nexus-Office/wiki/Home) · [Français](https://github.com/RDunbar01/Nexus-Office/wiki/Home.fr) · [한국어](https://github.com/RDunbar01/Nexus-Office/wiki/Home.ko)
+Nexus が権利を保有する部分については、個人利用、および組織内での商用テストと評価が認められています。再配布、改変、本番環境への導入、その他の商用利用には、明示的な書面による同意が必要です。第三者のライセンスおよび過去に付与された権利は変更されません。[ライセンス](https://github.com/RDunbar01/Nexus-Office/blob/main/LICENSE)、[評価許諾](https://github.com/RDunbar01/Nexus-Office/blob/main/COMMERCIAL_EVALUATION_PERMISSION.md)、同梱の注意事項を確認してください。

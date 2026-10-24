@@ -1,0 +1,1313 @@
+{
+  "checked_at_utc": "2026-10-24T20:35:05.352817+00:00",
+  "scope": "Read-only independent ZIP/member/manifest/source inventory, launch-asset and loader-content integrity checks. No supplied code or bundled test suites executed.",
+  "checks": {
+    "manifest_installer_pin": {
+      "passed": true,
+      "sha256": "e0da0d25018e22b32609421145af784035c2105df13aa29a9876630512abf9e1"
+    },
+    "full_zip_crc_and_extracted_equality": {
+      "passed": true,
+      "archive_bytes": 462846303,
+      "archive_sha256": "6cdf1a0f3d147076a65a58d35e166ab6aecdef10d9886ea09511e23e5c1d1bc0",
+      "members": 482,
+      "mismatches": [],
+      "missing": [],
+      "extra": [],
+      "duplicates": [],
+      "crc_checked_by": "All member bytes read through Python zipfile, which verifies CRC on read."
+    },
+    "full_distributed_member_file_limit": {
+      "passed": true,
+      "limit_exclusive": 20000000,
+      "members": 482,
+      "max_bytes": 19976619,
+      "oversized": []
+    },
+    "browser_zip_crc_and_extracted_equality": {
+      "passed": true,
+      "archive_bytes": 116805005,
+      "archive_sha256": "f72f0cd011627dad1c0580178fd0b1563fc5d46905620fab2378bf281c59229b",
+      "members": 50,
+      "mismatches": [],
+      "missing": [],
+      "extra": [],
+      "duplicates": [],
+      "crc_checked_by": "All member bytes read through Python zipfile, which verifies CRC on read."
+    },
+    "browser_distributed_member_file_limit": {
+      "passed": true,
+      "limit_exclusive": 20000000,
+      "members": 50,
+      "max_bytes": 19976619,
+      "oversized": []
+    },
+    "browser_package_matches_full_package": {
+      "passed": true,
+      "common_files": 50,
+      "differences": [],
+      "browser_only": []
+    },
+    "html_identical_all_three_inputs": {
+      "passed": true,
+      "bytes": 19976619,
+      "sha256": "6d811bf537c9021cf4b567e64960dcbec2b58fe09c5c6d6856dd9ad390bcdb56"
+    },
+    "data_parts": {
+      "passed": true,
+      "parts": [
+        {
+          "name": "Nexus_office_Data_001.nxd",
+          "bytes": 10000000,
+          "sha256": "c3447e2687f37809792e0609e46c657d3007db0be524e781e5b3a8609c4b93ec",
+          "matches_manifest": true,
+          "within_10m_limit": true
+        },
+        {
+          "name": "Nexus_office_Data_002.nxd",
+          "bytes": 10000000,
+          "sha256": "e90d89dab161818c98b247aa0a81e638b555837011b89b8e867ecc5fe7f8c22b",
+          "matches_manifest": true,
+          "within_10m_limit": true
+        },
+        {
+          "name": "Nexus_office_Data_003.nxd",
+          "bytes": 10000000,
+          "sha256": "ee377f26e24855dad4d60a34e755298d19130b1b1c92ccf5cb00238818494d0b",
+          "matches_manifest": true,
+          "within_10m_limit": true
+        },
+        {
+          "name": "Nexus_office_Data_004.nxd",
+          "bytes": 10000000,
+          "sha256": "32603366f70101deed600ba9766975a8b3163536ea1ad6eae37f98b2cd444e01",
+          "matches_manifest": true,
+          "within_10m_limit": true
+        },
+        {
+          "name": "Nexus_office_Data_005.nxd",
+          "bytes": 10000000,
+          "sha256": "6c139fc0e0da4f41df913d8988b33fb82438b7a95032131a89acd0e46e547781",
+          "matches_manifest": true,
+          "within_10m_limit": true
+        },
+        {
+          "name": "Nexus_office_Data_006.nxd",
+          "bytes": 10000000,
+          "sha256": "76f35eb9a7530dd161a3641a81f12546f0a77fdc0208a42bad6f8fa96568dc26",
+          "matches_manifest": true,
+          "within_10m_limit": true
+        },
+        {
+          "name": "Nexus_office_Data_007.nxd",
+          "bytes": 10000000,
+          "sha256": "faa6546f01c8f3d144e47dea41d4e881305146d3e17556a04cbf6a49d6916e43",
+          "matches_manifest": true,
+          "within_10m_limit": true
+        },
+        {
+          "name": "Nexus_office_Data_008.nxd",
+          "bytes": 10000000,
+          "sha256": "a03e955aff1f88c2e8c7f339b8f339b14574d96a46fbe14756988d0b98971256",
+          "matches_manifest": true,
+          "within_10m_limit": true
+        },
+        {
+          "name": "Nexus_office_Data_009.nxd",
+          "bytes": 10000000,
+          "sha256": "c5aea46120d67c2af4b4da7207c73daa269e2cf443634eb434630a5ba3458f7d",
+          "matches_manifest": true,
+          "within_10m_limit": true
+        },
+        {
+          "name": "Nexus_office_Data_010.nxd",
+          "bytes": 10000000,
+          "sha256": "103196ab67780b2dc9855d8a23a8d659d308e7f639b5f9bb4b7186e576bf78f3",
+          "matches_manifest": true,
+          "within_10m_limit": true
+        },
+        {
+          "name": "Nexus_office_Data_011.nxd",
+          "bytes": 10000000,
+          "sha256": "f7a7831adf093ecc0ccfbbffbafb3d332e3f9c13905f7f01992c17cc03f478e7",
+          "matches_manifest": true,
+          "within_10m_limit": true
+        },
+        {
+          "name": "Nexus_office_Data_012.nxd",
+          "bytes": 10000000,
+          "sha256": "a0e834e6bc12b8292fb91661681e9c9d284cb5ff55e768c22ec672b14ab77fab",
+          "matches_manifest": true,
+          "within_10m_limit": true
+        },
+        {
+          "name": "Nexus_office_Data_013.nxd",
+          "bytes": 10000000,
+          "sha256": "aeb16eeabca5889b8b86e3d32b48b112b6e1a57960791cc9e620ae9fce38f88a",
+          "matches_manifest": true,
+          "within_10m_limit": true
+        },
+        {
+          "name": "Nexus_office_Data_014.nxd",
+          "bytes": 10000000,
+          "sha256": "db3144b93d10f78642cdc82b1c9705df9afc45cd8975118960f992558f9d7f24",
+          "matches_manifest": true,
+          "within_10m_limit": true
+        },
+        {
+          "name": "Nexus_office_Data_015.nxd",
+          "bytes": 10000000,
+          "sha256": "f197a59151b2ce2ff5f165ae021b76efe8053f32d89ad7188619bd7ecefce77a",
+          "matches_manifest": true,
+          "within_10m_limit": true
+        },
+        {
+          "name": "Nexus_office_Data_016.nxd",
+          "bytes": 10000000,
+          "sha256": "5c143c1092d75bfb44e95ea1fa75112f81a287e1d5ceac769b51c55f06645b57",
+          "matches_manifest": true,
+          "within_10m_limit": true
+        },
+        {
+          "name": "Nexus_office_Data_017.nxd",
+          "bytes": 10000000,
+          "sha256": "c1bd94133ae08fd851ebab1f99354dad26c3280c5f6662207f9f10e38c33a924",
+          "matches_manifest": true,
+          "within_10m_limit": true
+        },
+        {
+          "name": "Nexus_office_Data_018.nxd",
+          "bytes": 10000000,
+          "sha256": "4ff6071430cd28f43c68157fd8bd0f4cc3f29435752b0d8a0449596f1c819adc",
+          "matches_manifest": true,
+          "within_10m_limit": true
+        },
+        {
+          "name": "Nexus_office_Data_019.nxd",
+          "bytes": 10000000,
+          "sha256": "3a8f0a39fa398d4f35729fdd24f7a6f5ce2dc976a424a9033c050b702039ebeb",
+          "matches_manifest": true,
+          "within_10m_limit": true
+        },
+        {
+          "name": "Nexus_office_Data_020.nxd",
+          "bytes": 10000000,
+          "sha256": "22e81d0be710eaaf8c3980a8e1a36dac1d79237793e5b7a3d0f967d29c261ac6",
+          "matches_manifest": true,
+          "within_10m_limit": true
+        },
+        {
+          "name": "Nexus_office_Data_021.nxd",
+          "bytes": 10000000,
+          "sha256": "344c6435e22c1722e23f213c801c3efde9a6af40317737baf50ee607ffcbdb4d",
+          "matches_manifest": true,
+          "within_10m_limit": true
+        },
+        {
+          "name": "Nexus_office_Data_022.nxd",
+          "bytes": 10000000,
+          "sha256": "ba85cbca85207a65897bf14361ca4f3b2619ce52f4001f52eda68a203b7fa58d",
+          "matches_manifest": true,
+          "within_10m_limit": true
+        },
+        {
+          "name": "Nexus_office_Data_023.nxd",
+          "bytes": 1478767,
+          "sha256": "3a946effbe9bd90e2c078c93b98f6e8ee92f9703f1403ae726cf87f0109a80c2",
+          "matches_manifest": true,
+          "within_10m_limit": true
+        }
+      ]
+    },
+    "joined_payload_hash": {
+      "passed": true,
+      "sha256": "2f314996b136a5e7c68c43ecf5543f3a080e37b5a01ad47c4423c5f9b60acb47",
+      "bytes": 221478767
+    },
+    "payload_manifest_inventory": {
+      "passed": true,
+      "members": 638,
+      "manifest_files": 638,
+      "missing": [],
+      "extra": [],
+      "duplicates": []
+    },
+    "payload_paths": {
+      "passed": true,
+      "unsafe": []
+    },
+    "payload_all_file_sizes_hashes_and_crc": {
+      "passed": true,
+      "files_checked": 638,
+      "mismatches": [],
+      "total_uncompressed_bytes": 309655798
+    },
+    "payload_component_file_limit": {
+      "passed": true,
+      "limit_exclusive": 20000000,
+      "oversized": [],
+      "max_bytes": 18772917
+    },
+    "source_scripts_inventory": {
+      "passed": true,
+      "source_scripts": 195,
+      "index_entries": 195,
+      "hash_mismatches": [],
+      "missing": [],
+      "extra": []
+    },
+    "build_manifest_sources": {
+      "passed": true,
+      "source_hashes": 195,
+      "mismatches": []
+    },
+    "release_source_hash_inventory": {
+      "passed": true,
+      "entries_checked": 637,
+      "mismatches": [],
+      "unlisted_payload_files": [
+        "RELEASE_SOURCE_SHA256.json"
+      ]
+    },
+    "candidate_external_scripts_present": {
+      "passed": true,
+      "paths": [
+        "source_scripts/092_nexus-writing-writing_vendor.js",
+        "source_scripts/097_nx-clipart-data.js",
+        "source_scripts/132_nx-social-core-js.js"
+      ]
+    },
+    "comparison_companion_paths_complete": {
+      "passed": true,
+      "declarations": [
+        {
+          "file": "source_scripts/132_nx-social-core-js.js",
+          "value": [
+            "photos-01.js",
+            "photos-02.js",
+            "photos-03.js",
+            "photos-04.js",
+            "photos-05.js",
+            "photos-06.js",
+            "photos-07.js",
+            "photos-08.js",
+            "photos-09.js",
+            "photos-10.js"
+          ]
+        }
+      ]
+    },
+    "payload_comparison_assets_equal_distribution": {
+      "passed": true,
+      "paths": [
+        "comparison_assets/photos-01.js",
+        "comparison_assets/photos-02.js",
+        "comparison_assets/photos-03.js",
+        "comparison_assets/photos-04.js",
+        "comparison_assets/photos-05.js",
+        "comparison_assets/photos-06.js",
+        "comparison_assets/photos-07.js",
+        "comparison_assets/photos-08.js",
+        "comparison_assets/photos-09.js",
+        "comparison_assets/photos-10.js"
+      ]
+    },
+    "browser_metadata_hashes": {
+      "passed": true,
+      "sha256": "6d811bf537c9021cf4b567e64960dcbec2b58fe09c5c6d6856dd9ad390bcdb56",
+      "bytes": 19976619
+    },
+    "candidate_metadata_hashes": {
+      "passed": true,
+      "sha256": "91297e5394b134190264b8a556063a65f8feb055bf8cdd8aa61c8676f358d9ca",
+      "bytes": 18772917
+    },
+    "version_markers": {
+      "passed": true,
+      "markers": {
+        "VERSION": "6.45.20",
+        "manifest": "6.45.20",
+        "browser_manifest": "6.45.20",
+        "validation": "6.45.20",
+        "provenance": "6.45.20",
+        "payload_provenance": "6.45.20"
+      },
+      "revision": 6
+    },
+    "standalone_loader_embedded_integrity": {
+      "passed": true,
+      "compressed_bytes": 15973364,
+      "packed_bytes": 28472574,
+      "expanded_bytes": 32954461,
+      "expanded_sha256": "20f7235eec4998eecab985b6a125263377e17d0004cbe5eb1449c0384454c165",
+      "dictionary_entries": 542
+    },
+    "comparison_companions_and_import_packs": {
+      "passed": true,
+      "companions": 10,
+      "unique_pairs": 100,
+      "all_marked_synthetic": true,
+      "issues": []
+    },
+    "revision6_source_change_scope_matches_provenance": {
+      "passed": true,
+      "old_source_count": 192,
+      "new_source_count": 195,
+      "unchanged_count": 191,
+      "changed": [
+        "source_scripts/085_inline.js"
+      ],
+      "removed": [],
+      "added": [
+        "source_scripts/192_nx-document-tabs.js",
+        "source_scripts/193_nx-document-compatibility.js",
+        "source_scripts/194_nx-document-signatures.js"
+      ]
+    },
+    "theme_artwork_integrity": {
+      "passed": true,
+      "themes": 10,
+      "png_files": 12,
+      "assets": [
+        {
+          "theme": "porcelain",
+          "role": "concept",
+          "path": "theme_assets/porcelain.png",
+          "bytes": 1484519,
+          "sha256": "0325fbe615261c26aa28936a30a8d648ccff8e7c0825c1298cf9ea5f0afcb0c1",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "matches_all_packages_and_metadata": true
+        },
+        {
+          "theme": "architect",
+          "role": "concept",
+          "path": "theme_assets/architect.png",
+          "bytes": 1370177,
+          "sha256": "1bce0d7f8b8c633373edabc14db00787fc53f14cad866a2b1c5fa9e2901bafa7",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "matches_all_packages_and_metadata": true
+        },
+        {
+          "theme": "chromatic",
+          "role": "concept",
+          "path": "theme_assets/chromatic.png",
+          "bytes": 1592026,
+          "sha256": "d10b4ffa3815c7bf99dba882be7171e7a325d900d133db13dc516766dd144acb",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "matches_all_packages_and_metadata": true
+        },
+        {
+          "theme": "editorial",
+          "role": "concept",
+          "path": "theme_assets/editorial.png",
+          "bytes": 1486124,
+          "sha256": "0f4a7ec74e8262c3c1ab14b0ffb4cbf7e08edee98fefb7b9346da9d231cf0171",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "matches_all_packages_and_metadata": true
+        },
+        {
+          "theme": "crystal",
+          "role": "concept",
+          "path": "theme_assets/crystal.png",
+          "bytes": 1602697,
+          "sha256": "7089786c60c9b0e7c2477946d51be1c20d078b26622615964c27c3957e471180",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "matches_all_packages_and_metadata": true
+        },
+        {
+          "theme": "crystal",
+          "role": "artwork",
+          "path": "theme_assets/crystal-artwork.png",
+          "bytes": 1537459,
+          "sha256": "ee31ecfc074e870354c125d1d054e2361334d8aa4df2bc0cf12623a3279d8660",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "matches_all_packages_and_metadata": true
+        },
+        {
+          "theme": "midnight",
+          "role": "concept",
+          "path": "theme_assets/midnight.png",
+          "bytes": 1645849,
+          "sha256": "03b7dc7aaedabc2c6004033c2d730435148fe0a7bcdb2d55e441b7638245f301",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "matches_all_packages_and_metadata": true
+        },
+        {
+          "theme": "swiss",
+          "role": "concept",
+          "path": "theme_assets/swiss.png",
+          "bytes": 1283925,
+          "sha256": "6c16828301fda495b11d384c272bd1ebc7930e28cef9b3adea58df9157c30ea2",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "matches_all_packages_and_metadata": true
+        },
+        {
+          "theme": "soft-modern",
+          "role": "concept",
+          "path": "theme_assets/soft-modern.png",
+          "bytes": 1497860,
+          "sha256": "5753d39aff988ac3d1c77c929f137bf0e5d756419cdb0e3ab2e92fffaf53346c",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "matches_all_packages_and_metadata": true
+        },
+        {
+          "theme": "panorama",
+          "role": "concept",
+          "path": "theme_assets/panorama.png",
+          "bytes": 1583171,
+          "sha256": "3beb41baee99b7cfafda6ac1a6ddb299c8db5dedf3dba8ccfad4cc849ba6b77e",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "matches_all_packages_and_metadata": true
+        },
+        {
+          "theme": "aurora",
+          "role": "concept",
+          "path": "theme_assets/aurora.png",
+          "bytes": 1559364,
+          "sha256": "2a8eb559f77cfba1d6e6c0f1fcaa611045a402fc08e4718cc6e60b52e24fe8e8",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "matches_all_packages_and_metadata": true
+        },
+        {
+          "theme": "aurora",
+          "role": "artwork",
+          "path": "theme_assets/aurora-artwork.png",
+          "bytes": 1514912,
+          "sha256": "a09e50f4fd942cd6171c353d721a5f99ddb35537791888d2481443f46d71a2d3",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "matches_all_packages_and_metadata": true
+        }
+      ],
+      "issues": [],
+      "missing": [],
+      "extra": []
+    },
+    "all_theme_runtime_relative_paths_present": {
+      "passed": true,
+      "runtime_catalog": [
+        "porcelain",
+        "architect",
+        "chromatic",
+        "editorial",
+        "crystal",
+        "midnight",
+        "swiss",
+        "soft-modern",
+        "panorama",
+        "aurora"
+      ],
+      "default": "porcelain",
+      "exact_relative_paths": [
+        "theme_assets/architect.png",
+        "theme_assets/aurora-artwork.png",
+        "theme_assets/aurora.png",
+        "theme_assets/chromatic.png",
+        "theme_assets/crystal-artwork.png",
+        "theme_assets/crystal.png",
+        "theme_assets/editorial.png",
+        "theme_assets/midnight.png",
+        "theme_assets/panorama.png",
+        "theme_assets/porcelain.png",
+        "theme_assets/soft-modern.png",
+        "theme_assets/swiss.png"
+      ]
+    },
+    "document_assets_integrity": {
+      "passed": true,
+      "assets": [
+        {
+          "path": "document_assets/pdf-runtime.js",
+          "sha256": "7ade894078d388a1483f0050e8605a746a08ed207f9006d8394fcfa4671fbbcc",
+          "bytes": 1789963,
+          "matches_all_packages_and_metadata": true
+        },
+        {
+          "path": "document_assets/PDFJS-LICENSE.txt",
+          "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+          "bytes": 10174,
+          "matches_all_packages_and_metadata": true
+        }
+      ],
+      "issues": [],
+      "package": "pdfjs-dist",
+      "version": "5.6.205"
+    },
+    "new_runtime_dependency_path_present": {
+      "passed": true,
+      "exact_relative_path": "document_assets/pdf-runtime.js",
+      "bytes": 1789963,
+      "worker_bundled_marker": true,
+      "pdf_api_marker": true
+    },
+    "optional_helper_files_equal_all_packages": {
+      "passed": true,
+      "paths": [
+        "Start_Nexus_Office.py",
+        "compatibility_service.py"
+      ]
+    }
+  },
+  "failures": [],
+  "warnings": [
+    "Full ZIP (462,846,303 bytes) and browser ZIP (116,805,005 bytes) exceed 20 MB. All extracted files pass the separate per-file limit.",
+    "Browser HTML is 19,976,619 bytes, with 23,381 bytes below the 20,000,000-byte limit.",
+    "Preserve document_assets, theme_assets and comparison_assets beside the browser HTML.",
+    "No application code, converter, dependency installer or cryptographic signing was executed for this verification."
+  ],
+  "limitations": [
+    "Not a new browser functional or cross-platform qualification. Bundled test results remain supplied evidence.",
+    "Does not independently substantiate authorship, licensing, excluded reference-photo claims, or complete build reproducibility.",
+    "PDF.js contains conditional codec/CMap/font resource branches, including openjpeg_nowasm_fallback.js, which are not shipped as separate resources. This static verification does not establish rendering of every PDF feature or codec; no universal PDF fidelity claim is supported. The core worker is bundled as globalThis.pdfjsWorker."
+  ],
+  "source_inventory": {
+    "source_script_count": 195,
+    "source_scripts_json_type": "list",
+    "source_scripts_json_preview": "[{'index': 0, 'id': 'nx-office-notice-bootstrap', 'file': '000_nx-office-notice-bootstrap.js', 'sha256': 'd38fa8c3c78d2240dd60538bfde5e5683ca8e4fb3295f499ce93233bfa1dbd14', 'executable': True}, {'index': 1, 'id': 'inline', 'file': '001_inline.js', 'sha256': '146c22d4d72a940864e16970601a3db18b1695305316e4821da3d90efcf85d49', 'executable': True}, {'index': 2, 'id': 'nexus-v3-pro-js', 'file': '002_nexus-v3-pro-js.js', 'sha256': '8f12dfa9b7a62ed4af0d037b4fae7f8d9b2c06bdea83ff004dd4f9af9fb89a3e', 'executable': True}, {'index': 3, 'id': 'nexus-v4-enterprise-js', 'file': '003_nexus-v4-enterprise-js.js', 'sha256': '3dc4ac0f7fe3e46f59c07b7be5739a3e4750423fbd7f951f2b6f6acf2d0cd599', 'executable': True}, {'index': 4, 'id': 'nexus-v5-visual-js', 'file': '004_nexus-v5-visual-js.js', 'sha256': '5da5a84b4ff8f2dc0b9659b34138a56d01ba2eb3978b83afce5e34fe01cab00a', 'executable': True}, {'index': 5, 'id': 'nexus-v6-enterprise-js', 'file': '005_nexus-v6-enterprise-js.js', 'sha256': '122502df7d9307154a34f0d2ec8aeccbd4fe6bcb2489ca50ac8640ac559d22d0', 'executable': True}, {'index': 6, 'id': 'nexus-v61-design-js', 'file': '006_nexus-v61-design-js.js', 'sha256': 'db4cd4748839ed9454deef099b2d712f832ed2f9877715c5fa99451a84209a99', 'executable': True}, {'index': 7, 'id': 'nexus-v61-filebinding-js', 'file': '007_nexus-v61-filebinding-js.js', 'sha256': '560d300649b3e1a7fb0879c4e78e4944feb06457ca4e7e7817f894e6d2ca8431', 'executable': True}, {'index': 8, 'id': 'nexus-v62-authoring-js', 'file': '008_nexus-v62-authoring-js.js', 'sha256': '31acb6000fd94d0f4fe85685054339ce0328040f4773f82d27ea8f9c573af144', 'ex",
+    "release_source_sha256_type": "dict",
+    "release_source_sha256_preview": "{'ACTION_REGISTRY_HOST_RESULTS.json': '682710f05a1011edf93b73c9b098f1e34ccc7179fc19401e924db2a6bdd377b4', 'ACTION_REGISTRY_UNIT_RESULTS.json': '63fb515012c6b8e4b9f44733c0e7cbe003349df13362dadcd8ef7296ce22a07d', 'BUILD_MANIFEST.json': 'ec149255e1c9d8728418d9d6a72d4b244f86d90f6d6ecf0afc97a1bd5585e3c6', 'BUILD_PROVENANCE.json': 'e23c0a2740ac342f69665380f8b857ed350f75377c1b2d915a4a42fec25b8ecd', 'CHANGELOG_6.45.13.md': 'add62ded58ce27c953a0730570dee660d6b5c5a248c1605f9e9c9313f627b2fe', 'CHANGELOG_6.45.14.md': '79f3483397970019c455eeb2d6046901b059eab8baa46adcb3776234a6fae1b2', 'CHANGELOG_6.45.15.md': '889e75682d672d8e52a6976c13cc215af11516838d5b5bf6740e4aab44ff9043', 'CHANGELOG_6.45.16.md': '24d5489a02a73f0968ddc3923d324b7141d576c9115beb3999fe19086a35e617', 'CHANGELOG_6.45.20.md': '72b9dc1e023ea7d47f9a49901d2f6871a015e0b8a6fe54260999495c02cf0453', 'CHANGELOG_6.45.4.md': '045712c8948db71c50318ca59417f36328051a2f6fb6069634aff69e702ebcfd', 'CHANGELOG_6.45.5.md': 'f2fc30bf231f3adc79d22c73bb5d30e6cac62085ab2003f732cdc8d64376bb8d', 'COLOURING_COLLECTIONS.md': 'fe5fabfe5fe7b5bcd49347ee7cff4e75a977ab5826e69165b77397f9a1ac3f01', 'COMMERCIAL_EVALUATION_PERMISSION.md': '0f8c10132dd54a21366d04b74314d60a6aabbd253e3d67721061f72a25d2cd01', 'HOME_BROWSER_RESULTS.json': '2a8b71b033273eca33b811a6c20c6f3f9b7a90626c496f80a2b22b7718ac57be', 'HOME_NATIVE_RESULTS.json': '5cea3f687861c6c7b3a33f5716d48aa4f4f87c342fa6cf1d184bea1041b2f34b', 'HOST_RESULTS.json': '6f8110bb25d1b00f910828444534f5d660c8e747500b08097953ba6486ff1954', 'LICENSE': '9005f4fc1ef5b8323a01723f62846b81a2386b43dabd79956381cc2137b3341d',",
+    "build_manifest_preview": "{'candidate_sha256': '91297e5394b134190264b8a556063a65f8feb055bf8cdd8aa61c8676f358d9ca', 'sources': {'000_nx-office-notice-bootstrap.js': 'd38fa8c3c78d2240dd60538bfde5e5683ca8e4fb3295f499ce93233bfa1dbd14', '001_inline.js': '146c22d4d72a940864e16970601a3db18b1695305316e4821da3d90efcf85d49', '002_nexus-v3-pro-js.js': '8f12dfa9b7a62ed4af0d037b4fae7f8d9b2c06bdea83ff004dd4f9af9fb89a3e', '003_nexus-v4-enterprise-js.js': '3dc4ac0f7fe3e46f59c07b7be5739a3e4750423fbd7f951f2b6f6acf2d0cd599', '004_nexus-v5-visual-js.js': '5da5a84b4ff8f2dc0b9659b34138a56d01ba2eb3978b83afce5e34fe01cab00a', '005_nexus-v6-enterprise-js.js': '122502df7d9307154a34f0d2ec8aeccbd4fe6bcb2489ca50ac8640ac559d22d0', '006_nexus-v61-design-js.js': 'db4cd4748839ed9454deef099b2d712f832ed2f9877715c5fa99451a84209a99', '007_nexus-v61-filebinding-js.js': '560d300649b3e1a7fb0879c4e78e4944feb06457ca4e7e7817f894e6d2ca8431', '008_nexus-v62-authoring-js.js': '31acb6000fd94d0f4fe85685054339ce0328040f4773f82d27ea8f9c573af144', '009_nexus-v63-js.js': 'f0c9ce734f22e441a40e30787c7dc93d9a649aaf3ae269860457f5cc61f220e3', '010_nexus-local-safe-boot.js': '59087d00b713462c6c5aa0f6efd8705e0e05aa8d0c1b63833734ebf9430fa0ce', '011_nexus-v632-functional-js.js': '1f7e1f61ba3ddcdb34fe30a1fbce99cb4e5ed1bf983cc41e29674fa3b1900fde', '012_nexus-v632-maintenance-js.js': 'ef4f18ce05ed3405a5626ab5bacf37daeb8671e2714ca04398140add3e15095a', '013_nexus-v632-context-repairs.js': 'b90783b77c7f18a6a81b7445f6447663da8b3e2f3603c50da54ed3ff8929cbb8', '014_nexus-v64-calendar-code-js.js': '41cb520bd34662e0ba4cf352b55ee52b75043d1a15587e8bcd85eea394f1c49d', '015_n"
+  },
+  "companion_loading_source_excerpts": [
+    "change=S.action(async()=>{await importPacks([...input.files]);NXDesignStudio.browseComparisons('AI mockup');});input.click();}\nasync function bundled(){await localReady;if(status().loaded===100)return;await Promise.all((window.NXComparisonBundles||[]).map(name=>new Promise(resolve=>{const script=document.createElement('script');script.src=new URL('comparison_assets/'+name,document.baseURI).href;script.onload=script.onerror=()=>{script.remove();resolve();};document.head.append(script);})));document.dispatchEvent(new Event('nxComparisonPhotosChanged'));}\nconst ready=bundled();\nasync function ensure(id){if(!id.startsWith('comparison-'))return;await ready;if(!C.available(id)){choosePacks();throw Error('Choose the supplied comparison photo packs, then open this template again. The full browser bundle includes them automatically.');}if(C.nativeReady(id))return;c"
+  ],
+  "expanded_asset_path_mentions": [],
+  "expanded_script_srcs": [],
+  "candidate_script_srcs": [
+    "source_scripts/092_nexus-writing-writing_vendor.js",
+    "source_scripts/097_nx-clipart-data.js",
+    "source_scripts/132_nx-social-core-js.js"
+  ],
+  "validation_provenance": {
+    "version": "6.45.20",
+    "revision": 6,
+    "platform": "Chromium on Linux",
+    "current_suites": {
+      "browser-documents": {
+        "passed": 25,
+        "checks": [
+          "Writer and Paint tab bars remain visible at the bottom",
+          "Writer new tab preserves independent text and formatting",
+          "Double-click an inactive Writer tab to rename it inline",
+          "Writer history stays with its tab",
+          "Writer collective project saves and reopens every tab",
+          "Paint sheets isolate dimensions, raster pixels and editable objects",
+          "Paint double-click rename and current-sheet export",
+          "Clear sheet is isolated and undo restores its objects and pixels",
+          "Paint project API and visible Save retain every sheet",
+          "Legacy one-sheet Paint files open as an additional sheet",
+          "Native Office snapshots include every Writer and Paint tab",
+          "Invalid tab projects fail without replacing current documents",
+          "Sheets double-click rename updates sheet references",
+          "Multiple text documents import into new Writer tabs",
+          "PDF imports editable text and renders the preserved page layout offline",
+          "Apple Pages embedded PDF preview imports without an engine",
+          "DOCX, ODT, macro-enabled Excel and PowerPoint variants import",
+          "Unsupported binary files report the required engine and preserve documents",
+          "Saved signature insertion includes the current date and survives tab switches",
+          "Writer PDF controls offer browser printing and direct local export",
+          "Tab controls fit small, desktop and 4K layouts",
+          "Local launcher connection enables real legacy imports",
+          "Current Writer tab exports a paginated PDF through the local engine",
+          "PKI UI signs the current document without retaining its password",
+          "No JavaScript runtime errors"
+        ]
+      },
+      "themes": {
+        "passed": 14,
+        "checks": [
+          "Porcelain is the default and all ten themes are available",
+          "All ten Settings choices apply and expose the correct selection",
+          "Saved choice survives reload; keyboard selector and reset work",
+          "Every theme has six unclipped launch cards from mobile through 4K",
+          "Theme changes preserve authored data and document rendering",
+          "Every theme retains all app routes and the common navigation",
+          "Dashboard iframe theme follows selection and keeps white title bars",
+          "Design Studio panels follow every theme without changing the layered project",
+          "Invalid preferences fall back to Porcelain and blocked storage remains usable",
+          "Theme preferences synchronize between open tabs",
+          "The packaged app and artwork load directly from disk with networking disabled",
+          "Missing artwork retains vector previews and functional theme choices",
+          "Reduced motion, forced colours and print remain usable",
+          "No runtime errors"
+        ]
+      },
+      "design": {
+        "passed": 21,
+        "checks": [
+          "Design Studio tab opens the complete workspace in one click",
+          "Template previews are prominent and never replace artwork until Use is chosen",
+          "Search, category and size filters open a layered social template",
+          "Text properties change only the selected layer and support undo",
+          "Elements search inserts a shape with independent colour, size, rotation and opacity",
+          "All four layer ordering controls preserve object properties",
+          "Lock, visibility, duplicate and delete act on the chosen layer",
+          "Canvas objects move and resize with the native pointer gestures",
+          "Save and Open preserve the layered design and all object properties",
+          "Photo upload, editing, opacity and cancellation stay in Design Studio",
+          "Collage layout cards open the selected layout and create separate photo layers",
+          "Drawing creates a separate stroke with its chosen colour and transparency",
+          "Export downloads the same canvas with transparency and global Export routes correctly",
+          "Classic projects, 3D and other apps remain accessible without replacing artwork",
+          "Guided templates, colouring pages and Writer catalogue remain available",
+          "New design creates a true 3840 by 2160 canvas",
+          "Canvas background, shape outline and numeric fields have working controls",
+          "Responsive 4K, desktop, tablet and phone panes fit their workspace",
+          "The template gallery is the main studio surface at 4K and desktop sizes",
+          "Keyboard navigation and zero-result search remain usable",
+          "No browser runtime errors"
+        ]
+      },
+      "risk": {
+        "passed": 9,
+        "checks": [
+          "Risk aggregation counts duplicates, reports invalid coordinates and preserves all 25 positions",
+          "Overview and Safety & risks show the full 5\u00d75 matrix with all ten register risks",
+          "Source cell edits move a risk and recompute its score; Undo and Redo restore the matrix",
+          "Keyboard cell selection filters the linked risk register and can be undone",
+          "The visible chart editor exposes risk mode, numeric bindings, title and width",
+          "Invalid coordinates are reported and all-filtered-out data stays a labelled empty matrix",
+          "Ordinary sum heat maps retain their existing aggregation and renderer",
+          "Workspace snapshots and independent editable HTML preserve heat map data and behaviour",
+          "Heat map remains readable and operable at 4K"
+        ]
+      }
+    },
+    "service_checks": {
+      "tests": 6,
+      "successful": true,
+      "failures": 0,
+      "errors": 0
+    },
+    "native_source_checks": 6,
+    "loader_cases": 5,
+    "scope": {
+      "unchanged_existing_source_modules": 191,
+      "added_source_modules": [
+        "192_nx-document-tabs.js",
+        "193_nx-document-compatibility.js",
+        "194_nx-document-signatures.js"
+      ],
+      "changed_existing_source_modules": [
+        "085_inline.js"
+      ],
+      "template_changes": [
+        "Tabbed document styles",
+        "Three document module entries",
+        "Blob font permission for PDF.js"
+      ],
+      "preserved": "All ten Office themes, existing Paint catalogues and aviation dashboard modules"
+    },
+    "limitations": [
+      "No physical Windows or macOS qualification",
+      "Compatibility depends on file version, fonts, encryption and advanced features; no universal fidelity guarantee",
+      "Macro code is retained in originals, not executed",
+      "Pages embedded-preview and macro fixtures are synthetic",
+      "Legacy conversion and direct paginated PDF require local LibreOffice; PKI requires the optional package-specific Python environment",
+      "Scanned PDFs have no OCR; PDF import/preview limited to 300 pages"
+    ]
+  },
+  "retained_validation_sections": [
+    "retained_revision_5_validation"
+  ],
+  "features_from_supplied_provenance": {
+    "version": "6.45.20",
+    "revision": 6,
+    "baseline": "complete recovered 6.45.16 source plus current Design Studio and aviation conversion",
+    "reference_photographs_included": false,
+    "generated_pairs": 100,
+    "editable_comparison_layouts": 200,
+    "aviation_tables": 14,
+    "aviation_rows": 101,
+    "aviation_visuals": 23,
+    "aviation_pages": 6,
+    "risk_matrix": "5x5 live source-row counts",
+    "changed_source_modules": [
+      "085_inline.js"
+    ],
+    "template_changes": "Home CSS only",
+    "added_source_modules": [
+      "192_nx-document-tabs.js",
+      "193_nx-document-compatibility.js",
+      "194_nx-document-signatures.js"
+    ],
+    "default_theme": "porcelain",
+    "theme_count": 10,
+    "theme_assets": {
+      "porcelain": {
+        "file": "porcelain.png",
+        "sha256": "0325fbe615261c26aa28936a30a8d648ccff8e7c0825c1298cf9ea5f0afcb0c1",
+        "bytes": 1484519,
+        "source": "User-selected generated Nexus Office concept; unmodified original image",
+        "dimensions": [
+          1672,
+          941
+        ]
+      },
+      "architect": {
+        "file": "architect.png",
+        "sha256": "1bce0d7f8b8c633373edabc14db00787fc53f14cad866a2b1c5fa9e2901bafa7",
+        "bytes": 1370177,
+        "source": "User-selected generated Nexus Office concept; unmodified original image",
+        "dimensions": [
+          1672,
+          941
+        ]
+      },
+      "chromatic": {
+        "file": "chromatic.png",
+        "sha256": "d10b4ffa3815c7bf99dba882be7171e7a325d900d133db13dc516766dd144acb",
+        "bytes": 1592026,
+        "source": "User-selected generated Nexus Office concept; unmodified original image",
+        "dimensions": [
+          1672,
+          941
+        ]
+      },
+      "editorial": {
+        "file": "editorial.png",
+        "sha256": "0f4a7ec74e8262c3c1ab14b0ffb4cbf7e08edee98fefb7b9346da9d231cf0171",
+        "bytes": 1486124,
+        "source": "User-selected generated Nexus Office concept; unmodified original image",
+        "dimensions": [
+          1672,
+          941
+        ]
+      },
+      "crystal": {
+        "file": "crystal.png",
+        "sha256": "7089786c60c9b0e7c2477946d51be1c20d078b26622615964c27c3957e471180",
+        "bytes": 1602697,
+        "source": "User-selected generated Nexus Office concept; unmodified original image",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "artwork": {
+          "file": "crystal-artwork.png",
+          "sha256": "ee31ecfc074e870354c125d1d054e2361334d8aa4df2bc0cf12623a3279d8660",
+          "bytes": 1537459,
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "source": "Generated clean illustration atlas derived from approved concept"
+        }
+      },
+      "midnight": {
+        "file": "midnight.png",
+        "sha256": "03b7dc7aaedabc2c6004033c2d730435148fe0a7bcdb2d55e441b7638245f301",
+        "bytes": 1645849,
+        "source": "User-selected generated Nexus Office concept; unmodified original image",
+        "dimensions": [
+          1672,
+          941
+        ]
+      },
+      "swiss": {
+        "file": "swiss.png",
+        "sha256": "6c16828301fda495b11d384c272bd1ebc7930e28cef9b3adea58df9157c30ea2",
+        "bytes": 1283925,
+        "source": "User-selected generated Nexus Office concept; unmodified original image",
+        "dimensions": [
+          1672,
+          941
+        ]
+      },
+      "soft-modern": {
+        "file": "soft-modern.png",
+        "sha256": "5753d39aff988ac3d1c77c929f137bf0e5d756419cdb0e3ab2e92fffaf53346c",
+        "bytes": 1497860,
+        "source": "User-selected generated Nexus Office concept; unmodified original image",
+        "dimensions": [
+          1672,
+          941
+        ]
+      },
+      "panorama": {
+        "file": "panorama.png",
+        "sha256": "3beb41baee99b7cfafda6ac1a6ddb299c8db5dedf3dba8ccfad4cc849ba6b77e",
+        "bytes": 1583171,
+        "source": "User-selected generated Nexus Office concept; unmodified original image",
+        "dimensions": [
+          1672,
+          941
+        ]
+      },
+      "aurora": {
+        "file": "aurora.png",
+        "sha256": "2a8eb559f77cfba1d6e6c0f1fcaa611045a402fc08e4718cc6e60b52e24fe8e8",
+        "bytes": 1559364,
+        "source": "User-selected generated Nexus Office concept; unmodified original image",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "artwork": {
+          "file": "aurora-artwork.png",
+          "sha256": "a09e50f4fd942cd6171c353d721a5f99ddb35537791888d2481443f46d71a2d3",
+          "bytes": 1514912,
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "source": "Generated clean illustration atlas derived from approved concept"
+        }
+      }
+    },
+    "document_assets": {
+      "package": "pdfjs-dist",
+      "version": "5.6.205",
+      "source": "https://github.com/mozilla/pdf.js",
+      "license": "Apache-2.0",
+      "files": {
+        "pdf-runtime.js": "7ade894078d388a1483f0050e8605a746a08ed207f9006d8394fcfa4671fbbcc",
+        "PDFJS-LICENSE.txt": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+      }
+    }
+  },
+  "passed": true,
+  "delivered_revision5_to_revision6": {
+    "changed": [
+      {
+        "name": "BROWSER_BUILD_MANIFEST.json",
+        "old_bytes": 2071,
+        "new_bytes": 2071,
+        "old_sha256": "145e09b7662de79195cf9574e72f0b21fd38d2b41a0fb00bedf3dbc01de8108f",
+        "new_sha256": "42b2cec37bec7b790e45d9c218fb30b65ba3e43d9990563d2b083cb7576b9689"
+      },
+      {
+        "name": "BUILD_PROVENANCE.json",
+        "old_bytes": 4458,
+        "new_bytes": 4928,
+        "old_sha256": "3ee0bb6273ea174a328886b670d90e843ce4175ad90d70f2c2ca276167c3c1ec",
+        "new_sha256": "e23c0a2740ac342f69665380f8b857ed350f75377c1b2d915a4a42fec25b8ecd"
+      },
+      {
+        "name": "INSTALL.txt",
+        "old_bytes": 3915,
+        "new_bytes": 4902,
+        "old_sha256": "01a271936c3080ca759f4b0f8a42ac494bc2006fb7c5c62d9bd59eba7dff3e68",
+        "new_sha256": "630371d2e6a3326c41f2d43f0426651452a9a7d957c78be7019fc26a21a8ac32"
+      },
+      {
+        "name": "Nexus_Office_v6_45_20_Browser.html",
+        "old_bytes": 19955934,
+        "new_bytes": 19976619,
+        "old_sha256": "f9aab463da767dc21cf2a76cbb84ab90f4ba8d17b2e4bed0f1f874142c2f4214",
+        "new_sha256": "6d811bf537c9021cf4b567e64960dcbec2b58fe09c5c6d6856dd9ad390bcdb56"
+      },
+      {
+        "name": "Nexus_office_Data_001.nxd",
+        "old_bytes": 10000000,
+        "new_bytes": 10000000,
+        "old_sha256": "f58d8f45492b1eea52502602967a55f9dcc668cce32c1e0da49ae587aca06d35",
+        "new_sha256": "c3447e2687f37809792e0609e46c657d3007db0be524e781e5b3a8609c4b93ec"
+      },
+      {
+        "name": "Nexus_office_Data_002.nxd",
+        "old_bytes": 10000000,
+        "new_bytes": 10000000,
+        "old_sha256": "8cfa6d7b1885964d670a58d7b72d4f2940aa1720a13be9f7d7956dea515bad00",
+        "new_sha256": "e90d89dab161818c98b247aa0a81e638b555837011b89b8e867ecc5fe7f8c22b"
+      },
+      {
+        "name": "Nexus_office_Data_003.nxd",
+        "old_bytes": 10000000,
+        "new_bytes": 10000000,
+        "old_sha256": "f1600376b40913a1e0ec6a2322507a1360d921f4928dbcaedf327bfa0f5b5915",
+        "new_sha256": "ee377f26e24855dad4d60a34e755298d19130b1b1c92ccf5cb00238818494d0b"
+      },
+      {
+        "name": "Nexus_office_Data_004.nxd",
+        "old_bytes": 10000000,
+        "new_bytes": 10000000,
+        "old_sha256": "26950ae3d777a0f6c0119a5e2d7553784e766d005d8dc513eba634a38b45510f",
+        "new_sha256": "32603366f70101deed600ba9766975a8b3163536ea1ad6eae37f98b2cd444e01"
+      },
+      {
+        "name": "Nexus_office_Data_005.nxd",
+        "old_bytes": 10000000,
+        "new_bytes": 10000000,
+        "old_sha256": "5dd3d4ac3d0dc0cb980f5c1dedf3a2ee41237ae4ca36fd466af3717fd7d2d0dd",
+        "new_sha256": "6c139fc0e0da4f41df913d8988b33fb82438b7a95032131a89acd0e46e547781"
+      },
+      {
+        "name": "Nexus_office_Data_006.nxd",
+        "old_bytes": 10000000,
+        "new_bytes": 10000000,
+        "old_sha256": "21eaf566c30c3737e3086245e0d080e70432f9fa740e8a864633bf5a4b007b81",
+        "new_sha256": "76f35eb9a7530dd161a3641a81f12546f0a77fdc0208a42bad6f8fa96568dc26"
+      },
+      {
+        "name": "Nexus_office_Data_007.nxd",
+        "old_bytes": 10000000,
+        "new_bytes": 10000000,
+        "old_sha256": "648bf18be6b56a81145edcc813df45e03bfd4a8721ebc4979849032e45d1770f",
+        "new_sha256": "faa6546f01c8f3d144e47dea41d4e881305146d3e17556a04cbf6a49d6916e43"
+      },
+      {
+        "name": "Nexus_office_Data_008.nxd",
+        "old_bytes": 10000000,
+        "new_bytes": 10000000,
+        "old_sha256": "5526e5acf6ddc7d6c79b5c1cbdb809ad505cdf428902dee56deb298b9e1f73b4",
+        "new_sha256": "a03e955aff1f88c2e8c7f339b8f339b14574d96a46fbe14756988d0b98971256"
+      },
+      {
+        "name": "Nexus_office_Data_009.nxd",
+        "old_bytes": 10000000,
+        "new_bytes": 10000000,
+        "old_sha256": "8501aa7e51b2ca1d3df9f257cc4896fd781a04143417d91ad14ea5fe4cce49c9",
+        "new_sha256": "c5aea46120d67c2af4b4da7207c73daa269e2cf443634eb434630a5ba3458f7d"
+      },
+      {
+        "name": "Nexus_office_Data_010.nxd",
+        "old_bytes": 10000000,
+        "new_bytes": 10000000,
+        "old_sha256": "a00880ea4a3ec3e1a577b51393944257ef082a56c8a8932ee7cd0769fac13d46",
+        "new_sha256": "103196ab67780b2dc9855d8a23a8d659d308e7f639b5f9bb4b7186e576bf78f3"
+      },
+      {
+        "name": "Nexus_office_Data_011.nxd",
+        "old_bytes": 10000000,
+        "new_bytes": 10000000,
+        "old_sha256": "70642f5d85096007795eaf18a15a651834451a45c2dc226fb3f0ece5bbfc21d0",
+        "new_sha256": "f7a7831adf093ecc0ccfbbffbafb3d332e3f9c13905f7f01992c17cc03f478e7"
+      },
+      {
+        "name": "Nexus_office_Data_012.nxd",
+        "old_bytes": 10000000,
+        "new_bytes": 10000000,
+        "old_sha256": "35bfdad7fa9009d00ddf027936436cdd89f45dc332578584849c1d6db5713624",
+        "new_sha256": "a0e834e6bc12b8292fb91661681e9c9d284cb5ff55e768c22ec672b14ab77fab"
+      },
+      {
+        "name": "Nexus_office_Data_013.nxd",
+        "old_bytes": 10000000,
+        "new_bytes": 10000000,
+        "old_sha256": "a7fab22860e6389fed51a6bf1e0d2db53d2ff9d40e830b95035af5e00f9e1087",
+        "new_sha256": "aeb16eeabca5889b8b86e3d32b48b112b6e1a57960791cc9e620ae9fce38f88a"
+      },
+      {
+        "name": "Nexus_office_Data_014.nxd",
+        "old_bytes": 10000000,
+        "new_bytes": 10000000,
+        "old_sha256": "21a65667cf92aa3b14d124c8ce017959ff25d34383a6d5cefb2158db9100255e",
+        "new_sha256": "db3144b93d10f78642cdc82b1c9705df9afc45cd8975118960f992558f9d7f24"
+      },
+      {
+        "name": "Nexus_office_Data_015.nxd",
+        "old_bytes": 10000000,
+        "new_bytes": 10000000,
+        "old_sha256": "e393dde764fa6526db6acc7b57de013fe3f6c59d113b2c4e5849ce31e37bda02",
+        "new_sha256": "f197a59151b2ce2ff5f165ae021b76efe8053f32d89ad7188619bd7ecefce77a"
+      },
+      {
+        "name": "Nexus_office_Data_016.nxd",
+        "old_bytes": 10000000,
+        "new_bytes": 10000000,
+        "old_sha256": "9db512c639a700f4b4088de9f43eb545417731f5ae63bdf55c6d0e246b91422c",
+        "new_sha256": "5c143c1092d75bfb44e95ea1fa75112f81a287e1d5ceac769b51c55f06645b57"
+      },
+      {
+        "name": "Nexus_office_Data_017.nxd",
+        "old_bytes": 10000000,
+        "new_bytes": 10000000,
+        "old_sha256": "29462a01e315baa44dbf5cebca9634f0e5458367e79431279a29c07e5454283b",
+        "new_sha256": "c1bd94133ae08fd851ebab1f99354dad26c3280c5f6662207f9f10e38c33a924"
+      },
+      {
+        "name": "Nexus_office_Data_018.nxd",
+        "old_bytes": 10000000,
+        "new_bytes": 10000000,
+        "old_sha256": "9c33ce7a542dede78a92f4d3c5bc46473777a7bea9fe8636629a365b7d4d4b01",
+        "new_sha256": "4ff6071430cd28f43c68157fd8bd0f4cc3f29435752b0d8a0449596f1c819adc"
+      },
+      {
+        "name": "Nexus_office_Data_019.nxd",
+        "old_bytes": 10000000,
+        "new_bytes": 10000000,
+        "old_sha256": "bef489c56bb20159ebdfdc6d4388b019820cfa34151c92df6a6dd928624d5816",
+        "new_sha256": "3a8f0a39fa398d4f35729fdd24f7a6f5ce2dc976a424a9033c050b702039ebeb"
+      },
+      {
+        "name": "Nexus_office_Data_020.nxd",
+        "old_bytes": 10000000,
+        "new_bytes": 10000000,
+        "old_sha256": "745f27836b8228d614706d22ba694aeec1483c319a17733b898ce4ef252e9d22",
+        "new_sha256": "22e81d0be710eaaf8c3980a8e1a36dac1d79237793e5b7a3d0f967d29c261ac6"
+      },
+      {
+        "name": "Nexus_office_Data_021.nxd",
+        "old_bytes": 10000000,
+        "new_bytes": 10000000,
+        "old_sha256": "9e18b68650f1e365ebb2b0acca0180ab35806f0557bb8c7b8369b790a54e2f43",
+        "new_sha256": "344c6435e22c1722e23f213c801c3efde9a6af40317737baf50ee607ffcbdb4d"
+      },
+      {
+        "name": "Nexus_office_Data_022.nxd",
+        "old_bytes": 10000000,
+        "new_bytes": 10000000,
+        "old_sha256": "57e787e2073c2828f60ffc7e7a0b16dcb38ccd53c1f2a011ae235e682be25295",
+        "new_sha256": "ba85cbca85207a65897bf14361ca4f3b2619ce52f4001f52eda68a203b7fa58d"
+      },
+      {
+        "name": "Nexus_office_Data_023.nxd",
+        "old_bytes": 322869,
+        "new_bytes": 1478767,
+        "old_sha256": "28da61132a5ecc430470182f5c5e0267634bab0a5d77703b5aaed42a855157b4",
+        "new_sha256": "3a946effbe9bd90e2c078c93b98f6e8ee92f9703f1403ae726cf87f0109a80c2"
+      },
+      {
+        "name": "README.md",
+        "old_bytes": 3751,
+        "new_bytes": 5074,
+        "old_sha256": "8161234757a0506304414057d9a2fbfb17cae691d1fee9d8fa707447540a04e7",
+        "new_sha256": "72b9dc1e023ea7d47f9a49901d2f6871a015e0b8a6fe54260999495c02cf0453"
+      },
+      {
+        "name": "RELEASE_VALIDATION.json",
+        "old_bytes": 21688,
+        "new_bytes": 29291,
+        "old_sha256": "db382d39230c461b5ba10affdc1f8325b1ed8bb561d4fe1f1d0d5e795d06f7be",
+        "new_sha256": "f186f7a789fc39f4e1d4d07321a28b02e6254744131635d85ad3aa6f80a4ae18"
+      },
+      {
+        "name": "docs/CHANGELOG_6.45.20.md",
+        "old_bytes": 3751,
+        "new_bytes": 5074,
+        "old_sha256": "8161234757a0506304414057d9a2fbfb17cae691d1fee9d8fa707447540a04e7",
+        "new_sha256": "72b9dc1e023ea7d47f9a49901d2f6871a015e0b8a6fe54260999495c02cf0453"
+      },
+      {
+        "name": "installer.py",
+        "old_bytes": 5542,
+        "new_bytes": 5542,
+        "old_sha256": "adeb1286c74a0c970760a765e4c186edb667c40f027f6750fe0cfdb7aab8f9e1",
+        "new_sha256": "24998e14a64b78c13d9d08b595ae761f65c2445c467f428e0b13a4f3bb1e40c9"
+      },
+      {
+        "name": "package_manifest.json",
+        "old_bytes": 105044,
+        "new_bytes": 109919,
+        "old_sha256": "7bebaf35a531ae937be31089fc530b9f5464473d2d5fbbf5a03a9e63fedfd977",
+        "new_sha256": "e0da0d25018e22b32609421145af784035c2105df13aa29a9876630512abf9e1"
+      }
+    ],
+    "added": [
+      {
+        "name": "Start_Nexus_Office.py",
+        "bytes": 1002,
+        "sha256": "356d4985ed68f24625fd0cbcb1e29d35e02a5ca33f570544ca223217b7f68b8f"
+      },
+      {
+        "name": "compatibility_service.py",
+        "bytes": 12669,
+        "sha256": "7dfc56e3f5e529757683a6e61a493ae63aa812039530d1759084cb6fb8bec628"
+      },
+      {
+        "name": "docs/OFFICE_DOCUMENTS.md",
+        "bytes": 7992,
+        "sha256": "2a9c7d2475921e07566b68a47ffd99ed78287e7e63610155411f3d70f6c0faea"
+      },
+      {
+        "name": "document_assets/PDFJS-LICENSE.txt",
+        "bytes": 10174,
+        "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+      },
+      {
+        "name": "document_assets/manifest.json",
+        "bytes": 330,
+        "sha256": "e4913c60def5298eba938f0210d2e89d67f8ccf2b67dd3bc3942fa05128241c1"
+      },
+      {
+        "name": "document_assets/pdf-runtime.js",
+        "bytes": 1789963,
+        "sha256": "7ade894078d388a1483f0050e8605a746a08ed207f9006d8394fcfa4671fbbcc"
+      }
+    ],
+    "removed": [],
+    "unchanged_count": 444,
+    "old_files": 476,
+    "new_files": 482
+  },
+  "browser_revision5_to_revision6": {
+    "changed": [
+      {
+        "name": "BROWSER_BUILD_MANIFEST.json",
+        "old_bytes": 2071,
+        "new_bytes": 2071,
+        "old_sha256": "145e09b7662de79195cf9574e72f0b21fd38d2b41a0fb00bedf3dbc01de8108f",
+        "new_sha256": "42b2cec37bec7b790e45d9c218fb30b65ba3e43d9990563d2b083cb7576b9689"
+      },
+      {
+        "name": "INSTALL.txt",
+        "old_bytes": 3915,
+        "new_bytes": 4902,
+        "old_sha256": "01a271936c3080ca759f4b0f8a42ac494bc2006fb7c5c62d9bd59eba7dff3e68",
+        "new_sha256": "630371d2e6a3326c41f2d43f0426651452a9a7d957c78be7019fc26a21a8ac32"
+      },
+      {
+        "name": "Nexus_Office_v6_45_20_Browser.html",
+        "old_bytes": 19955934,
+        "new_bytes": 19976619,
+        "old_sha256": "f9aab463da767dc21cf2a76cbb84ab90f4ba8d17b2e4bed0f1f874142c2f4214",
+        "new_sha256": "6d811bf537c9021cf4b567e64960dcbec2b58fe09c5c6d6856dd9ad390bcdb56"
+      },
+      {
+        "name": "RELEASE_VALIDATION.json",
+        "old_bytes": 21688,
+        "new_bytes": 29291,
+        "old_sha256": "db382d39230c461b5ba10affdc1f8325b1ed8bb561d4fe1f1d0d5e795d06f7be",
+        "new_sha256": "f186f7a789fc39f4e1d4d07321a28b02e6254744131635d85ad3aa6f80a4ae18"
+      },
+      {
+        "name": "docs/CHANGELOG_6.45.20.md",
+        "old_bytes": 3751,
+        "new_bytes": 5074,
+        "old_sha256": "8161234757a0506304414057d9a2fbfb17cae691d1fee9d8fa707447540a04e7",
+        "new_sha256": "72b9dc1e023ea7d47f9a49901d2f6871a015e0b8a6fe54260999495c02cf0453"
+      }
+    ],
+    "added": [
+      {
+        "name": "Start_Nexus_Office.py",
+        "bytes": 1002,
+        "sha256": "356d4985ed68f24625fd0cbcb1e29d35e02a5ca33f570544ca223217b7f68b8f"
+      },
+      {
+        "name": "compatibility_service.py",
+        "bytes": 12669,
+        "sha256": "7dfc56e3f5e529757683a6e61a493ae63aa812039530d1759084cb6fb8bec628"
+      },
+      {
+        "name": "docs/OFFICE_DOCUMENTS.md",
+        "bytes": 7992,
+        "sha256": "2a9c7d2475921e07566b68a47ffd99ed78287e7e63610155411f3d70f6c0faea"
+      },
+      {
+        "name": "document_assets/PDFJS-LICENSE.txt",
+        "bytes": 10174,
+        "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+      },
+      {
+        "name": "document_assets/manifest.json",
+        "bytes": 330,
+        "sha256": "e4913c60def5298eba938f0210d2e89d67f8ccf2b67dd3bc3942fa05128241c1"
+      },
+      {
+        "name": "document_assets/pdf-runtime.js",
+        "bytes": 1789963,
+        "sha256": "7ade894078d388a1483f0050e8605a746a08ed207f9006d8394fcfa4671fbbcc"
+      }
+    ],
+    "removed": [],
+    "unchanged_count": 39,
+    "old_files": 44,
+    "new_files": 50
+  },
+  "runtime_dependency_paths": {
+    "browser_required_for_PDF": [
+      "document_assets/pdf-runtime.js"
+    ],
+    "browser_theme_artwork": [
+      "theme_assets/architect.png",
+      "theme_assets/aurora-artwork.png",
+      "theme_assets/aurora.png",
+      "theme_assets/chromatic.png",
+      "theme_assets/crystal-artwork.png",
+      "theme_assets/crystal.png",
+      "theme_assets/editorial.png",
+      "theme_assets/midnight.png",
+      "theme_assets/panorama.png",
+      "theme_assets/porcelain.png",
+      "theme_assets/soft-modern.png",
+      "theme_assets/swiss.png"
+    ],
+    "browser_comparison_photos": [
+      "comparison_assets/photos-01.js",
+      "comparison_assets/photos-02.js",
+      "comparison_assets/photos-03.js",
+      "comparison_assets/photos-04.js",
+      "comparison_assets/photos-05.js",
+      "comparison_assets/photos-06.js",
+      "comparison_assets/photos-07.js",
+      "comparison_assets/photos-08.js",
+      "comparison_assets/photos-09.js",
+      "comparison_assets/photos-10.js"
+    ],
+    "source_candidate_additionally": [
+      "source_scripts/092_nexus-writing-writing_vendor.js",
+      "source_scripts/097_nx-clipart-data.js",
+      "source_scripts/132_nx-social-core-js.js"
+    ],
+    "local_helper_only": [
+      "Start_Nexus_Office.py",
+      "compatibility_service.py"
+    ],
+    "metadata_not_runtime_fetches": [
+      "document_assets/manifest.json",
+      "theme_assets/manifest.json"
+    ]
+  },
+  "feature_scope_from_documentation_and_static_code": {
+    "browser_without_local_helper": [
+      "Writer and Paint bottom tabs, per-tab editing and collective projects; Sheets inline rename.",
+      "Supported modern document content imports; original-file retention.",
+      "PDF text reconstruction and original-layout preview through local PDF runtime; maximum 300 imported pages; no OCR.",
+      "Drawn/uploaded/saved signature appearances with date; these are not PKI signatures.",
+      "Browser Print / Save as PDF."
+    ],
+    "local_helper_required": [
+      "Legacy Office and supported Apple/cross-platform conversions require installed Python 3.10+ and LibreOffice, launched through Start_Nexus_Office.py.",
+      "Direct downloadable paginated PDF uses LibreOffice.",
+      "PKI export requires both conversion support and package-private pyHanko setup, plus a user-supplied PKCS#12 identity."
+    ],
+    "pki_setup": "python Start_Nexus_Office.py --setup-signing creates .nexus-office-python and installs pyHanko==0.31.0. Initial installation requires network access. This verification did not run it.",
+    "hosted_pages_limit": "Code requires a per-launch token and 127.0.0.1 host for local health; API paths are same-origin /api/office/*. A hosted static Pages launch does not provide the helper or PKI backend.",
+    "pki_limits": "Signatures use SHA-256 CMS; no online revocation check or trusted timestamp. Certificate identity is transmitted to the loopback service, temporarily materialized, then deleted by its TemporaryDirectory cleanup. No signing was performed in this verification.",
+    "retained_originals": "Imported original bytes are stored in collective project state for download/preview. Macro content is preserved in the original, not run as VBA/ActiveX.",
+    "fidelity_limits": "Advanced layout, fonts, objects, animation, encryption and version differences can prevent complete fidelity; no universal format support claim is justified."
+  },
+  "documentation_cautions": [
+    "INSTALL.txt SOURCE INSTALL omits document_assets and theme_assets; new public source instructions should include all three companion directories.",
+    "Supplied README uses root OFFICE_DOCUMENTS.md and OFFICE_THEMES.md text references, while distributed guides live under docs/. Use actual docs paths in public links.",
+    "BUILD_PROVENANCE template_changes still says Home CSS only, while RELEASE_VALIDATION scope correctly records tab styles, three module entries and PDF blob-font permission. Do not repeat the stale Home-only statement for revision 6."
+  ],
+  "finalized_at_utc": "2026-10-24T20:36:12.683361+00:00"
+}

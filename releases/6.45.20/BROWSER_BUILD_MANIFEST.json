@@ -1,0 +1,40 @@
+{
+  "source_main": "44e91c948fc5021da8199d7898ba2a13cd9d0b23",
+  "engine_version": "6.45.20",
+  "packaging_revision": 1,
+  "filename": "Nexus_Office_v6_45_20_Browser.html",
+  "html_bytes": 19976619,
+  "html_sha256": "6d811bf537c9021cf4b567e64960dcbec2b58fe09c5c6d6856dd9ad390bcdb56",
+  "git_blob_sha1": "8a9777e1a4831d43b22422efea6722434c608472",
+  "source_candidate_sha256": "91297e5394b134190264b8a556063a65f8feb055bf8cdd8aa61c8676f358d9ca",
+  "canonical_full_html_sha256": "b70c752b916c83286e56352a4d33a7a93808a0ccfedf6037b7a1fb2cdd7f0fac",
+  "canonical_full_html_bytes": 32954203,
+  "expanded_trial_sha256": "20f7235eec4998eecab985b6a125263377e17d0004cbe5eb1449c0384454c165",
+  "expanded_trial_bytes": 32954461,
+  "config": {
+    "schema": 1,
+    "compressedBytes": 15973364,
+    "packedBytes": 28472574,
+    "htmlBytes": 32954461,
+    "compressedSha256": "24b641f099d4fe7c2c74501a9ac2d37a7c7477683d8f452cb0fc3f82daec921e",
+    "htmlSha256": "20f7235eec4998eecab985b6a125263377e17d0004cbe5eb1449c0384454c165"
+  },
+  "vendors": {
+    "092_nexus-writing-writing_vendor.js": "b020ab03cde13f3989d4c6d3bf6d661fef2d3a6201ace620578466270529e2f0",
+    "097_nx-clipart-data.js": "d4475f684d11d69b173fcba7ae9e91c5474c3a08ebb73c0993df8dbc0dd2a3e9",
+    "132_nx-social-core-js.js": "0fe46517c28de90863b8ff803dad5d91a75e1ac760ea87bd15f472ce032fc0e5"
+  },
+  "deduplicated_references": 19,
+  "decoded_json_wrappers": 4,
+  "dictionary_entries": 542,
+  "presentation_deltas": [
+    "One end-of-body browser-package readiness marker; native and browser evaluation notice match"
+  ],
+  "limits": [
+    "Distributed HTML below 20,000,000 bytes; expanded app is larger and runtime memory use is higher",
+    "The 100 new AI comparison pairs load from ten adjacent offline companions or imported photo packs; the original reference photographs are excluded",
+    "Modern browser with DecompressionStream, TextEncoder/TextDecoder and Web Crypto required",
+    "No Windows/Radeon performance qualification",
+    "Existing application legal notice is retained; no automatic acceptance"
+  ]
+}

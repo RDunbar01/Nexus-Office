@@ -1,0 +1,11 @@
+{
+  "id": "001",
+  "orientation": "side",
+  "age": 42,
+  "skinTone": "medium olive skin",
+  "hair": "dark-brown fine hair with slightly oily roots",
+  "texture": "small mole, sun spots, tiny comedones, mild oily shine",
+  "scene": "cream salon pillow, soft window light",
+  "reference": "/workspace/scratch/ab1fb30d4afa/upload/image(20261024-134333).png",
+  "prompt": "Use case: photorealistic-natural. Create ONE realistic salon before-and-after eyebrow mockup diptych, high-resolution 1536x1024 landscape, two exactly equal panels side by side. Reference image is composition/clinical realism guidance only, not an edit target. Both panels show the SAME fictional adult woman age 42, medium olive skin, brown eyes, slightly asymmetric eyelids and lips, a small mole below her left eye, a few sun spots and tiny closed comedones on her forehead, natural pores and mild oily shine on nose. Dark-brown fine hair, slightly oily roots, lying relaxed on a cream salon pillow, hair gently flattened and splayed around her temples by gravity. Tight three-quarter face crop from hairline to natural bare lips, photographed from above, ordinary candid salon documentation, no fashion styling. Left BEFORE: sparse uneven natural brows. Right AFTER: subtle realistic soft brown hair-stroke eyebrow enhancement, individual strokes and believable edges, not painted black blocks. Preserve the exact face, skin texture, blemishes, mole, asymmetry, age, eye color and camera framing in both panels; only eyebrows change. Soft neutral window light from upper left in both frames, a tiny natural head-angle difference and believable pillow shadows. No foundation, concealer, mascara, lipstick, skin smoothing, beauty filter or airbrushing. Photographic rather than idealized. Straight central split, no margins, no letters, no logos, no watermark, no captions. This is an illustrative mockup, not a real treatment claim. Keep entire features inside each panel."
+}

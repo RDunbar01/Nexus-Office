@@ -1,144 +1,118 @@
-# Nexus Office browser trial 6.45.4
+# Nexus Office 6.45.20 browser edition · revision 6
 
-[Open the current trial](https://rdunbar01.github.io/Nexus-Office/Nexus_Office_v6_45_4_Browser.html) · [Exact delivered build manifest](OFFICE_BROWSER_BUILD.json) · [Full package](../releases/6.45.4/) · [Release changes](CHANGELOG_6.45.4.md)
+## [▶ Open Nexus Office](https://rdunbar01.github.io/Nexus-Office/releases/6.45.20/Nexus_Office_v6_45_20_Browser.html)
 
-## Current artifact
+[Release files](../releases/6.45.20/) · [Install notes](../releases/6.45.20/INSTALL.txt) · [Changelog](../releases/6.45.20/docs/CHANGELOG_6.45.20.md) · [README](../README.md)
 
-This publication promotes the delivered 6.45.4 HTML unchanged. It is not a rebuild or a relabeled 6.45.2 application. The versioned `Nexus_Office_v6_45_4_Browser.html`, stable `NEXUS_Office.html`, and copy in `releases/6.45.4/` use identical bytes.
+## Start in the browser
 
-- HTML size: 16,572,073 bytes.
-- HTML SHA-256: `845f12856d21bd0249852f38bfc5a5ca6783af026d4d37f28f39fe4921494c0a`.
-- Expanded application: 28,974,011 bytes, as recorded in the delivered manifest.
-- Full ZIP SHA-256: `19aa2a783e4b8a6096ad9d67f2d15fb19b7be00a3ec85fde82d5eb4b1df1e238`.
+The link opens the application directly. Use a current desktop Chromium browser with DecompressionStream, TextEncoder/TextDecoder and Web Crypto. No Python or local server is needed. Read the existing application notice and choose whether to continue; publication does not bypass it. The startup screen reports loading stages and offers Retry on failure. Loading time depends on the connection and device.
 
-The new Home has six workspace cards. Assistant controls and recent-document names are removed from the visible interface; existing documents, stored history and modules are retained. The 6.45.3 Writer ribbon is preserved. See the release changelog for the exact implementation scope.
+Revision 6 adds bottom tabs and collective projects in Writer and Paint, inline worksheet renaming, retained-original compatibility views, local PDF import/preview and signature appearances. Paint Clear and image export affect only the active sheet. Writer `.nxwriter` and Paint `.nxpaint` projects save their entire tab collections; regular exports use the active tab. Projects support up to 25 tabs and 120 MiB, with session-only Undo history. Opening a collective project replaces the current application collection after confirmation.
 
-## Delivery and verification
+The ten Office themes remain available through **Settings → Office themes**, with Porcelain as the default without a saved preference. Theme selection changes the interface rather than authored content. Keep theme artwork alongside the HTML. See the [themes guide](../releases/6.45.20/docs/OFFICE_THEMES.md).
 
-The standalone HTML supplied separately matches the copy inside the delivered full ZIP exactly. Publication checks verify outer and payload ZIP CRCs, all 279 payload-file sizes and hashes, the source inventory, all three data-part hashes and the under-20-MB individual-file limit. These byte checks are separate from the application integration tests recorded in the delivered package.
+**The hosted browser launch does not by itself provide legacy conversion, direct paginated PDF download or PKI signing.** Those features use the optional local helper described below. Browser-only features include tabs, supported imports, PDF preview, signature images and browser printing. The [documents guide](../releases/6.45.20/docs/OFFICE_DOCUMENTS.md) describes current formats and limitations; the Word implementation guide remains the revision 3 guide.
 
-The supplied validation records report nine Home checks and thirteen Writer checks per edition, six source/build checks, and loader/Base85 tests in Chromium on Linux. They also retain explicit limits: no physical Windows/Radeon, OS clipboard, printing or other browser-engine qualification. Publication does not turn historical test records into new test runs.
+## Offline layout and required companion folders
 
-The supplied manifest is retained exactly, including its producer-recorded `source_main` field. That field describes the delivered build provenance, not the repository commit that promotes these files. No application build is run for this promotion. Existing repository builder files are historical tooling and must not be used to reproduce 6.45.4 without the matching producer build inputs.
+Keep this structure when copying or downloading the browser edition:
 
-## Browser requirements and usage
+```text
+releases/6.45.20/
+├── Nexus_Office_v6_45_20_Browser.html
+├── Start_Nexus_Office.py
+├── compatibility_service.py
+├── document_assets/
+│   ├── pdf-runtime.js
+│   ├── manifest.json
+│   └── PDFJS-LICENSE.txt
+├── theme_assets/
+│   ├── porcelain.png
+│   ├── …
+│   └── aurora-artwork.png
+└── comparison_assets/
+    ├── photos-01.js
+    ├── photos-02.js
+    ├── …
+    ├── photos-10.js
+    ├── Nexus_Comparison_Photos_01.nxcomparisons
+    ├── …
+    └── Nexus_Comparison_Photos_10.nxcomparisons
+```
 
-Use a current desktop Chromium browser supporting DecompressionStream('gzip'), TextEncoder/TextDecoder and Web Crypto. The local loader restores the bundled application and companion libraries, verifies lengths and hashes, and reports failure rather than executing corrupt output. Acknowledge the existing application notice. No Python, PyTorch or CDN is needed for browser startup. Expanded data and peak memory exceed the distributed file size, and startup time varies by device.
+The HTML contains the core browser application, but **the PDF runtime, theme artwork and complete comparison-photo collection are not embedded in that one file**. Keep all three companion folders beside it.
 
-The optional full-package installer recommends standard CPython 3.12. Keep all three numbered data files with the installer and manifest. Existing documents and browser state are not automatically migrated; retain originals when exporting and importing between versions.
+`document_assets/` contains `pdf-runtime.js`, `manifest.json` and `PDFJS-LICENSE.txt`. The runtime bundles Mozilla PDF.js 5.6.205 and renders PDFs locally without a CDN. Its Apache 2.0 license applies to that separately licensed component, not to the whole Nexus application. The supplied runtime and license SHA-256 values match the [document-asset manifest](../releases/6.45.20/document_assets/manifest.json).
 
-Personal use and internal commercial evaluation remain permitted for Nexus-owned material. Redistribution, modification, production deployment and other commercial use require express written consent; third-party and prior rights remain unchanged.
+The `theme_assets/` folder contains 12 PNGs. Missing theme artwork falls back to built-in vector previews; theme selection and launch controls still work. Keep the complete folder beside the HTML.
 
-## Historical 6.45.2 and earlier records
+The comparison-photo collection loads 100 generated pairs from ten adjacent JavaScript companions. Preserve the exact `comparison_assets/` directory name and file names. The `.nxcomparisons` files provide a manual-import alternative through **Load comparison photos**.
 
-The text below is preserved from earlier publication. Its version-specific behavior and test claims describe those older artifacts, not 6.45.4. Relative current-manifest links in that text are not frozen evidence for historical bytes. All older versioned files remain unchanged.
+For a complete local copy, choose **Code → Download ZIP** in the repository, extract it, then open the HTML inside `releases/6.45.20/`. If downloading individual files, save the actual file contents rather than GitHub's HTML preview. Keep the complete `document_assets` folder, all 12 theme PNGs and all ten photo JavaScript companions in their respective folders. The two Python files in the layout above are for optional helper features, not ordinary browser startup. Opening a comparison template without the photos may prompt for the matching packs; import them and reopen the template.
 
-# Nexus Office browser trial 6.45.2
+Paint saves the photos used inside `.nxpaint` projects so those projects can reopen independently of the photo packs. Existing projects and original user imports are not rewritten. Retain backups when moving work between versions. A local copy does not make optional remote media or services available offline.
 
-[Open the current trial](https://rdunbar01.github.io/Nexus-Office/Nexus_Office_v6_45_2_Browser.html) · [Current build manifest](OFFICE_BROWSER_BUILD.json) · [UI correction](CHANGELOG_6.45.2.md)
+## Exact artifacts
 
-## Current correction
+The delivered HTML and release components are preserved unchanged. The [browser manifest](../releases/6.45.20/BROWSER_BUILD_MANIFEST.json) records the browser packaging details; [BUILD_PROVENANCE.json](../releases/6.45.20/BUILD_PROVENANCE.json) identifies application revision 6. The browser manifest's `packaging_revision: 1` is a packaging field, not the application revision number. Its `source_main` value describes the producer's build source, not the repository publication commit.
 
-Version 6.45.2 corrects the effective Writer ribbon overflow rules so the bounded tool area scrolls as intended. Numeric ruler fields use a compact horizontal strip with scrolling when needed, preserving document viewport space. All tools remain accessible; they are not necessarily visible simultaneously. Assistant improvements from 6.45.1 are unchanged. The published 6.45.1 layout is superseded by this visual correction.
+| Artifact | Bytes | SHA-256 |
+| --- | ---: | --- |
+| Browser HTML | 19,976,619 | `6d811bf537c9021cf4b567e64960dcbec2b58fe09c5c6d6856dd9ad390bcdb56` |
+| Original full ZIP | 462,846,303 | `6cdf1a0f3d147076a65a58d35e166ab6aecdef10d9886ea09511e23e5c1d1bc0` |
+| Original complete-browser ZIP | 116,805,005 | `f72f0cd011627dad1c0580178fd0b1563fc5d46905620fab2378bf281c59229b` |
 
-The file is `Nexus_Office_v6_45_2_Browser.html`. The stable `NEXUS_Office.html` entry uses the same current browser blob, not a redirect. The versioned 6.45.1 and 6.45.0 files remain unchanged. The 6.45.1 layout was published but did not pass final live geometry acceptance.
+The two original ZIPs exceed the 20,000,000-byte distribution-file limit and are not committed as archives. The repository carries their extracted components. The full package contains 482 files totaling 500,273,126 bytes; the original complete-browser archive contains 50 files. Every distributed component is below 20,000,000 bytes; the browser HTML is the largest. Expanded browser application data is 32,954,461 bytes, and runtime memory is higher.
 
-## Delivery, checks and limits
+## Optional source extraction
 
-The lossless dictionary/gzip/Base85 delivery method, original libraries, models and attribution notices are retained. The browser loader restores the companion libraries inline in their original order and verifies the expanded application hash before execution. Current native and browser editions include the evaluation-permission notice. No new model, command or inference capability is introduced.
+Keep `installer.py`, `package_manifest.json` and all 23 numbered `.nxd` data parts from this release in one directory. Each part is at most 10,000,000 bytes. Use standard CPython 3.12:
 
-The current manifest supplies the exact source, vendor and output hashes, expanded size and byte limits for 6.45.2. The distributed HTML must remain below 20,000,000 bytes; expansion and peak memory are larger. Use a current desktop browser with DecompressionStream('gzip'), TextEncoder/TextDecoder and Web Crypto. Startup performs local checks; no CDN, Python or PyTorch is required to open the browser edition. The application notice remains in place. Startup time depends on the device.
+```text
+python installer.py --no-launch
+```
 
-The current release validation records must identify the exact 6.45.2 bytes and geometry tested. This document does not claim a new pass, test count or physical Windows/Radeon qualification. Historical records below are not acceptance evidence for the corrected build. Browser-native clipboard, printing and document fidelity need device-specific testing.
+Omit `--no-launch` to let the installer launch the extracted entry point. It uses a version- and checksum-isolated directory. Keep `candidate.html`, `source_scripts`, `document_assets`, `theme_assets` and `comparison_assets` together after extraction. The supplied installation notes identify `build.py` for rebuilding expanded source; this publication does not claim an independently reproduced build. Do not use earlier release parts or assume historical repository builders reproduce this release.
 
-To rebuild, extract the full 6.45.2 source with candidate.html and its two companion libraries, set NEXUS_OFFICE_SOURCE to that directory, and use the matching tools/office-browser builder with CPython 3.12. Run its loader and Base85 checks with a compatible Node.js runtime. Do not publish expanded verification copies above the distribution limit. Compression bytes may vary with Python/zlib versions; record the actual manifest.
+## Optional local conversion and certificate signing
 
-Personal use and internal commercial testing and evaluation of Nexus-owned material are permitted. Distribution, modification, production deployment and other commercial use require express written consent. Third-party and previously granted rights remain unchanged. See [evaluation permission](../COMMERCIAL_EVALUATION_PERMISSION.md).
+Open the extracted release folder containing `Start_Nexus_Office.py`, `compatibility_service.py`, the HTML and all three asset folders. For legacy format conversion and direct paginated PDF downloads, install Python 3.10+ and LibreOffice, then run:
 
-## Superseded 6.45.1 record and earlier history
+```text
+python Start_Nexus_Office.py
+```
 
-The following previously published text is preserved unchanged. Its 6.45.1 references, hashes and statements describe that version, which was superseded by the live-layout correction. Relative current-manifest links in historical sections are not frozen evidence for those older bytes.
+Use `python3` if that is your system's command. Use the Office window the launcher opens and keep the launcher window open; closing it stops the helper. The documented helper listens on `127.0.0.1`, uses a per-launch authorization token and an isolated temporary LibreOffice profile, and disables macros and automatic link updates. It belongs to this Office package, not a shared Nexus launcher.
 
-# Nexus Office browser trial 6.45.1
+Certificate-based PDF signing requires one-time setup:
 
-[Open the current trial](https://rdunbar01.github.io/Nexus-Office/Nexus_Office_v6_45_1_Browser.html) · [Build manifest](OFFICE_BROWSER_BUILD.json) · [UI changes](CHANGELOG_6.45.1.md)
+```text
+python Start_Nexus_Office.py --setup-signing
+```
 
-## Current delivery and application changes
+Initial setup needs internet access and installs the pinned signing dependency in this package's private Python environment. Ordinary conversion and signing use local files. The setup is separate from the CPython 3.12 source-package extraction above.
 
-Version 6.45.1 updates the assistant dock, header and composer, and the responsive Writer ribbon and ruler. These presentation changes are included in both the rebuilt local package and the browser edition. Commands, document formats, model assets and editing capabilities are unchanged.
+In Writer, **Signature** can insert a drawn, uploaded or optionally saved image and the current local date. This is a visible signature appearance. **Sign and download PDF** instead uses a `.p12` or `.pfx` certificate and private key through the helper to cryptographically sign the current document's PDF. Recipient trust depends on the certificate chain; no trusted timestamp or online revocation check is added. These are different operations. Follow the [documents guide](../releases/6.45.20/docs/OFFICE_DOCUMENTS.md) for setup and handling.
 
-Writer’s ribbon wraps and grows across the available width. On short screens, a bounded, scrollable tool area preserves document space. All controls remain accessible, but are not necessarily visible at the same time.
+## Compatibility boundaries
 
-The browser builder uses the same reversible dictionary, gzip and ASCII Base85 envelope as the previous edition. It restores the two companion JavaScript libraries inline in their original order, restores the expanded application bytes and verifies their SHA-256 before execution. No application-code download, CDN or companion file is required by the single-file edition. Original libraries, model assets and attribution notices are retained.
+- **Originals and edits:** Download original retrieves the imported file. Compatibility view shows the retained PDF, embedded preview or locally converted PDF, not later Nexus edits. Editable import reconstructs supported content and can differ in layout or features.
+- **Legacy and Apple files:** conversion depends on the installed local converter. Some Pages files contain an embedded PDF that the browser can preview and use for text import; an image-only preview is incomplete. Other Pages versions need conversion or export from Pages. The hosted site does not supply LibreOffice.
+- **Macros:** supported content from macro-enabled files can be imported while retaining the original file separately. VBA, ActiveX and embedded code are not executed. Edited exports do not promise preservation of unsupported program features.
+- **PDF limits:** import and preview support up to 300 pages. Scanned PDFs can be viewed, but no OCR is included. Browser printing uses a simplified layout; direct helper PDF export paginates supported DOCX content with LibreOffice. Review output when pagination matters.
 
-Both current editions carry the current evaluation-permission notice. Unlike the previous browser packaging revision, the permission notice is no longer a browser-only difference. The expanded browser edition includes its 6.45.1 end-of-body readiness marker. That marker means parsing reached the end, not that every browser action or model is qualified. The existing application notice still requires acknowledgment.
+## What the evidence establishes
 
-## Artifact, requirements and checks
+- **Current supplied functional evidence:** 25 browser-document checks, 14 theme checks, 21 Design Studio checks and 9 risk checks, plus 6 successful service checks, 6 source checks and 5 loader cases for revision 6 in Chromium on Linux. The record covers tab isolation and project round trips, retained originals, PDF import/preview, signature appearances, real LibreOffice conversions, current-tab PDF export, PKI signing and service authorization.
+- **Test fixtures and limits:** the PKI test uses a self-signed test identity; the Pages fixture is synthetic with a genuine embedded PDF, and the macro fixture contains inert test VBA bytes. These do not establish compatibility with every real-world Apple file, macro program or historical Office format.
+- **Retained supplied evidence:** revision-5 theme, Home, Design Studio and risk results, with older aviation, Paint and comparison receipts nested below them. These historical sections are not newly rerun revision-6 results; current suites are listed separately above.
+- **[Separate read-only integrity review](PUBLICATION_VERIFICATION_6.45.20.json):** original ZIP/member equality and CRCs, file sizes and SHA-256 hashes, all data parts, payload/source inventories, browser reconstruction and companion-asset paths. No supplied application code or bundled functional suite was executed by that review.
 
-The file is `Nexus_Office_v6_45_1_Browser.html`. The stable `NEXUS_Office.html` entry uses the exact same reviewed 6.45.1 browser blob, not a redirect; the versioned 6.45.0 file remains unchanged for rollback. The [current build manifest](OFFICE_BROWSER_BUILD.json) is the authority for this artifact's exact size, hashes, reconstructed byte count, source and vendor hashes. Historical 6.45.0 hashes below do not describe the new file. The distributed HTML must remain below 20,000,000 bytes. Expanded bytes and peak memory are larger; startup retains intermediate decoding buffers.
+See [RELEASE_VALIDATION.json](../releases/6.45.20/RELEASE_VALIDATION.json) for the supplied test descriptions. Integrity checks do not establish authorship, licensing, complete build reproducibility, real-world document fidelity or cross-platform behavior. Windows and macOS hardware were not exercised. No Radeon performance or physical 4K-monitor qualification is claimed. The aviation records and dates are fictional; generated comparison images are illustrations.
 
-Use a current desktop browser with `DecompressionStream('gzip')`, TextEncoder/TextDecoder and Web Crypto. Decoding and integrity checks run locally. Missing APIs, invalid data, incorrect lengths, corrupt compression or a reconstruction hash mismatch produce a startup error rather than executing unverified output. Retry handling and concurrent-job protection remain in the loader. Startup time depends on the device.
+## Permissions and earlier releases
 
-The application's content security policy and script order are retained. Offline startup does not make remote media or optional connected services available offline. The command interface remains bounded and the included learned checkpoint is not enabled as a qualified general-purpose Office agent.
+Personal use and internal commercial testing and evaluation are permitted for Nexus-owned material. Redistribution, modification, production deployment and other commercial use require express written consent. Read the [repository license](../LICENSE), [evaluation permission](../COMMERCIAL_EVALUATION_PERMISSION.md) and [scope](../NEXUS_LICENSE_SCOPE.md). Bundled notices, third-party licenses and previously granted rights remain unchanged.
 
-Validation must identify the exact 6.45.1 artifact. Historical regression counts below are prior-release evidence, not proof that this patch passed. See the current release's validation records for executed reconstruction, UI, format, command and layout checks. Synthetic DOM checks do not establish physical Windows/Radeon performance, browser-native clipboard or printing behavior, or Microsoft Office fidelity.
-
-## Rebuild the current browser edition
-
-Extract the complete 6.45.1 local package. Keep its source `candidate.html` with `source_scripts/092_nexus-writing-writing_vendor.js` and `source_scripts/097_nx-clipart-data.js`. Set `NEXUS_OFFICE_SOURCE` to that source directory and use the matching [browser builder and loader](../tools/office-browser/) with CPython 3.12. Run `python tools/office-browser/build_trial.py`, then its `test_loader.cjs` and `test_base85.cjs` checks with a compatible Node.js runtime. The manifest must match the actual source and output; compression bytes may differ across Python/zlib versions. Do not publish expanded verification copies above the distribution file-size limit.
-
-Personal use and internal commercial testing and evaluation are permitted for Nexus-owned material. Distribution, modification, production deployment and other commercial use require express written consent. Third-party licenses and previously granted rights remain unchanged. See [evaluation permission](../COMMERCIAL_EVALUATION_PERMISSION.md).
-
-## Historical 6.45.0 packaging-revision-1 record
-
-The record below is preserved unchanged. Its versions, byte counts, hashes, test counts, environment limitations and relative manifest references describe that prior release, not 6.45.1.
-
-# Nexus Office browser trial
-
-Application version: **6.45.0**. Browser packaging revision: **1**.
-
-## What changed
-
-The installed 6.45.0 application is delivered as one HTML file. Its two previously separate JavaScript libraries are restored inline in their original order. A reversible dictionary removes duplicate embedded strings, including strings inside base64 JSON, before gzip compression. An ASCII base85 envelope keeps delivery compact without changing the compressed or reconstructed bytes. The local loader restores every application byte and validates SHA-256 before executing it. No application-code download, CDN or companion file is needed.
-
-The original embedded libraries, models, images, fonts and attribution notices are preserved. The only changes to the expanded application are one current evaluation-permission sentence/link and an end-of-body browser-package marker. The marker indicates parsing reached the end, not that every browser-specific operation or model has been qualified.
-
-The full native package, previous releases and source history remain unchanged. This is a delivery revision, not a new inference engine or a new Office model.
-
-## Artifact and provenance
-
-- File: `Nexus_Office_v6_45_0_Browser.html`
-- Distributed HTML: **16,555,013 bytes**, below 20,000,000 bytes.
-- SHA-256: `c21e46b99e32c9032f4eacf276441f173e5794347171a659ff2dc4c4cafe999f`
-- Baseline repository main: `50c4332214395bc883a98fd5e589a84d927529ee`.
-- Fully inlined, unchanged baseline: 28,912,935 bytes; SHA-256 `d0d96baa606f83fef094756482d10de5229d7c178bc4526a1d09b60f9cd290e6`.
-- Expanded trial: 28,913,457 bytes; SHA-256 `ab0ddb8912018b2660408b8b256812791b01dbe01ec7efd8adbf6e8206c40049`.
-
-[Machine-readable manifest](OFFICE_BROWSER_BUILD.json) records exact vendor hashes, size limits and presentation deltas. Expanded size is not peak memory usage; startup holds several intermediate buffers and uses more memory than the download size.
-
-## Runtime requirements and failure behavior
-
-Use a current desktop browser providing `DecompressionStream('gzip')`, TextEncoder/TextDecoder and Web Crypto. All decoding is local. Missing APIs, incorrect lengths, invalid reconstruction nodes, corrupt compressed data or a final hash mismatch produce a visible startup error and a retry button instead of executing unverified output. Concurrent retry clicks cannot launch duplicate reconstruction jobs.
-
-The existing application's content security policy and script order are retained. Remote media or explicitly connected local services remain subject to that policy and browser restrictions. Offline startup does not imply that a remote video or an optional connected service works offline. The application notice remains visible until acknowledged; the package does not bypass it.
-
-## Validation scope
-
-The complete production loader was executed against the distributed embedded payload. Tests cover byte-exact reconstruction, unsupported decompression APIs, corrupt data, expansion bounds, successful retry after API restoration and concurrent-click suppression.
-
-The actual compact HTML was also loaded into a DOM test harness, which runs its loader and `document.open/write/close` path rather than substituting the expanded application. All 23 UI smoke checks passed with external resources disabled, including all workspaces, settings, cancellation safety, unavailable controls and Writer content preservation. Ten format round-trip and failure/cancellation checks passed, including DOCX, XLSX, PPTX and NWD. Thirteen integrated command/Writer transaction checks passed, including preview invalidation and exact Undo. These checks ran through the prior base64 envelope; its expanded application is byte-identical to this base85 edition. Five additional full-host lifecycle checks passed, covering stale approvals, cancellation, session limits and disabled learned qualification. Clipboard, canvas and other native browser facilities are mocked in these DOM tests; they do not establish visual fidelity or hardware performance.
-
-Local Chromium could not launch in the test container because its process-singleton socket was denied before any page loaded. That run is **not run**, not a browser pass. Browser-native testing, Windows/Radeon qualification, clipboard, printing and rendering need separate verification. Microsoft Office fidelity is not guaranteed.
-
-## Rebuild
-
-Use the unchanged full 6.45.0 package to obtain its source directory containing `candidate.html` and `source_scripts/092_nexus-writing-writing_vendor.js` and `source_scripts/097_nx-clipart-data.js`. Keep that directory outside the published browser output. The source candidate's SHA-256 must match the manifest before rebuilding.
-
-The builder and loader are in [tools/office-browser](../tools/office-browser/). Set the `NEXUS_OFFICE_SOURCE` environment variable to the extracted source directory, then run `python tools/office-browser/build_trial.py` with CPython 3.12. The builder uses standard-library modules only. After rebuilding, run `node tools/office-browser/test_loader.cjs` with a current Node.js version supporting the same decompression and Web Crypto APIs. Run `node tools/office-browser/test_base85.cjs` for the independent codec edge cases. It writes its output under that tool directory's `dist`, plus local verification copies and a manifest. Do not publish those expanded verification copies: each exceeds the distribution file-size limit.
-
-Compression output can differ across Python/zlib versions, so always record the generated manifest. Restored application bytes and their integrity hashes must remain exact. The existing full-package installer is separate from this browser packaging step.
-
-## Permission
-
-Personal use and internal commercial testing and evaluation of Nexus-owned material are permitted. Distribution, modification, production deployment and other commercial use require express written consent. Third-party licenses and earlier grants remain unchanged. See the root [evaluation permission](../COMMERCIAL_EVALUATION_PERMISSION.md) and retained third-party notices.
-
+[Earlier releases](../releases/) remain available with their version-specific files and notices. Their historical hashes and test results should not be used as validation for 6.45.20.

@@ -1,0 +1,10 @@
+{
+  "package": "pdfjs-dist",
+  "version": "5.6.205",
+  "source": "https://github.com/mozilla/pdf.js",
+  "license": "Apache-2.0",
+  "files": {
+    "pdf-runtime.js": "7ade894078d388a1483f0050e8605a746a08ed207f9006d8394fcfa4671fbbcc",
+    "PDFJS-LICENSE.txt": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+  }
+}
